@@ -7,12 +7,8 @@
         "id": "db17b0525cb5a877",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "📜  Daily/2022-01-08.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜  Daily/2022-01-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
