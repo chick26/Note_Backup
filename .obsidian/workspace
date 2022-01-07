@@ -7,8 +7,12 @@
         "id": "db17b0525cb5a877",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "📜  Daily/2021-12-31.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "📜  Daily/2021-12-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -92,9 +96,10 @@
   },
   "active": "db17b0525cb5a877",
   "lastOpenFiles": [
+    "📜  Daily/2021-12-31.md",
+    "📉  数据结构/算法之美.md",
     "📜  Daily/2022-01-08.md",
     "📜  Daily/2022-01-07.md",
-    "数据结构.md",
-    "📉  数据结构/算法之美.md"
+    "数据结构.md"
   ]
 }
