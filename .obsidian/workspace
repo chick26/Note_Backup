@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "ca670581c84ff848",
+    "type": "split",
+    "children": [
+      {
+        "id": "db17b0525cb5a877",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97ce11673df39444",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4ff03f863899dc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "797ba6ae2b71d939",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bafaaf6b55cdac6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7edd17491be04f6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6fc16de5b5fb918",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cd8353abf3aea55",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e043d953aee52cc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "db17b0525cb5a877",
+  "lastOpenFiles": [
+    "数据结构.md",
+    "📉  数据结构/算法之美.md"
+  ]
+}
