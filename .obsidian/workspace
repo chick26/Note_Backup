@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜  Daily/2021-12-31.md",
+            "file": "📉  数据结构/算法之美课程/数组.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜  Daily/2021-12-31.md",
+                "file": "📉  数据结构/算法之美课程/数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,6 +96,7 @@
   },
   "active": "db17b0525cb5a877",
   "lastOpenFiles": [
+    "📉  数据结构/算法之美课程/数组.md",
     "📜  Daily/2021-12-31.md",
     "📉  数据结构/算法之美.md",
     "📜  Daily/2022-01-08.md",
