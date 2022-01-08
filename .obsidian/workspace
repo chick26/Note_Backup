@@ -94,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "📜  Daily/2021-12-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "📜  Daily/2021-12-31.md"
+              }
             }
           }
         ],
