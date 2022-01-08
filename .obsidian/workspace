@@ -87,6 +87,36 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "bc7c74a96f0eb9b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae53e7897e8fd982",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cefa0dfd388fa57e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1

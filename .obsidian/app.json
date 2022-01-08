@@ -3,5 +3,7 @@
   "livePreview": true,
   "promptDelete": false,
   "communityPluginSortOrder": "download",
-  "communityThemeSortOrder": "download"
+  "communityThemeSortOrder": "download",
+  "foldHeading": true,
+  "foldIndent": true
 }
