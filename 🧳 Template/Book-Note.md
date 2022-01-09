@@ -23,5 +23,3 @@ How my life / behavior / thoughts / ideas have changed as a result of reading th
 3.
 
 ## Summary + Notes
-
-pro con
