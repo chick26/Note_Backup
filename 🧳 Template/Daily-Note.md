@@ -1,4 +1,4 @@
-📆 <% tp.file.creation_date() %>
+📆 [[{{date:MMM. Do. YYYY}}]]
 ___
 
 ## Objectives
