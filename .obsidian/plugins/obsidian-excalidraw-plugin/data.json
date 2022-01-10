@@ -15,7 +15,7 @@
   "zoomToFitMaxLevel": 2,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
-  "openInAdjacentPane": false,
+  "openInAdjacentPane": true,
   "showLinkBrackets": true,
   "allowCtrlClick": true,
   "forceWrap": false,
@@ -41,7 +41,108 @@
     "type": "excalidrawlib",
     "version": 2,
     "source": "https://excalidraw.com",
-    "libraryItems": []
+    "libraryItems": [
+      {
+        "id": "-jERXwf_0vl6F1SJpv2Tn",
+        "status": "unpublished",
+        "elements": [
+          {
+            "type": "rectangle",
+            "version": 872,
+            "versionNonce": 1493543621,
+            "isDeleted": false,
+            "id": "0bF7shtuVQ896fh_8smJH",
+            "fillStyle": "solid",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 0,
+            "opacity": 100,
+            "angle": 0,
+            "x": 67.71591385174543,
+            "y": -625.670115324888,
+            "strokeColor": "#000000",
+            "backgroundColor": "#fd7e14",
+            "width": 129.236328125,
+            "height": 20.691406250000032,
+            "seed": 450594117,
+            "groupIds": [],
+            "strokeSharpness": "sharp",
+            "boundElements": [
+              {
+                "id": "9elQIEYFo4vFhLWqb_NfT",
+                "type": "arrow"
+              }
+            ],
+            "updated": 1641732196777
+          },
+          {
+            "type": "text",
+            "version": 678,
+            "versionNonce": 1647236005,
+            "isDeleted": false,
+            "id": "CEIpnN1E",
+            "fillStyle": "solid",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 0,
+            "opacity": 100,
+            "angle": 0,
+            "x": 86.11044510174543,
+            "y": -620.2511714203622,
+            "strokeColor": "#000000",
+            "backgroundColor": "#fab005",
+            "width": 95.49999999999999,
+            "height": 9.463963963963966,
+            "seed": 1120603595,
+            "groupIds": [],
+            "strokeSharpness": "sharp",
+            "boundElements": [],
+            "updated": 1641732209980,
+            "fontSize": 7.6739049905168235,
+            "fontFamily": 3,
+            "text": "DNS and How it works?",
+            "rawText": "DNS and How it works?",
+            "baseline": 7.463963963963966,
+            "textAlign": "left",
+            "verticalAlign": "top",
+            "containerId": null,
+            "originalText": "DNS and How it works?"
+          }
+        ],
+        "created": 1641732219059
+      },
+      {
+        "id": "b8A6GAgpR-p4PWPammNV0",
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "zUxqb8fksYDnx8fpjSNfv",
+            "type": "rectangle",
+            "x": -102.23721114825457,
+            "y": -420.94906973354523,
+            "width": 78.82421875,
+            "height": 20.05859375,
+            "angle": 0,
+            "strokeColor": "#000000",
+            "backgroundColor": "#fab005",
+            "fillStyle": "solid",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 0,
+            "opacity": 100,
+            "groupIds": [],
+            "strokeSharpness": "sharp",
+            "seed": 1665685067,
+            "version": 436,
+            "versionNonce": 1240798085,
+            "isDeleted": false,
+            "boundElements": null,
+            "updated": 1641731907862
+          }
+        ],
+        "created": 1641731910285
+      }
+    ]
   },
   "patchCommentBlock": false,
   "imageElementNotice": true,
