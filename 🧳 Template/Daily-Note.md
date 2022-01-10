@@ -1,4 +1,4 @@
-📆 [[{{tp_yesterday}}]] – [[{{tp_tomorrow}}]]
+📆 <% tp.file.creation_date() %>
 ___
 
 ## Objectives

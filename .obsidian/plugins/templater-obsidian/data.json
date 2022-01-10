@@ -3,13 +3,13 @@
   "templates_folder": "🧳 Template",
   "templates_pairs": [
     [
-      "",
-      ""
+      "Date",
+      "<%*\nlet today = tp.date.now(\"YYYY-MM-DD\")\nlet inputDate = await tp.system.prompt(\"输入示例：\"+ today,today)\ntitleName = window.moment(inputDate, \"YYYY-MM-DD\", true).format(\"YYYY-MM-DD_ddd\")\n\nbefore_date = window.moment(inputDate, \"YYYY-MM-DD\", true).add(-1,\"days\").format(\"YYYY-MM-DD_ddd\")\n\nafter_date = window.moment(inputDate, \"YYYY-MM-DD\", true).add(1,\"days\").format(\"YYYY-MM-DD_ddd\")\n\nlet createTime = tp.file.creation_date()\nlet modificationDate = tp.file.last_modified_date(\"dddd Do MMMM YYYY HH:mm:ss\")\n-%>"
     ]
   ],
   "trigger_on_file_creation": false,
   "auto_jump_to_cursor": false,
-  "enable_system_commands": false,
+  "enable_system_commands": true,
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
