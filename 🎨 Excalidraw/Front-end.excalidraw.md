@@ -11,7 +11,7 @@ Front-end ^zg8J6EGh
 
 Internet ^PTtyYUVi
 
-![[DNS and How it works?|]] ^CEIpnN1E
+![[DNS and How it works?|DNS]] ^CEIpnN1E
 
 %%
 # Drawing
@@ -233,8 +233,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "text",
-			"version": 972,
-			"versionNonce": 2129395749,
+			"version": 977,
+			"versionNonce": 5259978,
 			"isDeleted": false,
 			"id": "CEIpnN1E",
 			"fillStyle": "solid",
@@ -244,7 +244,7 @@ Internet ^PTtyYUVi
 			"opacity": 100,
 			"angle": 0,
 			"x": 85.27776281007874,
-			"y": -619.7401037120289,
+			"y": -619.6734676826172,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
 			"width": 94,
@@ -253,11 +253,11 @@ Internet ^PTtyYUVi
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1641732512223,
+			"updated": 1641816790746,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "DNS and How it works?",
-			"rawText": "![[DNS and How it works?|]]",
+			"rawText": "![[DNS and How it works?|DNS]]",
 			"baseline": 7,
 			"textAlign": "left",
 			"verticalAlign": "top",

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🧳 Template/Book-Note.md",
+            "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#booktype",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧳 Template/Book-Note.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧳 Template/Book-Note.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,12 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧳 Template/Book-Note.md"
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -130,6 +130,8 @@
   },
   "active": "ac01ff0e98174a66",
   "lastOpenFiles": [
+    "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+    "🎨 Excalidraw/Front-end.excalidraw.md",
     "🧳 Template/Book-Note.md",
     "🧳 Template/Daily-Note.md",
     "📜  Daily/2022-01-10.md",
@@ -137,8 +139,6 @@
     "Untitled.md",
     "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
     "📜  Daily/2021-12-31.md",
-    "🎨 Excalidraw/Front-end.excalidraw.md",
-    "未命名.md",
     "Excalidraw/Drawing 2022-01-09 20.16.59.excalidraw.md"
   ]
 }
