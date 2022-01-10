@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🧳 Template/Daily-Note.md",
+            "file": "🧳 Template/Book-Note.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧳 Template/Daily-Note.md",
+                "file": "🧳 Template/Book-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧳 Template/Daily-Note.md",
+                "file": "🧳 Template/Book-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧳 Template/Daily-Note.md"
+                "file": "🧳 Template/Book-Note.md"
               }
             }
           }
@@ -130,9 +130,9 @@
   },
   "active": "ac01ff0e98174a66",
   "lastOpenFiles": [
+    "🧳 Template/Book-Note.md",
     "🧳 Template/Daily-Note.md",
     "📜  Daily/2022-01-10.md",
-    "🧳 Template/Book-Note.md",
     "📜  Daily/2022-01-01.md",
     "Untitled.md",
     "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
