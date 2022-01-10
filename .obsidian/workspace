@@ -7,9 +7,11 @@
         "id": "02f393f61d9f19ea",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "🎨 Excalidraw/Front-end.excalidraw.md"
+            "file": "📜  Daily/2021-12-31.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎨 Excalidraw/Front-end.excalidraw.md",
+                "file": "📜  Daily/2021-12-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎨 Excalidraw/Front-end.excalidraw.md",
+                "file": "📜  Daily/2021-12-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎨 Excalidraw/Front-end.excalidraw.md"
+                "file": "📜  Daily/2021-12-31.md"
               }
             }
           }
@@ -129,12 +131,12 @@
   },
   "active": "02f393f61d9f19ea",
   "lastOpenFiles": [
+    "📜  Daily/2021-12-31.md",
     "🎨 Excalidraw/Front-end.excalidraw.md",
     "🧳 Template/Daily-Note.md",
     "未命名.md",
     "Excalidraw/Drawing 2022-01-09 20.16.59.excalidraw.md",
     "🧳 Template/Book-Note.md",
-    "📜  Daily/2021-12-31.md",
     "🛖 Learning Repo/📉 Data Structrue/算法之美课程/数组.md",
     "📉  数据结构/算法之美.md",
     "📜  Daily/2022-01-08.md",
