@@ -11,7 +11,9 @@ Front-end ^zg8J6EGh
 
 Internet ^PTtyYUVi
 
-![[DNS and How it works?|DNS]] ^CEIpnN1E
+[[DNS|DNS and How it works]] ^CEIpnN1E
+
+[[Internet|How does the Internet works?]] ^8F2pqe5B
 
 %%
 # Drawing
@@ -23,8 +25,8 @@ Internet ^PTtyYUVi
 	"elements": [
 		{
 			"type": "line",
-			"version": 1212,
-			"versionNonce": 633115461,
+			"version": 1223,
+			"versionNonce": 206491210,
 			"isDeleted": false,
 			"id": "oY2c94N5KOeWCaP1Q9k1O",
 			"fillStyle": "hachure",
@@ -43,7 +45,7 @@ Internet ^PTtyYUVi
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1641732089227,
+			"updated": 1641822707223,
 			"startBinding": null,
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -62,8 +64,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "text",
-			"version": 473,
-			"versionNonce": 276623243,
+			"version": 484,
+			"versionNonce": 1065587542,
 			"isDeleted": false,
 			"id": "zg8J6EGh",
 			"fillStyle": "hachure",
@@ -82,7 +84,7 @@ Internet ^PTtyYUVi
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1641732089227,
+			"updated": 1641822707223,
 			"fontSize": 10.537584459459461,
 			"fontFamily": 1,
 			"text": "Front-end",
@@ -95,8 +97,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 962,
-			"versionNonce": 1974723237,
+			"version": 973,
+			"versionNonce": 447902986,
 			"isDeleted": false,
 			"id": "zUxqb8fksYDnx8fpjSNfv",
 			"fillStyle": "solid",
@@ -120,12 +122,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1641732089227
+			"updated": 1641822707223
 		},
 		{
 			"type": "text",
-			"version": 375,
-			"versionNonce": 234700133,
+			"version": 386,
+			"versionNonce": 2007152790,
 			"isDeleted": false,
 			"id": "PTtyYUVi",
 			"fillStyle": "solid",
@@ -144,7 +146,7 @@ Internet ^PTtyYUVi
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1641732089228,
+			"updated": 1641822707223,
 			"fontSize": 8.919407894736832,
 			"fontFamily": 3,
 			"text": "Internet",
@@ -157,8 +159,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "arrow",
-			"version": 900,
-			"versionNonce": 266348901,
+			"version": 1199,
+			"versionNonce": 836394902,
 			"isDeleted": false,
 			"id": "9elQIEYFo4vFhLWqb_NfT",
 			"fillStyle": "solid",
@@ -168,16 +170,16 @@ Internet ^PTtyYUVi
 			"opacity": 100,
 			"angle": 0,
 			"x": -15.747716944870923,
-			"y": -570.2414110249487,
+			"y": -568.9324283482954,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 79.66712689670558,
-			"height": 44.372713072010015,
+			"width": 93.23743939670561,
+			"height": 46.33904981480873,
 			"seed": 1264077605,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1641732495208,
+			"updated": 1641822736963,
 			"startBinding": {
 				"elementId": "zUxqb8fksYDnx8fpjSNfv",
 				"gap": 4.829337953383642,
@@ -197,15 +199,15 @@ Internet ^PTtyYUVi
 					0
 				],
 				[
-					79.66712689670558,
-					-44.372713072010015
+					93.23743939670561,
+					-46.33904981480873
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 874,
-			"versionNonce": 2073735685,
+			"version": 1029,
+			"versionNonce": 1499732566,
 			"isDeleted": false,
 			"id": "0bF7shtuVQ896fh_8smJH",
 			"fillStyle": "solid",
@@ -214,8 +216,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 67.63258051841208,
-			"y": -625.591990324888,
+			"x": 81.20289301841208,
+			"y": -625.281443449888,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
 			"width": 129.236328125,
@@ -229,12 +231,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1641732495207
+			"updated": 1641822736963
 		},
 		{
 			"type": "text",
-			"version": 977,
-			"versionNonce": 5259978,
+			"version": 1092,
+			"versionNonce": 1596318922,
 			"isDeleted": false,
 			"id": "CEIpnN1E",
 			"fillStyle": "solid",
@@ -243,26 +245,88 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 85.27776281007874,
-			"y": -619.6734676826172,
+			"x": 87.05510656007874,
+			"y": -622.0816708076172,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 94,
-			"height": 9,
+			"width": 116,
+			"height": 13,
 			"seed": 1120603595,
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1641816790746,
+			"updated": 1641822747971,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
-			"text": "DNS and How it works?",
-			"rawText": "![[DNS and How it works?|DNS]]",
-			"baseline": 7,
+			"text": "📍[[DNS and How it works]]",
+			"rawText": "[[DNS|DNS and How it works]]",
+			"baseline": 10,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "DNS and How it works?"
+			"originalText": "📍[[DNS and How it works]]"
+		},
+		{
+			"type": "rectangle",
+			"version": 1485,
+			"versionNonce": 456264470,
+			"isDeleted": false,
+			"id": "4MmGNvakr5sVZXx4aH_b9",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -305.51949021411485,
+			"y": -630.7473701770826,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fd7e14",
+			"width": 151.69466145833334,
+			"height": 20.52734375000002,
+			"seed": 401759254,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"boundElements": [
+				{
+					"id": "9elQIEYFo4vFhLWqb_NfT",
+					"type": "arrow"
+				}
+			],
+			"updated": 1641822707223
+		},
+		{
+			"type": "text",
+			"version": 1657,
+			"versionNonce": 1897421130,
+			"isDeleted": false,
+			"id": "8F2pqe5B",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -306.67327255618466,
+			"y": -628.3255858407692,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fab005",
+			"width": 151,
+			"height": 13,
+			"seed": 1543608394,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"boundElements": [],
+			"updated": 1641822707223,
+			"fontSize": 7.6739049905168235,
+			"fontFamily": 3,
+			"text": "📍[[How does the Internet works?]]",
+			"rawText": "[[Internet|How does the Internet works?]]",
+			"baseline": 10,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "📍[[How does the Internet works?]]"
 		}
 	],
 	"appState": {

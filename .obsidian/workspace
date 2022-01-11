@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ac01ff0e98174a66",
+        "id": "212f008e51a32c42",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+            "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md"
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md"
               }
             }
           }
@@ -126,19 +126,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "ac01ff0e98174a66",
+  "active": "212f008e51a32c42",
   "lastOpenFiles": [
-    "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🎨 Excalidraw/Front-end.excalidraw.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+    "teset.md",
     "🧳 Template/Book-Note.md",
     "🧳 Template/Daily-Note.md",
     "📜  Daily/2022-01-10.md",
     "📜  Daily/2022-01-01.md",
     "Untitled.md",
-    "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
-    "📜  Daily/2021-12-31.md",
-    "Excalidraw/Drawing 2022-01-09 20.16.59.excalidraw.md"
+    "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md"
   ]
 }
