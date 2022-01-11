@@ -7,9 +7,11 @@
         "id": "212f008e51a32c42",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "🎨 Excalidraw/Front-end.excalidraw.md"
+            "file": "🧳 Template/Book-Note.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎨 Excalidraw/Front-end.excalidraw.md",
+                "file": "🧳 Template/Book-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎨 Excalidraw/Front-end.excalidraw.md",
+                "file": "🧳 Template/Book-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎨 Excalidraw/Front-end.excalidraw.md"
+                "file": "🧳 Template/Book-Note.md"
               }
             }
           }
@@ -129,15 +131,15 @@
   },
   "active": "212f008e51a32c42",
   "lastOpenFiles": [
-    "🎨 Excalidraw/Front-end.excalidraw.md",
-    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
-    "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
-    "teset.md",
     "🧳 Template/Book-Note.md",
+    "🎨 Excalidraw/Front-end.excalidraw.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
+    "🛖 Learning Repo/📉 Data Structrue/算法之美课程/数组.md",
     "🧳 Template/Daily-Note.md",
+    "teset.md",
     "📜  Daily/2022-01-10.md",
     "📜  Daily/2022-01-01.md",
-    "Untitled.md",
-    "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md"
+    "Untitled.md"
   ]
 }
