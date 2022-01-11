@@ -7,11 +7,9 @@
         "id": "212f008e51a32c42",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "excalidraw",
           "state": {
-            "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
-            "mode": "source",
-            "source": false
+            "file": "🎨 Excalidraw/Front-end.excalidraw.md"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
+                "file": "🎨 Excalidraw/Front-end.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
+                "file": "🎨 Excalidraw/Front-end.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md"
+                "file": "🎨 Excalidraw/Front-end.excalidraw.md"
               }
             }
           }
@@ -131,8 +129,8 @@
   },
   "active": "212f008e51a32c42",
   "lastOpenFiles": [
-    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🎨 Excalidraw/Front-end.excalidraw.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
     "teset.md",
     "🧳 Template/Book-Note.md",
