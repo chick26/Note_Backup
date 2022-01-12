@@ -30,7 +30,7 @@
   "focusMode": false,
   "underlineInternal": true,
   "underlineExternal": true,
-  "useSystemTheme": false,
+  "useSystemTheme": true,
   "folding": false,
   "relationLinesPreview": false,
   "relationLinesEdit": false
