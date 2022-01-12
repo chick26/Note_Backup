@@ -13,7 +13,7 @@ Internet ^PTtyYUVi
 
 [[DNS|DNS and How it works]] ^CEIpnN1E
 
-[[Internet|How does the Internet works?]] ^8F2pqe5B
+[[INTERNET|How does the Internet works?]] ^8F2pqe5B
 
 %%
 # Drawing

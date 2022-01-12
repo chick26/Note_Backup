@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ARPANET.md",
+            "file": "🛖 Learning Repo/📲 Front Dev/Internet/ARPANET.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ARPANET.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/ARPANET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ARPANET.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/ARPANET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ARPANET.md"
+                "file": "🛖 Learning Repo/📲 Front Dev/Internet/ARPANET.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "212f008e51a32c42",
   "lastOpenFiles": [
-    "ARPANET.md",
-    "🛖 Learning Repo/📲 Front Dev/Internet/Internet.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/ARPANET.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/INTERNET.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🎨 Excalidraw/Front-end.excalidraw.md",
     "🧳 Template/Book-Note.md",
-    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🛖 Learning Repo/📉 Data Structrue/算法之美课程/数组.md",
     "🧳 Template/Daily-Note.md",
     "teset.md",
-    "📜  Daily/2022-01-10.md",
-    "📜  Daily/2022-01-01.md"
+    "📜  Daily/2022-01-10.md"
   ]
 }
