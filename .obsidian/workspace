@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md",
+            "file": "🛖 Learning Repo/📲 Front Dev/Test Tool/Charles.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Test Tool/Charles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md",
+                "file": "🛖 Learning Repo/📲 Front Dev/Test Tool/Charles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md"
+                "file": "🛖 Learning Repo/📲 Front Dev/Test Tool/Charles.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "212f008e51a32c42",
   "lastOpenFiles": [
+    "🛖 Learning Repo/📲 Front Dev/Test Tool/Charles.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/INTERNET.md",
@@ -138,7 +139,6 @@
     "🧳 Template/Book-Note.md",
     "🛖 Learning Repo/📉 Data Structrue/算法之美课程/数组.md",
     "🧳 Template/Daily-Note.md",
-    "teset.md",
-    "📜  Daily/2022-01-10.md"
+    "teset.md"
   ]
 }
