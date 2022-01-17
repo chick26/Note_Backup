@@ -33,3 +33,14 @@
 
 这种方法是抓取特定的网络请求，设置的焦点域名在 `focused Hosts` 里面可以查看和管理。
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170954660.webp)
+
+这种模式下的展现更加人性化，当你设置某个域名为焦点域名的时候，会把当前域名单独显示在上面，而其它的非焦点域名，都会在`other Hosts`里显示。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201171711236.webp)
+
+
+## 界面说明
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201171711365.webp)
+
+`Contents`是最常用的一个标签，其中上半部分是请求，下半部分是响应：请求部分中，会根据请求的内容，而分为很多项，比如如果是表单提交，还会有form的选项供你查看提交的内容（表格图形化的方式），最后一项”Raw”是未经处理的请求信息，可以理解为，raw左侧的所有项目都是对raw信息的拆分和美化，以便直观查看。
