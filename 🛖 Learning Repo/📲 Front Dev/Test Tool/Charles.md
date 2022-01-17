@@ -10,9 +10,9 @@
 -  支持网络请求截获并动态修改
 - 支持模拟慢速网络
 
-## 视图
+## 视图选项
 
-Charles 提供两种查看抓包的视图，分别名为 `Structure` 和 `Sequence`。
+>Charles 提供两种查看抓包的视图，分别名为 `Structure` 和 `Sequence`。
 
 ### 方法一 封包过滤
 
