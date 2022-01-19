@@ -45,4 +45,34 @@
 
 `Contents`是最常用的一个标签，其中上半部分是请求，下半部分是响应：请求部分中，会根据请求的内容，而分为很多项，比如如果是表单提交，还会有form的选项供你查看提交的内容（表格图形化的方式），最后一项”Raw”是未经处理的请求信息，可以理解为，raw左侧的所有项目都是对raw信息的拆分和美化，以便直观查看。
 
-### 
+### Content 乱码问题
+- `Help` -> `SSL Proxying` -> `Install Charles Root Certificate`
+- MacOS 信任证书
+- 配置监听端口
+ ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201191702464.png)
+
+### Proxy
+
+#### 常用功能开关
+- stop/start recording                开始/暂停记录
+- stop/start throttling                 开始/暂停节流
+- enable/disable breakpoints     启用/禁用断点
+
+#### 常用功能设置
+- recording settings            记录设置
+- throttle settings                节流设置
+- breakpoint settings           断点设置
+
+#### 反向代理和端口转发
+- reverse proxies            反向代理
+- port forwarding            端口转发
+
+#### 代理身份配置
+- macOS Proxy               开启整个系统通过charles作为代理
+
+#### 高级设置
+- proxy setting                     代理设置
+- ssl proxy setting                ssl代理设置
+- access control setting      访问控制设置
+- extornal proxy setting       外部代理设置
+- web interface setting        Web界面设置
