@@ -54,7 +54,12 @@
 ### Proxy
 
 #### 常用功能开关
+
 - stop/start recording                开始/暂停记录
+
+>是常用的功能，这里需要注意后面的session1代表当前你将要操作的会话窗口，就是切换是否进行捕获记录。
+
+
 - stop/start throttling                 开始/暂停节流
 - enable/disable breakpoints     启用/禁用断点
 
