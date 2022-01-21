@@ -24,7 +24,7 @@
 除此上面的方法之外，也可以修改Include的域名和端口。  在 Charles 的菜单栏选择 `Proxy -> Recording Settings`，然后选择 `Include` 栏，选择添加一个项目，然后填入需要监控的协议，主机地址，端口号。这样就可以只截取目标网站的封包了
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170828680.png)
 
-### 方法三 过滤焦点域名
+## 方法三 过滤焦点域名
 
 在目标的网络请求上右键，选中`focus`（此时，该域名已经被设置为一个焦点标记了），然后点击 `fillter` 后面的 `focused` 来筛选你的做的 `focus` 标记文件。
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170951306.png)
@@ -37,44 +37,50 @@
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201171711236.webp)
 
 
-## 界面说明
+# 界面说明
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201171711365.webp)
 
 `Contents`是最常用的一个标签，其中上半部分是请求，下半部分是响应：请求部分中，会根据请求的内容，而分为很多项，比如如果是表单提交，还会有form的选项供你查看提交的内容（表格图形化的方式），最后一项”Raw”是未经处理的请求信息，可以理解为，raw左侧的所有项目都是对raw信息的拆分和美化，以便直观查看。
 
-### Content 乱码问题
+## Content 乱码问题
 - `Help` -> `SSL Proxying` -> `Install Charles Root Certificate`
 - MacOS 信任证书
 - 配置监听端口
  ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201191702464.png)
 
-### Proxy
+## Proxy
 
-#### 常用功能及其设置
+### 常用功能及其设置
 
-##### stop/start recording 开始/暂停记录
+#### stop/start recording 开始/暂停记录
 
 >是常用的功能，这里需要注意后面的session1代表当前你将要操作的会话窗口，就是切换是否进行捕获记录。下面的Imporet和export分别是资源的导入和导出，类似PSD文件一样，详细的储存，方便直接导入使用；但是仅仅是储存当前的设置。  `include`,`exclude` 是对特定域名进行抓包。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211423563.webp)
 
-##### stop/start throttling 开始/暂停节流
+#### stop/start throttling 开始/暂停节流
 
 >暂时开始慢网速，这个手机上2G/3G/4G的速度，这个对应工具栏的小乌龟图标。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211425364.webp)
 
-##### enable/disable breakpoints 启用/禁用断点
+#### enable/disable breakpoints 启用/禁用断点
 
 >有时候对于一些特殊请求在发往服务器之前想要修改一些参数，或者在服务器响应完成之后修改响应信息，此时可以使用Charles的断点功能，设置断点之后，当有网络请求的时候Charles会自动跳转到断点处，此时我们就能进行相关的修改。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430292.webp)
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430643.webp)
 
-#### 反向代理和端口转发
+#### SSL Proxying Settings
 
-##### reverse proxies 反向代理
+>通过SSL代理，您的浏览器或应用程序将收到由Charles签名的证书，而不是来自远程Web服务器的原始证书。这将在您的浏览器或应用程序中触发警告，某些应用程序实际上可能会拒绝该连接。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211555606.webp)
+
+### 反向代理和端口转发
+
+#### reverse proxies 反向代理
 
 >- 正向代理：是代理客户端，为客户端收发请求，使真实客户端对服务器不可见；在客户这一端的，替客户收发请求（类似现在正常使用的charles的功能）
 >- 反向代理：是代理服务器，为服务器收发请求，使真实服务器对客户端不可见；在服务器这端的，替服务器收发请求，应用场景常见是就是请求分发到多台服务器的负载均衡应用。
@@ -88,7 +94,7 @@
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211443730.webp)
 
-##### port forwarding 端口转发
+#### port forwarding 端口转发
 
 > 端口转发（Port forwarding），有时被叫做隧道，是安全壳(SSH) 为网络安全通信使用的一种方法。端口转发是转发一个网络端口从一个网络节点到另一个网络节点的行为，其使一个外部用户从外部经过一个被激活的NAT路由器到达一个在私有内部IP地址（局域网内部）上的一个端口。  
 
@@ -96,19 +102,35 @@
 如果有要使用Charles监控的非HTTP应用程序，则端口转发非常有用。将端口创建到原始目标服务器，然后将客户端应用程序连接到本地端口; 端口转发对客户端应用程序是透明的，并能够查看Charles先前可能无法使用的流量。
 例子：可以将本地主机上的TCP端口2525转发到远程主机上的端口25，然后当连接到`localhost:2525`，Charles将透明地将流量转发到远程主机，就像直接连接一样，会看到在Charles中记录的流量为 `socket://localhost:2525/`
 
-#### 代理身份配置
+### 代理身份配置
 
-##### macOS Proxy 开启整个系统通过charles作为代理
+#### macOS Proxy 开启整个系统通过charles作为代理
 
-#### 高级设置
+### 高级设置
 
-##### proxy setting 代理设置
+#### proxy setting 代理设置
 
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211551530.webp)
 
-##### ssl proxy setting ssl代理设置
+- **动态端口**：启用动态端口选项来监听动态端口，每次启动时会进行查询，会赋予合理的端口，这样可以避免与计算机上可能运行的其他网络服务的冲突。
+- **透明代理**：透明代理使Charles能够访问不支持HTTP代理服务器的客户端，或者不知道他们正在使用HTTP代理服务器，例如 TCP/IP 连接由路由器或防火墙重定向到Charles。这里可以被手机连接。 手机连接的时候，http代理那里写选手动，并填写此时charles的本机地址和上面设置的8888端口即可。
 
-##### access control setting 访问控制设置
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211553770.webp)
 
-##### extornal proxy setting 外部代理设置
+#### access control setting 访问控制设置
 
-##### web interface setting Web界面设置
+>访问账户设置，连接到charles时的一些配置，控制确定谁可以使用charles。本机是永远都可以访问的，默认的访问控制列表如果是空的，意味着除了这台电脑以外，没有任何设备可以使用charles。如果你把下面的提示开始，未经授权的设备连接时候会提示你是否允许。
+
+#### extornal proxy setting 外部代理设置
+
+>外部代理设置，有时候可能需要使用网络上的代理服务器才能访问Internet，上面已经提到了，是没法连接代理服务器的同时，让charles继续抓包的，在这种情况下，需要为Charles配置外部代理。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211557661.webp)
+
+#### web interface setting Web界面设置
+
+### Tool
+
+#### No Caching Settings [[WWW/]]
+
+>通过修改请求和响应头来防止缓存，无缓存工具阻止客户端应用程序（如Web浏览器）缓存任何资源。因此，请求总是发送到远程站点，并且始终看到最新版本。 该工具可以作用于每个请求（选中 Enable No Caching 即可），也可以仅对配置的HOST启用。当用于”only for selected locations”时，可以将no caching的效果限制在你所配置的主机上。
