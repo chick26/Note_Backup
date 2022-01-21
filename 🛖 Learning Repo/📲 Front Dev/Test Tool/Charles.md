@@ -53,24 +53,41 @@
 
 ### Proxy
 
-#### 常用功能开关
+#### 常用功能及其设置
 
-- stop/start recording                开始/暂停记录
+- **stop/start recording** 开始/暂停记录
 
->是常用的功能，这里需要注意后面的session1代表当前你将要操作的会话窗口，就是切换是否进行捕获记录。
+>是常用的功能，这里需要注意后面的session1代表当前你将要操作的会话窗口，就是切换是否进行捕获记录。下面的Imporet和export分别是资源的导入和导出，类似PSD文件一样，详细的储存，方便直接导入使用；但是仅仅是储存当前的设置。  `include`,`exclude` 是对特定域名进行抓包。
 
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211423563.webp)
 
-- stop/start throttling                 开始/暂停节流
-- enable/disable breakpoints     启用/禁用断点
+- **stop/start throttling** 开始/暂停节流
 
-#### 常用功能设置
-- recording settings            记录设置
-- throttle settings                节流设置
-- breakpoint settings           断点设置
+>暂时开始慢网速，这个手机上2G/3G/4G的速度，这个对应工具栏的小乌龟图标。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211425364.webp)
+
+- **enable/disable breakpoints** 启用/禁用断点
+
+>有时候对于一些特殊请求在发往服务器之前想要修改一些参数，或者在服务器响应完成之后修改响应信息，此时可以使用Charles的断点功能，设置断点之后，当有网络请求的时候Charles会自动跳转到断点处，此时我们就能进行相关的修改。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430292.webp)
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430643.webp)
 
 #### 反向代理和端口转发
-- reverse proxies            反向代理
-- port forwarding            端口转发
+- **reverse proxies** 反向代理
+
+>正向代理：是代理客户端，为客户端收发请求，使真实客户端对服务器不可见；在客户这一端的，替客户收发请求（类似现在正常使用的charles的功能）。  
+
+>反向代理：是代理服务器，为服务器收发请求，使真实服务器对客户端不可见；在服务器这端的，替服务器收发请求，应用场景常见是就是请求分发到多台服务器的负载均衡应用。
+
+  
+  
+作者：小小的开发人员  
+链接：https://www.jianshu.com/p/82f63277d50f  
+来源：简书  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+- **port forwarding** 端口转发
 
 #### 代理身份配置
 - macOS Proxy               开启整个系统通过charles作为代理
