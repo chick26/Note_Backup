@@ -1,8 +1,6 @@
-# Charles
-
 >Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).
 
-## 主要功能
+# 主要功能
 
 - 截取http和https网络封包
 - 支持重发网络请求，便于后端进行调试
@@ -10,18 +8,18 @@
 -  支持网络请求截获并动态修改
 - 支持模拟慢速网络
 
-## 视图选项
+# 视图选项
 
 >Charles 提供两种查看抓包的视图，分别名为 `Structure` 和 `Sequence`。
 
-### 方法一 封包过滤
+## 方法一 封包过滤
 
 * `Structure/结构视图`，将网络请求按访问的域名分类，比如某个域名下有n个资源请求，那么所有此域名下的请求都会在这里做一个详细的分类；
 ![Structure](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201141056192.png)
 * `Sequence/序列视图`，将网络请求按访问的时间排序，按照你的电脑的发送请求顺序进行。
 ![Sequence](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201141124191.png)
 
-### 方法二 域名抓包
+## 方法二 域名抓包
 
 除此上面的方法之外，也可以修改Include的域名和端口。  在 Charles 的菜单栏选择 `Proxy -> Recording Settings`，然后选择 `Include` 栏，选择添加一个项目，然后填入需要监控的协议，主机地址，端口号。这样就可以只截取目标网站的封包了
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170828680.png)
@@ -55,19 +53,19 @@
 
 #### 常用功能及其设置
 
-- **stop/start recording** 开始/暂停记录
+##### stop/start recording 开始/暂停记录
 
 >是常用的功能，这里需要注意后面的session1代表当前你将要操作的会话窗口，就是切换是否进行捕获记录。下面的Imporet和export分别是资源的导入和导出，类似PSD文件一样，详细的储存，方便直接导入使用；但是仅仅是储存当前的设置。  `include`,`exclude` 是对特定域名进行抓包。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211423563.webp)
 
-- **stop/start throttling** 开始/暂停节流
+##### stop/start throttling 开始/暂停节流
 
 >暂时开始慢网速，这个手机上2G/3G/4G的速度，这个对应工具栏的小乌龟图标。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211425364.webp)
 
-- **enable/disable breakpoints** 启用/禁用断点
+##### enable/disable breakpoints 启用/禁用断点
 
 >有时候对于一些特殊请求在发往服务器之前想要修改一些参数，或者在服务器响应完成之后修改响应信息，此时可以使用Charles的断点功能，设置断点之后，当有网络请求的时候Charles会自动跳转到断点处，此时我们就能进行相关的修改。
 
@@ -75,19 +73,31 @@
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430643.webp)
 
 #### 反向代理和端口转发
-- **reverse proxies** 反向代理
 
->正向代理：是代理客户端，为客户端收发请求，使真实客户端对服务器不可见；在客户这一端的，替客户收发请求（类似现在正常使用的charles的功能）。  
+##### reverse proxies 反向代理
 
->反向代理：是代理服务器，为服务器收发请求，使真实服务器对客户端不可见；在服务器这端的，替服务器收发请求，应用场景常见是就是请求分发到多台服务器的负载均衡应用。
+>- 正向代理：是代理客户端，为客户端收发请求，使真实客户端对服务器不可见；在客户这一端的，替客户收发请求（类似现在正常使用的charles的功能）
+>- 反向代理：是代理服务器，为服务器收发请求，使真实服务器对客户端不可见；在服务器这端的，替服务器收发请求，应用场景常见是就是请求分发到多台服务器的负载均衡应用。
 
-  
-  
-作者：小小的开发人员  
-链接：https://www.jianshu.com/p/82f63277d50f  
-来源：简书  
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-- **port forwarding** 端口转发
+* 反向代理的设置  
+	* __本地端口__:  本地主机上的端口创建反向代理。该字段可能会自动填充一个可用的端口。如果有另一个应用程序使用该端口，则在反向代理启动时将收到一条警告消息。例如。给定本地端口8001，将连接到 http:// localhost:8001
+	* __远程主机和端口__：作为反向代理的目的地的远程主机的主机名或IP地址和端口。远程端口默认为80，这是HTTP的默认端口。  例如。输入 [百度](https://www.baidu.com) 的远程主机和80的远程端口，然后 http:// localhost:8001 将像是已连接到 [百度](https://www.baidu.com)。
+	* __重写重定向__：重定向远程服务器的响应将被重写以与反向代理源地址相匹配。默认为开。  远程服务器的重定向响应是完全限定的URL，即使它们在同一网站内。如果重定向到远程服务器地址，则需要将其重写为反向代理本地地址，否则客户端将使用重定向URL到远程主机，因此不再通过反向代理连接。
+	* __保留主机头__:  仅当具有特定要求时，才需要保留主机头;普通使用的时候没有必要使用的。
+	* __监听特定地址__:  如果要指定本地地址以侦听反向代理，则可以启用此选项并在此处输入IP地址。如果要在同一台机器上运行多个网络服务，但在同一台机器上的不同IP地址上运行，则此功能非常有用。禁用此选项时，反向代理将绑定到所有可用的本地地址。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211443730.webp)
+
+##### port forwarding 端口转发
+
+> 端口转发（Port forwarding），有时被叫做隧道，是安全壳(SSH) 为网络安全通信使用的一种方法。端口转发是转发一个网络端口从一个网络节点到另一个网络节点的行为，其使一个外部用户从外部经过一个被激活的NAT路由器到达一个在私有内部IP地址（局域网内部）上的一个端口。  
+
+端口转发能够将本地TCP或UDP端口透明地转发到远程主机和端口。 所有在端口的请求和回复可能会记录在charles。  
+端口转发流量记录在Charles中作为 `socket`,  `// host：port / URL  
+如果有要使用Charles监控的非HTTP应用程序，则端口转发非常有用。  
+将端口创建到原始目标服务器，然后将客户端应用程序连接到本地端口; 端口转发对客户端应用程序是透明的，并能够查看Charles先前可能无法使用的流量。  
+例子：  
+可以将本地主机上的TCP端口2525转发到远程主机上的端口25， 然后当连接到localhost时：2525 Charles将透明地将流量转发到远程主机，就像直接连接一样，会看到在Charles中记录的流量为socket：// localhost：2525 /，该功能，我进行前端调试用的并不多。
 
 #### 代理身份配置
 - macOS Proxy               开启整个系统通过charles作为代理
