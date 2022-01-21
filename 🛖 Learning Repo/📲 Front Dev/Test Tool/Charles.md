@@ -92,19 +92,23 @@
 
 > 端口转发（Port forwarding），有时被叫做隧道，是安全壳(SSH) 为网络安全通信使用的一种方法。端口转发是转发一个网络端口从一个网络节点到另一个网络节点的行为，其使一个外部用户从外部经过一个被激活的NAT路由器到达一个在私有内部IP地址（局域网内部）上的一个端口。  
 
-端口转发能够将本地TCP或UDP端口透明地转发到远程主机和端口。 所有在端口的请求和回复可能会记录在charles。  
-端口转发流量记录在Charles中作为 `socket`,  `// host：port / URL  
-如果有要使用Charles监控的非HTTP应用程序，则端口转发非常有用。  
-将端口创建到原始目标服务器，然后将客户端应用程序连接到本地端口; 端口转发对客户端应用程序是透明的，并能够查看Charles先前可能无法使用的流量。  
-例子：  
-可以将本地主机上的TCP端口2525转发到远程主机上的端口25， 然后当连接到localhost时：2525 Charles将透明地将流量转发到远程主机，就像直接连接一样，会看到在Charles中记录的流量为socket：// localhost：2525 /，该功能，我进行前端调试用的并不多。
+端口转发能够将本地TCP或UDP端口透明地转发到远程主机和端口。所有在端口的请求和回复会记录在charles。端口转发流量记录在Charles中作为 `socket://host:port/URL`。 
+如果有要使用Charles监控的非HTTP应用程序，则端口转发非常有用。将端口创建到原始目标服务器，然后将客户端应用程序连接到本地端口; 端口转发对客户端应用程序是透明的，并能够查看Charles先前可能无法使用的流量。
+例子：可以将本地主机上的TCP端口2525转发到远程主机上的端口25，然后当连接到`localhost:2525`，Charles将透明地将流量转发到远程主机，就像直接连接一样，会看到在Charles中记录的流量为 `socket://localhost:2525/`
 
 #### 代理身份配置
-- macOS Proxy               开启整个系统通过charles作为代理
+
+##### macOS Proxy 开启整个系统通过charles作为代理
 
 #### 高级设置
-- proxy setting                     代理设置
-- ssl proxy setting                ssl代理设置
-- access control setting      访问控制设置
-- extornal proxy setting       外部代理设置
-- web interface setting        Web界面设置
+
+##### proxy setting 代理设置
+
+
+##### ssl proxy setting ssl代理设置
+
+##### access control setting 访问控制设置
+
+##### extornal proxy setting 外部代理设置
+
+##### web interface setting Web界面设置
