@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6351305375d1cc6",
+        "id": "7fd4497f135c74ba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "🧳 Template｜模板库/Daily-Note.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Front",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧳 Template｜模板库/Daily-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧳 Template｜模板库/Daily-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🧳 Template｜模板库/Daily-Note.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -128,17 +120,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c6351305375d1cc6",
+  "active": "7fd4497f135c74ba",
   "lastOpenFiles": [
+    "未命名看板.md",
+    "⏰ Daily Work | 任务仓库/未命名.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles.md",
     "🧳 Template｜模板库/Daily-Note.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
     "🧳 Template｜模板库/Book-Note.md",
     "📜  Daily Note | 日常记录/Daily Training.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
-    "^web缓存.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
   ]
 }
