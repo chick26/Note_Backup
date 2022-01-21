@@ -131,6 +131,45 @@
 
 ### Tool
 
-#### No Caching Settings [[WWW/]]
+#### No Caching Settings [[WWW#^6f5c8c|缓存]]
 
 >通过修改请求和响应头来防止缓存，无缓存工具阻止客户端应用程序（如Web浏览器）缓存任何资源。因此，请求总是发送到远程站点，并且始终看到最新版本。 该工具可以作用于每个请求（选中 Enable No Caching 即可），也可以仅对配置的HOST启用。当用于”only for selected locations”时，可以将no caching的效果限制在你所配置的主机上。
+
+- 运行原理：无缓存工具通过操纵控制缓存响应的HTTP头来防止缓存。
+	- 从**请求中**删除 `If-Modified-Since` 和 `If-None-Match` 头，添加 `Pragma:no-cache` 和`Cache-control:no-cache`。  
+	- 从**响应中**删除 `Expires`，`Last-Modified` 和 `ETag` 标头，添加 `Expires:0` 和 `Cache-Control:no-cache`。  
+
+#### Block Cookies Settings
+
+>禁用Cookie工具阻止发送和接收Cookie。 它可以用来测试网站，就像您的浏览器中禁用Cookie一样。
+
+- 适用范围：该工具可以针对每个请求启用，也可以仅对选定的位置启用。选中 enable block cookies 即可。当用于某个域名时，可以将禁用Cookies的效果限制在你所配置的主机上；同时选中 only for selected locations 即可。
+- 原理：Cookie头部从请求中删除，防止将cookie值从客户端应用程序（例如Web浏览器）发送到远程服务器。Set-Cookie头将从响应中移除，从而防止客户端应用程序从远程服务器接收cookie的请求。
+- 注意：很多网站的登录是通过写入Cookies然后通过读取Cookies的值来进行网站用户身份和权限管理的；如果你禁用了Cookies，这将会到导致你登录某个网站的一直停留到登录页，这是因为写入您Cookies的方法没有值导致的；表现就是你一直登录，虽然账号密码正确但一直还是停留在登录页；也就是说如果你不是特意的测试cookie禁用的情况下，没有必要使用这个工具。
+
+#### Map Remote Settings
+
+>远程映射工具，把你要请求的地址，映射到一个远程地址
+
+* 将目录映射到目录，如 `baidu.com/charles/` 映射到 `localhost/charlesdev/` 
+* 将文件映射到文件，如 `baidu.com/charles/download.php` 映射到 abc.com/testing/test.html`
+* 将目录与文件模式映射到目录，如 `baidu.com/charles/*.php` 到`localhost/charlesdev/`
+* 如果在目标映射中未指定路径，则URL的路径部分将不会更改。如果要映射到根目录，请在目标路径字段中以 `/` 结尾。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211627071.png)
+
+#### Map Local Settings
+
+>本地映射工具能够使用本地文件，就好比它是你访问目标网站的一部分一样。客户端获取资源文件的时候，可以向服务器正常发起资源请求，但在charles就已经被截断了，并且把当前的资源请求指向设置的本地文件。 本地映射可以大大加快开发和测试的效率，否则将不得不将文件上传到网站来测试结果。使用Map Local，您可以在开发环境中安全地测试。
+
+原理：当请求与Map Local映射匹配时，它会检查与该路径匹配的本地文件。它不包括查询字符串，如果有一个。如果所请求的文件在本地找到，则作为响应返回，就像从远程站点加载一样，因此对客户端是有欺骗性的。如果请求的文件在本地找不到，你也不用担心，请求会像平常一样由网站提供,返回给你真正的服务器数据。
+
+#### Rewrite
+
+>在通过charles时修改请求和响应 rewrite 功能重写对应的内容，主要可以对某些匹配请求的header、host、url、path、query param、response status、body进行rewrite。
+
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211631168.webp)
+
+#### repeat
+
+>Charles将请求重新发送到服务器，并将响应显示为新请求，在测试后端接口的时候非常有用。 重复的请求在Charles内部完成，因此无法在浏览器或其他客户端中查看响应，响应只有在Charles才能看到。可以用Advanced Repeat测试并发性。

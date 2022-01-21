@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "212f008e51a32c42",
+        "id": "c6351305375d1cc6",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "212f008e51a32c42",
+  "active": "c6351305375d1cc6",
   "lastOpenFiles": [
     "🛖 Learning Repo/📲 Front Dev/Test Tool/Charles.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/WWW.md",
+    "^web缓存.md",
+    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/ARPANET.md",
     "🛖 Learning Repo/📲 Front Dev/Internet/INTERNET.md",
-    "🛖 Learning Repo/📲 Front Dev/Internet/DNS.md",
     "📜  Daily/Daily Training.md",
     "🧳 Template/Book-Note.md",
     "🧳 Template/Daily-Note.md",
-    "🎨 Excalidraw/Front-end.excalidraw.md",
-    "🛖 Learning Repo/📉 Data Structrue/算法之美课程/数组.md"
+    "🎨 Excalidraw/Front-end.excalidraw.md"
   ]
 }
