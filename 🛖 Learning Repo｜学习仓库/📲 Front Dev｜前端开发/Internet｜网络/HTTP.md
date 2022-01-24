@@ -118,7 +118,7 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 - private：只允许用户设备缓存
 - public：可以被代理服务器识别
 - Expires ( 控制缓存过期，被 Cache-Control 代替 )
-
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201241838122.png)
 ### 协商缓存（对比缓存）
 
 - 服务端缓存策略
@@ -128,6 +128,7 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 - Last-Modified 资源的最后修改时间
 - Etag 资源的唯一标识（指纹，字符串）
 - 共存优先使用 Etag（因为修改时间只能秒级）
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201241840453.png)
 
 ## 刷新操作方式，对缓存的影响
 
@@ -145,3 +146,4 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 - 什么是 Restful API
 - **描述一下 http 的缓存机制**
 
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201241838122.png)
