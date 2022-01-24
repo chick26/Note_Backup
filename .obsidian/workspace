@@ -11,7 +11,7 @@
           "state": {
             "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -126,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "7fd4497f135c74ba",
   "lastOpenFiles": [

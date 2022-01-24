@@ -50,26 +50,18 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 
 >新的 API 设计方法，传统是把每个 url 当作一个功能，这个把每个 url 当作一个唯一的资源
 
--   不使用 url 参数
-
--   传统 [function + 参数] `/api/list?pageIndex=2`
--   Restful API [资源标识] `/api/list/2`
-
--   用 method 标识操作类型
-
--   传统
-
--   post `/api/create-blog`
--   patch`/api/update-blog?id=100`
-
--   get `/api/get-blog?id`
-
--   Restful API
-
--   post `/api/blog`
--   patch`/api/blog/100`
-
--   get `/api/blog/100`
+- 不使用 url 参数
+	- 传统 [function + 参数] `/api/list?pageIndex=2`
+	- Restful API [资源标识] `/api/list/2`
+- 用 method 标识操作类型
+	- 传统
+		- post `/api/create-blog`
+		- patch`/api/update-blog?id=100`
+		- get `/api/get-blog?id`
+	- Restful API
+		- post `/api/blog`
+		- patch`/api/blog/100`
+		- get `/api/blog/100`
 
 # http headers
 
@@ -77,13 +69,10 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 
 -   Accept 浏览器可接收的数据格式
 -   Accept-Encoding 浏览器可接收的压缩算法，如 gzip
-
 -   Accept-Languange 浏览器可接收的语言，如 zh-CN
 -   Connection: keep-alive 一次 TCP 连接重复使用
-
 -   cookie: 同域请求浏览器自带
 -   host: 请求域名
-
 -   User-Agent: 浏览器信息
 -   Content-type: 发送数据的格式，如 application/json
 
@@ -91,7 +80,6 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 
 -   Content-type: 返回数据的格式，如 application/json
 -   Content-length: 返回数据的大小，多少字节
-
 -   Content-Encoding: 返回数据的压缩算法，如 gzip
 -   Set-Cookie: 服务端修改 cookie
 
@@ -99,7 +87,6 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 
 -   Cache-Control Expires
 -   Last-Modified If-Modified-Since
-
 -   Etag If-None-Match
 
 # http 缓存
@@ -118,58 +105,43 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 
 静态资源 ( js css img )
 
-### http 缓存策略
+## http 缓存策略
 
 ### 强制缓存
 
--   初次请求，服务端返回资源，有 Cache-Control 的返回头则需要缓存
--   再次请求（同一份资源，hash），缓存未过期直接从缓存获取
-
--   Cache-Control
-
--   max-age: 缓存到期时长/s
--   no-cache：无强制缓存
-
--   no-store：无强制缓存且服务端不设置缓存
--   private：只允许用户设备缓存
-
--   public：可以被代理服务器识别
-
--   Expires ( 控制缓存过期，被 Cache-Control 代替 )
+- 初次请求，服务端返回资源，有 Cache-Control 的返回头则需要缓存
+- 再次请求（同一份资源，hash），缓存未过期直接从缓存获取
+- Cache-Control
+- max-age: 缓存到期时长/s
+- no-cache：无强制缓存
+- no-store：无强制缓存且服务端不设置缓存
+- private：只允许用户设备缓存
+- public：可以被代理服务器识别
+- Expires ( 控制缓存过期，被 Cache-Control 代替 )
 
 ### 协商缓存（对比缓存）
 
--   服务端缓存策略
--   服务端判断客户端资源，是否和服务端资源一样
-
--   一致则返回 304，否则 200 和 最新资源
-
--   资源标识 ( Response Headers )
-
--   Last-Modified 资源的最后修改时间
--   Etag 资源的唯一标识（指纹，字符串）
-
--   共存优先使用 Etag（因为修改时间只能秒级）
+- 服务端缓存策略
+- 服务端判断客户端资源，是否和服务端资源一样
+- 一致则返回 304，否则 200 和 最新资源
+- 资源标识 ( Response Headers )
+- Last-Modified 资源的最后修改时间
+- Etag 资源的唯一标识（指纹，字符串）
+- 共存优先使用 Etag（因为修改时间只能秒级）
 
 ## 刷新操作方式，对缓存的影响
 
--   正常操作：地址栏输入 url， 跳转链接，前进后退
+- 常操作：地址栏输入 url， 跳转链接，前进后退
+- 强制缓存有效，协商缓存有效
+- 手动刷新：F5，点击刷新按钮，点击菜单刷新
+- 强制缓存失效，协商缓存有效
+- 强制刷新：ctrl + F5
+- 强制缓存失效，协商缓存失效
 
--   强制缓存有效，协商缓存有效
+# 相关面试题
 
--   手动刷新：F5，点击刷新按钮，点击菜单刷新
-
--   强制缓存失效，协商缓存有效
-
--   强制刷新：ctrl + F5
-
--   强制缓存失效，协商缓存失效
-
-## 相关面试题
-
--   http 常见的状态码有哪些
--   http 常见的 header 有哪些
-
--   什么是 Restful API
--   **描述一下 http 的缓存机制**
+- http 常见的状态码有哪些
+- http 常见的 header 有哪些
+- 什么是 Restful API
+- **描述一下 http 的缓存机制**
 
