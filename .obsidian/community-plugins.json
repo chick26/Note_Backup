@@ -11,5 +11,8 @@
   "obsidian-image-toolkit",
   "mx-bili-plugin",
   "obsidian-icons-plugin",
-  "media-extended"
+  "media-extended",
+  "table-editor-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-outliner"
 ]
