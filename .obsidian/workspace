@@ -7,8 +7,12 @@
         "id": "2637f4b14ad37161",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
+              }
             }
           }
         ],
@@ -122,6 +130,7 @@
   },
   "active": "2637f4b14ad37161",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
     "🚀 Mind | 导图仓库/2022-01-25 16-16.md",
     "🚀 Mind | 导图仓库/2022-01-25 16-11.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
@@ -130,7 +139,6 @@
     "Untitled.md",
     "🧳 Template｜模板库/Mind-Note.md",
     "🧳 Template｜模板库/Daily-Note.md",
-    "🧳 Template｜模板库/Book-Note.md",
-    "🚀 Mind | 导图仓库/2011.md"
+    "🧳 Template｜模板库/Book-Note.md"
   ]
 }
