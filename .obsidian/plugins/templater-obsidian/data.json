@@ -8,7 +8,7 @@
     ]
   ],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
   "user_scripts_folder": "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "🚀 Mind | 导图仓库",
-      "template": ""
+      "template": "🧳 Template｜模板库/Mind-Note.md"
     }
   ],
   "syntax_highlighting": true,
