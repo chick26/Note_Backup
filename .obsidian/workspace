@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+            "file": "🧳 Template｜模板库/Mind-Note.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+                "file": "🧳 Template｜模板库/Mind-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+                "file": "🧳 Template｜模板库/Mind-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+                "file": "🧳 Template｜模板库/Mind-Note.md"
               }
             }
           }
@@ -131,15 +130,15 @@
   },
   "active": "7fd4497f135c74ba",
   "lastOpenFiles": [
+    "🧳 Template｜模板库/Mind-Note.md",
+    "🧳 Template｜模板库/Book-Note.md",
+    "🧳 Template｜模板库/Daily-Note.md",
+    "🚀 Mind | 导图仓库/2011.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
     "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
     "⏰ Weekly Work | 任务仓库/KANPAN.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md"
   ]
 }
