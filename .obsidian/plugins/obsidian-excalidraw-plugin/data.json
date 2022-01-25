@@ -1,8 +1,10 @@
 {
   "folder": "🎨 Excalidraw｜画板仓库",
+  "embedUseExcalidrawFolder": false,
   "templateFilePath": "🎨 Excalidraw｜画板仓库/Template.excalidraw",
   "scriptFolderPath": "🎨 Excalidraw｜画板仓库/Scripts",
   "drawingFilenamePrefix": "Img_Note ",
+  "drawingEmbedPrefixWithFilename": true,
   "drawingFilenameDateTime": "YYYY-MM-DD",
   "displaySVGInPreview": true,
   "previewMatchObsidianTheme": false,
