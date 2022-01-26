@@ -17,6 +17,8 @@ Internet ^PTtyYUVi
 
 [[HTTP|What is Http?]] ^IJE5QvgR
 
+[[Web Browers|Browsers and How they work?]] ^wgWPJMn4
+
 %%
 # Drawing
 ```json
@@ -27,8 +29,8 @@ Internet ^PTtyYUVi
 	"elements": [
 		{
 			"type": "text",
-			"version": 551,
-			"versionNonce": 1544228458,
+			"version": 552,
+			"versionNonce": 1932560319,
 			"isDeleted": false,
 			"id": "zg8J6EGh",
 			"fillStyle": "hachure",
@@ -52,7 +54,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013348030,
+			"updated": 1643164898930,
 			"fontSize": 10.537584459459461,
 			"fontFamily": 1,
 			"text": "Front-end",
@@ -65,8 +67,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 1035,
-			"versionNonce": 1606852982,
+			"version": 1037,
+			"versionNonce": 1792475665,
 			"isDeleted": false,
 			"id": "zUxqb8fksYDnx8fpjSNfv",
 			"fillStyle": "solid",
@@ -82,7 +84,9 @@ Internet ^PTtyYUVi
 			"width": 78.3046875,
 			"height": 24.435546874999996,
 			"seed": 1665685067,
-			"groupIds": [],
+			"groupIds": [
+				"COsqhzhmooDRutDHLhQQf"
+			],
 			"strokeSharpness": "sharp",
 			"boundElements": [
 				{
@@ -98,12 +102,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013518671
+			"updated": 1643164940298
 		},
 		{
 			"type": "text",
-			"version": 446,
-			"versionNonce": 87142698,
+			"version": 448,
+			"versionNonce": 329163647,
 			"isDeleted": false,
 			"id": "PTtyYUVi",
 			"fillStyle": "solid",
@@ -119,10 +123,12 @@ Internet ^PTtyYUVi
 			"width": 42,
 			"height": 11,
 			"seed": 967284357,
-			"groupIds": [],
+			"groupIds": [
+				"COsqhzhmooDRutDHLhQQf"
+			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1643013348030,
+			"updated": 1643164940298,
 			"fontSize": 8.919407894736832,
 			"fontFamily": 3,
 			"text": "Internet",
@@ -135,8 +141,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "arrow",
-			"version": 2121,
-			"versionNonce": 1254917098,
+			"version": 2123,
+			"versionNonce": 515027857,
 			"isDeleted": false,
 			"id": "9elQIEYFo4vFhLWqb_NfT",
 			"fillStyle": "solid",
@@ -155,7 +161,7 @@ Internet ^PTtyYUVi
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1643013531142,
+			"updated": 1643164933482,
 			"startBinding": {
 				"elementId": "zUxqb8fksYDnx8fpjSNfv",
 				"focus": 0.5570252286311238,
@@ -182,8 +188,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 1482,
-			"versionNonce": 739695926,
+			"version": 1483,
+			"versionNonce": 2140333055,
 			"isDeleted": false,
 			"id": "0bF7shtuVQ896fh_8smJH",
 			"fillStyle": "solid",
@@ -209,12 +215,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013531142
+			"updated": 1643164898931
 		},
 		{
 			"type": "text",
-			"version": 1356,
-			"versionNonce": 1798912298,
+			"version": 1357,
+			"versionNonce": 578592625,
 			"isDeleted": false,
 			"id": "CEIpnN1E",
 			"fillStyle": "solid",
@@ -240,7 +246,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013531142,
+			"updated": 1643164898931,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍[[DNS and How it works]]",
@@ -253,8 +259,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 1674,
-			"versionNonce": 34383146,
+			"version": 1675,
+			"versionNonce": 1219759135,
 			"isDeleted": false,
 			"id": "4MmGNvakr5sVZXx4aH_b9",
 			"fillStyle": "solid",
@@ -280,12 +286,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013532926
+			"updated": 1643164898931
 		},
 		{
 			"type": "text",
-			"version": 1873,
-			"versionNonce": 1851464310,
+			"version": 1874,
+			"versionNonce": 1434028369,
 			"isDeleted": false,
 			"id": "8F2pqe5B",
 			"fillStyle": "solid",
@@ -315,7 +321,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013532926,
+			"updated": 1643164898931,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍[[How does the Internet works?]]",
@@ -328,8 +334,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "arrow",
-			"version": 579,
-			"versionNonce": 589531498,
+			"version": 580,
+			"versionNonce": 2142974015,
 			"isDeleted": false,
 			"id": "Jo5CSzfYbnGyd3O850PtE",
 			"fillStyle": "solid",
@@ -348,7 +354,7 @@ Internet ^PTtyYUVi
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1643013348030,
+			"updated": 1643164898931,
 			"startBinding": {
 				"elementId": "zg8J6EGh",
 				"focus": 0.44503635649850337,
@@ -375,8 +381,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 1061,
-			"versionNonce": 2071275894,
+			"version": 1062,
+			"versionNonce": 1358837553,
 			"isDeleted": false,
 			"id": "AMb7t_b1-8ns2DYtfDO_o",
 			"fillStyle": "solid",
@@ -402,12 +408,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013535480
+			"updated": 1643164898931
 		},
 		{
 			"type": "text",
-			"version": 929,
-			"versionNonce": 14995690,
+			"version": 930,
+			"versionNonce": 1854459999,
 			"isDeleted": false,
 			"id": "IJE5QvgR",
 			"fillStyle": "solid",
@@ -433,7 +439,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643013535480,
+			"updated": 1643164898931,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍[[What is Http?]]",
@@ -445,42 +451,28 @@ Internet ^PTtyYUVi
 			"originalText": "📍[[What is Http?]]"
 		},
 		{
-			"id": "MACPfw3o3RKRtWuTUXwcr",
 			"type": "arrow",
-			"x": -134.6433928938863,
-			"y": -815.8279524724926,
-			"width": 50.64250987063173,
-			"height": 50.27520163274039,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "#fd7e14",
+			"version": 272,
+			"versionNonce": 1638975999,
+			"isDeleted": false,
+			"id": "MACPfw3o3RKRtWuTUXwcr",
 			"fillStyle": "solid",
 			"strokeWidth": 1,
 			"strokeStyle": "dotted",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -134.6433928938863,
+			"y": -815.8279524724926,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fd7e14",
+			"width": 50.64250987063173,
+			"height": 50.27520163274039,
+			"seed": 1638386538,
 			"groupIds": [],
 			"strokeSharpness": "round",
-			"seed": 1638386538,
-			"version": 270,
-			"versionNonce": 1815894966,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1643013532926,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					50.64250987063173,
-					50.27520163274039
-				]
-			],
-			"lastCommittedPoint": [
-				75.53515625,
-				58.83203125
-			],
+			"boundElements": [],
+			"updated": 1643164933482,
 			"startBinding": {
 				"elementId": "8F2pqe5B",
 				"focus": -0.9701554838169919,
@@ -491,46 +483,43 @@ Internet ^PTtyYUVi
 				"focus": -0.6132146805602524,
 				"gap": 1
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": null
-		},
-		{
-			"id": "2PD9Of7J44Cq6tMYDCYqo",
-			"type": "arrow",
-			"x": -139.38620594664712,
-			"y": -765.7844729319374,
-			"width": 53.51234430276082,
-			"height": 7.006543121920004,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "#fd7e14",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "dotted",
-			"roughness": 0,
-			"opacity": 100,
-			"groupIds": [],
-			"strokeSharpness": "round",
-			"seed": 2002421034,
-			"version": 245,
-			"versionNonce": 514794410,
-			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1643013535480,
+			"endArrowhead": null,
 			"points": [
 				[
 					0,
 					0
 				],
 				[
-					53.51234430276082,
-					7.006543121920004
+					50.64250987063173,
+					50.27520163274039
 				]
-			],
-			"lastCommittedPoint": [
-				93.447265625,
-				2.35546875
-			],
+			]
+		},
+		{
+			"type": "arrow",
+			"version": 247,
+			"versionNonce": 1712855409,
+			"isDeleted": false,
+			"id": "2PD9Of7J44Cq6tMYDCYqo",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "dotted",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -139.38620594664712,
+			"y": -765.7844729319374,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fd7e14",
+			"width": 53.51234430276082,
+			"height": 7.006543121920004,
+			"seed": 2002421034,
+			"groupIds": [],
+			"strokeSharpness": "round",
+			"boundElements": [],
+			"updated": 1643164933482,
 			"startBinding": {
 				"elementId": "IJE5QvgR",
 				"focus": 0.3917316796013431,
@@ -541,8 +530,94 @@ Internet ^PTtyYUVi
 				"focus": -0.21580727431225435,
 				"gap": 2.872978620631727
 			},
+			"lastCommittedPoint": null,
 			"startArrowhead": null,
-			"endArrowhead": null
+			"endArrowhead": null,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					53.51234430276082,
+					7.006543121920004
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 1739,
+			"versionNonce": 790833631,
+			"isDeleted": false,
+			"id": "RvW0-B3c4m5xtM8fZ1KjM",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -289.2234027645181,
+			"y": -750.3471908894536,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fd7e14",
+			"width": 151.69466145833334,
+			"height": 20.52734375000002,
+			"seed": 1947982751,
+			"groupIds": [
+				"fmiLb19fLUnsMaBS-w41c"
+			],
+			"strokeSharpness": "sharp",
+			"boundElements": [
+				{
+					"id": "9elQIEYFo4vFhLWqb_NfT",
+					"type": "arrow"
+				}
+			],
+			"updated": 1643165046086
+		},
+		{
+			"type": "text",
+			"version": 2005,
+			"versionNonce": 887431729,
+			"isDeleted": false,
+			"id": "wgWPJMn4",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -290.3771851065879,
+			"y": -747.9254065531403,
+			"strokeColor": "#000000",
+			"backgroundColor": "#fab005",
+			"width": 148,
+			"height": 13,
+			"seed": 1356362193,
+			"groupIds": [
+				"fmiLb19fLUnsMaBS-w41c"
+			],
+			"strokeSharpness": "sharp",
+			"boundElements": [
+				{
+					"id": "Jo5CSzfYbnGyd3O850PtE",
+					"type": "arrow"
+				},
+				{
+					"id": "MACPfw3o3RKRtWuTUXwcr",
+					"type": "arrow"
+				}
+			],
+			"updated": 1643165076335,
+			"fontSize": 7.6739049905168235,
+			"fontFamily": 3,
+			"text": "📍[[Browsers and How they work?]]",
+			"rawText": "[[Web Browers|Browsers and How they work?]]",
+			"baseline": 10,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "📍[[Browsers and How they work?]]"
 		}
 	],
 	"appState": {
