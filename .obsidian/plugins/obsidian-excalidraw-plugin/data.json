@@ -18,7 +18,7 @@
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
   "openInAdjacentPane": true,
-  "showLinkBrackets": true,
+  "showLinkBrackets": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,

@@ -17,6 +17,14 @@
     {
       "folder": "🚀 Mind | 导图仓库",
       "template": "🧳 Template｜模板库/Mind-Note.md"
+    },
+    {
+      "folder": "📜  Daily Note | 日常记录",
+      "template": "🧳 Template｜模板库/Daily-Note.md"
+    },
+    {
+      "folder": "/",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,

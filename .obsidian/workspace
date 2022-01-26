@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a1e030ab2d6b6048",
+        "id": "1051dbae91fcb92a",
         "type": "leaf",
         "state": {
           "type": "excalidraw",
           "state": {
             "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+          }
+        }
+      },
+      {
+        "id": "3fbe4f8a9ed9d0f7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browers.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browers.md"
               }
             }
           },
@@ -134,17 +146,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a1e030ab2d6b6048",
+  "active": "3fbe4f8a9ed9d0f7",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browers.md",
     "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
     "hameedCollaborativeFilteringBased2012-zotero.md",
-    "hameedCollaborativeFilteringBased2012 - Extracted Annotations (2022125 下午55828).md",
-    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
-    "🚀 Mind | 导图仓库/2022-01-25 16-16.md",
-    "🚀 Mind | 导图仓库/2022-01-25 16-11.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+    "hameedCollaborativeFilteringBased2012 - Extracted Annotations (2022125 下午55828).md"
   ]
 }
