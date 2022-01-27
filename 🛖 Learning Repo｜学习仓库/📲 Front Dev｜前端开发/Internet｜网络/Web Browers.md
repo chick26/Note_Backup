@@ -38,3 +38,5 @@ Firefox、Chrome 浏览器和 Safari是基于两种呈现引擎构建的。Firef
 ### Mozilla's Gecko rendering engine main flow
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201261501778.png)
 
+# 解析和DOM树构建 Parsing and DOM tree construction
+
