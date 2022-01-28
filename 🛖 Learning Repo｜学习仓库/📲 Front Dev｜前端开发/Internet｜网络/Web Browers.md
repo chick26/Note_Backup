@@ -1,6 +1,6 @@
 #Internet/WebBrowser
 
-# 浏览器高层结构
+# 1. 浏览器高层结构
 
 1.  **用户界面** - 包括地址栏、前进/后退按钮、书签菜单等。除了浏览器主窗口显示的您请求的页面外，其他显示的各个部分都属于用户界面。
 2.  **浏览器引擎** - 在用户界面和呈现引擎之间传送指令。
@@ -12,7 +12,7 @@
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201261438296.png)
 
-# Rendering Engine 呈现引擎 
+# 2. Rendering Engine 呈现引擎 
 
 >默认情况下，呈现引擎可显示 HTML 和 XML 文档与图片。通过插件（或浏览器扩展程序），还可以显示其他类型的内容；例如，使用 PDF 查看器插件就能显示 PDF 文档。但是在本章中，我们将集中介绍其主要用途：显示使用 CSS 格式化的 HTML 内容和图片。
 
@@ -22,7 +22,7 @@ Firefox、Chrome 浏览器和 Safari是基于两种呈现引擎构建的。Firef
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201261449245.png)
 
-呈现引擎开始解析 HTML 文档，并将各标记逐个转化成“内容树”上的 DOM 节点。同时也会解析外部 CSS 文件以及样式元素中的样式数据。HTML 中这些带有视觉指令的样式信息将用于创建另一个树结构：呈现树(Render Tree)。
+呈现引擎开始解析 HTML 文档，并将各标记逐个转化成“内容树”上的 DOM 节点。同时也会解析外部 CSS 文件以及样式元素中的样式数据。HTML 中这些带有视觉指令的样式信息将用于创建另一个树结构：[[Web Browers#^edd771|呈现树]](Render Tree)。
 
 呈现树包含多个带有视觉属性（如颜色和尺寸）的矩形。这些矩形的排列顺序就是它们将在屏幕上显示的顺序。
 
@@ -38,7 +38,7 @@ Firefox、Chrome 浏览器和 Safari是基于两种呈现引擎构建的。Firef
 ### Mozilla's Gecko rendering engine main flow
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201261501778.png)
 
-# Parsing and DOM tree construction 解析和DOM树构建
+# 3. Parsing and DOM tree construction 解析和DOM树构建
 
 解析文档是指将文档转化成为有意义的结构，也就是可让代码理解和使用的结构。解析得到的结果通常是代表了文档结构的节点树，它称作解析树或者语法树。
 
@@ -187,3 +187,53 @@ WebKit 和 Firefox 都进行了这项优化。在执行脚本时，其他线程�
 ### Style sheets
 另一方面，样式表有着不同的模型。理论上来说，应用样式表不会更改 DOM 树，因此似乎没有必要等待样式表并停止文档解析。但这涉及到一个问题，就是脚本在文档解析阶段会请求样式信息。如果当时还没有加载和解析样式，脚本就会获得错误的回复，这样显然会产生很多问题。这看上去是一个非典型案例，但事实上非常普遍。Firefox 在样式表加载和解析的过程中，会禁止所有脚本。而对于 WebKit 而言，仅当脚本尝试访问的样式属性可能受尚未加载的样式表影响时，它才会禁止该脚本。
 
+# 4. Render tree construction 呈现树构建
+
+^edd771
+>在 DOM 树构建的同时，浏览器还会构建另一个树结构：呈现树。这是由可视化元素按照其显示顺序而组成的树，也是文档的可视化表示。它的作用是让您按照正确的顺序绘制内容。
+
+Firefox 将呈现树中的元素称为“框架”。WebKit 使用的术语是呈现器或呈现对象。  
+呈现器知道如何布局并将自身及其子元素绘制出来。  
+WebKits RenderObject 类是所有呈现器的基类，其定义如下：
+```js
+class RenderObject{ 
+	virtual void layout(); 
+	virtual void paint(PaintInfo); 
+	virtual void rect repaintRect(); 
+	Node* node; //the DOM node 
+	RenderStyle* style; // the computed style 
+	RenderLayer* containgLayer; //the containing z-index layer 
+}
+```
+
+每一个呈现器都代表了一个矩形的区域，通常对应于相关节点的 CSS 框，这一点在 CSS2 规范中有所描述。它包含诸如宽度、高度和位置等几何信息。
+下面这段 WebKit 代码描述了根据 display 属性的不同，针对同一个 DOM 节点应创建什么类型的呈现器。
+```js
+RenderObject* RenderObject::createObject(Node* node, RenderStyle* style) { 
+	Document* doc = node->document(); 
+	RenderArena* arena = doc->renderArena(); 
+	... 
+	RenderObject* o = 0; 
+	switch (style->display()) { 
+		case NONE: break; 
+		case INLINE: o = new (arena) RenderInline(node); break; 
+		case BLOCK: o = new (arena) RenderBlock(node); break; 
+		case INLINE_BLOCK: o = new (arena) RenderBlock(node); break; 
+		case LIST_ITEM: o = new (arena) RenderListItem(node); break; 
+		... 
+	} 
+	return o; 
+}
+```
+
+元素类型也是考虑因素之一，例如表单控件和表格都对应特殊的框架。  
+在 WebKit 中，如果一个元素需要创建特殊的呈现器，就会替换 `createRenderer` 方法。呈现器所指向的样式对象中包含了一些和几何无关的信息。
+
+## The render tree relation to the DOM tree
+
+- 呈现器是和 DOM 元素相对应的，但并非一一对应。非可视化的 DOM 元素不会插入呈现树中，例如“head”元素。如果元素的 display 属性值为“none”，那么也不会显示在呈现树中（但是 visibility 属性值为“hidden”的元素仍会显示）。
+- 一些 DOM 元素对应多个可视化对象。它们往往是具有复杂结构的元素，无法用单一的矩形来描述。例如，“select”元素有 3 个呈现器：一个用于显示区域，一个用于下拉列表框，还有一个用于按钮。如果由于宽度不够，文本无法在一行中显示而分为多行，那么新的行也会作为新的呈现器而添加。  
+- 格式无效的 HTML ye。根据 CSS 规范，inline 元素只能包含 block 元素或 inline 元素中的一种。如果出现了混合内容，则应创建匿名的 block 呈现器，以包裹 inline 元素。
+
+有一些呈现对象对应于 DOM 节点，但在树中所在的位置与 DOM 节点不同。浮动定位和绝对定位的元素就是这样，它们处于正常的流程之外，放置在树中的其他地方，并映射到真正的框架，而放在原位的是占位框架。
+⚠️upload failed, check dev console
