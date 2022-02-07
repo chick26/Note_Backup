@@ -328,3 +328,21 @@ li.red.level   {} /* a=0 b=0 c=2 d=1 -> specificity = 0,0,2,1 */
 #x34y          {} /* a=0 b=1 c=0 d=0 -> specificity = 0,1,0,0 */ 
 style=""          /* a=1 b=0 c=0 d=0 -> specificity = 1,0,0,0 */
 ```
+
+#### Sorting the rules
+找到匹配的规则之后，应根据级联顺序将其排序。WebKit 对于较小的列表会使用冒泡排序，而对较大的列表则使用归并排序。对于以下规则，WebKit 通过替换“>”运算符来实现排序：
+
+```java
+static bool operator >(CSSRuleData& r1, CSSRuleData& r2) 
+{ 
+	int spec1 = r1.selector()->specificity(); 
+	int spec2 = r2.selector()->specificity(); 
+	return (spec1 == spec2) : r1.position() > r2.position() : spec1 > spec2; 
+}
+```
+
+## Gradual process
+
+WebKit 使用一个标记来表示是否所有的顶级样式表（包括 @imports）均已加载完毕。如果在附加过程中尚未完全加载样式，则使用占位符，并在文档中进行标注，等样式表加载完毕后再重新计算。
+
+# 5.Layout 布局
