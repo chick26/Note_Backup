@@ -17,7 +17,7 @@ Internet ^PTtyYUVi
 
 [[HTTP|What is Http?]] ^IJE5QvgR
 
-[[Web Browers|Browsers and How they work?]] ^wgWPJMn4
+[[Web Browsers|Browsers and How they work?]] ^wgWPJMn4
 
 %%
 # Drawing
@@ -141,8 +141,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "arrow",
-			"version": 2150,
-			"versionNonce": 797695121,
+			"version": 2198,
+			"versionNonce": 1302933781,
 			"isDeleted": false,
 			"id": "9elQIEYFo4vFhLWqb_NfT",
 			"fillStyle": "solid",
@@ -151,17 +151,17 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 0.08046714013697454,
-			"y": -769.9475150827185,
+			"x": 0.13314243012909088,
+			"y": -763.8398591666169,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 47.038161561697684,
-			"height": 41.877310030318654,
+			"width": 56.354626896705575,
+			"height": 34.69568202174537,
 			"seed": 1264077605,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1643165501922,
+			"updated": 1644305884679,
 			"startBinding": {
 				"elementId": "zUxqb8fksYDnx8fpjSNfv",
 				"focus": 0.5570252286311238,
@@ -181,15 +181,15 @@ Internet ^PTtyYUVi
 					0
 				],
 				[
-					47.038161561697684,
-					-41.877310030318654
+					56.354626896705575,
+					-34.69568202174537
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1484,
-			"versionNonce": 1159377151,
+			"version": 1508,
+			"versionNonce": 1429715323,
 			"isDeleted": false,
 			"id": "0bF7shtuVQ896fh_8smJH",
 			"fillStyle": "solid",
@@ -198,8 +198,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 42.669689893412084,
-			"y": -823.644724699888,
+			"x": 52.038830518412084,
+			"y": -807.519724699888,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
 			"width": 129.236328125,
@@ -215,12 +215,12 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643165501922
+			"updated": 1644305884679
 		},
 		{
 			"type": "text",
-			"version": 1371,
-			"versionNonce": 870589041,
+			"version": 1395,
+			"versionNonce": 106360757,
 			"isDeleted": false,
 			"id": "CEIpnN1E",
 			"fillStyle": "solid",
@@ -229,8 +229,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 55.96330968507874,
-			"y": -821.2144833076172,
+			"x": 65.33245031007874,
+			"y": -805.0894833076172,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
 			"width": 98,
@@ -246,7 +246,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643165501922,
+			"updated": 1644305884679,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍DNS and How it works",
@@ -259,8 +259,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 1704,
-			"versionNonce": 786412915,
+			"version": 1768,
+			"versionNonce": 1019630683,
 			"isDeleted": false,
 			"id": "4MmGNvakr5sVZXx4aH_b9",
 			"fillStyle": "solid",
@@ -269,8 +269,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -286.11909958911485,
-			"y": -822.2629951770826,
+			"x": -289.04097458911485,
+			"y": -804.9895576770826,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
 			"width": 151.69466145833334,
@@ -284,14 +284,18 @@ Internet ^PTtyYUVi
 				{
 					"id": "9elQIEYFo4vFhLWqb_NfT",
 					"type": "arrow"
+				},
+				{
+					"id": "MACPfw3o3RKRtWuTUXwcr",
+					"type": "arrow"
 				}
 			],
-			"updated": 1643167403491
+			"updated": 1644305879857
 		},
 		{
 			"type": "text",
-			"version": 1915,
-			"versionNonce": 2016857917,
+			"version": 1978,
+			"versionNonce": 1321259061,
 			"isDeleted": false,
 			"id": "8F2pqe5B",
 			"fillStyle": "solid",
@@ -300,8 +304,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -279.12249130618466,
-			"y": -819.5013670907692,
+			"x": -282.04436630618466,
+			"y": -802.2279295907692,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
 			"width": 134,
@@ -321,7 +325,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643167403491,
+			"updated": 1644305879858,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍How does the Internet works?",
@@ -381,8 +385,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "rectangle",
-			"version": 1063,
-			"versionNonce": 446757425,
+			"version": 1209,
+			"versionNonce": 379271579,
 			"isDeleted": false,
 			"id": "AMb7t_b1-8ns2DYtfDO_o",
 			"fillStyle": "solid",
@@ -391,29 +395,33 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -232.8553069563863,
-			"y": -786.5600815144537,
+			"x": -288.0428069563863,
+			"y": -768.9487533894537,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
-			"width": 94.728515625,
+			"width": 150.2265625,
 			"height": 20.691406250000032,
 			"seed": 1467018614,
 			"groupIds": [
-				"TR2w2nM235y7m-G-giVPm"
+				"dafkdMK8_t3dItHdWOSJR"
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [
 				{
 					"id": "9elQIEYFo4vFhLWqb_NfT",
 					"type": "arrow"
+				},
+				{
+					"id": "2PD9Of7J44Cq6tMYDCYqo",
+					"type": "arrow"
 				}
 			],
-			"updated": 1643165501922
+			"updated": 1644305879858
 		},
 		{
 			"type": "text",
-			"version": 944,
-			"versionNonce": 396868959,
+			"version": 1059,
+			"versionNonce": 2125989621,
 			"isDeleted": false,
 			"id": "IJE5QvgR",
 			"fillStyle": "solid",
@@ -422,15 +430,15 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -220.3709319563863,
-			"y": -783.0200438599279,
+			"x": -244.9373382063863,
+			"y": -766.1509032349279,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
 			"width": 66,
 			"height": 13,
 			"seed": 1182223594,
 			"groupIds": [
-				"TR2w2nM235y7m-G-giVPm"
+				"dafkdMK8_t3dItHdWOSJR"
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [
@@ -439,7 +447,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643165501922,
+			"updated": 1644305879858,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍What is Http?",
@@ -452,8 +460,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "arrow",
-			"version": 353,
-			"versionNonce": 510910365,
+			"version": 501,
+			"versionNonce": 1464930555,
 			"isDeleted": false,
 			"id": "MACPfw3o3RKRtWuTUXwcr",
 			"fillStyle": "solid",
@@ -462,25 +470,25 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -142.0555022688863,
-			"y": -814.8506025182606,
+			"x": -131.9480803938863,
+			"y": -796.7558452832864,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
-			"width": 58.05461924563173,
-			"height": 51.1114785630358,
+			"width": 47.94719737063173,
+			"height": 37.00346941581938,
 			"seed": 1638386538,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1643167403492,
+			"updated": 1644305879858,
 			"startBinding": {
-				"elementId": "8F2pqe5B",
-				"focus": -0.9701554838169919,
-				"gap": 3.066989037298356
+				"elementId": "4MmGNvakr5sVZXx4aH_b9",
+				"focus": -0.9408958809773634,
+				"gap": 5.398232736895196
 			},
 			"endBinding": {
 				"elementId": "zUxqb8fksYDnx8fpjSNfv",
-				"focus": -0.6132146805602524,
+				"focus": -0.6658324813011833,
 				"gap": 1
 			},
 			"lastCommittedPoint": null,
@@ -492,15 +500,15 @@ Internet ^PTtyYUVi
 					0
 				],
 				[
-					58.05461924563173,
-					51.1114785630358
+					47.94719737063173,
+					37.00346941581938
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 274,
-			"versionNonce": 799455615,
+			"version": 588,
+			"versionNonce": 131550779,
 			"isDeleted": false,
 			"id": "2PD9Of7J44Cq6tMYDCYqo",
 			"fillStyle": "solid",
@@ -509,26 +517,26 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -148.5859351890025,
-			"y": -767.1320264231911,
+			"x": -133.55132280488075,
+			"y": -759.0089579212452,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
-			"width": 62.7120735451162,
-			"height": 8.304230849427313,
+			"width": 47.677461160994454,
+			"height": 4.579746363516051,
 			"seed": 2002421034,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1643165501922,
+			"updated": 1644305879858,
 			"startBinding": {
-				"elementId": "IJE5QvgR",
-				"focus": 0.3917316796013431,
-				"gap": 6.4658203125
+				"elementId": "AMb7t_b1-8ns2DYtfDO_o",
+				"gap": 4.264921651505546,
+				"focus": -0.4589273673591504
 			},
 			"endBinding": {
 				"elementId": "zUxqb8fksYDnx8fpjSNfv",
-				"focus": -0.21580727431225435,
-				"gap": 2.872978620631727
+				"gap": 2.872978620631727,
+				"focus": -0.41467988085354723
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -539,15 +547,15 @@ Internet ^PTtyYUVi
 					0
 				],
 				[
-					62.7120735451162,
-					8.304230849427313
+					47.677461160994454,
+					4.579746363516051
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1883,
-			"versionNonce": 694934271,
+			"version": 1972,
+			"versionNonce": 1843908315,
 			"isDeleted": false,
 			"id": "RvW0-B3c4m5xtM8fZ1KjM",
 			"fillStyle": "solid",
@@ -556,8 +564,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -291.2312152645181,
-			"y": -746.9311752644536,
+			"x": -288.6511371395181,
+			"y": -731.9214096394536,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
 			"width": 151.69466145833334,
@@ -571,14 +579,18 @@ Internet ^PTtyYUVi
 				{
 					"id": "9elQIEYFo4vFhLWqb_NfT",
 					"type": "arrow"
+				},
+				{
+					"id": "6S9MYETA5OoJFCMgkCy_m",
+					"type": "arrow"
 				}
 			],
-			"updated": 1643166543815
+			"updated": 1644305879858
 		},
 		{
 			"type": "text",
-			"version": 2178,
-			"versionNonce": 764981649,
+			"version": 2266,
+			"versionNonce": 190790523,
 			"isDeleted": false,
 			"id": "wgWPJMn4",
 			"fillStyle": "solid",
@@ -587,8 +599,8 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -283.9787476065879,
-			"y": -744.3355628031403,
+			"x": -281.3986694815879,
+			"y": -729.3257971781403,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
 			"width": 129,
@@ -612,7 +624,7 @@ Internet ^PTtyYUVi
 					"type": "arrow"
 				}
 			],
-			"updated": 1643166597441,
+			"updated": 1644305879858,
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "📍Browsers and How they work?",
@@ -625,8 +637,8 @@ Internet ^PTtyYUVi
 		},
 		{
 			"type": "arrow",
-			"version": 249,
-			"versionNonce": 1515594527,
+			"version": 371,
+			"versionNonce": 543514709,
 			"isDeleted": false,
 			"id": "6S9MYETA5OoJFCMgkCy_m",
 			"fillStyle": "solid",
@@ -635,21 +647,21 @@ Internet ^PTtyYUVi
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -147.7497872323935,
-			"y": -730.6070629204696,
+			"x": -133.14270498539577,
+			"y": -735.545282025739,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fd7e14",
-			"width": 64.8520943133056,
-			"height": 17.355204171938112,
+			"width": 50.24501206630788,
+			"height": 12.416985066668758,
 			"seed": 32186673,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1643166543815,
+			"updated": 1644305879858,
 			"startBinding": {
-				"elementId": "wgWPJMn4",
-				"focus": 1.11207690502627,
-				"gap": 2.5068359375
+				"elementId": "RvW0-B3c4m5xtM8fZ1KjM",
+				"focus": 0.19991230133416424,
+				"gap": 5.2609217816025335
 			},
 			"endBinding": null,
 			"lastCommittedPoint": null,
@@ -661,8 +673,8 @@ Internet ^PTtyYUVi
 					0
 				],
 				[
-					64.8520943133056,
-					-17.355204171938112
+					50.24501206630788,
+					-12.416985066668758
 				]
 			]
 		}

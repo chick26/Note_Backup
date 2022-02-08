@@ -22,7 +22,7 @@ Firefox、Chrome 浏览器和 Safari是基于两种呈现引擎构建的。Firef
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201261449245.png)
 
-呈现引擎开始解析 HTML 文档，并将各标记逐个转化成“内容树”上的 DOM 节点。同时也会解析外部 CSS 文件以及样式元素中的样式数据。HTML 中这些带有视觉指令的样式信息将用于创建另一个树结构：[[Web Browers#^edd771|呈现树]](Render Tree)。
+呈现引擎开始解析 HTML 文档，并将各标记逐个转化成“内容树”上的 DOM 节点。同时也会解析外部 CSS 文件以及样式元素中的样式数据。HTML 中这些带有视觉指令的样式信息将用于创建另一个树结构：[[Web Browsers#^edd771|呈现树]](Render Tree)。
 
 呈现树包含多个带有视觉属性（如颜色和尺寸）的矩形。这些矩形的排列顺序就是它们将在屏幕上显示的顺序。
 
@@ -170,7 +170,7 @@ HTML5 规范定义了一部分这样的要求。WebKit 在 HTML 解析器类的�
 
 ## CSS Parser
 
-#### WebKit CSS 解析器
+### WebKit CSS 解析器
 
 WebKit 使用 **Flex** 和 **Bison** 解析器生成器，通过 CSS 语法文件自动创建解析器。正如我们之前在解析器简介中所说，Bison 会创建自下而上的移位归约解析器。Firefox 使用的是人工编写的自上而下的解析器。这两种解析器都会将 CSS 文件解析成 StyleSheet 对象，且每个对象都包含 CSS 规则。CSS 规则对象则包含选择器和声明对象，以及其他与 CSS 语法对应的对象。
 
