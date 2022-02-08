@@ -7,9 +7,11 @@
         "id": "43a41c0e025eef5a",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
               }
             }
           },
@@ -136,10 +138,10 @@
   },
   "active": "43a41c0e025eef5a",
   "lastOpenFiles": [
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
-    "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+    "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
