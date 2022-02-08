@@ -407,10 +407,12 @@ HTML 采用基于流的布局模型，这意味着大多数情况下只要一次
 
 将由 WebKit 计算如下（BenderBox 类，calcWidth 方法）：
 -   容器的宽度取容器的 availableWidth 和 0 中的较大值。availableWidth 在本例中相当于 contentWidth，clientWidth 和 clientHeight 表示一个对象的内部（除去边框和滚动条）。计算公式如下：
+
 ```latex
 clientWidth() - paddingLeft() - paddingRight()
 ```
--   元素的宽度是“width”样式属性。它会根据容器宽度的百分比计算得出一个绝对值。
+
+- 元素的宽度是“width”样式属性。它会根据容器宽度的百分比计算得出一个绝对值。
 -   然后加上水平方向的边框和补白。
 
 现在计算得出的是“preferred width”。然后需要计算最小宽度和最大宽度。  
