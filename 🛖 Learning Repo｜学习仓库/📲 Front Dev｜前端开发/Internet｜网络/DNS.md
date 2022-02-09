@@ -34,7 +34,6 @@ DNS 解析过程涉及将主机名（例如 `www.example.com` 转换为计算机
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202202081649907.png)
 
-
 值得一提的是，在查询对象为子域（例如 foo.example.com 或 [blog.cloudflare.com](https://blog.cloudflare.com/)）的情况下，将向权威性域名服务器之后的序列添加一个附加域名服务器，其负责存储该子域的 [CNAME 记录](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/)。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202202081650872.png)
