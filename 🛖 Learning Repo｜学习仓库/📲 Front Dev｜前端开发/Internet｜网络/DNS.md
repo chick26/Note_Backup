@@ -51,19 +51,16 @@ Cloudflare 维护 Internet 功能不可或缺的基础设施级域名服务器�
 
 ### DNS 查找的 8 个步骤：
 
-1.  用户在 Web 浏览器中键入 “example.com”，查询传输到 Internet 中，并被 DNS 递归解析器接收。
-2.  接着，解析器查询 DNS 根域名服务器（.）。
-3.  然后，根服务器使用存储其域信息的顶级域（TLD）DNS 服务器（例如 .com 或 .net）的地址响应该解析器。在搜索 example.com 时，我们的请求指向 .com TLD。
-4.  然后，解析器向 .com TLD 发出请求。
-5.  TLD 服务器随后使用该域的域名服务器 example.com 的 IP 地址进行响应。
-6.  最后，递归解析器将查询发送到域的域名服务器。
-7.  example.com 的 IP 地址而后从域名服务器返回解析器。
-8.  然后 DNS 解析器使用最初请求的域的 IP 地址响应 Web 浏览器。
-
-DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便能发出对该网页的请求：
-
-10.  浏览器向该 IP 地址发出 [HTTP](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/) 请求。
-11.  位于该 IP 的服务器返回将在浏览器中呈现的网页（第 10 步）。
+1. 用户在 Web 浏览器中键入 “example.com”，查询传输到 Internet 中，并被 DNS 递归解析器接收。
+2. 接着，解析器查询 DNS 根域名服务器（.）。
+3. 然后，根服务器使用存储其域信息的顶级域（TLD）DNS 服务器（例如 .com 或 .net）的地址响应该解析器。在搜索 example.com 时，我们的请求指向 .com TLD。
+4. 然后，解析器向 .com TLD 发出请求。
+5. TLD 服务器随后使用该域的域名服务器 example.com 的 IP 地址进行响应。
+6. 最后，递归解析器将查询发送到域的域名服务器。
+7. example.com 的 IP 地址而后从域名服务器返回解析器。
+8. 然后 DNS 解析器使用最初请求的域的 IP 地址响应 Web 浏览器。DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便能发出对该网页的请求：
+9.  浏览器向该 IP 地址发出 [HTTP](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/) 请求。
+10.  位于该 IP 的服务器返回将在浏览器中呈现的网页（第 10 步）。
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202202081650807.png)
 
