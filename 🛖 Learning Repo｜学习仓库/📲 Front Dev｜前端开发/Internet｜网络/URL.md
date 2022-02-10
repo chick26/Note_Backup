@@ -9,7 +9,7 @@
 
 `http` 是协议。它表明了浏览器必须使用何种协议。它通常都是HTTP协议或是HTTP协议的安全版，即HTTPS。Web需要它们二者之一，但浏览器也知道如何处理其他协议，比如`mailto:（打开邮件客户端）或者` `ftp:（处理文件传输）`
 
-## Domain Name
+## [[Domain Name]]
 
 `www.example.com` 是域名。 它表明正在请求哪个Web服务器。或者，可以直接使用[IP address](https://developer.mozilla.org/zh-CN/docs/Glossary/IP_Address), 但是因为它不太方便，所以它不经常在网络上使用。
 
