@@ -8,3 +8,22 @@
 
 ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202202101543606.png)
 
+## TLD （Top-Level Domain，顶级域名）
+
+顶级域名可以告诉用户域名所提供的服务类型。最通用的顶级域名（.com, .org, .net）不需要web服务器满足严格的标准，但一些顶级域名则执行更严格的政策。比如：
+
+- 地区的顶级域名，如`.us`，`.fr`，或`.sh`，可以要求必须提供给定语言的服务器或者托管在指定国家。这些TLD通常表明对应的网页服务从属于何种语言或哪个地区。
+- 包含`.gov`的顶级域名只能被政府部门使用。
+- `.edu` 只能为教育或研究机构使用。
+
+顶级域名既可以包含拉丁字母，也可以包含特殊字符。顶级域名最长可以达到63个字符，不过为了使用方便，大多数顶级域名都是两到三个字符。
+
+顶级域名的完整列表是[ICANN](https://www.icann.org/resources/pages/tlds-2012-02-25-en)维护的。
+
+## 标签 (或者说是组件)
+
+标签都是紧随着TLD的。标签由1到63个大小写不敏感的字符组成，这些字符包含字母A-z，数字0-9，甚至 “-” 这个符号（当然，“-” 不应该出现在标签开头或者标签的结尾）。举几个例子，`a`，`97`，或者 `hello-strange-person-16-how-are-you`  都是合法的标签。
+
+## Secondary Level Domain (二级域名)
+
+刚好位于TLD前面的标签也被称为二级域名 (SLD)。一个域名可以有多个标签（或者说是组件），没有强制规定必须要3个标签来构成域名。例如，www.inf.ed.ac.uk 是一个正确的域名。当拥有了“上级”部分(例如 [mozilla.org](https://mozilla.org/))，你还可以创建另外的域名 (有时被称为 "子域名") (例如 [developer.mozilla.org](https://developer.mozilla.org/)).
