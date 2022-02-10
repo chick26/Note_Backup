@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "43a41c0e025eef5a",
+        "id": "dd53fc82cd4a2daf",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+              }
             }
           },
           {
@@ -128,17 +136,17 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "43a41c0e025eef5a",
+  "active": "dd53fc82cd4a2daf",
   "lastOpenFiles": [
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
   ]
 }
