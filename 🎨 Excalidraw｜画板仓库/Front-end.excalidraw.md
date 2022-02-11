@@ -921,7 +921,7 @@ Internet ^PTtyYUVi
 				}
 			],
 			"updated": 1644482266904,
-			"link": "[[Hosting]]",
+			"link": "[[Web Hosting]]",
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "What is Hosing",
@@ -1155,7 +1155,7 @@ Internet ^PTtyYUVi
 			"y": -584.9771789102276,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 17,
+			"width": 16,
 			"height": 11,
 			"seed": 667172525,
 			"groupIds": [
