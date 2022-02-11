@@ -289,27 +289,3 @@ Direction tag（方向标签）
 你的的网站会在启用广告拦截器的情况下正确显示页面内容(你可以提供一条消息，引导人们停用其广告拦截器)。
 
 > [Pixel Perfect - Chrome 扩展](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
-
-## Webfonts
-
-> **注意:** 使用webfonts可能会导致文档样式闪烁以及文本不可见，所以在使用时需要考虑使用后备字体，或者使用webfont加载器来控制字体加载行为。
-
->
-
-> * 📖 [Google Technical considerations about webfonts](https://developers.google.com/fonts/docs/technical_considerations)
-
-* [ ] **Webfont format（字体格式）:** ![High][high_img] 现代浏览器都支持WOFF、WOFF2、TTF格式
-
-> * 📖 [WOFF - Web开放字体格式 - Caniuse](https://caniuse.com/#feat=woff).
-
-> * 📖 [WOFF 2.0 - Web开放字体格式 - Caniuse](https://caniuse.com/#feat=woff2).
-
-> * 📖 [TTF/OTF - TrueType和OpenType字体支持](https://caniuse.com/#feat=ttf)
-
-> * 📖 [Using @font-face - CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
-
-* [ ] **Webfont size（字体大小）:** ![High][high_img] Webfont大小不超过 2 MB (包括所有版本在内)。
-
-* [ ] **Webfont loader（字体加载器）:** ![Low][low_img] 使用Webfont加载器控制加载行为。
-
-> * 🛠 [Typekit Web字体加载器](https://github.com/typekit/webfontloader)
