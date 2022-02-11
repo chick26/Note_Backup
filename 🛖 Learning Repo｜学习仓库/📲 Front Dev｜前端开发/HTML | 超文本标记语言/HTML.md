@@ -2,92 +2,78 @@
 
 > **注意:**  [[HTML-HEAD|HEAD列表]]中 找到HTML文档`<head>`标签内所有可配置的属性。
 
-### Meta 标签
+## Meta 标签
 
-* [ ] **Doctype（文档类型）:** 
-* [ ]  以下Doctype标签声明文档为HTML5类型，需要写在HTML文件的顶部。
+### Doctype（文档类型） 
+
+以下Doctype标签声明文档为HTML5类型，需要写在HTML文件的顶部。
 
 ```html
-
 <!-- 声明文档为 HTML5 类型 -->
-
 <!doctype html>
-
 ```
 
 > * 📖 [设置文档字符编码格式 - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
 * 下列两个 meta 标签需要首先声明在head中：Charset 和 Viewport。*
 
-* [ ] **Charset（字符）:** ![High][high_img] 正确声明`Charset` meta (UTF-8)。
+### Charset（字符） 
+
+正确声明`Charset` meta (UTF-8)。
 
 ```html
-
 <!-- 设置文档的字符编码 -->
-
 <meta charset="utf-8">
-
 ```
 
-* [ ] **Viewport（视口）:** ![High][high_img] 正确声明`viewport` meta。
+### Viewport（视口）
+
+正确声明`viewport` meta。
 
 ```html
-
 <!-- 响应式网页设计viewpoint声明 -->
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 ```
 
-* [ ] **Title（标题）:** ![High][high_img] 所有页面都必须使用`title`标签(SEO:Google会计算标题中使用的字符的像素宽度，范围在472和482像素之间，所以平均字符数限制大约在55个字符左右)。
+### Title（标题）
+
+所有页面都必须使用`title`标签(SEO:Google会计算标题中使用的字符的像素宽度，范围在472和482像素之间，所以平均字符数限制大约在55个字符左右)。
 
 ```html
-
 <!-- 文档标题 -->
-
 <title>网站标题不超过55个字符</title>
-
 ```
 
-> * 📖 [Title 标签 - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+> * 📖  [Title 标签 - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+> * 🛠  [SERP 代码段生成器](https://www.sistrix.com/serp-snippet-generator/)
 
-> * 🛠 [SERP 代码段生成器](https://www.sistrix.com/serp-snippet-generator/)
+### Description（描述）
 
-* [ ] **Description（描述）:** ![High][high_img] 提供`description`标签， 它是唯一的，且内容不能超过150个字符。
+提供`description`标签， 它是唯一的，且内容不能超过150个字符。
 
 ```html
-
 <!-- Meta Description -->
-
 <meta name="description" content="Description of the page less than 150 characters">
-
 ```
 
 > * 📖[Meta Description 属性 - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-* [ ] **Favicons（图标）:** ![Medium][medium_img] 每个`favicon`都被创建并正确显示，如果你只有一个`favicon.ico`，把它放在你网站的根目录下。 通常来说你不需要做任何操作他就能正常显示。 然而, 使用一下示例中的方法是比较好的做法。不过现在我们推荐使用**PNG**格式，相比`.ico`格式有较好的优势(推荐尺寸: 32x32px)。
+### Favicons（图标）
+
+每个`favicon`都被创建并正确显示，如果你只有一个`favicon.ico`，把它放在你网站的根目录下。 通常来说你不需要做任何操作他就能正常显示。 然而, 使用一下示例中的方法是比较好的做法。不过现在我们推荐使用**PNG**格式，相比`.ico`格式有较好的优势(推荐尺寸: 32x32px)。
 
 ```html
-
 <!-- 标准favicon -->
-
 <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
-
 <!-- 推荐favicon格式 -->
-
 <link rel="icon" type="image/png" href="https://example.com/favicon.png">
-
 ```
 
-> * 🛠 [Favicon 生成器](https://www.favicon-generator.org/)
-
-> * 🛠 [RealFaviconGenerator](https://realfavicongenerator.net/)
-
-> * 📖 [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
-
-> * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS 技巧](https://css-tricks.com/favicon-quiz/)
-
-> * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
+> * 🛠  [Favicon 生成器](https://www.favicon-generator.org/)
+> * 🛠  [RealFaviconGenerator](https://realfavicongenerator.net/)
+> * 📖  [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
+> * 📖  [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS 技巧](https://css-tricks.com/favicon-quiz/)
+> * 📖  [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
 
 * [ ] **Apple Web App Meta:** ![Low][low_img] 苹果设备目前使用的 Meta 标签
 
