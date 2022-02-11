@@ -1,10 +1,11 @@
 ## Head
 
-> **注意:** 你能在[HEAD列表](https://github.com/joshbuchea/HEAD)中找到HTML文档`<head>`标签内所有可配置的属性。
+> **注意:**  [[HTML-HEAD|HEAD列表]]中 找到HTML文档`<head>`标签内所有可配置的属性。
 
 ### Meta 标签
 
-* [ ] **Doctype（文档类型）:** ![High][high_img] 以下Doctype标签声明文档为HTML5类型，需要写在HTML文件的顶部。
+* [ ] **Doctype（文档类型）:** 
+* [ ]  以下Doctype标签声明文档为HTML5类型，需要写在HTML文件的顶部。
 
 ```html
 

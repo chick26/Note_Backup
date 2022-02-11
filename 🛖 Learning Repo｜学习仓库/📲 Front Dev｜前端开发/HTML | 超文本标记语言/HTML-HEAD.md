@@ -1,256 +1,200 @@
 # 🤯 HEAD
 
-> A simple guide to HTML `<head>` elements
+> HTML `<head>` 元素的简单指南
 
-## Table of Contents
+## 最小推荐
 
-- [Recommended Minimum](#recommended-minimum)
-- [Elements](#elements)
-- [Meta](#meta)
-- [Link](#link)
-- [Icons](#icons)
-- [Social](#social)
-  - [Facebook Open Graph](#facebook-open-graph)
-  - [Twitter Card](#twitter-card)
-  - [Twitter Privacy](#twitter-privacy)
-  - [Schema.org](#schemaorg)
-  - [Pinterest](#pinterest)
-  - [Facebook Instant Articles](#facebook-instant-articles)
-  - [OEmbed](#oembed)
-  - [QQ/Wechat](#qqwechat)
-- [Browsers / Platforms](#browsers--platforms)
-  - [Apple iOS](#apple-ios)
-  - [Google Android](#google-android)
-  - [Google Chrome](#google-chrome)
-  - [Microsoft Internet Explorer](#microsoft-internet-explorer)
-- [Browsers (Chinese)](#browsers-chinese)
-  - [360 Browser](#360-browser)
-  - [QQ Mobile Browser](#qq-mobile-browser)
-  - [UC Mobile Browser](#uc-mobile-browser)
-- [App Links](#app-links)
-- [Other Resources](#other-resources)
-- [Related Projects](#related-projects)
-- [Other Formats](#other-formats)
-- [Translations](#-translations)
-- [Contributing](#-contributing)
-  - [Contributors](#contributors)
-- [Author](#-author)
-- [License](#-license)
-
-## Recommended Minimum
-
-Below are the essential elements for any web document (websites/apps):
+以下是构成任何 Web 页面（网站/应用程序）的基本要素：
 
 ```html
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--
-  The above 2 meta tags *must* come first in the <head>
-  to consistently ensure proper document rendering.
-  Any other head element should come *after* these tags.
- -->
-<title>Page Title</title>
+  以上 2 个 meta 标签 *必须* 放在 <head> 标签内 最前面，以确保正确的文档呈现；
+  其他任何 head 元素 *必须* 在这些标签之后。
+-->
+<title>页面标题</title>
 ```
 
-`meta charset` - defines the encoding of the website, `utf-8` is the standard
+- **meta charset** - 定义网站的编码格式，默认为 `utf-8`。
+- **meta name="viewport"** - 与移动端设备响应式有关的视口设置。
+- **width=device-width** 表示它将使用设备的物理宽度（而不是缩放），这对于移动设备友好的页面来说是很有帮助。
+- **initial-scale=1** 默认缩放，1 表示不缩放
 
-`meta name="viewport"` - viewport settings related to mobile responsiveness
+## 网页元素
 
-`width=device-width` - use the physical width of the device (great for mobile!)
+有效的 `<head>` 元素包括 `meta`、`link`、`title`、`style`、`script`、`noscript` 和 `base`。
 
-`initial-scale=1` - the initial zoom, 1 means no zoom
-
-**[⬆ back to top](#table-of-contents)**
-
-## Elements
-
-Valid `<head>` elements include `meta`, `link`, `title`, `style`, `script`, `noscript`, and `base`.
-
-These elements provide information for how a document should be perceived, and rendered, by web technologies. e.g. browsers, search engines, bots, etc.
+这些元素提供了如何通过如浏览器，搜索引擎，网络爬虫等网络技术来感知和呈现文档的信息。
 
 ```html
-<!--
-  Set the character encoding for this document, so that
-  all characters within the UTF-8 space (such as emoji)
-  are rendered correctly.
--->
+<!-- 设置此文档的字符编码，以便 UTF-8 范围中的所有字符（如 emoji）都能正确显示 -->
 <meta charset="utf-8">
 
-<!-- Set the document's title -->
-<title>Page Title</title>
+<!-- 设置文档标题 -->
+<title>页面标题</title>
 
-<!-- Set the base URL for all relative URLs within the document -->
+<!-- 设置文档中所有相对链接的基础链接 -->
 <base href="https://example.com/page.html">
 
-<!-- Link to an external CSS file -->
+<!-- 链接一个外部 CSS 文件 -->
 <link rel="stylesheet" href="styles.css">
 
-<!-- Used for adding in-document CSS -->
+<!-- 用于文档内的 CSS -->
 <style>
   /* ... */
 </style>
 
-<!-- JavaScript & No-JavaScript tags -->
-<script src="script.js"></script>
+<!-- JavaScript & No-JavaScript 标签 -->
 <script>
   // function(s) go here
 </script>
 <noscript>
-  <!-- No JS alternative -->
+  <!--无 JS 时显示-->
 </noscript>
 ```
 
-**[⬆ back to top](#table-of-contents)**
-
-## Meta
+## Meta 标签
 
 ```html
 <!--
-  The following 2 meta tags *must* come first in the <head>
-  to consistently ensure proper document rendering.
-  Any other head element should come *after* these tags.
+  以上 2 个 meta 标签 *必须* 放在 head 之前，以确保正确的文档呈现；
+  其他任何 head 元素 *必须* 在这些标签之后。
+  † 如果你的项目需要支持 Internet Explorer 11 之前的版本，请使用 content="ie-edge" 标签。
 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--
-  Allows control over where resources are loaded from.
-  Place as early in the <head> as possible, as the tag  
-  only applies to resources that are declared after it.
--->
+<!-- 允许控制资源从何处加载。在 <head> 中尽可能地靠前放置，因为该标签仅适用于在其之后声明的资源。-->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
-<!-- Name of web application (only should be used if the website is used as an app) -->
-<meta name="application-name" content="Application Name">
+<!-- Web 应用的名称（仅当网站被用作为一个应用时才使用）-->
+<meta name="application-name" content="应用名称">
 
-<!-- Theme Color for Chrome, Firefox OS and Opera -->
+<!-- Chrome、Firefox OS 和 Opera 的主题颜色 -->
 <meta name="theme-color" content="#4285f4">
 
-<!-- Short description of the document (limit to 150 characters) -->
-<!-- This content *may* be used as a part of search engine results. -->
-<meta name="description" content="A description of the page">
+<!-- 针对页面的简短描述（限制 150 字符）-->
+<!-- 此内容*可能*被用作搜索引擎结果的一部分。 -->
+<meta name="description" content="一个页面描述">
 
-<!-- Control the behavior of search engine crawling and indexing -->
-<meta name="robots" content="index,follow"><!-- All Search Engines -->
-<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+<!-- 控制搜索引擎的抓取和索引行为 -->
+<meta name="robots" content="index,follow"><!-- 所有搜索引擎 -->
+<meta name="googlebot" content="index,follow"><!-- 仅对 Google 有效 -->
 
-<!-- Tells Google not to show the sitelinks search box -->
+<!-- 告诉 Google 不显示网站链接的搜索框 -->
 <meta name="google" content="nositelinkssearchbox">
 
-<!-- Tells Google not to provide a translation for this document -->
+<!-- 告诉 Google 不提供此页面的翻译 -->
 <meta name="google" content="notranslate">
 
-<!-- Verify website ownership -->
+<!-- 验证网址所有权 -->
 <meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
 <meta name="yandex-verification" content="verification_token"><!-- Yandex Webmasters -->
 <meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
 <meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
-<meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
-<meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
+<meta name="p:domain_verify" content="code from pinterest"><!-- Pinterest Console -->
+<meta name="norton-safeweb-site-verification" content="norton code"><!-- Norton Safe Web -->
 
-<!-- Identify the software used to build the document (i.e. - WordPress, Dreamweaver) -->
+<!-- 确定用于构建页面的软件（如 - WordPress、Dreamweaver）-->
 <meta name="generator" content="program">
 
-<!-- Short description of your document's subject -->
-<meta name="subject" content="your document's subject">
+<!-- 关于你的网站主题的简短描述 -->
+<meta name="subject" content="你的网站主题">
 
-<!-- Gives a general age rating based on the document's content -->
+<!-- 基于网站内容给出一般的年龄分级 -->
 <meta name="rating" content="General">
 
-<!-- Allows control over how referrer information is passed -->
+<!-- 允许控制 referrer 信息如何传递 -->
 <meta name="referrer" content="no-referrer">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- 禁用自动检测和格式化可能的电话号码 -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<!-- 通过设置为 "off" 完全退出 DNS 预取 -->
 <meta http-equiv="x-dns-prefetch-control" content="off">
 
-<!-- Specifies the document to appear in a specific frame -->
+<!-- 指定要显示在一个特定框架中的页面 -->
 <meta http-equiv="Window-Target" content="_value">
 
-<!-- Geo tags -->
+<!-- 地理标签 -->
 <meta name="ICBM" content="latitude, longitude">
 <meta name="geo.position" content="latitude;longitude">
-<meta name="geo.region" content="country[-state]"><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
-<meta name="geo.placename" content="city/town"><!-- eg. content="New York City" -->
-
-<!-- Web Monetization https://webmonetization.org/docs/getting-started -->
-<meta name="monetization" content="$paymentpointer.example">
+<meta name="geo.region" content="country[-state]"><!-- 国家代码 (ISO 3166-1): 强制性, 州代码 (ISO 3166-2): 可选; 如 content="US" / content="US-NY" -->
+<meta name="geo.placename" content="city/town"><!-- 如 content="New York City" -->
+<meta name="monetization" content="$paymentpointer.example"><!-- 网络货币化 https://webmonetization.org/docs/getting-started -->
 ```
 
-- 📖 [Meta tags that Google understands](https://support.google.com/webmasters/answer/79812?hl=en)
-- 📖 [WHATWG Wiki: MetaExtensions](https://wiki.whatwg.org/wiki/MetaExtensions)
-- 📖 [ICBM on Wikipedia](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
-- 📖 [Geotagging on Wikipedia](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
+- 📖 [Google 可以识别的 Meta 标签](https://support.google.com/webmasters/answer/79812?hl=zh-Hans)
+- 📖 [WHATWG Wiki: Meta 拓展](https://wiki.whatwg.org/wiki/MetaExtensions)
+- 📖 [ICBM - 维基百科](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
+- 📖 [地理标记 - 维基百科](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
 
-**[⬆ back to top](#table-of-contents)**
-
-## Link
+## 链接
 
 ```html
-<!-- Points to an external stylesheet -->
+<!-- 指向一个外部 CSS 样式表 -->
 <link rel="stylesheet" href="https://example.com/styles.css">
 
-<!-- Helps prevent duplicate content issues -->
+<!-- 有助于防止出现内容重复的问题 -->
 <link rel="canonical" href="https://example.com/article/?page=2">
 
-<!-- Links to an AMP HTML version of the current document -->
+<!-- 链接到当前文档的一个 AMP HTML 版本 -->
 <link rel="amphtml" href="https://example.com/path/to/amp-version.html">
 
-<!-- Links to a JSON file that specifies "installation" credentials for the web applications -->
+<!-- 链接到一个指定 Web 应用程序“安装”凭据的 JSON 文件 -->
 <link rel="manifest" href="manifest.json">
 
-<!-- Links to information about the author(s) of the document -->
+<!-- 链接到关于页面所有者的信息 -->
 <link rel="author" href="humans.txt">
 
-<!-- Refers to a copyright statement that applies to the link's context -->
+<!-- 指向一个适用于链接内容的版权申明 -->
 <link rel="license" href="copyright.html">
 
-<!-- Gives a reference to a location in your document that may be in another language -->
+<!-- 给出可能的你的另一种语言的文档位置参考 -->
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 
-<!-- Provides information about an author or another person -->
+<!-- 提供了关于作者或其他人的信息 -->
 <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
 <link rel="me" href="mailto:name@example.com">
 <link rel="me" href="sms:+15035550125">
 
-<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest -->
+<!-- 链接到一个描述历史记录、文档或其他具有历史意义的材料的集合的文档 -->
 <link rel="archives" href="https://example.com/archives/">
 
-<!-- Links to top level resource in an hierarchical structure -->
+<!-- 链接到层次结构中的顶级资源 -->
 <link rel="index" href="https://example.com/article/">
 
-<!-- Provides a self reference - useful when the document has multiple possible references -->
+<!-- 提供了自我引用 - 当文档有多个可能的引用时非常有用 -->
 <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml">
 
-<!-- The first, last, previous, and next documents in a series of documents, respectively -->
+<!-- 分别是一系列页面中的第一个，最后一个，上一个和下一个页面 -->
 <link rel="first" href="https://example.com/article/">
 <link rel="last" href="https://example.com/article/?page=42">
 <link rel="prev" href="https://example.com/article/?page=1">
 <link rel="next" href="https://example.com/article/?page=3">
 
-<!-- Used when a 3rd party service is utilized to maintain a blog -->
+<!-- 当使用第三方服务来维护博客时使用 -->
 <link rel="EditURI" href="https://example.com/xmlrpc.php?rsd" type="application/rsd+xml" title="RSD">
 
-<!-- Forms an automated comment when another WordPress blog links to your WordPress blog or post -->
+<!-- 当另一个 WordPress 博客链接到你的 WordPress 博客或文章时形成一个自动化的评论 -->
 <link rel="pingback" href="https://example.com/xmlrpc.php">
 
-<!-- Notifies a URL when you link to it on your document -->
+<!-- 当你在自己的页面上链接到一个 url 时通知它 -->
 <link rel="webmention" href="https://example.com/webmention">
 
-<!-- Enables posting to your own domain using a Micropub client -->
+<!-- 启用通过 Micropub 客户端发布你的域名 -->
 <link rel="micropub" href="https://example.com/micropub">
 
-<!-- Open Search -->
+<!-- 打开搜索 -->
 <link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title">
 
 <!-- Feeds -->
 <link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS">
 <link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3">
 
-<!-- Prefetching, preloading, prebrowsing -->
-<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
+<!-- 预取，预载，预浏览 -->
+<!-- 更多信息：https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 <link rel="dns-prefetch" href="//example.com/">
 <link rel="preconnect" href="https://www.example.com/">
 <link rel="prefetch" href="https://www.example.com/">
@@ -258,37 +202,38 @@ These elements provide information for how a document should be perceived, and r
 <link rel="preload" href="image.png" as="image">
 ```
 
-- 📖 [Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
+- 📖 [链接关系](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
 
-**[⬆ back to top](#table-of-contents)**
 
-## Icons
+
+## 网站图标
 
 ```html
-<!-- For IE 10 and below -->
-<!-- Place favicon.ico in the root directory - no tag necessary -->
+<!-- 针对 IE 10 及以下版本 -->
+<!-- 如果将 `favicon.ico` 放在根目录下，则无需标签 -->
 
-<!-- Icon in the highest resolution we need it for -->
+<!-- 我们目前需要提供的最大的网站图标尺寸 -->
 <link rel="icon" sizes="192x192" href="/path/to/icon.png">
 
-<!-- Apple Touch Icon (reuse 192px icon.png) -->
+<!-- Apple 触摸图标 (尺寸同样是 192x192) -->
 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
 
-<!-- Safari Pinned Tab Icon -->
+<!-- Safari 固定选项卡图标 -->
 <link rel="mask-icon" href="/path/to/icon.svg" color="blue">
 ```
 
-- 📖 [All About Favicons (And Touch Icons)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
-- 📖 [Creating Pinned Tab Icons](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
-- 📖 [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
-- 📖 [Icons & Browser Colors](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
+- 📖 [所有关于网站图标（和触摸图标）的信息](https://bitsofco.de/all-about-favicons-and-touch-icons/)
+- 📖 [创建固定选项卡图标](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
+- 📖 [网站图标对照表](https://github.com/audreyr/favicon-cheat-sheet)
+- 📖 [网址图标 & 浏览器颜色表](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
 
-**[⬆ back to top](#table-of-contents)**
-
-## Social
+## 社交
 
 ### Facebook Open Graph
-> Most content is shared to Facebook as a URL, so it's important that you mark up your website with Open Graph tags to take control over how your content appears on Facebook. [More about Facebook Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters#markup) 
+> 大多数内容以 URL 的形式共享到 Facebook，因此使用 Open Graph 标签标记您的网站以控制您的内容在 Facebook 上的显示方式就显得非常重要了。[更多关于 Facebook 开放图谱标记的信息](https://developers.facebook.com/docs/sharing/webmasters#markup)
+
+> 大多数内容都是作为 URL 分享到 Facebook 的，因此，使用 Open Graph 标签标记网站来控制内容在 Facebook 上的显示方式显得尤为重要。[有关 Facebook Open Graph 标签的更多信息](https://developers.facebook.com/docs/sharing/webmasters#markup) 
+
 
 ```html
 <meta property="fb:app_id" content="123456789">
@@ -303,11 +248,13 @@ These elements provide information for how a document should be perceived, and r
 <meta property="article:author" content="">
 ```
 
-- 📖 [Open Graph protocol](http://ogp.me/)
-- 🛠 Test your page with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- 📖 [Open Graph 协议](https://ogp.me/)
+- 🛠 [页面验证 - Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
 ### Twitter Card
-> With Twitter Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. [More about Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
+> 借助 Twitter 卡片，您可以将丰富的照片、视频和媒体体验附加到推文中，从而帮助您的网站增加流量。[更多关于 Twitter 卡片的信息](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
+
+> 使用 Twitter Card，您可以将丰富的照片、视频和媒体资源附加到推文上，以帮助增加网站的访问量。[有关 Twitter Card 的更多信息](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards)
 
 ```html
 <meta name="twitter:card" content="summary">
@@ -320,13 +267,13 @@ These elements provide information for how a document should be perceived, and r
 <meta name="twitter:image:alt" content="A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.">
 ```
 
-- 📖 [Getting started with cards — Twitter Developers](https://dev.twitter.com/cards/getting-started)
-- 🛠 Test your page with the [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- 📖 [名片入门指南 - Twitter 开发者](https://dev.twitter.com/cards/getting-started)
+- 🛠 [页面验证 - Twitter Card Validator](https://cards-dev.twitter.com/validator)
 
 ### Twitter Privacy
-If you embed tweets in your website, Twitter can use information from your site to tailor content and suggestions to Twitter users. [More about Twitter privacy options](https://dev.twitter.com/web/overview/privacy#what-privacy-options-do-website-publishers-have).
+如果你在自己的网站中嵌入了推文，Twitter 可以使用你网站上的信息为 Twitter 用户定制内容和建议。 [更多关于 Twitter 隐私选项的信息](https://dev.twitter.com/web/overview/privacy#what-privacy-options-do-website-publishers-have).
 ```html
-<!-- disallow Twitter from using your site's info for personalization purposes -->
+<!-- 禁止 Twitter 使用你网站上的信息用于提供个性化的目的 -->
 <meta name="twitter:dnt" content="on">
 ```
 
@@ -334,22 +281,22 @@ If you embed tweets in your website, Twitter can use information from your site 
 
 ```html
 <html lang="" itemscope itemtype="https://schema.org/Article">
-    <head>
-      <link rel="author" href="">
-      <link rel="publisher" href="">
-      <meta itemprop="name" content="Content Title">
-      <meta itemprop="description" content="Content description less than 200 characters">
-      <meta itemprop="image" content="https://example.com/image.jpg">
+  <head>
+    <link rel="author" href="">
+    <link rel="publisher" href="">
+    <meta itemprop="name" content="内容标题">
+    <meta itemprop="description" content="内容描述少于 200 个字符">
+    <meta itemprop="image" content="https://example.com/image.jpg">
 ```
 
-**Note:** These meta tags require the `itemscope` and `itemtype` attributes to be added to the `<html>` tag.
+**注意:** 这些 meta 标签需要在 `<html>` 中添加 `itemscope` 和 `itemtype` 属性。
 
-- 📖 [Getting Started - schema.org](https://schema.org/docs/gs.html)
-- 🛠 Test your page with the [Rich Results Test](https://search.google.com/test/rich-results)
+- 📖 [入门 - schema.org](https://schema.org/docs/gs.html)
+- 🛠 使用[多结果测试](https://search.google.com/test/rich-results)测试您的页面 
 
 ### Pinterest
 
-Pinterest lets you prevent people from saving things from your website, according [to their help center](https://help.pinterest.com/en/business/article/prevent-saves-to-pinterest-from-your-site). The `description` is optional.
+根据他们的[帮助中心](https://help.pinterest.com/en/business/article/prevent-saves-to-pinterest-from-your-site)可知，Pinterest 允许你禁止他人保存你网站里的内容。`description` 为可选。
 
 ```html
 <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
@@ -361,15 +308,15 @@ Pinterest lets you prevent people from saving things from your website, accordin
 <meta charset="utf-8">
 <meta property="op:markup_version" content="v1.0">
 
-<!-- The URL of the web version of your article -->
+<!-- 你的文章的 Web 版网址 -->
 <link rel="canonical" href="https://example.com/article.html">
 
-<!-- The style to be used for this article -->
+<!-- 用于该文章的样式 -->
 <meta property="fb:article_style" content="myarticlestyle">
 ```
 
-- 📖 [Creating Articles - Instant Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
-- 📖 [Code Samples - Instant Articles](https://developers.facebook.com/docs/instant-articles/reference)
+- 📖 [创建文章 - Instant Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
+- 📖 [代码示例 - Instant Articles](https://developers.facebook.com/docs/instant-articles/reference)
 
 ### OEmbed
 
@@ -382,66 +329,61 @@ Pinterest lets you prevent people from saving things from your website, accordin
   title="oEmbed Profile: XML">
 ```
 
-- 📖 [oEmbed format](https://oembed.com/)
+- 📖 [oEmbed 格式](https://oembed.com/)
 
-### QQ/Wechat
+### QQ/微信
 
-Users share web pages to qq wechat will have a formatted message
+用户将网页分享到 QQ 或微信会带有指定信息。
 
 ```html
-<meta itemprop="name" content="share title">
+<meta itemprop="name" content="分享标题">
 <meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png">
-<meta name="description" itemprop="description" content="share content">
+<meta name="description" itemprop="description" content="分享描述">
 ```
-- 📖 [Code Format Docs](http://open.mobile.qq.com/api/mqq/index#api:setShareInfo)
+- 📖 [分享格式文档](http://open.mobile.qq.com/api/mqq/index#api:setShareInfo)
 
-**[⬆ back to top](#table-of-contents)**
-
-## Browsers / Platforms
+## 浏览器 / 平台
 
 ### Apple iOS
 
 ```html
-<!-- Smart App Banner -->
+<!-- 智能应用 Banner -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- 禁用自动检测和格式化可能的电话号码 -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Launch Icon (180x180px or larger) -->
+<!-- 添加到主屏幕 -->
+<!-- 启动图标 (大于等于 180x180px) -->
 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
 
-<!-- Launch Screen Image -->
+<!-- 启动屏幕图片 -->
 <link rel="apple-touch-startup-image" href="/path/to/launch.png">
 
-<!-- Launch Icon Title -->
-<meta name="apple-mobile-web-app-title" content="App Title">
+<!-- 启动图标的标题 -->
+<meta name="apple-mobile-web-app-title" content="应用标题">
 
-<!-- Enable standalone (full-screen) mode -->
+<!-- 启用独立（全屏）模式 -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
+<!-- 状态栏外观（除非启用独立模式，否则无效） -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<!-- iOS app deep linking -->
+<!-- iOS 应用深层链接 -->
 <meta name="apple-itunes-app" content="app-id=APP-ID, app-argument=http/url-sample.com">
 <link rel="alternate" href="ios-app://APP-ID/http/url-sample.com">
 ```
 
-- 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+- 📖 [配置 Web 应用程序](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
 ### Google Android
 
 ```html
 <meta name="theme-color" content="#E64545">
 
-<!-- Add to home screen -->
+<!-- 添加到主屏幕 -->
 <meta name="mobile-web-app-capable" content="yes">
-<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
-
-<!-- Android app deep linking -->
-<meta name="google-play-app" content="app-id=package-name">
-<link rel="alternate" href="android-app://package-name/http/url-sample.com">
+<!-- 更多信息：https://developer.chrome.com/multidevice/android/installtohomescreen -->
 ```
 
 ### Google Chrome
@@ -449,95 +391,91 @@ Users share web pages to qq wechat will have a formatted message
 ```html
 <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
 
-<!-- Disable translation prompt -->
+<!-- 禁用翻译提示 -->
 <meta name="google" content="notranslate">
 ```
 
 ### Microsoft Internet Explorer
 
 ```html
-<!-- Force IE 8/9/10 to use its latest rendering engine -->
+<!-- 强制 IE 8/9/10 使用其最新的渲染引擎 -->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<!-- Disable automatic detection and formatting of possible phone numbers by Skype Toolbar browser extension -->
+<!-- 通过 Skype Toolbar 浏览器扩展功能禁用自动检测和格式化可能的电话号码 -->
 <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 
-<!-- Windows Tiles -->
+<!-- Windows 磁贴 -->
 <meta name="msapplication-config" content="/browserconfig.xml">
 ```
 
-Minimum required xml markup for `browserconfig.xml`:
+最低要求的的 `browserconfig.xml` 配置：
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
-   <msapplication>
-     <tile>
-        <square70x70logo src="small.png"/>
-        <square150x150logo src="medium.png"/>
-        <wide310x150logo src="wide.png"/>
-        <square310x310logo src="large.png"/>
-     </tile>
-   </msapplication>
+  <msapplication>
+    <tile>
+      <square70x70logo src="small.png"/>
+      <square150x150logo src="medium.png"/>
+      <wide310x150logo src="wide.png"/>
+      <square310x310logo src="large.png"/>
+    </tile>
+  </msapplication>
 </browserconfig>
 ```
 
-- 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426.aspx)
+- 📖 [浏览器配置模式参考](https://msdn.microsoft.com/en-us/library/dn320426.aspx)
 
-**[⬆ back to top](#table-of-contents)**
+## 国内的浏览器
 
-## Browsers (Chinese)
-
-### 360 Browser
+### 360 浏览器
 
 ```html
-<!-- Select rendering engine order -->
+<!-- 选择渲染引擎 -->
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 ```
 
-### QQ Mobile Browser
+### QQ 移动浏览器
 
 ```html
-<!-- Locks the screen into the specified orientation -->
+<!-- 在指定方向上锁定屏幕（锁定横/竖屏） -->
 <meta name="x5-orientation" content="landscape/portrait">
-
-<!-- Display this document in fullscreen -->
+<!-- 全屏显示此页面 -->
 <meta name="x5-fullscreen" content="true">
-
-<!-- Document will be displayed in "application mode" (fullscreen, etc.) -->
+<!-- 页面将以“应用模式”显示（全屏等）-->
 <meta name="x5-page-mode" content="app">
 ```
 
-### UC Mobile Browser
+### UC 移动浏览器
 
 ```html
-<!-- Locks the screen into the specified orientation -->
+<!-- 在指定方向上锁定屏幕（锁定横/竖屏） -->
 <meta name="screen-orientation" content="landscape/portrait">
 
-<!-- Display this document in fullscreen -->
+<!-- 全屏显示此页面 -->
 <meta name="full-screen" content="yes">
 
-<!-- UC browser will display images even if in "text mode" -->
+<!-- 即使在“文本模式”下，UC 浏览器也会显示图片 -->
 <meta name="imagemode" content="force">
 
-<!-- Document will be displayed in "application mode"(fullscreen, forbidding gesture, etc.) -->
+<!-- 页面将以“应用模式”显示（全屏、禁止手势等） -->
 <meta name="browsermode" content="application">
 
-<!-- Disabled the UC browser's "night mode" for this document -->
+<!-- 在此页面禁用 UC 浏览器的“夜间模式” -->
 <meta name="nightmode" content="disable">
 
-<!-- Simplify the document to reduce data transfer -->
+<!-- 简化页面，减少数据传输 -->
 <meta name="layoutmode" content="fitscreen">
 
-<!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
+<!-- 禁用的 UC 浏览器的功能，“当此页面中有较多文本时缩放字体” -->
 <meta name="wap-font-scale" content="no">
 ```
 
-- 📖 [UC Browser Docs](https://www.uc.cn/download/UCBrowser_U3_API.doc)
+- 📖 [UC 浏览器文档](https://www.uc.cn/download/UCBrowser_U3_API.doc)
 
-**[⬆ back to top](#table-of-contents)**
 
-## App Links
+
+## 应用链接
 
 ```html
 <!-- iOS -->
@@ -550,103 +488,20 @@ Minimum required xml markup for `browserconfig.xml`:
 <meta property="al:android:app_name" content="App Links">
 <meta property="al:android:package" content="org.applinks">
 
-<!-- Web fall back -->
+<!-- 页面回退 -->
 <meta property="al:web:url" content="https://applinks.org/documentation">
 ```
 
-- 📖 [App Links](https://developers.facebook.com/docs/applinks)
+- 📖 [应用链接文档](https://developers.facebook.com/docs/applinks)
 
-**[⬆ back to top](#table-of-contents)**
+## 其他资源
 
-## Other Resources
+- 📖 [HTML5 样板文档：HTML 标签](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
+- 📖 [HTML5 样板文档：扩展和定制](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
 
-- 📖 [HTML5 Boilerplate Docs: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
-- 📖 [HTML5 Boilerplate Docs: Extend and customize](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
+## 相关项目
 
-**[⬆ back to top](#table-of-contents)**
-
-## Related Projects
-
-- [Atom HTML Head Snippets](https://github.com/joshbuchea/atom-html-head-snippets) - Atom package for `HEAD` snippets
-- [Sublime Text HTML Head Snippets](https://github.com/marcobiedermann/sublime-head-snippets) - Sublime Text package for `HEAD` snippets
-- [head-it](https://github.com/hemanth/head-it) - CLI interface for `HEAD` snippets
-- [vue-head](https://github.com/ktquez/vue-head) - Manipulating the meta information of the `HEAD` tag for Vue.js
-
-**[⬆ back to top](#table-of-contents)**
-
-## Other Formats
-
-- 📄 [PDF](https://gitprint.com/joshbuchea/HEAD/blob/master/README.md)
-
-**[⬆ back to top](#table-of-contents)**
-
-## 🌐 Translations
-
-- 🇮🇩 [Bahasa](https://github.com/rijdz/HEAD)
-- 🇧🇷 [Brazilian Portuguese](https://github.com/Webschool-io/HEAD)
-- 🇨🇳 [Chinese (Simplified)](https://github.com/Amery2010/HEAD)
-- 🇩🇪 [German](https://github.com/Shidigital/HEAD)
-- 🇮🇹 [Italian](https://github.com/Fakkio/HEAD)
-- 🇯🇵 [Japanese](https://coliss.com/articles/build-websites/operation/work/collection-of-html-head-elements.html)
-- 🇰🇷 [Korean](https://github.com/Lutece/HEAD)
-- 🇷🇺 [Russian/Русский](https://github.com/Konfuze/HEAD)
-- 🇪🇸 [Spanish](https://github.com/alvaroadlf/HEAD)
-- 🇹🇷 [Turkish/Türkçe](https://github.com/mkg0/HEAD)
-
-**[⬆ back to top](#table-of-contents)**
-
-## 🤝 Contributing
-
-**Open an issue or a pull request to suggest changes or additions.**
-
-### Guide
-
-The **HEAD** repository consists of two branches:
-
-#### 1. `master`
-
-This branch consists of the `README.md` file that is reflected on the [htmlhead.dev](https://htmlhead.dev/) website. All changes to the content of the guide should be made in this file.
-
-Please follow these steps for pull requests:
-
-{:.list-style-default}
-- Modify only one tag, or one related set of tags at a time
-- Use double quotes on attributes
-- Don't include a trailing slash in self-closing elements — the HTML5 spec says they're optional
-- Consider including a link to documentation that supports your change
-
-#### 2. `gh-pages`
-
-This branch is responsible for the [htmlhead.dev](https://htmlhead.dev/) website. We use [Jekyll](https://jekyllrb.com/) to deploy the `README.md` markdown file to [GitHub Pages](https://pages.github.com/). All website related modifications should be made in this branch.
-
-You may find it helpful to review the [Jekyll Docs](https://jekyllrb.com/docs/home/) and understand how Jekyll works before working in this branch.
-
-## 🌟 Contributors
-
-Check out all the super awesome [contributors](https://github.com/joshbuchea/HEAD/graphs/contributors) 🤩
-
-## 👤 Author
-
-**Josh Buchea**
-
-- GitHub: [@joshbuchea](https://github.com/joshbuchea)
-- Twitter: [@joshbuchea](https://twitter.com/joshbuchea)
-
-## 💛 Support
-
-If this project was helpful for you or your organization, please considering supporting my work directly:
-
-- 💛 [Sponsor me on GitHub](https://github.com/sponsors/joshbuchea)
-- ⭐️ [Star this project on GitHub](https://github.com/joshbuchea/HEAD)
-- 🐙 [Follow me on GitHub](https://github.com/joshbuchea)
-- 🐦 [Follow me on Twitter](https://twitter.com/joshbuchea)
-
-Everything helps, thanks! 🙏
-
-— Josh
-
-## 📝 License
-
-[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-**[⬆ back to top](#table-of-contents)**
+- [Atom HTML Head 片段](https://github.com/joshbuchea/atom-html-head-snippets) - Atom `HEAD` 片段包
+- [Sublime Text HTML Head 片段](https://github.com/marcobiedermann/sublime-head-snippets) - Sublime Text `HEAD` 片段包
+- [head-it](https://github.com/hemanth/head-it) - `HEAD` 片段的 CLI 接口
+- [vue-head](https://github.com/ktquez/vue-head) - 在 Vue.js 中操作 `HEAD` 标签的 meta 信息
