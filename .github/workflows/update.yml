@@ -14,6 +14,7 @@ jobs:
         SSH_PRIVATE_KEY: ${{secrets.MASTER_DEPLOY_KEY}}
       run:
         mkdir -p ~/.ssh/
+        echo "$SSH_PRIVATE_KEY"
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chomd 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
