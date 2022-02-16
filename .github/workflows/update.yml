@@ -21,6 +21,8 @@ jobs:
         git config --global user.email "lizhicheng26@outlook.com"
         git config --global user.name "chick26"
     - name: Sync Docs of Master
+      env:
+        GITHUB_TOKEN: ${{secrets.NOTE_TOKEN}}
       run: |
         cd /tmp
         git clone https://github.com/chick26/Note_Backup.git Note_master
@@ -35,12 +37,7 @@ jobs:
         cd Note_master/docs
         rm -rf ./docs
         cd ..
-    - name: Git Commit and Push w/ Force Push
-      uses: dciborow/commit@0.0.1
-      with:
-        github-token: ${{secrets.NOTE_TOKEN}}
-        push-branch: 'master'
-        force-add: 'true'
-        force-push: 'true'
-        name: 'chick26'
-        email: 'lizhicheng26@outlook.com'
+        git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
+        
+        
+
