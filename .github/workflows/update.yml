@@ -35,6 +35,7 @@ jobs:
         cd Note_master/docs
         rm -rf ./docs
         cd ..
-        git add .
-        git commit -m "update"
-        git push origin master --force
+        git config -list
+        # git add .
+        # git commit -m "update"
+        # git push origin master --force
