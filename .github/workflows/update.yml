@@ -37,6 +37,8 @@ jobs:
         cd Note_master/docs
         rm -rf ./docs
         cd ..
+        git add .
+        git commit -m "update"
         git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
         
         
