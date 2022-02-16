@@ -7,7 +7,7 @@ on:
     - writing
 jobs:
   sync:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Setup Deploy Private Key
       env:
