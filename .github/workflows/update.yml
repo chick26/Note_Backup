@@ -15,9 +15,9 @@ jobs:
       run: |
         mkdir -p ~/.ssh/
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chomd 600 ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
-        chomd 700 ~/.ssh && chmod 600 ~/.ssh/*
+        chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
         git config --global user.email "lizhicheng26@outlook.com"
         git config --global user.name "chick26"
     - name: Sync Docs of Master
