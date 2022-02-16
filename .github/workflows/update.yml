@@ -35,7 +35,12 @@ jobs:
         cd Note_master/docs
         rm -rf ./docs
         cd ..
-        git config --list
-        # git add .
-        # git commit -m "update"
-        # git push origin master --force
+    - name: Git Commit and Push w/ Force Push
+      uses: dciborow/commit@0.0.1
+      with:
+        github-token: ${{secrets.NOTE_TOKEN}}
+        push-branch: 'master'
+        force-add: 'true'
+        force-push: 'true'
+        name: 'chick26'
+        email: 'lizhicheng26@outlook.com'
