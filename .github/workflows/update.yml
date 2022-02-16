@@ -35,11 +35,12 @@ jobs:
         cp -r  ./Note_writing/docs ./Note_master/docs
         cp -r  ./Note_writing/* ./Note_master/docs
         cd Note_master/docs
-        rm -rf ./docs
-        cd ..
-        git add .
-        git commit -m "update"
-        git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
+        ls
+        # rm -rf ./docs
+        # cd ..
+        # git add .
+        # git commit -m "update"
+        # git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
         
         
 
