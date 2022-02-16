@@ -35,5 +35,6 @@ jobs:
         cd Note_master/docs
         rm -rf ./docs
         cd ..
+        cd ..
         ls
         # git push origin master --force
