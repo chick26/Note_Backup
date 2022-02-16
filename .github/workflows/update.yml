@@ -32,7 +32,7 @@ jobs:
         git checkout writing
         cd ..
         mkdir -p ./Note_master/docs
-        cp -r  ./Note_writing/docs ./Note_master/docs
+        cp -r  ./Note_writing/docs/* ./Note_master/docs
         cp -r  ./Note_writing/* ./Note_master/docs
         cd Note_master/docs
         ls
