@@ -35,6 +35,5 @@ jobs:
         cd Note_master/docs
         rm -rf ./docs
         cd ..
-        git config --global user.email "lizhicheng26@outlook.com"
-        git config --global user.name "chick26"
-        git push origin master --force
+        ls
+        # git push origin master --force
