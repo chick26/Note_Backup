@@ -34,4 +34,5 @@ jobs:
         cp -r  ./Note_writing/* ./Note_master/docs
         cd Note_master/docs
         rm -rf ./docs
+        cd ..
         git push origin master --force
