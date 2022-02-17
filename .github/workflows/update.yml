@@ -1,0 +1,45 @@
+# This is a basic workflow to help you get started with Actions
+
+name: setup page
+on:
+  push:
+    branches:
+    - writing
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup Deploy Private Key
+      env:
+        SSH_PRIVATE_KEY: ${{secrets.MASTER_DEPLOY_KEY}}
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
+        git config --global user.email "lizhicheng26@outlook.com"
+        git config --global user.name "chick26"
+    - name: Sync Docs of Master
+      env:
+        GITHUB_TOKEN: ${{secrets.NOTE_TOKEN}}
+      run: |
+        cd /tmp
+        git clone https://github.com/chick26/Note_Backup.git Note_master
+        git clone https://github.com/chick26/Note_Backup.git Note_writing
+        mkdir temp && mv ./Note_master/.git ./temp && rm -rf ./Note_master && mkdir Note_master && mv ./temp/.git ./Note_master
+        cd Note_writing
+        git checkout writing
+        cd ..
+        mkdir -p ./Note_master/docs
+        cp -r  ./Note_writing/docs/* ./Note_master/docs
+        cp -r  ./Note_writing/* ./Note_master/docs
+        cd Note_master/docs
+        rm -rf ./docs
+        cd ..
+        git add .
+        git commit -m "update"
+        git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
+        
+        
+
