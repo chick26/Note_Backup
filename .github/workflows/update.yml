@@ -30,17 +30,18 @@ jobs:
         mkdir temp && mv ./Note_master/.git ./temp && rm -rf ./Note_master && mkdir Note_master && mv ./temp/.git ./Note_master
         cd Note_writing
         git checkout writing
-        cd ..
-        mkdir -p ./Note_master/docs
-        cp -r  ./Note_writing/docs/* ./Note_master/docs
-        cp -r  ./Note_writing/🛖 Learning Repo｜学习仓库/* ./Note_master/docs
-        cd Note_master/docs
-        rm -rf ./docs
-        ./sidebar.sh
-        cd ..
-        git add .
-        git commit -m "update"
-        git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
+        ls
+        # cd ..
+        # mkdir -p ./Note_master/docs
+        # cp -r  ./Note_writing/docs/* ./Note_master/docs
+        # cp -r  ./Note_writing/🛖 Learning Repo｜学习仓库/* ./Note_master/docs
+        # cd Note_master/docs
+        # rm -rf ./docs
+        # ./sidebar.sh
+        # cd ..
+        # git add .
+        # git commit -m "update"
+        # git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
         
         
 
