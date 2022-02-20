@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+          fetch-depth: 0
  
       # 同步到 gitee 的仓库
       - name: Sync to Gitee
