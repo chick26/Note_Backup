@@ -30,7 +30,7 @@ jobs:
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
         with:
-          gitee-username: chick.lee
+          gitee-username: lizhicheng26@outlook.com
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           gitee-repo: chick-lee/chick-obsidian-repo
           branch: master
