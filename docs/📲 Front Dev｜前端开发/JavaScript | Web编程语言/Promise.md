@@ -84,8 +84,6 @@ Promise.all(promises)
 
 下图说明`Promise.all()`是如何工作的
 
-![这需要有数字电路的知识才能看得懂哦](assets/1645167317-19e9f2bef7991e1b6647c92182c81d45.webp "这需要有数字电路的知识才能看得懂哦")
-
 #### 4.1 异步 .map() 与 Promise.all()
 
 数组转换方法，如`.map()`、`.filter()`等，用于同步计算。例如
