@@ -34,3 +34,4 @@ jobs:
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           gitee-repo: chick-lee/chick-obsidian-repo
           branch: master
+          directory: docs
