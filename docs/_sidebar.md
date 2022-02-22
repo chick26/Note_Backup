@@ -23,6 +23,6 @@
     * [Web Browsers](📲%20Front%20Dev｜前端开发/Internet｜网络/Web%20Browsers.md)
     * [Web Hosting](📲%20Front%20Dev｜前端开发/Internet｜网络/Web%20Hosting.md)
   * JavaScript | Web编程语言
-    * [Promise](📲%20Front%20Dev｜前端开发/JavaScript%20|%20Web编程语言/Promise.md)
+    * [Promise 常用方法](📲%20Front%20Dev｜前端开发/JavaScript%20|%20Web编程语言/Promise%20常用方法.md)
   * Test Tool｜测试
     * [Charles | 抓包工具](📲%20Front%20Dev｜前端开发/Test%20Tool｜测试/Charles%20|%20抓包工具.md)
