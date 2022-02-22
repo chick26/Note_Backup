@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise.md"
               }
             }
           },
@@ -138,8 +138,8 @@
   },
   "active": "225690da8ec24173",
   "lastOpenFiles": [
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
     "docs/README.md",
     "docs/_sidebar.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
