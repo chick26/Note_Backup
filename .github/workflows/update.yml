@@ -36,9 +36,10 @@ jobs:
         cp -r  ./Note_writing/"🛖 Learning Repo｜学习仓库"/* ./Note_master/docs
         cd Note_master/docs
         rm -rf ./docs
-        ./sidebar.sh`
+        ./sidebar.sh
         cd ..
-        ls;pwd
+        ls
+        pwd
         git add .
         git diff --exit-code
         # git commit -m "update"
