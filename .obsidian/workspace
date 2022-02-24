@@ -7,9 +7,11 @@
         "id": "225690da8ec24173",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "⏰ Weekly Work | 任务仓库/前端开发.md"
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -51,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⏰ Weekly Work | 任务仓库/前端开发.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⏰ Weekly Work | 任务仓库/前端开发.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⏰ Weekly Work | 任务仓库/前端开发.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
               }
             }
           },
@@ -133,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "active": "225690da8ec24173",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
     "⏰ Weekly Work | 任务仓库/前端开发.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
     "docs/README.md",
     "docs/_sidebar.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md"
   ]
 }
