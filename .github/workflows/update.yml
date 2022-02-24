@@ -39,7 +39,4 @@ jobs:
         ./sidebar.sh
         cd ..
         git add .
-        git diff --exit-code || git commit -m "update" || git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
-        
-        
-
+        git diff --exit-code || (git commit -m "update" && git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git)
