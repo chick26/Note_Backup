@@ -38,8 +38,5 @@ jobs:
         rm -rf ./docs
         ./sidebar.sh
         cd ..
-        git diff --exit-code
         git add .
-        git diff --exit-code
-        # git commit -m "update"
-        # git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git
+        git diff --staged --exit-code || (git commit -m "update"; git push https://$GITHUB_TOKEN@github.com/chick26/Note_Backup.git)
