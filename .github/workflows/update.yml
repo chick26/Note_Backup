@@ -38,8 +38,7 @@ jobs:
         rm -rf ./docs
         ./sidebar.sh
         cd ..
-        ls
-        pwd
+        git diff --exit-code
         git add .
         git diff --exit-code
         # git commit -m "update"
