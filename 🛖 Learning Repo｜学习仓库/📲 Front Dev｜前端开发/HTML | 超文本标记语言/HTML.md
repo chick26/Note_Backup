@@ -2,6 +2,7 @@
 
 > **注意:**  [[HTML-HEAD|HEAD列表]]中 找到HTML文档`<head>`标签内所有可配置的属性。
 
+#HTML
 # Meta 标签
 
 ## Doctype（文档类型） 
