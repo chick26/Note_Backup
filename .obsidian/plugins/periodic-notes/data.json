@@ -5,8 +5,8 @@
   "daily": {
     "format": "",
     "template": "🧳 Template｜模板库/Daily-Note.md",
-    "folder": "📜  Daily Note | 日常记录",
-    "enabled": true
+    "folder": "📜 Daily Note | 日常记录",
+    "enabled": false
   },
   "weekly": {
     "format": "",

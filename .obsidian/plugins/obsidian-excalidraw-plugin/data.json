@@ -3,6 +3,7 @@
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "🎨 Excalidraw｜画板仓库/Template.excalidraw",
   "scriptFolderPath": "🎨 Excalidraw｜画板仓库/Scripts",
+  "compress": false,
   "autosave": true,
   "autosaveInterval": 30000,
   "drawingFilenamePrefix": "Img_Note ",
@@ -20,6 +21,7 @@
   "linkPrefix": "",
   "urlPrefix": "🌐",
   "hoverPreviewWithoutCTRL": false,
+  "linkOpacity": 1,
   "openInAdjacentPane": true,
   "showLinkBrackets": false,
   "allowCtrlClick": true,
@@ -35,6 +37,7 @@
   "autoexportPNG": false,
   "autoexportExcalidraw": false,
   "embedType": "excalidraw",
+  "embedWikiLink": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
   "experimentalFileTag": "✏️",
@@ -269,5 +272,6 @@
   "mdFont": "Virgil",
   "mdFontColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {}
+  "scriptEngineSettings": {},
+  "defaultTrayMode": false
 }
