@@ -5,7 +5,7 @@ let titleName = input
 -%>
 
 ---
-title: <% tp.file.title %>
+title: <% (await tp.file.create_new(templateName, titleName , false)).basename %>
 creation date: <% tp.file.creation_date() %> 
 modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags:
