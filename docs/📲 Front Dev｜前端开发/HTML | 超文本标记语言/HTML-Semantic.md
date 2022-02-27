@@ -1,5 +1,11 @@
+---
+title: "HTML"
+date: 2022-01-24 14:41
+tags:
+- HTML
+- HTML/Semantic
+---
 # 什么是语义元素？
-#HTML/Semantic
 
 **非语义**元素的例子：`<div>`和`<span>`- 没有说明它的内容。
 **语义**元素示例： `<form>`、`<table>`和`<article>`- 明确定义其内容。

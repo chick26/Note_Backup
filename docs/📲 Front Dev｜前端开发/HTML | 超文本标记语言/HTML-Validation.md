@@ -1,5 +1,10 @@
-#HTML/FormValidation
-
+---
+title: "HTML"
+date: 2022-01-24 14:41
+tags:
+- HTML
+- HTML/FormValidation
+---
 ## 不同类型的表单数据校验
 
 在 Web 中，你可能会遇见各种不同的表单校验：
