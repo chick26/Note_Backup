@@ -1,10 +1,15 @@
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202202081640459.png)
+---
+title: "DNS"
+date: 2022-01-24 14:41
+tags:
+- Internet
+- Internet/DNS
+---
 
 >域名系统 (DNS) 是互联网的电话簿。人们通过例如 nytimes.com 或 espn.com 等域名在线访问信息。Web 浏览器通过 [[IP|互联网协议]]（IP） 地址进行交互。DNS 将域名转换为 IP 地址，以便浏览器能够加载互联网资源。
 >
 >连接到 Internet 的每个设备都有一个唯一 IP 地址，其他计算机可使用该 IP 地址查找此设备。DNS 服务器使人们无需存储例如 192.168.1.1（IPv4 中）等 IP 地址或更复杂的较新字母数字 IP 地址，例如 2400:cb00:2048:1::c629:d7a2（IPv6 中）。
 
-#Internet/DNS
 ## DNS 如何工作？
 
 DNS 解析过程涉及将主机名（例如 `www.example.com` 转换为计算机友好的 IP 地址（例如 192.168.1.1）。Internet 上的每个设备都被分配了一个 IP 地址，必须有该地址才能找到相应的 Internet 设备 - 就像使用街道地址来查找特定住所一样。当用户想要加载网页时，用户在 Web 浏览器中键入的内容（example.com）与查找 example.com 网页所需的机器友好地址之间必须进行转换。

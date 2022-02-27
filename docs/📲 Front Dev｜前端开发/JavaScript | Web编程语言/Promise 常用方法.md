@@ -1,4 +1,11 @@
-#JavaScript/Promise
+---
+title: "Promise 常用方法"
+date: 2022-01-24 14:41
+tags:
+- JavaScript
+- JavaScript/Promise
+---
+
 # Promise 中的三兄弟 .all(), .race(), .allSettled()
 
 从ES6 开始，我们大都使用的是 `Promise.all()`和`Promise.race()`，`Promise.allSettled()` 提案已经到第4阶段，因此将会成为`ECMAScript 2020`的一部分。
