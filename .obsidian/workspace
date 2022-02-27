@@ -4,10 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "8c4bea95c20dc05b",
+        "id": "df665bbfdf476ca4",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "memos_view",
           "state": {}
         }
       }
@@ -129,8 +129,9 @@
     "width": 238.5,
     "collapsed": true
   },
-  "active": "8c4bea95c20dc05b",
+  "active": "df665bbfdf476ca4",
   "lastOpenFiles": [
+    "⏰ Weekly Work | 任务仓库/前端开发.md",
     "📜 Daily Note | 日常记录/delete.md",
     "📜 Daily Note | 日常记录/2022-02-26.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
@@ -139,7 +140,6 @@
     "2022-02-26.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
   ]
 }
