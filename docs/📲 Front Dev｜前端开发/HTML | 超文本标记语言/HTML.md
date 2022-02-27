@@ -1,3 +1,10 @@
+---
+title: "HTML"
+date: 2021-10-17 15:56
+tags:
+- obsidian
+- frontmatter
+---
 # Head
 
 > **注意:**  [[HTML-HEAD|HEAD列表]]中 找到HTML文档`<head>`标签内所有可配置的属性。
