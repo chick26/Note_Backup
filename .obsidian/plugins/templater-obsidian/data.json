@@ -1,12 +1,7 @@
 {
   "command_timeout": 5,
   "templates_folder": "🧳 Template｜模板库",
-  "templates_pairs": [
-    [
-      "Date",
-      "<%*\nlet today = tp.date.now(\"YYYY-MM-DD\")\nlet inputDate = await tp.system.prompt(\"输入示例：\"+ today,today)\ntitleName = window.moment(inputDate, \"YYYY-MM-DD\", true).format(\"YYYY-MM-DD_ddd\")\n\nbefore_date = window.moment(inputDate, \"YYYY-MM-DD\", true).add(-1,\"days\").format(\"YYYY-MM-DD_ddd\")\n\nafter_date = window.moment(inputDate, \"YYYY-MM-DD\", true).add(1,\"days\").format(\"YYYY-MM-DD_ddd\")\n\nlet createTime = tp.file.creation_date()\nlet modificationDate = tp.file.last_modified_date(\"dddd Do MMMM YYYY HH:mm:ss\")\n-%>"
-    ]
-  ],
+  "templates_pairs": [],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
@@ -24,7 +19,7 @@
     },
     {
       "folder": "/",
-      "template": ""
+      "template": "🧳 Template｜模板库/Learning-Note.md"
     }
   ],
   "syntax_highlighting": true,

@@ -1,15 +1,13 @@
 ---
 title: "HTML"
-date: 2021-10-17 15:56
+date: 2022-01-24 14:41
 tags:
-- obsidian
-- frontmatter
+- HTML
 ---
 # Head
 
 > **注意:**  [[HTML-HEAD|HEAD列表]]中 找到HTML文档`<head>`标签内所有可配置的属性。
 
-#HTML
 # Meta 标签
 
 ## Doctype（文档类型） 

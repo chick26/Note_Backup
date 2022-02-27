@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "03fb85a845b5f464",
+        "id": "f53daa4e0484ce1a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "HTML",
+                "query": "tag:#HTML",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
               }
             }
           },
@@ -130,24 +131,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 238.5,
     "collapsed": true
   },
-  "active": "03fb85a845b5f464",
+  "active": "f53daa4e0484ce1a",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+    "🧳 Template｜模板库/Learning-Note.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
     "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "📜 Daily Note | 日常记录/2022-02-27.md",
-    "📜 Daily Note | 日常记录/delete.md",
-    "⏰ Weekly Work | 任务仓库/前端开发.md",
-    "📜 Daily Note | 日常记录/2022-02-26.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
-    "📜 Daily Note | 日常记录/2022-02-01.md",
-    "📜 Daily Note | 日常记录/🎽 Daily Training.md",
-    "2022-02-26.md"
+    "🧳 Template｜模板库/Mind-Note.md",
+    "🧳 Template｜模板库/Daily-Note.md",
+    "🧳 Template｜模板库/Book-Note.md"
   ]
 }

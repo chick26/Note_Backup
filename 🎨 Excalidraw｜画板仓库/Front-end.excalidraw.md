@@ -33,7 +33,7 @@ Internet ^PTtyYUVi
 
 [[HTML_Semantic|Writing the Semantic HTML]] ^Bcdb6d9S
 
-Conventions and Best Practices ^jNDfg4cr
+[[Conventions and Best Practices]] ^jNDfg4cr
 
 Accessibility ^yrAcvuzq
 
@@ -1407,7 +1407,7 @@ CSS Grid
 			"y": -606.0911849200714,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 95,
+			"width": 94,
 			"height": 9,
 			"seed": 1364114221,
 			"groupIds": [
@@ -1496,7 +1496,7 @@ CSS Grid
 			"y": -635.1878646075714,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 113,
+			"width": 112,
 			"height": 9,
 			"seed": 201669805,
 			"groupIds": [
@@ -1527,8 +1527,8 @@ CSS Grid
 		},
 		{
 			"type": "rectangle",
-			"version": 1914,
-			"versionNonce": 715550086,
+			"version": 1915,
+			"versionNonce": 2072286124,
 			"isDeleted": false,
 			"id": "SXQNsB1sJtD5Thz0ySPxv",
 			"fillStyle": "solid",
@@ -1538,7 +1538,7 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -286.1881782601498,
-			"y": -583.5261528501347,
+			"y": -583.4644752185558,
 			"strokeColor": "#000000",
 			"backgroundColor": "#f8e6a2",
 			"width": 151.69466145833334,
@@ -1562,13 +1562,13 @@ CSS Grid
 					"type": "arrow"
 				}
 			],
-			"updated": 1644561724491,
+			"updated": 1645931977320,
 			"link": ""
 		},
 		{
 			"type": "text",
-			"version": 2193,
-			"versionNonce": 1763974918,
+			"version": 2200,
+			"versionNonce": 722529812,
 			"isDeleted": false,
 			"id": "jNDfg4cr",
 			"fillStyle": "solid",
@@ -1578,10 +1578,10 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -275.77164810221973,
-			"y": -577.6351302325714,
+			"y": -577.5734526009925,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 135,
+			"width": 136,
 			"height": 9,
 			"seed": 62407043,
 			"groupIds": [
@@ -1598,12 +1598,12 @@ CSS Grid
 					"type": "arrow"
 				}
 			],
-			"updated": 1644550932338,
-			"link": null,
+			"updated": 1645931988159,
+			"link": "[[Conventions and Best Practices]]",
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "Conventions and Best Practices",
-			"rawText": "Conventions and Best Practices",
+			"rawText": "[[Conventions and Best Practices]]",
 			"baseline": 7,
 			"textAlign": "left",
 			"verticalAlign": "top",
@@ -1708,8 +1708,8 @@ CSS Grid
 		},
 		{
 			"type": "arrow",
-			"version": 152,
-			"versionNonce": 1833774362,
+			"version": 154,
+			"versionNonce": 864894508,
 			"isDeleted": false,
 			"id": "3XVpA_ItaAk9JJ2lEgP1O",
 			"fillStyle": "solid",
@@ -1719,16 +1719,16 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -88.95803503098318,
-			"y": -607.9491363386977,
+			"y": -607.9676661449616,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fa5252",
 			"width": 38.744140625,
-			"height": 29.289328561172283,
+			"height": 29.34351794932786,
 			"seed": 1410356483,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1644550830295,
+			"updated": 1645931977321,
 			"link": null,
 			"startBinding": {
 				"elementId": "prHiKwp7Bb3a_Enu7cMmK",
@@ -1750,7 +1750,7 @@ CSS Grid
 				],
 				[
 					-38.744140625,
-					29.289328561172283
+					29.34351794932786
 				]
 			]
 		},
@@ -2758,7 +2758,8 @@ CSS Grid
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": null,
 		"currentItemLinearStrokeSharpness": "round",
-		"gridSize": null
+		"gridSize": null,
+		"colorPalette": {}
 	},
 	"files": {}
 }
