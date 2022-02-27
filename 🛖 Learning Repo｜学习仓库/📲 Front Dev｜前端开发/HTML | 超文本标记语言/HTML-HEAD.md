@@ -3,13 +3,12 @@ title: "HTML"
 date: 2022-01-24 14:41
 tags:
 - HTML
-- T
+- HTML/TAG
 ---
 # 🤯 HEAD
 
 > HTML `<head>` 元素的简单指南
 
-#HTML/TAG
 ## 最小推荐
 
 以下是构成任何 Web 页面（网站/应用程序）的基本要素：
