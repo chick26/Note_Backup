@@ -20,6 +20,14 @@
     {
       "folder": "📓 Reading | 读书笔记",
       "template": "🧳 Template｜模板库/Templates/Book-Note.md"
+    },
+    {
+      "folder": "🛖 Learning Repo｜学习仓库",
+      "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
+    },
+    {
+      "folder": "🎨 Excalidraw｜画板仓库",
+      "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
     }
   ],
   "syntax_highlighting": true,
