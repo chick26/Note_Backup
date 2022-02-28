@@ -18,8 +18,12 @@
       "template": "🧳 Template｜模板库/Daily-Note.md"
     },
     {
-      "folder": "/",
+      "folder": "🛖 Learning Repo｜学习仓库",
       "template": "🧳 Template｜模板库/Learning-Note.md"
+    },
+    {
+      "folder": "📓 Reading | 读书笔记",
+      "template": "🧳 Template｜模板库/Book-Note.md"
     }
   ],
   "syntax_highlighting": true,

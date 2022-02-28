@@ -1,25 +1,17 @@
+<%*
+let input = await tp.system.prompt("输入书名：")
+titleName = input
+await tp.file.rename(titleName)
+-%>
+
 ---
-created: ["{{date}} {{time}}"]
-aliases: ["Book: {{title}}", "Writer:",]
-tags: ["#booktype/", "#bookgenre/", "#booktheme/"]
+started on: <% tp.file.creation_date() %> 
+completed on:
+aliases: 
+- Book: 
+- Writer: 
+tags: 
+- booktype/
+- bookgenre/ 
+- booktheme/
 ---
-___
-Started Reading on: {{date: DD-MM-YYYY}}
-Completed on:
-Perched on:
-___
-## Impressions
-### How I Discovered It ?
--
-### Who Should Read It?
--
-
-## How the Book Changed Me
-How my life / behavior / thoughts / ideas have changed as a result of reading the book.
-
-## My Top 3 Quotes
-1.
-2.
-3.
-
-## Summary + Notes
