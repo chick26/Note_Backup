@@ -4,23 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "73fbae57dd9510a4",
+        "id": "655a5051298f8871",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🧳 Template｜模板库/Metting-work.md",
+            "file": "🧳 Template｜模板库/Script/Learning-Note-Script.md",
             "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "4e8affa74fa43680",
-        "type": "leaf",
-        "state": {
-          "type": "memos_view",
-          "state": {}
         }
       }
     ],
@@ -77,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🧳 Template｜模板库/Script/Learning-Note-Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🧳 Template｜模板库/Script/Learning-Note-Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🧳 Template｜模板库/Script/Learning-Note-Script.md"
+              }
             }
           },
           {
@@ -141,17 +137,17 @@
     "width": 238.5,
     "collapsed": true
   },
-  "active": "4e8affa74fa43680",
+  "active": "655a5051298f8871",
   "lastOpenFiles": [
-    "🧳 Template｜模板库/Metting-work.md",
-    "🧳 Template｜模板库/Book-Note.md",
+    "🧳 Template｜模板库/Script/Learning-Note-Script.md",
+    "Untitled.md",
+    "123.md",
     "🧳 Template｜模板库/Learning-Note.md",
+    "🧳 Template｜模板库/Metting-work.md",
+    "2022-02-28 - 123 1.md",
+    "2022-02-28 - 123.md",
+    "🧳 Template｜模板库/Book-Note.md",
     "1.md",
-    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
-    "🧳 Template｜模板库/Mind-Note.md",
-    "🧳 Template｜模板库/Daily-Note.md",
-    "⏰ Weekly Work | 任务仓库/前端开发.md",
-    "📜 Daily Note | 日常记录/2022-02-27.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
   ]
 }
