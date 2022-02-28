@@ -1,6 +1,7 @@
-📆 <% tp.date.now("") %>
+---
+📆 <% tp.date.now("Do MMMM YYYY") %>
 <% tp.user.weather() %>
-___
+---
 
 # TARGETS
 - [ ] target 1
