@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "02a8161107515f75",
+        "id": "844f317b0da16afd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜 Daily Note | 日常记录/2022-02-28.md",
+            "file": "🧳 Template｜模板库/Templates/Daily-Note.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#JavaScript",
+                "query": "tag:#<%tp.file.cursor(1)%>",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-02-28.md",
+                "file": "🧳 Template｜模板库/Templates/Daily-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-02-28.md",
+                "file": "🧳 Template｜模板库/Templates/Daily-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-02-28.md"
+                "file": "🧳 Template｜模板库/Templates/Daily-Note.md"
               }
             }
           },
@@ -134,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
-  "active": "02a8161107515f75",
+  "active": "844f317b0da16afd",
   "lastOpenFiles": [
-    "📜 Daily Note | 日常记录/2022-02-28.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "🎨 Excalidraw｜画板仓库/Conventions and Best Practices.md",
+    "🧳 Template｜模板库/Templates/Daily-Note.md",
     "🧳 Template｜模板库/Templates/Learning-Note.md",
-    "🧳 Template｜模板库/Templates/Mind-Note.md",
+    "📜 Daily Note | 日常记录/2022-02-28.md",
+    "Untitled.md",
     "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
-    "123.md",
-    "🧳 Template｜模板库/Templates/Book-Note.md",
-    "Demo.md",
-    "🧳 Template｜模板库/Templates/Metting-work.md"
+    "🧳 Template｜模板库/Templates/Mind-Note.md",
+    "docs/README.md",
+    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+    "组件库搭建.md",
+    "🧳 Template｜模板库/Templates/Book-Note.md"
   ]
 }

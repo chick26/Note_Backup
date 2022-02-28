@@ -1,20 +1,15 @@
-📆 [[{{date:MMM. Do. YYYY}}]]
+📆 <% tp.date.now("") %>
+<% tp.user.weather() %>
 ___
 
-## Objectives
-- [ ] obj 1
+# TARGETS
+- [ ] target 1
 
-## All Tasks
+# TASKS
 - [ ] task 1
 
-## Reminders
--
+# THOUGHTS
+- [ ] 
 
-### Lingering Feelings, Observations, Thoughts
--
-
-### Reflection
--
-
-### Today's Notes
--
+# CONNENTIONS
+- [ ] 

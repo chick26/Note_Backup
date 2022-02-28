@@ -1,7 +1,12 @@
 {
   "command_timeout": 5,
   "templates_folder": "🧳 Template｜模板库/Templates",
-  "templates_pairs": [],
+  "templates_pairs": [
+    [
+      "weather",
+      "curl -H \"Accept-Language: zh-CN\" \"wttr.in/?format=3\""
+    ]
+  ],
   "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
@@ -27,6 +32,10 @@
     },
     {
       "folder": "🎨 Excalidraw｜画板仓库",
+      "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
+    },
+    {
+      "folder": "/",
       "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
     }
   ],
