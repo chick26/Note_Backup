@@ -1,4 +1,4 @@
-# `ris:Run` Daily Training
+# `ris:Run`  Daily Training
 
 [免跳训练](https://www.bilibili.com/video/BV1py4y1g73B)
 

@@ -1,6 +1,7 @@
 ---
 title: "DNS"
 date: 2022-01-24 14:41
+status: done
 tags:
 - Internet
 - Internet/DNS
