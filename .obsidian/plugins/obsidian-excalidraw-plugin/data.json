@@ -46,7 +46,6 @@
   "experimantalFourthFont": "Virgil",
   "fieldSuggestor": true,
   "compatibilityMode": false,
-  "loadCount": 1,
   "drawingOpenCount": 0,
   "library": "deprecated",
   "library2": {
@@ -263,15 +262,18 @@
       }
     ]
   },
-  "patchCommentBlock": false,
   "imageElementNotice": false,
-  "runWYSIWYGpatch": false,
-  "fixInfinitePreviewLoop": false,
   "mdSVGwidth": 500,
   "mdSVGmaxHeight": 800,
   "mdFont": "Virgil",
   "mdFontColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": false
+  "defaultTrayMode": false,
+  "previousRelease": "1.6.16",
+  "showReleaseNotes": true,
+  "loadCount": 1,
+  "patchCommentBlock": false,
+  "runWYSIWYGpatch": false,
+  "fixInfinitePreviewLoop": false
 }
