@@ -1,6 +1,7 @@
 ---
 title: "HTML-Semantic"
 date: 2022-01-24 14:41
+status: done
 tags:
 - HTML
 - HTML/Semantic

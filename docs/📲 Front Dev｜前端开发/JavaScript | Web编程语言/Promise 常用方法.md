@@ -1,6 +1,7 @@
 ---
 title: "Promise 常用方法"
 date: 2022-01-24 14:41
+status: doing
 tags:
 - JavaScript
 - JavaScript/Promise
