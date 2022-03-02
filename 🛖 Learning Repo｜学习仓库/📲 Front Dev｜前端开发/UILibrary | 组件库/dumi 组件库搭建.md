@@ -6,7 +6,37 @@ tags:
 - UILibrary
 - dumi
 ---
+## 问题记录
 
+###  引用自身组件报错
+#### 问题描述
+- 文件目录结构
+```md
+📦src
+┣ 📂components
+┃ ┣ 📂Foo
+┃ ┗ 📂UniButton
+┃ ┃ ┣ 📜PropsType.tsx
+┃ ┃ ┣ 📜index.md
+┃ ┃ ┣ 📜index.test.tsx
+┃ ┃ ┣ 📜index.tsx
+┃ ┃ ┣ 📜uniButton.less
+┃ ┃ ┗ 📜uniButton.tsx
+┣ 📂demos
+┃ ┣ 📂demo-block
+┃ ┃ ┣ 📜index.less
+┃ ┃ ┗ 📜index.tsx
+┃ ┣ 📂demo-description
+┃ ┗ 📜index.ts
+┣ 📂global
+┃ ┣ 📜global.less
+┃ ┣ 📜index.ts
+┃ ┗ 📜theme.less
+┣ 📂utils
+┗ 📜index.ts
+
+```
+- 
 ## 参考文章
 
 * [leonwgc/react-uni-comps: 桌面和移动端react组件库, desktop & mobile react components](https://github.com/leonwgc/react-uni-comps)
