@@ -16,9 +16,7 @@ tags:
 ┣ 📂components
 ┃ ┣ 📂Foo
 ┃ ┗ 📂UniButton
-┃ ┃ ┣ 📜PropsType.tsx
 ┃ ┃ ┣ 📜index.md
-┃ ┃ ┣ 📜index.test.tsx
 ┃ ┃ ┣ 📜index.tsx
 ┃ ┃ ┣ 📜uniButton.less
 ┃ ┃ ┗ 📜uniButton.tsx
@@ -36,7 +34,11 @@ tags:
 ┗ 📜index.ts
 
 ```
-- 
+- 引用组件库组件作为 DEMO 展示时, dumi 自动识别当前组件文件目录 `src/index.ts`, 而内部组件(不作为输出组件声明部分, `src/demos/index.ts`) 需要添加别名
+
+#### 解决方案 
+
+
 ## 参考文章
 
 * [leonwgc/react-uni-comps: 桌面和移动端react组件库, desktop & mobile react components](https://github.com/leonwgc/react-uni-comps)
