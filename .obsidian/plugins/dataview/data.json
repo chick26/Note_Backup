@@ -14,8 +14,8 @@
   "tableGroupColumnName": "Group",
   "inlineQueryPrefix": "=",
   "inlineJsQueryPrefix": "$=",
-  "enableDataviewJs": false,
-  "enableInlineDataviewJs": false,
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
   "prettyRenderInlineFields": true,
   "schemaVersion": 1
 }

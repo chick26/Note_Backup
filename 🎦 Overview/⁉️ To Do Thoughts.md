@@ -5,7 +5,9 @@ tags:
 - Thoughts
 ---
 ```dataview
-task 
+task
 from "📜 Daily Note | 日常记录" 
 WHERE contains(string(section), "THOUGHTS") and !completed
+FLATTEN file.name AS link(file.name)
+GROUP BY Primary
 ```

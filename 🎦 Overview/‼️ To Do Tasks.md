@@ -5,7 +5,9 @@ tags:
 - Tasks
 ---
 ```dataview
-task 
+task
 from "📜 Daily Note | 日常记录" 
 WHERE contains(string(section), "TASKS") and !completed
 ```
+
+
