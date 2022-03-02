@@ -37,7 +37,17 @@ tags:
 - 引用组件库组件作为 DEMO 展示时, dumi 自动识别当前组件文件目录 `src/index.ts`, 而内部组件(不作为输出组件声明部分, `src/demos/index.ts`) 需要添加别名
 
 #### 解决方案 
+`.umirc.ts` 添加别名配置
+```ts
+import { defineConfig } from 'dumi';
+import path from 'path';
 
+export default defineConfig({
+	alias: {
+		demos: path.join(__dirname, 'src/demos/index.ts'),
+	},
+});
+```
 
 ## 参考文章
 
