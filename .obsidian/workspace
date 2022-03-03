@@ -7,12 +7,8 @@
         "id": "14db863f853f5416",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "🎦 Overview/⁉️ To Do Thoughts.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/⁉️ To Do Thoughts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/⁉️ To Do Thoughts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🎦 Overview/⁉️ To Do Thoughts.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,15 +131,15 @@
   },
   "active": "14db863f853f5416",
   "lastOpenFiles": [
-    "🎦 Overview/⁉️ To Do Thoughts.md",
-    "🎦 Overview/‼️ To Do Tasks.md",
-    "🎦 Overview/🈯️ Learning Note OverView.md",
-    "📜 Daily Note | 日常记录/2022-02-28.md",
-    "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
-    "📜 Daily Note.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
+    "📜 Daily Note | 日常记录/2022-03-01.md",
     "📜 Daily Note | 日常记录/2022-03-02.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+    "📜 Daily Note | 日常记录/2022-03-03.md",
+    "📜 Daily Note | 日常记录/2022-02-28.md",
+    "🎦 Overview/‼️ To Do Tasks.md",
+    "🎦 Overview/⁉️ To Do Thoughts.md",
+    "🎦 Overview/🈯️ Learning Note OverView.md",
+    "📜 Daily Note | 日常记录/🎽 Daily Training.md",
+    "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
+    "📜 Daily Note.md"
   ]
 }

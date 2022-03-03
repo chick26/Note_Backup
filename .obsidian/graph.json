@@ -1,12 +1,27 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"🛖 Learning Repo｜学习仓库\"",
+      "color": {
+        "a": 1,
+        "rgb": 1259500
+      }
+    },
+    {
+      "query": "path:\"🎨 Excalidraw｜画板仓库\"",
+      "color": {
+        "a": 1,
+        "rgb": 15142157
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0305398354688096,
-  "close": true
+  "scale": 1.030539835468809,
+  "close": false
 }

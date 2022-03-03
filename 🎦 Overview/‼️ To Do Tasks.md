@@ -8,6 +8,8 @@ tags:
 task
 from "📜 Daily Note | 日常记录" 
 WHERE contains(string(section), "TASKS") and !completed
+FLATTEN ("[[" + file.name + "]]") AS Primary
+GROUP BY Primary
 ```
 
 

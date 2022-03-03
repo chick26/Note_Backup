@@ -8,6 +8,6 @@ tags:
 task
 from "📜 Daily Note | 日常记录" 
 WHERE contains(string(section), "THOUGHTS") and !completed
-FLATTEN file.name AS link(file.name)
+FLATTEN ("[[" + file.name + "]]") AS Primary
 GROUP BY Primary
 ```
