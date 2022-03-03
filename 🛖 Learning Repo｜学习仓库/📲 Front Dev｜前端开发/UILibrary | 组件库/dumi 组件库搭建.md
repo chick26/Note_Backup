@@ -49,6 +49,9 @@ export default defineConfig({
 ```
 
 ### 组件发布私有库
+
+^2c1320
+
 #### 登录私有库
 ```shell
 #未注册且私服允许注册的
