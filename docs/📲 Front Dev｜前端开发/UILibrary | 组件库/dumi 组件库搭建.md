@@ -48,6 +48,29 @@ export default defineConfig({
 });
 ```
 
+### 组件发布私有库
+#### 登录私有库
+```shell
+#未注册且私服允许注册的
+npm adduser --registry=http://xxx.xxx.x.xx:4873
+
+#输入npm账号用户名、密码和邮箱，如下：
+Username: better1025
+Password: 
+Email: (this IS public) xxx@xx.com
+Logged in as better1025 on http://xxx.xxx.x.xx:4873/.
+
+#之前已经注册过了，就使用下面的登录命令
+npm login --registry=http://xxx.xxx.x.xx:4873
+```
+
+#### 发布npm包到私有仓库
+```shell
+#cd 项目目录
+npm publish --registry=http://xxx.xxx.x.xx:4873
+```
+
+
 ## 参考文章
 
 * [leonwgc/react-uni-comps: 桌面和移动端react组件库, desktop & mobile react components](https://github.com/leonwgc/react-uni-comps)
