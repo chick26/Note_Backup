@@ -7,9 +7,11 @@
         "id": "0d7a413493e86617",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "⏰ Weekly Work | 任务仓库/前端开发.md"
+            "file": "📜 Daily Note | 日常记录/2022-03-04.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⏰ Weekly Work | 任务仓库/前端开发.md",
+                "file": "📜 Daily Note | 日常记录/2022-03-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⏰ Weekly Work | 任务仓库/前端开发.md",
+                "file": "📜 Daily Note | 日常记录/2022-03-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⏰ Weekly Work | 任务仓库/前端开发.md"
+                "file": "📜 Daily Note | 日常记录/2022-03-04.md"
               }
             }
           },
@@ -136,13 +138,13 @@
   },
   "active": "0d7a413493e86617",
   "lastOpenFiles": [
+    "📜 Daily Note | 日常记录/2022-03-04.md",
+    "🎦 Overview/‼️ To Do Tasks.md",
+    "🎦 Overview/⁉️ To Do Thoughts.md",
     "⏰ Weekly Work | 任务仓库/前端开发.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
     "📜 Daily Note | 日常记录/2022-03-03.md",
-    "📜 Daily Note | 日常记录/2022-03-04.md",
     "📜 Daily Note | 日常记录/2022-03-02.md",
-    "🎦 Overview/⁉️ To Do Thoughts.md",
-    "🎦 Overview/‼️ To Do Tasks.md",
     "📜 Daily Note | 日常记录/2022-03-01.md",
     "🎦 Overview/🈯️ Learning Note OverView.md",
     "🧳 Template｜模板库/Templates/Daily-Note.md"
