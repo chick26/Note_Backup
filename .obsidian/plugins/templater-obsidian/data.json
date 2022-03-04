@@ -4,7 +4,7 @@
   "templates_pairs": [
     [
       "weather",
-      "curl -H \"Accept-Language: zh-CN\" \"wttr.in/?format=3\""
+      "curl -H \"Accept-Language: zh-CN\" \"wttr.in/guangzhou?format=3\""
     ]
   ],
   "trigger_on_file_creation": true,
