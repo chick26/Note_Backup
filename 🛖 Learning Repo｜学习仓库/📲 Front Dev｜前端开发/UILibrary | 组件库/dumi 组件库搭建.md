@@ -8,7 +8,7 @@ tags:
 ---
 ## 问题记录
 
-###  引用自身组件报错
+###  1.引用自身组件报错
 #### 问题描述
 - 文件目录结构
 ```md
@@ -48,7 +48,7 @@ export default defineConfig({
 });
 ```
 
-### 组件发布私有库
+### 2.组件发布私有库
 
 ^2c1320
 
@@ -73,6 +73,56 @@ npm login --registry=http://xxx.xxx.x.xx:4873
 npm publish --registry=http://xxx.xxx.x.xx:4873
 ```
 
+### 3.解决使用私有库配置
+
+- .npmrc
+```
+registry=https://nexus.dev/repository/npm-proxy/  
+@mycompany:registry=https://myserver.dev/repository/npm-releases/
+```
+
+- .yarnrc
+```
+registry "https://nexus.dev/repository/npm-proxy/"  
+"@mycompany:registry" "https://myserver.dev/repository/npm-releases/"
+```
+
+### 4.解决 father rollup 模式对 cjs 引用问题
+
+#### 问题描述
+项目依赖 `classnames`，希望把这个三方包打到产物中，是这样配置的
+```ts
+// .fatherrc.ts
+export default {
+  cjs: 'rollup',
+  externalsExclude: ['classnames'],
+};
+
+```
+
+打包时出现错误提示
+```shell
+✖  error     Error: 'default' is not exported by node_modules/classnames/index.js, imported by src/index.js
+```
+
+#### 解决方案
+```ts
+// .fatherc.ts
+// father 锁定了 rollup 版本，需要根据对应版本选择适合的 commonjs 插件 15.1.0
+import commonjs from '@rollup/plugin-commonjs';
+export default {
+	esm: 'rollup',
+	entry: 'src/index',
+	lessInRollupMode: {
+		javascriptEnabled: true,
+	},
+	autoprefixer: {
+		overrideBrowserslist: ['ie>9', 'Safari >= 6'],
+	},
+	externalsExclude: ['classnames'],
+	extraRollupPlugins: [commonjs()],
+};
+```
 
 ## 参考文章
 
