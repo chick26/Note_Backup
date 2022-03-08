@@ -15,7 +15,7 @@ tags:
 > - annuity due 到期年金
 > - perpetuity 永续年金
 
-# INTEREST RATE
+# INTEREST RATE 利率
 
 > - Money available at the present time is worth more than the same amount in the future due to its **potential earning capacity.**
 >     
