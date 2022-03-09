@@ -9,18 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜 Daily Note | 日常记录/2022-03-08.md",
+            "file": "📜 Daily Note | 日常记录/2022-03-09.md",
             "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "f7183fb43e940085",
-        "type": "leaf",
-        "state": {
-          "type": "memos_view",
-          "state": {}
         }
       }
     ],
@@ -77,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "📜 Daily Note | 日常记录/2022-03-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "📜 Daily Note | 日常记录/2022-03-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "📜 Daily Note | 日常记录/2022-03-09.md"
+              }
             }
           },
           {
@@ -140,8 +136,9 @@
     "width": 238.5,
     "collapsed": true
   },
-  "active": "f7183fb43e940085",
+  "active": "0d7a413493e86617",
   "lastOpenFiles": [
+    "📜 Daily Note | 日常记录/2022-03-09.md",
     "📜 Daily Note | 日常记录/2022-03-08.md",
     "🎦 Overview/‼️ To Do Tasks.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
@@ -150,7 +147,6 @@
     "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师/The Time Value of Money.md",
     "🎨 Excalidraw｜画板仓库/CFA-end.excalidraw.md",
     "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "📜 Daily Note | 日常记录/2022-03-04.md"
+    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
   ]
 }
