@@ -14,6 +14,14 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "f7183fb43e940085",
+        "type": "leaf",
+        "state": {
+          "type": "memos_view",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -69,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-08.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,7 +140,7 @@
     "width": 238.5,
     "collapsed": true
   },
-  "active": "0d7a413493e86617",
+  "active": "f7183fb43e940085",
   "lastOpenFiles": [
     "📜 Daily Note | 日常记录/2022-03-08.md",
     "🎦 Overview/‼️ To Do Tasks.md",
