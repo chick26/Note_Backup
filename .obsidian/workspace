@@ -7,9 +7,11 @@
         "id": "0d7a413493e86617",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tasks",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
               }
             }
           },
@@ -127,7 +129,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -136,15 +139,15 @@
   },
   "active": "0d7a413493e86617",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
     "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+    "🎨 Excalidraw｜画板仓库/CFA-end.excalidraw.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
     "📜 Daily Note | 日常记录/2022-02/2022-02-28.md",
     "📜 Daily Note | 日常记录/2022-03-11.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
     "🎦 Overview/‼️ To Do Tasks.md",
     "🎦 Overview/🈯️ Learning Note OverView.md",
-    "📜 Daily Note | 日常记录/2022-03-09.md",
-    "📜 Daily Note | 日常记录/2022-03-10.md",
-    "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师/The Time Value of Money.md",
-    "📜 Daily Note | 日常记录/2022-03-04.md"
+    "📜 Daily Note | 日常记录/2022-03-09.md"
   ]
 }

@@ -3,13 +3,11 @@
   "obsidian-kanban",
   "calendar",
   "periodic-notes",
-  "obsidian-minimal-settings",
   "sliding-panes-obsidian",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
   "obsidian-image-toolkit",
   "mx-bili-plugin",
-  "obsidian-icons-plugin",
   "media-extended",
   "table-editor-obsidian",
   "cm-editor-syntax-highlight-obsidian",
@@ -18,5 +16,7 @@
   "obsidian-citation-plugin",
   "obsidian-git",
   "obsidian-memos",
-  "dataview"
+  "dataview",
+  "obsidian-mind-map",
+  "tag-wrangler"
 ]
