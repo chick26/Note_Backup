@@ -124,6 +124,12 @@ export default {
 };
 ```
 
+### 5. 解决组件库二次封装
+
+^a7bc3d
+
+
+
 ## 参考文章
 
 * [leonwgc/react-uni-comps: 桌面和移动端react组件库, desktop & mobile react components](https://github.com/leonwgc/react-uni-comps)
