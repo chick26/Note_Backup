@@ -9,7 +9,7 @@ tags:
 
 # 配置相关
 
-## 输出格式
+## father 打包
 
 > esm 和 cjs 支持 rollup 和 babel 两种打包方式，rollup 和 babel 两者的区别在于：
 
@@ -67,9 +67,15 @@ father 构建时会对配置文件和命令参数中输出格式的定义进行�
 	- `demos` 目录
 	- `mdx` 文件
 	- `md` 文件
-- 测试文件，比如 `test.js`、`spec.js`、`e2e.js`，后缀还支持 `jsx`、`ts` 和 `tsx`
-  
+- 测试文件，比如 
+	- `test.js`
+	- `spec.js`
+	- `e2e.js`
+	- 后缀还支持 `jsx`、`ts` 和 `tsx`
+	  
 - 在 webpack + web + ESM/CJS 的应用场景中，入口文件优先级为 browser > module > main；在 node + CJS 的应用场景中，只有 main 字段有效。
+
+
 
 # 问题记录
 
@@ -209,9 +215,9 @@ export default {
 
 
 
-## 参考文章
+# 参考文章
 
 * [leonwgc/react-uni-comps: 桌面和移动端react组件库, desktop & mobile react components](https://github.com/leonwgc/react-uni-comps)
 * [教你使用Dumi和father-build快速搭建React组件库 - 掘金](https://juejin.cn/post/6904795653243994125)
 * [使用dumi生成react组件库文档并发布到github pages - 记忆的森林 - 博客园](https://www.cnblogs.com/leonwang/p/15646295.html)
-* 
+* [ant-design/pro-components: 🏆 Use Ant Design like a Pro!](https://github.com/ant-design/pro-components)

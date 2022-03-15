@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c1da82bf215f92f8",
+        "id": "69d2334d2590f4dc",
         "type": "leaf",
         "state": {
-          "type": "memos_view",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "📜 Daily Note | 日常记录/2022-03-15.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "📜 Daily Note | 日常记录/2022-03-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "📜 Daily Note | 日常记录/2022-03-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "📜 Daily Note | 日常记录/2022-03-15.md"
+              }
             }
           },
           {
@@ -128,17 +136,17 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "c1da82bf215f92f8",
+  "active": "69d2334d2590f4dc",
   "lastOpenFiles": [
     "📜 Daily Note | 日常记录/2022-03-15.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+    "📜 Daily Note | 日常记录/2022-03-09.md",
+    "📜 Daily Note | 日常记录/2022-03-10.md",
     "📜 Daily Note | 日常记录/2022-03-14.md",
     "🚀 Mind | 导图仓库/Demo.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
     "📜 Daily Note | 日常记录/2022-03-11.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
     "🎦 Overview/‼️ To Do Tasks.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
   ]
 }
