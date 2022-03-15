@@ -47,12 +47,15 @@ umd: {
 
 ### 定义方式
 
-输出格式（esm/cjs/umd）的定义有两种方式，  
-- 配置文件：在.fatherrc.ts 中配置 esm/cjs/umd，esm/cjs 可选 babel 和 rollup 两种模式。
-- 命令参数：father-build 后接参数，如`father-build --esm --cjs --umd`，注意此时--esm 和--cjs 均为 rollup 模式。
+输出格式（esm/cjs/umd）的定义有两种方式：
+
+- 配置文件：在 `.fatherrc.ts` 中配置 esm/cjs/umd，esm/cjs 可选 babel 和 rollup 两种模式。
+- 命令参数：father-build 后接参数，如 `father-build --esm --cjs --umd`，注意此时`--esm` 和`--cjs` 均为 rollup 模式。
+
 father 构建时会对配置文件和命令参数中输出格式的定义进行合并，命令参数的优先级比配置文件高。例如，当配置文件中 esm 和 cjs 使用 babel，而构建命令为`father-build --esm --cjs`时，最终 esm 和 cjs 的模式为 rollup。
 
 ### 注意事项
+
 - 通常只要配置`esm: "babel"`即可，如果要考虑 ssr，再配上`cjs: "babel"`。
 - package.json 里配上 `sideEffects: false | string[]`，会让 webpack 的 [tree-shaking](https://webpack.js.org/guides/tree-shaking/) 更高效。
 - cjs 和 esm 格式打包方式选 rollup 时有个约定，dependencies 和 peerDependencies 里的内容会被 external。
