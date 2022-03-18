@@ -3,6 +3,7 @@ title: Learning Note OverView
 creation date: 2022-03-01 21:51 
 tags:
 ---
+
 ```dataview
 table WITHOUT ID
 ("[[" + file.name + "]]") as TITLE,
