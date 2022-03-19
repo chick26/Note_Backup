@@ -1,7 +1,7 @@
 ---
 title: "Promise 常用方法"
 date: 2022-01-24 14:41
-status: doing
+status: done
 tags:
 - JavaScript
 - JavaScript/Promise
@@ -9,9 +9,9 @@ tags:
 
 # Promise 中的三兄弟 .all(), .race(), .allSettled()
 
-从ES6 开始，我们大都使用的是 `Promise.all()`和`Promise.race()`，`Promise.allSettled()` 提案已经到第4阶段，因此将会成为`ECMAScript 2020`的一部分。
+从 ES6 开始，我们大都使用的是 `Promise.all()`和`Promise.race()`，`Promise.allSettled()` 提案已经到第4阶段，因此将会成为`ECMAScript 2020`的一部分。
 
-## 1.概述
+## 1. 概述
 
 `Promise.all<T>(promises: Iterable<Promise<T>>): Promise<Array<T>>`
 
@@ -25,16 +25,18 @@ tags:
 
 *   **Promise.allSettled()** 方法返回一个`promise`，该`promise`在所有给定的`promise`已被解析或被拒绝后解析，并且每个对象都描述每个`promise`的结果。
 
-## 2.回顾: Promise 状态
+## 2. 回顾: Promise 状态
 
 给定一个返回`Promise`的异步操作，以下这些是`Promise`的可能状态：
-
 *   pending: 初始状态，既不是成功，也不是失败状态。
 *   fulfilled: 意味着操作成功完成。
 *   rejected: 意味着操作失败。
-*   Settled： `Promise`要么被完成，要么被拒绝。`Promise`一旦达成，它的状态就不再改变。
+*   Settled： `Promise` 要么被完成，要么被拒绝。`Promise`一旦达成，它的状态就不再改变。
 
-## 3.什么是组合
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202203191415396.webp)
+
+
+## 3. 什么是组合
 
 又称部分-整体模式，将对象整合成树形结构以表示“部分整体”的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性，它基于两种函数：
 
@@ -46,25 +48,22 @@ tags:
 *   基元函数包括:`Promise.resolve()`、`Promise.reject()`
 *   组合函数：`Promise.all()`, `Promise.race()`, `Promise.allSettled()`
 
-## 4. Promise.all()
+## 4.  Promise.all()
 
-`Promise.all()`的类型签名:
+`Promise.all()`
 
-*   `Promise.all <T>(promises: Iterable<Promise<T>>): Promise<Array<T>>`
+> `Promise.all <T>(promises: Iterable<Promise<T>>): Promise<Array<T>>`
 
-返回情况：
+- **完成（Fulfillment）：**  
+	- 如果传入的可迭代对象为空，`Promise.all` 会同步地返回一个已完成（`resolved`）状态的`promise`。  
+	- 如果所有传入的 `promise` 都变为完成状态，或者传入的可迭代对象内没有 `promise`，`Promise.all` 返回的 `promise` 异步地变为完成。  
+	- 在任何情况下，`Promise.all` 返回的 `promise` 的完成状态的结果都是一个数组，它包含所有的传入迭代参数对象的值（也包括非 promise 值）。
 
-**完成（Fulfillment）：**  
-如果传入的可迭代对象为空，`Promise.all` 会同步地返回一个已完成（`resolved`）状态的`promise`。  
-如果所有传入的 `promise` 都变为完成状态，或者传入的可迭代对象内没有 `promise`，`Promise.all` 返回的 `promise` 异步地变为完成。  
-在任何情况下，`Promise.all` 返回的 `promise` 的完成状态的结果都是一个数组，它包含所有的传入迭代参数对象的值（也包括非 promise 值）。
+- **失败/拒绝（Rejection）：**  
+	- 如果传入的 `promise` 中有一个失败（`rejected`），`Promise.all` 异步地将失败的那个结果给失败状态的回调函数，而不管其它 `promise` 是否完成。
 
-**失败/拒绝（Rejection）：**  
-如果传入的 `promise` 中有一个失败（`rejected`），`Promise.all` 异步地将失败的那个结果给失败状态的回调函数，而不管其它 `promise` 是否完成。
-
-来个例子：
-
-```coffeescript
+- 来个例子：
+```js
 const promises = [
   Promise.resolve('a'),
   Promise.resolve('b'),
@@ -78,7 +77,7 @@ Promise.all(promises)
 
 如果其中的一个 promise 被拒绝，那么又是什么情况：
 
-```coffeescript
+```js
 const promises = [
   Promise.resolve('a'),
   Promise.resolve('b'),
@@ -91,12 +90,15 @@ Promise.all(promises)
 ```
 
 下图说明`Promise.all()`是如何工作的
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202203191418572.webp)
 
-#### 4.1 异步 .map() 与 Promise.all()
+
+
+### 异步 .map() 与 Promise.all()
 
 数组转换方法，如`.map()`、`.filter()`等，用于同步计算。例如
 
-```reasonml
+```js
 function timesTwoSync(x) {
   return 2 * x;
 }
@@ -109,7 +111,7 @@ assert.deepEqual(result, [2, 4, 6]);
 
 `Promises`数组不是普通代码可以使用的数据，但我们可以通过`Promise.all()`来解决这个问题：它将Promises数组转换为`Promise`，并使用一组普通值数组来实现。
 
-```reasonml
+```js
 function timesTwoAsync(x) {
   return new Promise(resolve => resolve(x * 2));
 }
@@ -121,7 +123,7 @@ Promise.all(promiseArr)
   });
 ```
 
-#### 更实际工作上关于 .map()示例
+### 更实际工作上关于 .map()示例
 
 接下来，咱们使用`.map()`和`Promise.all()`从`Web`下载文件。 首先，咱们需要以下帮助函数：
 
@@ -161,7 +163,7 @@ Promise.all(promises)
     ));
 ```
 
-#### Promise.all()的一个简版实现
+### Promise.all()的一个简版实现
 
 ```javascript
 function all(iterable) {
@@ -199,13 +201,15 @@ function all(iterable) {
 
 ## 5. Promise.race()
 
-`Promise.race()`方法的定义：
+`Promise.race()`
 
-`Promise.race<T>(promises: Iterable<Promise<T>>): Promise<T>`
+> `Promise.race<T>(promises: Iterable<Promise<T>>): Promise<T>`
 
 **Promise.race(iterable)** 方法返回一个 `promise`，一旦迭代器中的某个`promise`解决或拒绝，返回的 `promise`就会解决或拒绝。来几个例子，瞧瞧：
 
-```coffeescript
+### Example 1
+
+```js
 const promises = [
   new Promise((resolve, reject) =>
     setTimeout(() => resolve('result'), 100)), // (A)
@@ -218,6 +222,8 @@ Promise.race(promises)
 ```
 
 在第 `A` 行，`Promise` 是完成状态 ，所以 第 `C` 行会执行（尽管第 `B` 行被拒绝）。
+
+### Example 2
 
 如果 Promise 被拒绝首先执行，在来看看情况是嘛样的：
 
@@ -235,19 +241,20 @@ Promise.race(promises)
       err, 'ERROR'));
 ```
 
-注意，由于 `Promse` 先被拒绝，所以 `Promise.race()` 返回的是一个被拒绝的 `Promise`
-
-这意味着`Promise.race（[]）`的结果永远不会完成。
+注意，由于 `Promse` 先被拒绝，所以 `Promise.race()` 返回的是一个被拒绝的 `Promise`。 这意味着`Promise.race（[]）`的结果永远不会完成。
 
 下图演示了`Promise.race()`的工作原理：
 
-![这需要有数字电路的知识才能看得懂哦](assets/1645167317-2e65c502dcd50cdb582c7f0dfe211b95.webp "这需要有数字电路的知识才能看得懂哦")
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202203191421934.webp)
 
-#### Promise.race() 在 Promise 超时下的情况
+
+### Expample 3
+
+Promise.race() 在 Promise 超时下的情况
 
 在本节中，我们将使用`Promise.race()`来处理超时的 `Promise`。 以下辅助函数:
 
-```coffeescript
+```js
 function resolveAfter(ms, value=undefined) {
   return new Promise((resolve, reject) => {
     setTimeout(() => resolve(value), ms);
@@ -259,7 +266,7 @@ function resolveAfter(ms, value=undefined) {
 
 调用上面方法：
 
-```ada
+```js
 function timeout(timeoutInMs, promise) {
   return Promise.race([
     promise,
@@ -275,14 +282,14 @@ function timeout(timeoutInMs, promise) {
 
 再来看看`timeout(timeoutInMs, promise)`的运行情况。如果传入`promise`在指定的时间之前状态为完成时，`timeout` 返回结果就是一个完成状态的 `Promise`,可以通过`.then`的第一个回调参数处理返回的结果。
 
-```arcade
+```js
 timeout(200, resolveAfter(100, 'Result!'))
   .then(result => assert.equal(result, 'Result!'));
 ```
 
 相反，如果是在指定的时间之后完成，刚 `timeout` 返回结果就是一个拒绝状态的 `Promise`,从而触发`catch`方法指定的回调函数。
 
-```reasonml
+```js
 timeout(100, resolveAfter(2000, 'Result!'))
   .catch(err => assert.deepEqual(err, new Error('Operation timed out')));
 ```
@@ -294,7 +301,7 @@ timeout(100, resolveAfter(2000, 'Result!'))
 
 也就是说，超时只会阻止传入的Promise，影响输出 Promise（因为Promise只能解决一次）， 但它并没有阻止传入`Promise`的异步操作。
 
-#### 5.2 Promise.race() 的一个简版实现
+### Promise.race() 的一个简版实现
 
 以下是 `Promise.race()`的一个简化实现(它不执行安全检查)
 
@@ -321,15 +328,13 @@ function race(iterable) {
 
 ## 6.Promise.allSettled()
 
-`“Promise.allSettled”`这一特性是由**Jason Williams**，**Robert Pamely**和**Mathias Bynens**提出。
+`promise.allsettle()`
 
-`promise.allsettle()`方法的定义：
-
-*   `Promise.allSettled<T>(promises: Iterable<**Promise**<T>>): Promise<Array<SettlementObject<T>>>`
+> `Promise.allSettled<T>(promises: Iterable<**Promise**<T>>): Promise<Array<SettlementObject<T>>>`
 
 它返回一个`Array`的`Promise`，其元素具有以下类型特征：
 
-```ada
+```ts
 type SettlementObject<T> = FulfillmentObject<T> | RejectionObject;
 
 interface FulfillmentObject<T> {
@@ -353,9 +358,10 @@ interface RejectionObject {
 
 下图说明`promise.allsettle()`是如何工作的
 
-![这需要有数字电路的知识才能看得懂哦](assets/1645167317-a6e5b5ba86c1d0aa7d758bbaf444fb66.webp "这需要有数字电路的知识才能看得懂哦")
+![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202203191424594.webp)
 
-#### 6.1 Promise.allSettled() 例子
+
+### Promise.allSettled() 例子
 
 这是`Promise.allSettled()` 使用方式快速演示示例
 
@@ -370,11 +376,11 @@ Promise.allSettled([
 ]));
 ```
 
-#### 6.2 Promise.allSettled() 较复杂点的例子
+### Promise.allSettled() 较复杂点的例子
 
 这个示例类似于`.map()`和`Promise.all()`示例(我们从其中借用了`downloadText()`函数):我们下载多个文本文件，这些文件的`url`存储在一个数组中。但是，这一次，咱们不希望在出现错误时停止，而是希望继续执行。`Promise.allSettled()`允许咱们这样做：
 
-```livescript
+```js
 const urls = [
   'http://example.com/exists.txt',
   'http://example.com/missing.txt',
@@ -398,7 +404,7 @@ result.then(
 ));
 ```
 
-#### 6.3 Promise.allSettled() 的简化实现
+### Promise.allSettled() 的简化实现
 
 这是`promise.allsettle()`的简化实现(不执行安全检查)
 
@@ -440,21 +446,20 @@ function allSettled(iterable) {
 }
 ```
 
-## 7. 短路特性
+## 7.  短路特性
 
 `Promise.all()` 和 `romise.race()` 都具有 短路特性
 
 * **Promise.all()**： 如果参数中 `promise` 有一个失败（rejected），此实例回调失败（reject）
-
 - **Promise.race()**：如果参数中某个`promise`解决或拒绝，返回的 promise就会解决或拒绝。
 
-## 8.并发性和 Promise.all()
+## 8. 并发性和 Promise.all()
 
-#### 8.1 顺序执行与并发执行
+### 顺序执行与并发执行
 
 考虑下面的代码：
 
-```arcade
+```js
 asyncFunc1()
   .then(result1 => {
     assert.equal(result1, 'one');
@@ -469,20 +474,20 @@ asyncFunc1()
 
 而 `Promise.all()` 是并发执行的
 
-```reasonml
+```js
 Promise.all([asyncFunc1(), asyncFunc2()])
   .then(arr => {
     assert.deepEqual(arr, ['one', 'two']);
   });
 ```
 
-#### 9.2 并发技巧：关注操作何时开始
+### 并发技巧：关注操作何时开始
 
 确定并发异步代码的技巧:关注异步操作何时启动，而不是如何处理它们的**Promises**。
 
 例如，下面的每个函数都同时执行`asyncFunc1()`和`asyncFunc2()`，因为它们几乎同时启动。
 
-```arcade
+```js
 function concurrentAll() {
   return Promise.all([asyncFunc1(), asyncFunc2()]);
 }
@@ -496,7 +501,7 @@ function concurrentThen() {
 
 另一方面，以下两个函数依次执行`asyncFunc1()`和`asyncFunc2()`: `asyncFunc2()`仅在`asyncFunc1()`的解决之后才调用。
 
-```arcade
+```js
 function sequentialThen() {
   return asyncFunc1()
     .then(r1 => asyncFunc2()
@@ -510,11 +515,11 @@ function sequentialAll() {
 }
 ```
 
-#### 9.3 Promise.all() 与 Fork-Join 分治编程
+### Promise.all() 与 Fork-Join 分治编程
 
 `Promise.all()` 与并发模式“fork join”松散相关。重温一下咱们前面的一个例子：
 
-```arcade
+```js
 Promise.all([
     // (A) fork
     downloadText('http://example.com/first.txt'),
@@ -529,5 +534,3 @@ Promise.all([
 
 *   Fork：在`A`行中，分割两个异步任务并同时执行它们。
 *   Join：在`B`行中，对每个小任务得到的结果进行汇总。
-
-**代码部署后可能存在的BUG没法实时知道，事后为了解决这些BUG，花了大量的时间进行log 调试，这边顺便给大家推荐一个好用的BUG监控工具 [Fundebug](https://link.segmentfault.com/?enc=PbjQPuwWleOGU%2BWdbK9r0A%3D%3D.cYSFf4qw46tFoGwYCkb3U2MNwCe%2FBsHJzrWARErzivM9EaQ94pWP6AGtfkXB9%2Bbt)。**
