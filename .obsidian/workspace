@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fc9167bdf7a779d8",
+        "id": "b012da3c2dab6b51",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+            "file": "🧸  Individual/Resume.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+                "file": "🧸  Individual/Resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+                "file": "🧸  Individual/Resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
+                "file": "🧸  Individual/Resume.md"
               }
             }
           },
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "fc9167bdf7a779d8",
+  "active": "b012da3c2dab6b51",
   "lastOpenFiles": [
+    "🧸  Individual/Resume.md",
+    "🧸  Individual/assets/envelope-solid.svg",
+    "🧸  Individual/assets/briefcase-solid.svg",
+    "🧸  Individual/assets/graduation-cap-solid.svg",
+    "🧸  Individual/assets/Photo4Resume.jpg",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/Resume.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/未命名.md",
-    "📜 Daily Note | 日常记录/2022-03-21.md",
-    "🎦 Overview/🈯️ Learning Note OverView.md",
-    "assets/1645167317-2e65c502dcd50cdb582c7f0dfe211b95.webp.md",
-    "🧳 Template｜模板库/Templates/Script.CreateReadingNote.md",
-    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
-    "🚀 Mind | 导图仓库/asdasd.md"
+    "📜 Daily Note | 日常记录/2022-03-21.md"
   ]
 }
