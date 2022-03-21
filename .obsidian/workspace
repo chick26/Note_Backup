@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🧸  Individual/Resume.md",
+            "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧸  Individual/Resume.md",
+                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧸  Individual/Resume.md",
+                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧸  Individual/Resume.md"
+                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md"
               }
             }
           },
@@ -138,6 +138,7 @@
   },
   "active": "b012da3c2dab6b51",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
     "🧸  Individual/Resume.md",
     "🧸  Individual/assets/envelope-solid.svg",
     "🧸  Individual/assets/briefcase-solid.svg",
@@ -145,7 +146,6 @@
     "🧸  Individual/assets/Photo4Resume.jpg",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/Resume.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/未命名.md",
     "📜 Daily Note | 日常记录/2022-03-21.md"
   ]
