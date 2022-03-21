@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b012da3c2dab6b51",
+        "id": "fa9a5e6ff7eb182e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜 Daily Note | 日常记录/2022-03-21.md",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-21.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-21.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-21.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
               }
             }
           },
@@ -130,24 +130,23 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
-  "active": "b012da3c2dab6b51",
+  "active": "fa9a5e6ff7eb182e",
   "lastOpenFiles": [
-    "📜 Daily Note | 日常记录/2022-03-21.md",
-    "🧸  Individual/Resume.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
-    "🧸  Individual/assets/envelope-solid.svg",
-    "🧸  Individual/assets/briefcase-solid.svg",
-    "🧸  Individual/assets/graduation-cap-solid.svg",
-    "🧸  Individual/assets/Photo4Resume.jpg",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/Resume.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+    "⏰ Weekly Work | 任务仓库/前端开发.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+    "🎦 Overview/🈯️ Learning Note OverView.md",
+    "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
+    "🎦 Overview/⁉️ To Do Thoughts.md",
+    "🎦 Overview/‼️ To Do Tasks.md",
+    "📜 Daily Note | 日常记录/2022-03/2022-03-21.md",
+    "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
+    "Untitled.md"
   ]
 }
