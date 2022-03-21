@@ -31,5 +31,7 @@
     * [Charles | 抓包工具](📲%20Front%20Dev｜前端开发/Test%20Tool｜测试/Charles%20|%20抓包工具.md)
   * UILibrary | 组件库
     * [dumi 组件库搭建](📲%20Front%20Dev｜前端开发/UILibrary%20|%20组件库/dumi%20组件库搭建.md)
+* 🎰 Markdown
+  * [Mermaid](🎰%20Markdown/Mermaid.md)
 * 🐻‍❄️  Git Dev | 分支管理
   * [git hooks](🐻‍❄️%20%20Git%20Dev%20|%20分支管理/git%20hooks.md)

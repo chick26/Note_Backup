@@ -24,3 +24,12 @@ tags:
 
 ## 使用内置表单数据校验
 
+HTML 可以通过内置的 表单元素的[校验属性 (en-US)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Constraint_validation "Currently only available in English (US)")，同时利用样式变化
+当一个元素校验通过时：
+-   该元素将可以通过 CSS 伪类 [`:valid`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:valid) 进行特殊的样式化；
+-   如果用户尝试提交表单，如果没有其它的控制来阻止该操作（比如JavaScript即可阻止提交），那么该表单的数据会被提交。
+
+如果一个元素未校验通过：
+
+-   该元素将可以通过 CSS 伪类 [`:invalid`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:invalid) 进行特殊的样式化；
+-   如果用户尝试提交表单，浏览器会展示出错误消息，并停止表单的提交。
