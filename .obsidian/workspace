@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f97cf218354e9a",
+        "id": "f6a456730f410df1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+            "file": "📜 Daily Note | 日常记录/2022-03-21.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+                "file": "📜 Daily Note | 日常记录/2022-03-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+                "file": "📜 Daily Note | 日常记录/2022-03-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
+                "file": "📜 Daily Note | 日常记录/2022-03-21.md"
               }
             }
           },
@@ -136,8 +136,9 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "f6f97cf218354e9a",
+  "active": "f6a456730f410df1",
   "lastOpenFiles": [
+    "📜 Daily Note | 日常记录/2022-03-21.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
     "🎦 Overview/🈯️ Learning Note OverView.md",
     "assets/1645167317-2e65c502dcd50cdb582c7f0dfe211b95.webp.md",
@@ -146,7 +147,6 @@
     "🚀 Mind | 导图仓库/asdasd.md",
     "🧳 Template｜模板库/Templates/Mind-Note.md",
     "🧳 Template｜模板库/Templates/Learning-Note.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
-    "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
   ]
 }
