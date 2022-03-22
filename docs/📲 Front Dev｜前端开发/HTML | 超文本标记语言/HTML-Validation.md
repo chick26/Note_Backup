@@ -28,6 +28,27 @@ tags:
 
 ### 校验属性
 
+在 HTML5中，声明约束有两种方式：
+-   如 [`<input>`](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input) 元素的  [`type`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) 特性选择最合适的语义化的值，比如，选择 `email` 类型将会自动创建一个约束用于检查输入的值是否是一个有效的 `e-mail` 地址。
+-   设置验证相关的特性值，允许用一种简单的方式来描述基本的约束，而不必要使用 JavaScript。
+
+####  Type, Input
+
+ - `<input type="URL">` 
+
+值必须是绝对的URL, 即，是下面的某一种:
+-   a valid URI (as defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt))
+-   a valid IRI, without a query component (as defined in [RFC 3987](https://www.ietf.org/rfc/rfc3987.txt))
+-   a valid IRI, with a query component without any unescaped non-ASCII character (as defined in [RFC 3987](https://www.ietf.org/rfc/rfc3987.txt))
+-   a valid IRI, and the character set for the document is UTF-8 or UTF-16 (as defined in [RFC 3987](https://www.ietf.org/rfc/rfc3987.txt))
+
+- `<input type="email">`
+
+The value must follow the [ABNF](https://www.ietf.org/rfc/std/std68.txt) production: `1*( atext / "." ) "@" ldh-str 1*( "." ldh-str )` where:
+-   `atext` is defined in [RFC 5322](https://tools.ietf.org/html/rfc5322), i.e., a US-ASCII letter (A to Z and a-z), a digit (0 to 9) or one of the following! # $ % & ' * + - / = ? ` { } | ~ special character,
+-   `ldh-str` is defined in [RFC 1034](http://www.apps.ietf.org/rfc/rfc1034.html#sec-3.5), i.e., US-ASCII letters, mixed with digits and - grouped in words separated by a dot (.).
+
+#### [验证相关的特性（Attribute）](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Constraint_validation#%E9%AA%8C%E8%AF%81%E7%9B%B8%E5%85%B3%E7%9A%84%E7%89%B9%E6%80%A7%EF%BC%88attribute%EF%BC%89 "Permalink to 验证相关的特性（Attribute）")
 
 
 ### 校验样式
