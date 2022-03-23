@@ -48,8 +48,11 @@ The value must follow the [ABNF](https://www.ietf.org/rfc/std/std68.txt) product
 -   `atext` is defined in [RFC 5322](https://tools.ietf.org/html/rfc5322), i.e., a US-ASCII letter (A to Z and a-z), a digit (0 to 9) or one of the following! # $ % & ' * + - / = ? ` { } | ~ special character,
 -   `ldh-str` is defined in [RFC 1034](http://www.apps.ietf.org/rfc/rfc1034.html#sec-3.5), i.e., US-ASCII letters, mixed with digits and - grouped in words separated by a dot (.).
 
-#### [验证相关的特性（Attribute）](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Constraint_validation#%E9%AA%8C%E8%AF%81%E7%9B%B8%E5%85%B3%E7%9A%84%E7%89%B9%E6%80%A7%EF%BC%88attribute%EF%BC%89 "Permalink to 验证相关的特性（Attribute）")
+- **PS 当前大部分组件仍自己实现**
+	- HTML5 
 
+#### [验证相关的特性（Attribute）](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Constraint_validation#%E9%AA%8C%E8%AF%81%E7%9B%B8%E5%85%B3%E7%9A%84%E7%89%B9%E6%80%A7%EF%BC%88attribute%EF%BC%89 "Permalink to 验证相关的特性（Attribute）")
+- 以 `pattern` 为例 
 
 ### 校验样式
 
