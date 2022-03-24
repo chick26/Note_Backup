@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜 Daily Note | 日常记录/2022-03-24.md",
+            "file": "🎦 Overview/⁉️ To Do Thoughts.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-24.md",
+                "file": "🎦 Overview/⁉️ To Do Thoughts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-24.md",
+                "file": "🎦 Overview/⁉️ To Do Thoughts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-03-24.md"
+                "file": "🎦 Overview/⁉️ To Do Thoughts.md"
               }
             }
           },
@@ -138,13 +138,13 @@
   },
   "active": "a16a46ec9f487e1a",
   "lastOpenFiles": [
-    "📜 Daily Note | 日常记录/2022-03-24.md",
+    "🎦 Overview/⁉️ To Do Thoughts.md",
+    "🎦 Overview/‼️ To Do Tasks.md",
+    "📜 Daily Note | 日常记录/2022-03/2022-03-24.md",
     "⏰ Weekly Work | 任务仓库/前端开发.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
     "🎦 Overview/🈯️ Learning Note OverView.md",
     "📜 Daily Note | 日常记录/2022-03-22.md",
-    "🎦 Overview/‼️ To Do Tasks.md",
-    "🎦 Overview/⁉️ To Do Thoughts.md",
     "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
     "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
     "🧳 Template｜模板库/Templates/Daily-Note.md"
