@@ -9,18 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/README.md",
+            "file": "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
             "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "549ca6282f114419",
-        "type": "leaf",
-        "state": {
-          "type": "memos_view",
-          "state": {}
         }
       }
     ],
@@ -77,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md"
+              }
             }
           },
           {
@@ -140,8 +136,10 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "549ca6282f114419",
+  "active": "a16a46ec9f487e1a",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
+    "docs/_coverpage.md",
     "docs/README.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
     "🎦 Overview/‼️ To Do Tasks.md",
@@ -149,8 +147,6 @@
     "⏰ Weekly Work | 任务仓库/前端开发.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
     "🎦 Overview/🈯️ Learning Note OverView.md",
-    "📜 Daily Note | 日常记录/2022-03-22.md",
-    "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
-    "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md"
+    "📜 Daily Note | 日常记录/2022-03-22.md"
   ]
 }
