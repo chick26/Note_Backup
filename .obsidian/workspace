@@ -14,6 +14,14 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "549ca6282f114419",
+        "type": "leaf",
+        "state": {
+          "type": "memos_view",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -69,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,7 +140,7 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "a16a46ec9f487e1a",
+  "active": "549ca6282f114419",
   "lastOpenFiles": [
     "docs/README.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",

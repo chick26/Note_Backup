@@ -1,7 +1,16 @@
----
-title: _coverage
-creation date: 2022-03-26 09:47 
-status: todo
-tags:
-- <% tp.file.cursor(1) %>
----
+<!-- _coverpage.md -->
+
+# docsify <small>3.5</small>
+
+![logo](_media/%E7%9A%AE%E5%8D%A1%E4%B8%98.jpeg)
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+[Get Started](#quick-start)
+
+<!-- 背景图片 -->
+
+
+
+<!-- 背景色 -->
+
+![color](#f0f0f0)
