@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜 Daily Note | 日常记录/2022-04-02.md",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-04-02.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-04-02.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-04-02.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md"
               }
             }
           },
@@ -138,15 +138,15 @@
   },
   "active": "e1c9c3e869634cb5",
   "lastOpenFiles": [
-    "📜 Daily Note | 日常记录/2022-04-02.md",
-    "🎦 Overview/🈯️ Learning Note OverView.md",
-    "🎦 Overview/‼️ To Do Tasks.md",
-    "🎦 Overview/⁉️ To Do Thoughts.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/备考 2021 年 11 月份高级信息系统项目管理师资料.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
-    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+    "docs/_coverpage.md",
+    "docs/README.md",
+    "📜 Daily Note | 日常记录/2022-04-02.md",
+    "🎦 Overview/⁉️ To Do Thoughts.md",
+    "🎦 Overview/‼️ To Do Tasks.md",
+    "🎦 Overview/🈯️ Learning Note OverView.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/备考 2021 年 11 月份高级信息系统项目管理师资料.md"
   ]
 }
