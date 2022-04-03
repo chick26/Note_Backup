@@ -112,7 +112,8 @@ PDFJS.getDocument(data).promise.then(pdfDoc=>{
 // 渲染页面
 import { HotTable } from "@handsontable/vue";
 <hot-table  :settings="hotSettings"></hot-table>
-hotSettings = {
+hotSettings = 
+{
    language: "zh-CN",
    readOnly: true,
    data: this.data,
