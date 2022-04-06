@@ -33,7 +33,7 @@ Internet ^PTtyYUVi
 
 [[HTML_Semantic|Writing the Semantic HTML]] ^Bcdb6d9S
 
-[[Conventions and Best Practices]] ^jNDfg4cr
+[[HTML-Principel|Conventions and Best Practices]] ^jNDfg4cr
 
 Accessibility ^yrAcvuzq
 
@@ -84,7 +84,7 @@ CSS Grid
 			"y": -797.9627416085452,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 48,
+			"width": 49,
 			"height": 13,
 			"seed": 1469152971,
 			"groupIds": [],
@@ -171,7 +171,7 @@ CSS Grid
 			"y": -762.318552824888,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 42,
+			"width": 43,
 			"height": 11,
 			"seed": 967284357,
 			"groupIds": [
@@ -292,7 +292,7 @@ CSS Grid
 			"y": -805.2926083076172,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 90,
+			"width": 91,
 			"height": 9,
 			"seed": 1120603595,
 			"groupIds": [
@@ -369,7 +369,7 @@ CSS Grid
 			"y": -799.2962889657692,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 126,
+			"width": 127,
 			"height": 9,
 			"seed": 1543608394,
 			"groupIds": [
@@ -498,7 +498,7 @@ CSS Grid
 			"y": -762.6821532349279,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 58,
+			"width": 59,
 			"height": 9,
 			"seed": 1182223594,
 			"groupIds": [
@@ -671,7 +671,7 @@ CSS Grid
 			"y": -727.6207190531403,
 			"strokeColor": "#000000",
 			"backgroundColor": "#f8e6a2",
-			"width": 121,
+			"width": 122,
 			"height": 9,
 			"seed": 1356362193,
 			"groupIds": [
@@ -800,7 +800,7 @@ CSS Grid
 			"y": -769.436322575137,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 85,
+			"width": 86,
 			"height": 9,
 			"seed": 2069737876,
 			"groupIds": [
@@ -929,7 +929,7 @@ CSS Grid
 			"y": -737.498822575137,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 63,
+			"width": 64,
 			"height": 9,
 			"seed": 513276675,
 			"groupIds": [
@@ -1055,10 +1055,6 @@ CSS Grid
 					"type": "arrow"
 				},
 				{
-					"id": "FxK4gL-pJ1vMcwgGTQAzq",
-					"type": "arrow"
-				},
-				{
 					"id": "VIUWNQksg8HAnLHnGlO6Q",
 					"type": "arrow"
 				},
@@ -1098,7 +1094,7 @@ CSS Grid
 			"y": -617.3697570352276,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 21,
+			"width": 22,
 			"height": 11,
 			"seed": 1567143405,
 			"groupIds": [
@@ -1194,7 +1190,7 @@ CSS Grid
 			"y": -584.9771789102276,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 16,
+			"width": 17,
 			"height": 11,
 			"seed": 667172525,
 			"groupIds": [
@@ -1322,7 +1318,7 @@ CSS Grid
 			"y": -664.9594311092116,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 72,
+			"width": 73,
 			"height": 9,
 			"seed": 571590147,
 			"groupIds": [
@@ -1353,8 +1349,8 @@ CSS Grid
 		},
 		{
 			"type": "rectangle",
-			"version": 1881,
-			"versionNonce": 39843590,
+			"version": 1882,
+			"versionNonce": 1358908324,
 			"isDeleted": false,
 			"id": "jYo1Iv3lOSptQCKR3YuIh",
 			"fillStyle": "solid",
@@ -1364,7 +1360,7 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -284.9279243538998,
-			"y": -612.1946098813847,
+			"y": -612.2779432147181,
 			"strokeColor": "#000000",
 			"backgroundColor": "#f8e6a2",
 			"width": 151.69466145833334,
@@ -1388,13 +1384,13 @@ CSS Grid
 					"type": "arrow"
 				}
 			],
-			"updated": 1644561719111,
+			"updated": 1649231296876,
 			"link": ""
 		},
 		{
 			"type": "text",
-			"version": 2247,
-			"versionNonce": 1765866338,
+			"version": 2248,
+			"versionNonce": 463420700,
 			"isDeleted": false,
 			"id": "u7jG1c2E",
 			"fillStyle": "solid",
@@ -1404,10 +1400,10 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -258.88151138346973,
-			"y": -606.0911849200714,
+			"y": -606.1745182534048,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 94,
+			"width": 95,
 			"height": 9,
 			"seed": 1364114221,
 			"groupIds": [
@@ -1424,7 +1420,7 @@ CSS Grid
 					"type": "arrow"
 				}
 			],
-			"updated": 1645669583697,
+			"updated": 1649231296877,
 			"link": "[[HTML-Validation]]",
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
@@ -1469,10 +1465,6 @@ CSS Grid
 					"type": "arrow"
 				},
 				{
-					"id": "FxK4gL-pJ1vMcwgGTQAzq",
-					"type": "arrow"
-				},
-				{
 					"id": "bbFfFq_GPZvAqnpnxtb6y",
 					"type": "arrow"
 				}
@@ -1496,7 +1488,7 @@ CSS Grid
 			"y": -635.1878646075714,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 112,
+			"width": 113,
 			"height": 9,
 			"seed": 201669805,
 			"groupIds": [
@@ -1527,8 +1519,8 @@ CSS Grid
 		},
 		{
 			"type": "rectangle",
-			"version": 1915,
-			"versionNonce": 2072286124,
+			"version": 1917,
+			"versionNonce": 1828193956,
 			"isDeleted": false,
 			"id": "SXQNsB1sJtD5Thz0ySPxv",
 			"fillStyle": "solid",
@@ -1537,7 +1529,7 @@ CSS Grid
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -286.1881782601498,
+			"x": -286.1985949268165,
 			"y": -583.4644752185558,
 			"strokeColor": "#000000",
 			"backgroundColor": "#f8e6a2",
@@ -1562,13 +1554,13 @@ CSS Grid
 					"type": "arrow"
 				}
 			],
-			"updated": 1645931977320,
+			"updated": 1649231351262,
 			"link": ""
 		},
 		{
 			"type": "text",
-			"version": 2200,
-			"versionNonce": 722529812,
+			"version": 2240,
+			"versionNonce": 1217733660,
 			"isDeleted": false,
 			"id": "jNDfg4cr",
 			"fillStyle": "solid",
@@ -1577,7 +1569,7 @@ CSS Grid
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -275.77164810221973,
+			"x": -275.6961272688864,
 			"y": -577.5734526009925,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
@@ -1598,12 +1590,12 @@ CSS Grid
 					"type": "arrow"
 				}
 			],
-			"updated": 1645931988159,
-			"link": "[[Conventions and Best Practices]]",
+			"updated": 1649231381148,
+			"link": "[[HTML-Principel]]",
 			"fontSize": 7.6739049905168235,
 			"fontFamily": 3,
 			"text": "Conventions and Best Practices",
-			"rawText": "[[Conventions and Best Practices]]",
+			"rawText": "[[HTML-Principel|Conventions and Best Practices]]",
 			"baseline": 7,
 			"textAlign": "left",
 			"verticalAlign": "top",
@@ -1660,8 +1652,8 @@ CSS Grid
 		},
 		{
 			"type": "arrow",
-			"version": 156,
-			"versionNonce": 1536655942,
+			"version": 158,
+			"versionNonce": 568211236,
 			"isDeleted": false,
 			"id": "VIUWNQksg8HAnLHnGlO6Q",
 			"fillStyle": "solid",
@@ -1671,16 +1663,16 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -87.07326940598318,
-			"y": -611.7226118320708,
+			"y": -611.7051826176303,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fa5252",
 			"width": 37.72802734375,
-			"height": 8.35703749772199,
+			"height": 8.305462712979875,
 			"seed": 1561946979,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1644550830295,
+			"updated": 1649231296877,
 			"link": null,
 			"startBinding": {
 				"elementId": "prHiKwp7Bb3a_Enu7cMmK",
@@ -1702,14 +1694,14 @@ CSS Grid
 				],
 				[
 					-37.72802734375,
-					8.35703749772199
+					8.305462712979875
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 154,
-			"versionNonce": 864894508,
+			"version": 158,
+			"versionNonce": 1426559524,
 			"isDeleted": false,
 			"id": "3XVpA_ItaAk9JJ2lEgP1O",
 			"fillStyle": "solid",
@@ -1719,16 +1711,16 @@ CSS Grid
 			"opacity": 100,
 			"angle": 0,
 			"x": -88.95803503098318,
-			"y": -607.9676661449616,
+			"y": -607.9443563859584,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fa5252",
-			"width": 38.744140625,
-			"height": 29.34351794932786,
+			"width": 38.754557291666686,
+			"height": 29.33032682255225,
 			"seed": 1410356483,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1645931977321,
+			"updated": 1649231351262,
 			"link": null,
 			"startBinding": {
 				"elementId": "prHiKwp7Bb3a_Enu7cMmK",
@@ -1749,8 +1741,8 @@ CSS Grid
 					0
 				],
 				[
-					-38.744140625,
-					29.34351794932786
+					-38.754557291666686,
+					29.33032682255225
 				]
 			]
 		},
@@ -1862,7 +1854,7 @@ CSS Grid
 			"y": -656.200345513569,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 59,
+			"width": 60,
 			"height": 9,
 			"seed": 1488514458,
 			"groupIds": [
@@ -1951,7 +1943,7 @@ CSS Grid
 			"y": -624.886868951069,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 59,
+			"width": 60,
 			"height": 9,
 			"seed": 129617690,
 			"groupIds": [
@@ -2140,7 +2132,7 @@ CSS Grid
 			"y": -592.9911169979439,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 91,
+			"width": 92,
 			"height": 9,
 			"seed": 259350810,
 			"groupIds": [
@@ -2237,7 +2229,7 @@ CSS Grid
 			"y": -560.9891638729439,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 63,
+			"width": 64,
 			"height": 9,
 			"seed": 924724698,
 			"groupIds": [
@@ -2326,7 +2318,7 @@ CSS Grid
 			"y": -528.7540564510689,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 145,
+			"width": 146,
 			"height": 9,
 			"seed": 1438128390,
 			"groupIds": [
@@ -2720,7 +2712,7 @@ CSS Grid
 			"y": -554.9317292109665,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fab005",
-			"width": 52,
+			"width": 53,
 			"height": 11,
 			"seed": 212136090,
 			"groupIds": [

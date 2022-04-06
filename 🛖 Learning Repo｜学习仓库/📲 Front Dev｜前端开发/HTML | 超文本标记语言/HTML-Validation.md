@@ -1,7 +1,7 @@
 ---
 title: "HTML-Validation"
 date: 2022-01-24 14:41
-status: doing
+status: done
 tags:
 - HTML
 - HTML/FormValidation
@@ -95,3 +95,10 @@ The value must follow the [ABNF](https://www.ietf.org/rfc/std/std68.txt) product
 -   [HTMLSelectElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement)
 -   [HTMLTextAreaElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement)
 
+## 常见用的原生表单校验库
+
+-   独立的库（原生 Javascript 实现）
+    -   [Validate.js](http://rickharrison.github.com/validate.js/)
+-   jQuery 插件
+    -   [Validation](http://bassistance.de/jquery-plugins/jquery-plugin-validation/)
+    -   [Valid8](http://unwrongest.com/projects/valid8/)
