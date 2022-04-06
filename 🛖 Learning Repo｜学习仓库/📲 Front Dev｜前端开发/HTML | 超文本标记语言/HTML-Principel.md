@@ -1,13 +1,12 @@
 ---
 title: HTML-Principel
 date: 2022-04-06 15:51 
-status: todo
+status: done
 tags:
 - HTML/Principel
 ---
 
 # HTML 最佳实践
-=======================
 
 编写易于维护与扩展的 HTML 文档。
 
@@ -1159,95 +1158,70 @@ Good:
 
 ```
 
-### [](#按需为-img-元素添加-alt-属性)按需为 `img` 元素添加 `alt` 属性
+### 按需为 `img` 元素添加 `alt` 属性
 
 `alt` 属性对那些无法处理图片或禁用了图片加载的人很有帮助。
 
 Bad:
-
 ```
 <img src="/img/logo.png">
-
-
 ```
 
 Good:
-
 ```
 <img alt="HTML Best Practices" src="/img/logo.png">
-
-
 ```
 
-### [](#若有可能则留空-alt-属性)若有可能则留空 `alt` 属性
+### 若有可能则留空 `alt` 属性
 
 如果图片是用作补充说明，那么附近应该有与 `alt` 等价的内容。
 
 Bad:
-
 ```
 <img alt="Question mark icon" src="/img/icon/help.png"> Help
-
-
 ```
 
 Good:
-
 ```
 <img alt="" src="/img/icon/help.png"> Help
-
-
 ```
 
-### [](#若有可能则省略-alt-属性)若有可能则省略 `alt` 属性
+### 若有可能则省略 `alt` 属性
 
 有时你不一定知道 `alt` 要写什么。
 
 Bad:
-
 ```
 <img alt="CAPTCHA" src="captcha.cgi?id=82174">
-
-
 ```
 
 Good:
-
 ```
 <img src="captcha.cgi?id=82174" title="CAPTCHA">
 (If you cannot see the image, you can use an <a href="?audio">audio</a> test instead.)
-
-
 ```
 
-### [](#留空-iframe-内容)留空 `iframe` 内容
+### 留空 `iframe` 内容
 
 `iframe` 的内容是受限的，留空比较安全。
 
 Bad:
-
 ```
 <iframe src="/ads/default.html">
   <p>If your browser support inline frame, ads are displayed here.</p>
 </iframe>
-
-
 ```
 
 Good:
-
 ```
 <iframe src="/ads/default.html"></iframe>
-
-
 ```
 
-### [](#标记-map-元素内容)标记 `map` 元素内容
+### 标记 `map` 元素内容
 
 这样屏幕阅读器可以知道 `map` 的内容。
 
 Bad:
-
 ```
 <map >
   <a href="#general">General</a>
@@ -1257,12 +1231,9 @@ Bad:
   <a href="#sections">Sections</a>
   <area alt="Sections" coords="100, 0, 140, 40" href="#sections">
 </map>
-
-
 ```
 
 Good:
-
 ```
 <map >
   <p>
@@ -1274,28 +1245,22 @@ Good:
     <area alt="Sections" coords="100, 0, 140, 40" href="#sections">
   </p>
 </map>
-
-
 ```
 
-### [](#为-audio-和-video-元素提供备用内容)为 `audio` 和 `video` 元素提供备用内容
+### 为 `audio` 和 `video` 元素提供备用内容
 
 HTML 新引进的元素需要备用内容，以防旧版浏览器不支持。
 
 Bad:
-
 ```
 <video>
   <source src="/mov/theme.mp4" type="video/mp4">
   <source src="/mov/theme.ogv" type="video/ogg">
   ...
 </video>
-
-
 ```
 
 Good:
-
 ```
 <video>
   <source src="/mov/theme.mp4" type="video/mp4">
@@ -1303,45 +1268,35 @@ Good:
   ...
   <iframe src="//www.youtube.com/embed/..." allowfullscreen></iframe>
 </video>
-
-
 ```
 
-[](#表格数据)表格数据
--------------
+## 表格数据
 
-### [](#一行写一个单元格)一行写一个单元格
+### 一行写一个单元格
 
 长行难以浏览。
 
 Bad:
-
 ```
 <tr>
   <td>General</td><td>The root Element</td><td>Sections</td>
 </tr>
-
-
 ```
 
 Good:
-
 ```
 <tr>
   <td>General</td>
   <td>The root Element</td>
   <td>Sections</td>
 </tr>
-
-
 ```
 
-### [](#使用-th-元素表示标题格)使用 `th` 元素表示标题格
+### 使用 `th` 元素表示标题格
 
 就应该这样。
 
 Bad:
-
 ```
 <table>
   <thead>
@@ -1364,8 +1319,6 @@ Bad:
     </tr>
   </tbody>
 </table>
-
-
 ```
 
 Good:
@@ -1392,134 +1345,96 @@ Good:
     </tr>
   </tbody>
 </table>
-
-
 ```
 
-[](#表单)表单
----------
+## 表单
 
-### [](#使用-label-元素包裹表单控制元素)使用 `label` 元素包裹表单控制元素
+### 使用 `label` 元素包裹表单控制元素
 
 `label` 元素有助于表单元素的聚焦。
 
 Bad:
-
 ```
 <p>Query: <input ></p>
-
 
 ```
 
 Good:
-
 ```
 <p><label>Query: <input ></label></p>
-
-
 ```
 
-### [](#若有可能则省略-for-属性)若有可能则省略 `for` 属性
+### 若有可能则省略 `for` 属性
 
 `label` 元素可以包含表单元素。
 
 Bad:
-
 ```
 <label for="q">Query: </label><input >
-
-
 ```
 
 Good:
-
 ```
 <label>Query: <input ></label>
-
-
 ```
 
-### [](#为-input-元素选择合适的-type-属性)为 `input` 元素选择合适的 `type` 属性
+### 为 `input` 元素选择合适的 `type` 属性
 
 使用 `type` 属性后，浏览器会赋予 `input` 元素一些新功能。
 
 Bad:
-
 ```
 <label>Search keyword: <input ></label>
-
-
 ```
 
 Good:
-
 ```
 <label>Search keyword: <input ></label>
-
-
 ```
 
-### [](#给-input-typesubmit-添加-value-属性)给 `input type="submit"` 添加 `value` 属性
+### 给 `input type="submit"` 添加 `value` 属性
 
 在不同浏览器和不同语言环境下，提交按钮的默认标签是不同的。
 
 Bad:
-
 ```
 <input type="submit">
-
-
 ```
 
 Good:
-
 ```
 <input type="submit" value="Search">
-
-
 ```
 
-### [](#给有-pattern-属性的-input-元素添加-title-属性)给有 `pattern` 属性的 `input` 元素添加 `title` 属性
+### 给有 `pattern` 属性的 `input` 元素添加 `title` 属性
 
 如果输入文本与 `pattern` 属性不匹配，`title` 属性的值就会被显示为提示。
 
 Bad:
-
 ```
 <input [0-9]{3}" type="text">
-
-
 ```
 
 Good:
-
 ```
 <input [0-9]{3}" title="A security code is a number in three figures." type="text">
-
-
 ```
 
-### [](#不要把-placeholder-作为标签)不要把 `placeholder` 作为标签
+### 不要把 `placeholder` 作为标签
 
 `label` 元素用于提供标签，`placeholder` 属性用于简短提示。
 
 Bad:
-
 ```
 <input >
-
-
 ```
 
 Good:
-
 ```
 <label>Email: <input john.doe@example.com" type="text"></label>
-
-
 ```
 
-### [](#每行只写一个-option-元素)每行只写一个 `option` 元素
+### 每行只写一个 `option` 元素
 
 长行难以浏览。
 
@@ -1529,161 +1444,121 @@ Bad:
 <datalist>
   <option label="General"><option label="The root element"><option label="Sections">
 </datalist>
-
-
 ```
 
 Good:
-
 ```
 <datalist>
   <option label="General">
   <option label="The root element">
   <option label="Sections">
 </datalist>
-
-
 ```
 
-### [](#为-progress-元素添加-max-属性)为 `progress` 元素添加 `max` 属性
+### 为 `progress` 元素添加 `max` 属性
 
 有了 `max` 属性，`value` 属性就易于编写。
 
 Bad:
-
 ```
 <progress value="0.5"> 50%</progress>
-
-
 ```
 
 Good:
-
 ```
 <progress max="100" value="50"> 50%</progress>
-
-
 ```
 
-### [](#为-meter-元素添加-min-和-max-属性)为 `meter` 元素添加 `min` 和 `max` 属性
+### 为 `meter` 元素添加 `min` 和 `max` 属性
 
 有了 `min` 和 `max` 属性，`value` 属性就易于编写。
 
 Bad:
-
 ```
 <meter value="0.5"> 512GB used (1024GB total)</meter>
-
-
 ```
 
 Good:
-
 ```
 <meter min="0" max="1024" value="512"> 512GB used (1024GB total)</meter>
-
-
 ```
 
-### [](#将-legend-作为-fieldset-的第一个子元素)将 `legend` 作为 `fieldset` 的第一个子元素
+### 将 `legend` 作为 `fieldset` 的第一个子元素
 
 这是规范的要求。
 
 Bad:
-
 ```
 <fieldset>
   <p><label>Is this section is useful?: <input ></label></p>
   ...
   <legend>About "General"</legend>
 </fieldset>
-
-
 ```
 
 Good:
-
 ```
 <fieldset>
   <legend>About "General"</legend>
   <p><label>Is this section is useful?: <input ></label></p>
   ...
 </fieldset>
-
-
 ```
 
-[](#脚本)脚本
----------
+## 脚本
 
-### [](#省略-javascript-的-type-属性)省略 JavaScript 的 `type` 属性
+### 省略 JavaScript 的 `type` 属性
 
 在 HTML 中，`script` 元素的默认 `type` 属性值就是 `text/javascript`。
 
 Bad:
-
 ```
 <script type="text/javascript">
   ...
 </script>
-
-
 ```
 
 Good:
-
 ```
 <script>
   ...
 </script>
-
-
 ```
 
-### [](#不要为-script-元素的内容编写注释)不要为 `script‵ 元素的内容编写注释
+### 不要为 `script‵ 元素的内容编写注释
 
 这条规则适用于旧版浏览器。
 
 Bad:
-
 ```
 <script>
 /*<![CDATA[*/
   ...
 /*]]>*/
 </script>
-
-
 ```
 
 Also bad:
-
 ```
 <script>
 <!--
   ...
 // -->
 </script>
-
-
 ```
 
 Good:
-
 ```
 <script>
   ...
 </script>
-
-
 ```
 
-### [](#不要使用注入脚本的-script-元素)不要使用注入脚本的 `script` 元素
+### 不要使用注入脚本的 `script` 元素
 
 `async` 属性既简单又高效。
 
 Bad:
-
 ```
 <script>
   var script = document.createElement("script");
@@ -1691,27 +1566,21 @@ Bad:
   script.src = "//example.com/widget.js";
   document.getElementsByTagName("head")[0].appendChild(script);
 </script>
-
-
 ```
 
 Good:
 
 ```
 <script async defer src="https://example.com/widget.js"></script>
-
-
 ```
 
-[](#其它)其它
----------
+## 其它
 
-### [](#一致的缩进)一致的缩进
+### 一致的缩进
 
 缩进对可读性影响很大。
 
 Bad:
-
 ```
 <html>
 	<head>
@@ -1724,7 +1593,6 @@ Bad:
 ```
 
 Good:
-
 ```
 <html>
   <head>
@@ -1734,72 +1602,36 @@ Good:
     ...
   </body>
 </html>
-
-
 ```
 
-### [](#使用相对路径引用内部链接)使用相对路径引用内部链接
+### 使用相对路径引用内部链接
 
 无网络链接时，相对链接在本机有更好的表现。
 
 Bad:
-
 ```
 <link rel="apple-touch-icon" href="http://you.example.com/apple-touch-icon-precomposed.png">
 ...
 <p>You can find more at <a href="//you.example.com/contact.html">contact page</a>.</p>
-
-
 ```
 
 Good:
-
 ```
 <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
 ...
 <p>You can find more at <a href="/contact.html">contact page</a>.</p>
-
-
 ```
 
-### [](#不要使用无协议的-url-引用外部资源)不要使用无协议的 URL 引用外部资源
+### 不要使用无协议的 URL 引用外部资源
 
 有了协议，外部资源的加载更可靠、更安全。
 
 Bad:
-
 ```
 <script src="//example.com/js/library.js">
-
-
 ```
 
 Good:
-
 ```
 <script src="https://example.com/js/library.js">
-
-
 ```
-
-[](#贡献者)贡献者
------------
-
-*   [@hail2u_](https://github.com/hail2u_)
-*   [@momdo](https://github.com/momdo)
-
-[](#译者)译者
----------
-
-*   [@edgar-avila](https://github.com/edgar-avila)
-*   [@kobyborali](https://github.com/kobyborali)
-*   [@mrcaidev](https://github.com/mrcaidev)
-*   [@sahilmaniyar](https://github.com/sahilmaniyar)
-*   [@techhtml](https://github.com/techhtml)
-*   [@umutphp](https://github.com/umutphp)
-*   [@wesleynepo](https://github.com/wesleynepo)
-
-[](#许可证)许可证
------------
-
-[CC0](http://creativecommons.org/publicdomain/zero/1.0/)
