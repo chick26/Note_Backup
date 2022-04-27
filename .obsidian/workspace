@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📜 Daily Note | 日常记录/2022-04-26.md",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-04-26.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-04-26.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Daily Note | 日常记录/2022-04-26.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
               }
             }
           },
@@ -138,6 +138,8 @@
   },
   "active": "5a86c49a636da161",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
     "📜 Daily Note | 日常记录/2022-04-26.md",
     "🎦 Overview/‼️ To Do Tasks.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
@@ -145,8 +147,6 @@
     "🎦 Overview/🈯️ Learning Note OverView.md",
     "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
     "🎨 Excalidraw｜画板仓库/CFA-end.excalidraw.md",
-    "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
-    "📜 Daily Note | 日常记录/2022-04/2022-04-13.md",
-    "📜 Daily Note | 日常记录/2022-04/2022-04-11.md"
+    "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md"
   ]
 }
