@@ -96,7 +96,8 @@
               }
             ],
             "updated": 1644561677483,
-            "link": ""
+            "link": "",
+            "locked": false
           },
           {
             "type": "text",
@@ -129,6 +130,7 @@
             ],
             "updated": 1644550830293,
             "link": "[[HTTP]]",
+            "locked": false,
             "fontSize": 7.6739049905168235,
             "fontFamily": 3,
             "text": "What is Http?",
@@ -224,7 +226,8 @@
               }
             ],
             "updated": 1644561774789,
-            "link": null
+            "link": null,
+            "locked": false
           },
           {
             "type": "text",
@@ -252,6 +255,7 @@
             "boundElements": [],
             "updated": 1644550830294,
             "link": "[[HTML]]",
+            "locked": false,
             "fontSize": 8.919407894736832,
             "fontFamily": 3,
             "text": "HTML",
@@ -277,7 +281,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "1.6.26",
+  "previousRelease": "1.6.27",
   "showReleaseNotes": true,
   "fieldSuggestor": true,
   "loadCount": 1,
