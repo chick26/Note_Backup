@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "62c8505ffc0bc911",
+        "id": "8aa0a8d211943179",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📆 Weekily Note | 周记/未命名.md",
+            "file": "📜 Daily Note | 日常记录/2022-05-16.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📆 Weekily Note | 周记/未命名.md",
+                "file": "📜 Daily Note | 日常记录/2022-05-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📆 Weekily Note | 周记/未命名.md",
+                "file": "📜 Daily Note | 日常记录/2022-05-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📆 Weekily Note | 周记/未命名.md"
+                "file": "📜 Daily Note | 日常记录/2022-05-16.md"
               }
             }
           },
@@ -137,17 +137,17 @@
     "width": 238.5,
     "collapsed": true
   },
-  "active": "62c8505ffc0bc911",
+  "active": "8aa0a8d211943179",
   "lastOpenFiles": [
+    "📜 Daily Note | 日常记录/2022-05-16.md",
+    "📜 Daily Note | 日常记录/未命名.md",
+    "Untitled.md",
     "📆 Weekily Note | 周记/未命名.md",
     "🎦 Overview/🈯️ Learning Note OverView.md",
     "🎦 Overview/‼️ To Do Tasks.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
     "🧳 Template｜模板库/Templates/Learning-Note.md",
     "🧳 Template｜模板库/Templates/Mind-Note.md",
-    "🧳 Template｜模板库/Templates/Daily-Note.md",
-    "🧳 Template｜模板库/Templates/Book-Note.md",
-    "🧳 Template｜模板库/Templates/Weekily-Note.md",
-    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/推荐系统/业界推荐系统架构.md"
+    "🧳 Template｜模板库/Templates/Daily-Note.md"
   ]
 }
