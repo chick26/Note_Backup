@@ -4,14 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8aa0a8d211943179",
+        "id": "bab2556af0264cde",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "🎦 Overview/⁉️ To Do Thoughts.md",
-            "mode": "source",
-            "source": false
+            "file": "⏰ Weekly Work | 任务仓库/前端开发.md"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/⁉️ To Do Thoughts.md",
+                "file": "⏰ Weekly Work | 任务仓库/前端开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/⁉️ To Do Thoughts.md",
+                "file": "⏰ Weekly Work | 任务仓库/前端开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/⁉️ To Do Thoughts.md"
+                "file": "⏰ Weekly Work | 任务仓库/前端开发.md"
               }
             }
           },
@@ -137,17 +135,17 @@
     "width": 238.5,
     "collapsed": true
   },
-  "active": "8aa0a8d211943179",
+  "active": "bab2556af0264cde",
   "lastOpenFiles": [
+    "⏰ Weekly Work | 任务仓库/前端开发.md",
     "🎦 Overview/⁉️ To Do Thoughts.md",
     "🎦 Overview/‼️ To Do Tasks.md",
+    "📜 Daily Note | 日常记录/2022-05-16.md",
     "📜 Daily Note | 日常记录/2022-04/2022-04-02.md",
     "📜 Daily Note | 日常记录/2022-03/2022-03-01.md",
     "📜 Daily Note | 日常记录/2022-04/2022-04-26.md",
     "📆 Weekly Note | 周记/未命名.md",
-    "📜 Daily Note | 日常记录/2022-05-16.md",
     "📜 Daily Note | 日常记录/🎽 Daily Training.md",
-    "📜 Daily Note | 日常记录/未命名.md",
-    "Untitled.md"
+    "📜 Daily Note | 日常记录/未命名.md"
   ]
 }
