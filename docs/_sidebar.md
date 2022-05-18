@@ -10,6 +10,8 @@
 * 📲 Front Dev｜前端开发
   * AppleScript | Apple 脚本语言
     * [AppleScript](📲%20Front%20Dev｜前端开发/AppleScript%20|%20Apple%20脚本语言/AppleScript.md)
+  * CSS | 文档样式语言
+    * [CSS解决方案](📲%20Front%20Dev｜前端开发/CSS%20|%20文档样式语言/CSS解决方案.md)
   * HTML | 超文本标记语言
     * [HTML-HEAD](📲%20Front%20Dev｜前端开发/HTML%20|%20超文本标记语言/HTML-HEAD.md)
     * [HTML-Principel](📲%20Front%20Dev｜前端开发/HTML%20|%20超文本标记语言/HTML-Principel.md)
