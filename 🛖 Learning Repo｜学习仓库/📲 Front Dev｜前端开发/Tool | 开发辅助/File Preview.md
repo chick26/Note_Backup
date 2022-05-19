@@ -27,7 +27,7 @@ tags:
 ```js
 import { defaultOptions, renderAsync } from "docx-preview";
 renderAsync(buffer, document.getElementById("container"), null,
-options: {
+		options: {
 	className: string = "docx", // 默认和文档样式类的类名/前缀
 	inWrapper: boolean = true, // 启用围绕文档内容渲染包装器
 	ignoreWidth: boolean = false, // 禁止页面渲染宽度

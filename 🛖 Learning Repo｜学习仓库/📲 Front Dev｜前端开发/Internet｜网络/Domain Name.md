@@ -16,7 +16,7 @@ tags:
 
 # 域名的结构
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202202101543606.png)
+![](media/202202101543606.png)
 
 ## TLD （Top-Level Domain，顶级域名）
 

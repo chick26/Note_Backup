@@ -7,8 +7,6 @@ tags:
 - Internet/WWW
 ---
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201241454132.jpeg)
-
 >万维网（英语：World Wide Web）亦作WWW、Web、全球广域网，是一个透过互联网访问的，由许多互相链接的超文本组成的信息系统。英国科学家蒂姆·伯纳斯-李于1989年发明了万维网。1990年他在瑞士CERN的工作期间编写了第一个网页浏览器。网页浏览器于1991年1月向其他研究机构发行，并于同年8月向公众开放。
 
 ## 工作原理
