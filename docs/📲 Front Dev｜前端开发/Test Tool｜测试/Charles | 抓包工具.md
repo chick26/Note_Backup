@@ -6,7 +6,7 @@ tags:
 - Charles
 ---
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211808675.png)
+![](media/202201211808675.png)
 
 >Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).
 
@@ -25,31 +25,31 @@ tags:
 ## 封包过滤
 
 * `Structure/结构视图`，将网络请求按访问的域名分类，比如某个域名下有n个资源请求，那么所有此域名下的请求都会在这里做一个详细的分类；
-![Structure](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201141056192.png)
+![Structure](media/202201141056192.png)
 * `Sequence/序列视图`，将网络请求按访问的时间排序，按照你的电脑的发送请求顺序进行。
-![Sequence](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201141124191.png)
+![Sequence](media/202201141124191.png)
 
 ## 域名抓包
 
 除此上面的方法之外，也可以修改Include的域名和端口。  在 Charles 的菜单栏选择 `Proxy -> Recording Settings`，然后选择 `Include` 栏，选择添加一个项目，然后填入需要监控的协议，主机地址，端口号。这样就可以只截取目标网站的封包了
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170828680.png)
+![](media/202201170828680.png)
 
 ## 过滤焦点域名
 
 在目标的网络请求上右键，选中`focus`（此时，该域名已经被设置为一个焦点标记了），然后点击 `fillter` 后面的 `focused` 来筛选你的做的 `focus` 标记文件。
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170951306.png)
+![](media/202201170951306.png)
 
 这种方法是抓取特定的网络请求，设置的焦点域名在 `focused Hosts` 里面可以查看和管理。
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201170954660.webp)
+![](media/202201170954660.webp)
 
 这种模式下的展现更加人性化，当你设置某个域名为焦点域名的时候，会把当前域名单独显示在上面，而其它的非焦点域名，都会在`other Hosts`里显示。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201171711236.webp)
+![](media/202201171711236.webp)
 
 
 # 界面说明
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201171711365.webp)
+![](media/202201171711365.webp)
 
 `Contents`是最常用的一个标签，其中上半部分是请求，下半部分是响应：请求部分中，会根据请求的内容，而分为很多项，比如如果是表单提交，还会有form的选项供你查看提交的内容（表格图形化的方式），最后一项”Raw”是未经处理的请求信息，可以理解为，raw左侧的所有项目都是对raw信息的拆分和美化，以便直观查看。
 
@@ -57,7 +57,7 @@ tags:
 - `Help` -> `SSL Proxying` -> `Install Charles Root Certificate`
 - MacOS 信任证书
 - 配置监听端口
- ![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201191702464.png)
+ ![](media/202201191702464.png)
 
 ## Proxy
 
@@ -67,26 +67,26 @@ tags:
 
 >是常用的功能，这里需要注意后面的session1代表当前你将要操作的会话窗口，就是切换是否进行捕获记录。下面的Imporet和export分别是资源的导入和导出，类似PSD文件一样，详细的储存，方便直接导入使用；但是仅仅是储存当前的设置。  `include`,`exclude` 是对特定域名进行抓包。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211423563.webp)
+![](media/202201211423563.webp)
 
 #### stop/start throttling 开始/暂停节流
 
 >暂时开始慢网速，这个手机上2G/3G/4G的速度，这个对应工具栏的小乌龟图标。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211425364.webp)
+![](media/202201211425364.webp)
 
 #### enable/disable breakpoints 启用/禁用断点
 
 >有时候对于一些特殊请求在发往服务器之前想要修改一些参数，或者在服务器响应完成之后修改响应信息，此时可以使用Charles的断点功能，设置断点之后，当有网络请求的时候Charles会自动跳转到断点处，此时我们就能进行相关的修改。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430292.webp)
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211430643.webp)
+![](media/202201211430292.webp)
+![](media/202201211430643.webp)
 
 #### SSL Proxying Settings
 
 >通过SSL代理，您的浏览器或应用程序将收到由Charles签名的证书，而不是来自远程Web服务器的原始证书。这将在您的浏览器或应用程序中触发警告，某些应用程序实际上可能会拒绝该连接。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211555606.webp)
+![](media/202201211555606.webp)
 
 ### 反向代理和端口转发
 
@@ -102,7 +102,7 @@ tags:
 	* __保留主机头__:  仅当具有特定要求时，才需要保留主机头;普通使用的时候没有必要使用的。
 	* __监听特定地址__:  如果要指定本地地址以侦听反向代理，则可以启用此选项并在此处输入IP地址。如果要在同一台机器上运行多个网络服务，但在同一台机器上的不同IP地址上运行，则此功能非常有用。禁用此选项时，反向代理将绑定到所有可用的本地地址。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211443730.webp)
+![](media/202201211443730.webp)
 
 #### port forwarding 端口转发
 
@@ -120,12 +120,12 @@ tags:
 
 #### proxy setting 代理设置
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211551530.webp)
+![](media/202201211551530.webp)
 
 - **动态端口**：启用动态端口选项来监听动态端口，每次启动时会进行查询，会赋予合理的端口，这样可以避免与计算机上可能运行的其他网络服务的冲突。
 - **透明代理**：透明代理使Charles能够访问不支持HTTP代理服务器的客户端，或者不知道他们正在使用HTTP代理服务器，例如 TCP/IP 连接由路由器或防火墙重定向到Charles。这里可以被手机连接。 手机连接的时候，http代理那里写选手动，并填写此时charles的本机地址和上面设置的8888端口即可。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211553770.webp)
+![](media/202201211553770.webp)
 
 #### access control setting 访问控制设置
 
@@ -135,7 +135,7 @@ tags:
 
 >外部代理设置，有时候可能需要使用网络上的代理服务器才能访问Internet，上面已经提到了，是没法连接代理服务器的同时，让charles继续抓包的，在这种情况下，需要为Charles配置外部代理。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211557661.webp)
+![](media/202201211557661.webp)
 
 #### web interface setting Web界面设置
 
@@ -166,7 +166,7 @@ tags:
 * 将目录与文件模式映射到目录，如 `baidu.com/charles/*.php` 到`localhost/charlesdev/`
 * 如果在目标映射中未指定路径，则URL的路径部分将不会更改。如果要映射到根目录，请在目标路径字段中以 `/` 结尾。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211627071.png)
+![](media/202201211627071.png)
 
 #### Map Local Settings
 
@@ -178,7 +178,7 @@ tags:
 
 >在通过charles时修改请求和响应 rewrite 功能重写对应的内容，主要可以对某些匹配请求的header、host、url、path、query param、response status、body进行rewrite。
 
-![](https://gitee.com/chick-lee/typroa_-image_-repo/raw/master/image/202201211631168.webp)
+![](media/202201211631168.webp)
 
 #### repeat
 
