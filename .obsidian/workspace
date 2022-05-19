@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "17a72cbe170609b1",
+        "id": "61154eeccf3f51dd",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 238.5
   },
-  "active": "17a72cbe170609b1",
+  "active": "61154eeccf3f51dd",
   "lastOpenFiles": [
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
+    "640.png",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/前端部署.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
     "media/afed5037b76e48caac538b05d4db79b7~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
     "media/0cd65d8a393b4d7abf2f6fe8eddb845f~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
     "media/1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
     "media/5ba66dc474384c9488d1485bef852c2a~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/57f6d3ee8bc64ab38c875ee37e140b9b~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/60b4eda718ff42d491c2aa788d0cbb42~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/93a85382a9f14e94b7c889a36f11809d~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/97e4477aff4a426896dcfee9a9492a41~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
+    "media/57f6d3ee8bc64ab38c875ee37e140b9b~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
   ]
 }
