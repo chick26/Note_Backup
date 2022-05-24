@@ -7,11 +7,9 @@
         "id": "61154eeccf3f51dd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
-            "mode": "source",
-            "source": false
+            "file": "media/202201261432011.png"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
+                "file": "media/202201261432011.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
+                "file": "media/202201261432011.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md"
+                "file": "media/202201261432011.png"
               }
             }
           },
@@ -138,6 +136,8 @@
   },
   "active": "61154eeccf3f51dd",
   "lastOpenFiles": [
+    "media/202201261432011.png",
+    "media/202201261432077.jpg",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程 - SegmentFault 思否.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
@@ -145,8 +145,6 @@
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
     "media/240634c5beaf49db92713ee281fa98fe~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
     "media/69518680dfe345d6a4d74b4c00772111~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/93a85382a9f14e94b7c889a36f11809d~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/ff668da65572486db031eb113caaaaf1~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-    "media/f166c3371c854c878d2bce8c1450500e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
+    "media/93a85382a9f14e94b7c889a36f11809d~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
   ]
 }
