@@ -1,8 +1,10 @@
 ---
-title: 打包工具 rollup.js 入门教程 
+title: rollup.js 入门
 creation date: 2022-05-24 09:20:20
 status: todo
 tag: 
+- rollupjs
+- package/fronten
 ---
 [rollup.js](https://rollupjs.org/) 是一个 JavaScript 打包工具。本文介绍它的基本用法。
 
