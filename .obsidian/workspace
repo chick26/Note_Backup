@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
+            "file": "🎦 Overview/🈯️ Learning Note OverView.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
+                "file": "🎦 Overview/🈯️ Learning Note OverView.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
+                "file": "🎦 Overview/🈯️ Learning Note OverView.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md"
+                "file": "🎦 Overview/🈯️ Learning Note OverView.md"
               }
             }
           },
@@ -130,14 +130,16 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 280.5
   },
   "active": "61154eeccf3f51dd",
   "lastOpenFiles": [
+    "🎦 Overview/🈯️ Learning Note OverView.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/rollup.js 入门.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
@@ -145,8 +147,6 @@
     "media/202201261432011.png",
     "media/202201261432077.jpg",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程 - SegmentFault 思否.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md"
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md"
   ]
 }
