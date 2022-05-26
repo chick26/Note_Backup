@@ -39,6 +39,8 @@
     * [Charles | 抓包工具](📲%20Front%20Dev｜前端开发/Test%20Tool｜测试/Charles%20|%20抓包工具.md)
   * Tool | 开发辅助
     * [File Preview](📲%20Front%20Dev｜前端开发/Tool%20|%20开发辅助/File%20Preview.md)
+  * TypeScript | Web编程语言
+    * [TypeScript 语法](📲%20Front%20Dev｜前端开发/TypeScript%20|%20Web编程语言/TypeScript%20语法.md)
   * UILibrary | 组件库
     * [dumi 组件库搭建](📲%20Front%20Dev｜前端开发/UILibrary%20|%20组件库/dumi%20组件库搭建.md)
     * [前端组件库设计](📲%20Front%20Dev｜前端开发/UILibrary%20|%20组件库/前端组件库设计.md)
