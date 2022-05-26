@@ -1,7 +1,7 @@
 ---
-title: rollup.js 入门
+title: rollup.js
 creation date: 2022-05-24 09:20:20
-status: todo
+status: done
 tag: 
 - rollupjs
 - package/fronten
@@ -10,14 +10,10 @@ tag:
 
 ## 一、简介
 
-打包工具的作用是，将多个 JavaScript 脚本合并成一个脚本，供浏览器使用。
-
-浏览器需要脚本打包，主要原因有三个。
+打包工具的作用是，将多个 JavaScript 脚本合并成一个脚本，供浏览器使用。浏览器需要脚本打包，主要原因有三个。
 
 （1）早期的浏览器不支持模块，大型网页项目只能先合并成单一脚本再执行。
-
 （2）Node.js 的模块机制与浏览器不兼容，必须通过打包工具进行兼容处理。
-
 （3）浏览器加载一个大脚本，要比加载多个小脚本，性能更好。
 
 目前，最常用的打包工具是 Webpack。它的功能强大，但是难学难用，一直被人诟病。
@@ -36,7 +32,7 @@ rollup.js 的开发本意，是打造一款简单易用的 ES 模块打包工具
 
 本文采用全局安装 rollup.js。
 
-```
+```powershell
 $ npm install --global rollup
 ```
 
@@ -44,7 +40,7 @@ $ npm install --global rollup
 
 第一次使用，可以运行下面的命令，查看一下帮助。
 
-```
+```powershell
 $ rollup --help
 # 或者
 $ npx rollup --help
@@ -54,7 +50,7 @@ $ npx rollup --help
 
 下面，就用 rollup.js 打包两个简单的脚本：库文件 add.js 和入口脚本 main.js。
 
-```
+```js
 // add.js
 const PI = 3.14;
 const E = 2.718;
@@ -70,7 +66,7 @@ export function addE(x) {
 
 上面代码中，模块 add.js 输出了两个工具函数`addPi()`和`addE()`。
 
-```
+```js
 // main.js
 import { addPi } from './add.js';
 
@@ -81,7 +77,7 @@ console.log(addPi(10));
 
 接着，就用 rollup.js 打包。
 
-```
+```powershell
 $ rollup main.js
 ```
 
@@ -89,7 +85,7 @@ $ rollup main.js
 
 打包结果默认输出到屏幕。
 
-```
+```js
 const PI = 3.14;
 
 function addPi(x) {
@@ -107,7 +103,7 @@ console.log(addPi(10));
 
 使用参数`--file [FILENAME]`，将打包结果保存到指定文件。
 
-```
+```powershell
 $ rollup main.js --file bundle.js
 ```
 
@@ -117,7 +113,7 @@ $ rollup main.js --file bundle.js
 
 （1）如果有多个入口脚本，就依次填写它们的文件名，并使用参数`--dir`指定输出目录。
 
-```
+```powershell
 $ rollup m1.js m2.js --dir dist
 ```
 
@@ -125,19 +121,19 @@ $ rollup m1.js m2.js --dir dist
 
 （2）参数`--format iife`，会把打包结果放在一个自动执行函数里面。
 
-```
+```powershell
 $ rollup main.js --format iife
 ```
 
 （3）如果希望打包后代码最小化，使用参数`--compact`。
 
-```
+```powershell
 $ rollup main.js --compact
 ```
 
 另一种方法是使用专门工具。
 
-```
+```powershell
 $ rollup main.js | uglifyjs --output bundle.js
 ```
 
@@ -145,7 +141,7 @@ $ rollup main.js | uglifyjs --output bundle.js
 
 （4）rollup 支持使用[配置文件](https://rollupjs.org/guide/en/#configuration-files)（rollup.config.js），把参数都写在里面，下面是一个例子。
 
-```
+```js
 // rollup.config.js
 export default {
   input: 'main.js',
@@ -158,23 +154,21 @@ export default {
 
 参数`-c`启用配置文件。
 
-```
+```powershell
 $ rollup -c
 ```
-
-我不推荐使用配置文件，这样会增加额外的复杂性。默认场景下，命令行参数已经够用了，也更容易阅读。
 
 ## 五、转成 CommonJS 模块
 
 最后，rollup 还支持 ES 模块转成 CommonJS 模块，使用参数`--format cjs`就可以了。
 
-```
+```powershell
 $ rollup add.js --format cjs
 ```
 
 转换后的 CommonJS 模块，代码如下。
 
-```
+```js
 'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
