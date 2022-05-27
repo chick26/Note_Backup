@@ -113,19 +113,23 @@ let count = 123;
 
 每个变量的类型都应该是固定的，如果能推断就让它推断，推断不出来的时候要进行注解，这是一个重要的原则。
 不用写类型注解的例子：
+
 ```typescript
 const one = 1;
 const two = 2;
 const three = one + two;
 ```
+
 此时one, two, three的类型都是确定的。
 需要写类型注解的例子：
+
 ```typescript
 function getTotal(one: number, two: number) {
 	return one + two;
 }
 const total = getTotal(1, 2);
 ```
+
 如果getTotal的传参没有类型注解，那默认就是any类型，这是不建议的。每个变量都应该有固定的类型，但ts无法自动推断，所以one和two需要类型注解。当one和two的类型固定为number，返回值赋予total的类型就会自动固定，所以total无需注解。
 
 # 5. 数组类型的定义
