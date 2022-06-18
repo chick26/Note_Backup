@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
               }
             }
           },
@@ -138,9 +138,9 @@
   },
   "active": "61154eeccf3f51dd",
   "lastOpenFiles": [
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载 - 氧 16 网（yang16.com）.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
