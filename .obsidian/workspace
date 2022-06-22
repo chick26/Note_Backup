@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "61154eeccf3f51dd",
+        "id": "ed88e6977a45c1bc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,17 +128,17 @@
     "direction": "horizontal",
     "width": 280.5
   },
-  "active": "61154eeccf3f51dd",
+  "active": "ed88e6977a45c1bc",
   "lastOpenFiles": [
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载 - 氧 16 网（yang16.com）.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
-    "🎦 Overview/🈯️ Learning Note OverView.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md"
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/AI Expert Roadmap.md",
+    "AI Expert Roadmap.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/未命名.md",
+    "🧳 Template｜模板库/Templates/Learning-Note.md",
+    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
+    "未命名.md",
+    "media/93a85382a9f14e94b7c889a36f11809d~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
+    "media/640.png",
+    "media/641.png",
+    "media/f166c3371c854c878d2bce8c1450500e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
   ]
 }
