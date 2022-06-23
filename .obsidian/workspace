@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ed88e6977a45c1bc",
+        "id": "5bc66c000ddc9298",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
+            "file": "💻 Computer Note/Mac Setup for Web Development.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
+                "file": "💻 Computer Note/Mac Setup for Web Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
+                "file": "💻 Computer Note/Mac Setup for Web Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md"
+                "file": "💻 Computer Note/Mac Setup for Web Development.md"
               }
             }
           },
@@ -130,14 +130,16 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 280.5
   },
-  "active": "ed88e6977a45c1bc",
+  "active": "5bc66c000ddc9298",
   "lastOpenFiles": [
+    "💻 Computer Note/Mac Setup for Web Development.md",
+    "💻 Computer Note/未命名.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载 - 氧 16 网（yang16.com）.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
@@ -145,8 +147,6 @@
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/AI Expert Roadmap.md",
     "AI Expert Roadmap.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/未命名.md",
-    "🧳 Template｜模板库/Templates/Learning-Note.md",
-    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
-    "未命名.md"
+    "🧳 Template｜模板库/Templates/Learning-Note.md"
   ]
 }
