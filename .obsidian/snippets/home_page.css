@@ -48,9 +48,6 @@
   overflow: auto;
 }
 
-.homePage .block-language-dataview ~ .block-language-dataview:not(.block-language-dataview ~ .block-language-dataview ~ .block-language-dataview) {
-  height: 500px;
-}
 .markdown-preview-view th:first-child, .markdown-preview-view td:first-child {
   padding-left: 10px;
 }

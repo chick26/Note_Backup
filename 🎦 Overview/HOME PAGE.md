@@ -48,5 +48,6 @@ dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
 from "🛖 Learning Repo｜学习仓库"
 where status = "done" or status = "review"
-sort file.ctime desc
+limit 5
 ```
+
