@@ -8,17 +8,41 @@ tags:
 
 This is the Table of Contents of My Box. **ALL SHOULD BE REVIEW IN TIME**
 
+## WAITING LIST
+
 ```dataview
 table WITHOUT ID
 ("[[" + file.name + "]]") as TITLE,
+tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
-dateformat(file.ctime, "yyyy-MM-dd") as CREATED,
-status as STATUS
+dateformat(file.ctime, "yyyy-MM-dd") as CREATED
 from "🛖 Learning Repo｜学习仓库"
-sort status desc
-sort choice(status = "todo", "1", 
-choice(status = "ondo", "2", 
-choice(status = "done", "3", 
-choice(status = "review", "4", "other"))))
+where status = "todo"
+sort file.mtime asc
 ```
 
+## DOING LIST
+
+```dataview
+table WITHOUT ID
+("[[" + file.name + "]]") as TITLE,
+tags as TAG,
+dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
+dateformat(file.ctime, "yyyy-MM-dd") as CREATED
+from "🛖 Learning Repo｜学习仓库"
+where status = "ondo"
+sort file.mtime asc
+```
+
+## REVIEW LIST
+
+```dataview
+table WITHOUT ID
+("[[" + file.name + "]]") as TITLE,
+tags as TAG,
+dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
+dateformat(file.ctime, "yyyy-MM-dd") as CREATED
+from "🛖 Learning Repo｜学习仓库"
+where status = "done" or status = "review"
+sort file.ctime desc
+```
