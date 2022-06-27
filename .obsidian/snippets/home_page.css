@@ -9,10 +9,13 @@
   color: #fff !important;
 }
 
-.homePage table thead {
+.homePage thead tr th {
   background-color: #6c7ae0;
-  color: #fff;
   line-height: 2;
+  color: #fff;
+  position: sticky;
+  z-index: 3;
+  top: 0;
 }
 
 .homePage table tbody :nth-of-type(1){
@@ -42,8 +45,12 @@
 
 .homePage .block-language-dataview {
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  overflow: auto;
 }
 
+.homePage .block-language-dataview ~ .block-language-dataview:not(.block-language-dataview ~ .block-language-dataview ~ .block-language-dataview) {
+  height: 500px;
+}
 .markdown-preview-view th:first-child, .markdown-preview-view td:first-child {
   padding-left: 10px;
 }

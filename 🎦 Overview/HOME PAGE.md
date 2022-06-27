@@ -1,9 +1,12 @@
-
 ---
 title: Learning Note OverView
 creation date: 2022-03-01 21:51 
 cssclass: homePage
 tags:
+banner: "![[宁静.JPG]]"
+banner_x: 0.5
+banner_y: 0.85
+banner_lock: true
 ---
 # Inbox TOC
 

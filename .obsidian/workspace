@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6e279ce71b932584",
+        "id": "d4a1914dcf8afb5d",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -134,19 +135,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 309.5,
+    "collapsed": true
   },
-  "active": "6e279ce71b932584",
+  "active": "d4a1914dcf8afb5d",
   "lastOpenFiles": [
     "🎦 Overview/HOME PAGE.md",
+    "🎨 Excalidraw｜画板仓库/CFA-end.excalidraw.md",
+    "media/wlop_2.jpeg",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载 - 氧 16 网（yang16.com）.md",
     "💻 Computer Note/Mac Setup for Web Development.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
-    "⏰ Weekly Work | 任务仓库/前端开发.md",
-    "🎨 Excalidraw｜画板仓库/CFA-end.excalidraw.md"
+    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
   ]
 }
