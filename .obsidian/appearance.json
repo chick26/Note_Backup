@@ -2,5 +2,8 @@
   "baseFontSize": 13,
   "theme": "moonstone",
   "cssTheme": "Things",
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "home_page"
+  ]
 }

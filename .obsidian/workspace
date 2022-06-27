@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "ca670581c84ff848",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bc66c000ddc9298",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "🎦 Overview/🈯️ Learning Note OverView.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97ce11673df39444",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4ff03f863899dc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "797ba6ae2b71d939",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bafaaf6b55cdac6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5
+  },
+  "right": {
+    "id": "7edd17491be04f6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6fc16de5b5fb918",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cd8353abf3aea55",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "🎦 Overview/🈯️ Learning Note OverView.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e043d953aee52cc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc7c74a96f0eb9b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "🎦 Overview/🈯️ Learning Note OverView.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae53e7897e8fd982",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cefa0dfd388fa57e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🎦 Overview/🈯️ Learning Note OverView.md"
+              }
+            }
+          },
+          {
+            "id": "12f0dbf601aae226",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5
+  },
+  "active": "5bc66c000ddc9298",
+  "lastOpenFiles": [
+    "🎦 Overview/🈯️ Learning Note OverView.md",
+    "💻 Computer Note/Mac Setup for Web Development.md",
+    "💻 Computer Note/未命名.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载 - 氧 16 网（yang16.com）.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/AI Expert Roadmap.md",
+    "AI Expert Roadmap.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/未命名.md"
+  ]
+}
