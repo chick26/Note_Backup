@@ -5,6 +5,10 @@
   margin-bottom: 0;
 }
 
+.homePage .table-view-th {
+  color: #fff !important;
+}
+
 .homePage table thead {
   background-color: #6c7ae0;
   color: #fff;
@@ -38,4 +42,8 @@
 
 .homePage .block-language-dataview {
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.markdown-preview-view th:first-child, .markdown-preview-view td:first-child {
+  padding-left: 10px;
 }
