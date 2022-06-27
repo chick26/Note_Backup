@@ -7,11 +7,7 @@
   background-color: #2b736eaf;
 }
 
-.homePage table thead tr th :nth-of-type(1) {
-  width: 200px;
-}
-
-.homePage table tbody span :nth-of-type(1){
+.homePage table tbody :nth-of-type(1){
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
