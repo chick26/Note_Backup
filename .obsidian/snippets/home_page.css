@@ -1,13 +1,18 @@
+.homePage table {
+  table-layout: fixed;
+  width: 100%;
+}
+
 .homePage table thead {
   background-color: #2b736eaf;
+}
+
+.homePage table thead tr th :nth-of-type(1) {
+  width: 200px;
 }
 
 .homePage table tbody span :nth-of-type(1){
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-
-.homePage table tbody tr td :nth-of-type(1){
-  width: 200px;
-  padding: unset;
+  overflow: hidden;
 }
