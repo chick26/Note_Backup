@@ -11,21 +11,25 @@ banner_lock: true
 ---
 <div class="title" style="color:#fff">HOME</div>
 
-This is the Table of Contents of My Box. **ALL SHOULD BE REVIEW IN TIME**
 
 # 🗂 PERSONAL OBJECT
+
 -  📲 Front Dev
-```dataviewjs
-dv.list("[[" + dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.name + "]]")
-```
- `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
+
+	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	 
 - 💵 CFA
-`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
+ 
+	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
-- 🌅 Exotic Vacations
+- 📉 Data Structrue
 
+	`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
-- 🎥 Movies to Watch
+- 〽️ Stats
+
+- File Count: `$=dv.pages().length`
+- Personal recipes: `$=dv.pages('"Family/Recipes"').length`
 
 
 ## WAITING LIST
