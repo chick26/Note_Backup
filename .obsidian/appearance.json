@@ -4,6 +4,7 @@
   "cssTheme": "Things",
   "translucency": false,
   "enabledCssSnippets": [
-    "home_page"
+    "home_page",
+    "home_page_readingline"
   ]
 }
