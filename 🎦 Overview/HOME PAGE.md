@@ -7,7 +7,7 @@ banner: "![[宁静.JPG]]"
 banner_x: 0.5
 banner_y: 0.85
 banner_lock: true
-%%obsidianUIMode: preview%%
+obsidianUIMode: preview
 ---
 <div class="title" style="color:#fff">HOME</div>
 
@@ -28,8 +28,8 @@ banner_lock: true
 
 - 〽️ Stats
 
-- File Count: `$=dv.pages().length`
-- Personal recipes: `$=dv.pages('"Family/Recipes"').length`
+	- Personal recipes: `$=dv.pages('"Family/Recipes"').length`
+	- File Count: `$=dv.pages().length`
 
 
 ## WAITING LIST
