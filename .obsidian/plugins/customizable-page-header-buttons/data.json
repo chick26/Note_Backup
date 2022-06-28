@@ -1,27 +1,24 @@
 {
-  "enabledButtons": [
+  "enabledButtons": [],
+  "desktop": true,
+  "titleLeft": [],
+  "titleRight": [
     {
       "id": "app:go-back",
       "icon": "left-arrow-with-tail",
-      "name": "返回",
-      "showButtons": "both"
+      "name": "返回"
     },
     {
       "id": "app:go-forward",
       "icon": "right-arrow-with-tail",
-      "name": "前进",
-      "showButtons": "both"
+      "name": "前进"
     },
     {
       "id": "homepage:open-homepage",
       "icon": "lucide-home",
-      "name": "Homepage: Open homepage",
-      "showButtons": "both"
+      "name": "Homepage: Open homepage"
     }
   ],
-  "desktop": true,
-  "titleLeft": [],
-  "titleRight": [],
   "titleCenter": [],
   "paneRelief": false
 }

@@ -7,28 +7,26 @@ banner: "![[宁静.JPG]]"
 banner_x: 0.5
 banner_y: 0.85
 banner_lock: true
+%%obsidianUIMode: preview%%
 ---
 <div class="title" style="color:#fff">HOME</div>
 
 This is the Table of Contents of My Box. **ALL SHOULD BE REVIEW IN TIME**
 
-# PERSONAL OBJECT
-- 🏈 Sunday Game
-	- [[Spicy-Sweet Buffalo Popcorn]]
-	- [[Guest list]]
-	- [Jalapeno Popper Wantons](https://www.allrecipes.com/recipe/166991/jalapeno-popper-wontons/)
-- 👨‍👩‍👦 Objectives
-	- [[Family Recipes]]
-	- [[Family Calendar]]
-	- [[Education Plan]]
-	- [[Yearly Budget]]
-- 🌅 Exotic Vacations 
-	- [[Peru]]
-	- [[Austria]]
-	- [[Texas]]  
+# 🗂 PERSONAL OBJECT
+-  📲 Front Dev
+```dataviewjs
+dv.list("[[" + dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.name + "]]")
+```
+ `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
+- 💵 CFA
+`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
+
+- 🌅 Exotic Vacations
+
+
 - 🎥 Movies to Watch
-	- [Sleepless in Seattle](https://www.imdb.com/title/tt0108160/)
-	- [Joe vs the Volcano](https://www.imdb.com/title/tt0099892/)
+
 
 ## WAITING LIST
 
