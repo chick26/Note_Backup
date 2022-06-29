@@ -6,14 +6,17 @@ obsidianUIMode: preview
 banner: "![[discovery.jpg]]"
 ---
 <div class="title" style="color:#fff">New Discoveries Log</div>
+
 <- [[01 Daily Notes Hub | Daily Notes Hub]] | 🛳️ [[00 Ship's Log|Ship's Log]] | 📚 [[00 Media Log | Media Log]]
 
 A log containing the interesting discoveries from the Daily Notes.
 
-## List
+# List
 
 ```dataview
-table NewDiscovery as "Log"
+TABLE WITHOUT ID 
+("[[" + file.name + "]]") AS Entries,
+NewDiscovery as "Log"
 from "📔 Daily Note | 日记仓库/Note Repo"
 where contains(NewDiscovery, "")
 ```

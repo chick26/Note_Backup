@@ -1,6 +1,7 @@
 ---
 📆 <% tp.date.now("Do MMMM YYYY") %>
-<% tp.user.weather() %>
+weather: <% tp.user.weather() %>
+week: <% tp.date.now("YYYY-WW") %>
 ---
 
 <- [[01 Daily Notes Hub | Daily Notes Hub]]
@@ -50,3 +51,5 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 ### Reading Log
 
 ### Video Log
+
+### Photographing Log

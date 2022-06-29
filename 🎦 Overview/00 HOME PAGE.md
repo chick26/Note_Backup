@@ -17,7 +17,7 @@ obsidianUIMode: preview
 -  📲 Front Dev
 
 	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
-	 
+
 - 💵 CFA
  
 	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
@@ -28,9 +28,34 @@ obsidianUIMode: preview
 
 # 📝 DAILY NOTE
 
-- 
+```dataviewjs
+moment.locale('fr')
+function isWithinWeek(page) {	
+	
+	let filemoment = moment(page.file.name, 'YYYY-MM-DD')
+	let today = moment().startOf('day');
+	let tomorrow = today.clone().add(1, 'days').startOf('day');
+	let weekago = today.clone().subtract(7, 'days').startOf('day');
 
-- 〽️ Stats
+	// if in this week and summary exists
+	if (filemoment.isAfter(weekago) && filemoment.isBefore(tomorrow)) { 
+		if (page.Summary) { 
+			return true; 
+		} 
+	}
+	else return false;
+ }
+
+
+dv.table(["Date","Summary"], 
+	 dv.pages('"📔 Daily Note | 日记仓库/Note Repo"')
+		.filter(isWithinWeek)
+		.sort(b => b.file.name,'desc')
+		.map(b =>[dv.fileLink(b.file.name, false, moment(b.file.name,'YYYY-MM-DD').format("ddd")),"<span id='summary1'>"+b.Summary+"</span>"])
+	)
+```
+
+# 〽️ Stats
 
 	-   Total Files: `$=dv.pages().length`
 	-   Learning Notes: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`

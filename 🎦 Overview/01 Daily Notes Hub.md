@@ -14,7 +14,8 @@ Summaries of the daily notes go here!
 
 ```dataview
 TABLE WITHOUT ID 
-("[[" + file.name + "]]") AS Entries
+("[[" + file.name + "]]") AS Entries,
+Summary
 from "📔 Daily Note | 日记仓库/Note Repo"
 SORT file.name desc
 LIMIT 7
@@ -23,7 +24,6 @@ LIMIT 7
 # 🗞 Archive List
 
 ### 2022
-
 ```dataview
 TABLE WITHOUT ID 
 ("[[" + file.name + "]]") AS Entries
