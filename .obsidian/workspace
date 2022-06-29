@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/01 Daily Notes Hub.md",
-            "mode": "preview",
+            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/01 Daily Notes Hub.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/01 Daily Notes Hub.md",
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/01 Daily Notes Hub.md"
+                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md"
               }
             }
           },
@@ -138,15 +138,15 @@
   },
   "active": "ebbbf4a6b7aae9dd",
   "lastOpenFiles": [
-    "🎦 Overview/01 Daily Notes Hub.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
     "🎦 Overview/00 HOME PAGE.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
-    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载.md",
     "📔 Daily Note | 日记仓库/00 Ship's Log.md",
     "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+    "🎦 Overview/01 Daily Notes Hub.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
+    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
     "📔 Daily Note | 日记仓库/00 Media Log.md",
-    "🧳 Template｜模板库/Templates/Daily-Note.md",
-    "🧳 Template｜模板库/Templates/Weekily-Note.md",
-    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md"
+    "🧳 Template｜模板库/Templates/Daily-Note.md"
   ]
 }

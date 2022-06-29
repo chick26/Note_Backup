@@ -6,6 +6,7 @@ obsidianUIMode: preview
 banner: "![[roadToHaven.jpg]]"
 ---
 <div class="title" style="color:#fff">Daily Notes Hub</div>
+
 💡 [[00 New Discoveries Log | New Discoveries]] | 🛳️ [[00 Ship's Log|Ship's Log]] | 📚 [[00 Media Log | Media Log]] 
 
 Summaries of the daily notes go here!
