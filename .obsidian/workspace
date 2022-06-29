@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
-            "mode": "source",
+            "file": "🎦 Overview/00 HOME PAGE.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+                "file": "🎦 Overview/00 HOME PAGE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+                "file": "🎦 Overview/00 HOME PAGE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md"
+                "file": "🎦 Overview/00 HOME PAGE.md"
               }
             }
           },
@@ -134,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "active": "ebbbf4a6b7aae9dd",
   "lastOpenFiles": [
-    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
-    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "🎦 Overview/01 Daily Notes Hub.md",
-    "📔 Daily Note | 日记仓库/00 Media Log.md",
     "🎦 Overview/00 HOME PAGE.md",
+    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
+    "🎦 Overview/01 Daily Notes Hub.md",
+    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+    "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+    "📔 Daily Note | 日记仓库/00 Media Log.md",
     "🧳 Template｜模板库/Templates/Daily-Note.md",
     "🧳 Template｜模板库/Templates/Weekily-Note.md",
-    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
-    "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-    "00 Daily Notes Hub.md"
+    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md"
   ]
 }
