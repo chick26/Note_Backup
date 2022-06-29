@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "28916943e77ecad8",
+        "id": "466c617cd541be64",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/HOME PAGE.md",
-            "mode": "preview",
+            "file": "🧳 Template｜模板库/Templates/Daily-Note.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/HOME PAGE.md",
+                "file": "🧳 Template｜模板库/Templates/Daily-Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/HOME PAGE.md",
+                "file": "🧳 Template｜模板库/Templates/Daily-Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/HOME PAGE.md"
+                "file": "🧳 Template｜模板库/Templates/Daily-Note.md"
               }
             }
           },
@@ -138,17 +137,17 @@
     "width": 299.5,
     "collapsed": true
   },
-  "active": "28916943e77ecad8",
+  "active": "466c617cd541be64",
   "lastOpenFiles": [
+    "🧳 Template｜模板库/Templates/Daily-Note.md",
+    "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
+    "📓 Daily Note | 日记仓库/未命名.md",
     "🎦 Overview/HOME PAGE.md",
     "💻 Computer Note/Mac Setup for Web Development.md",
     "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
     "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
-    "⏰ Weekly Work | 任务仓库/前端开发.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
-    "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md"
+    "⏰ Weekly Work | 任务仓库/前端开发.md"
   ]
 }
