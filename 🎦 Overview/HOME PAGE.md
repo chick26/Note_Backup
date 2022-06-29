@@ -28,11 +28,13 @@ obsidianUIMode: preview
 
 - 〽️ Stats
 
-	- Personal recipes: `$=dv.pages('"Family/Recipes"').length`
-	- File Count: `$=dv.pages().length`
+	-   Total Files: `$=dv.pages().length`
+	-   Learning Notes: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
+	-   Avatar Notes: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
+	-   Reading Notes: `$=dv.pages('"📓 Reading | 读书笔记"').length`
 
 
-## WAITING LIST
+# 📑 WAITING LIST
 
 ```dataview
 table WITHOUT ID
@@ -45,7 +47,7 @@ where status = "todo"
 sort file.mtime asc
 ```
 
-## DOING LIST
+# 📝 DOING LIST
 
 ```dataview
 table WITHOUT ID
@@ -58,7 +60,7 @@ where status = "ondo"
 sort file.mtime asc
 ```
 
-## REVIEW LIST
+# 📨 REVIEW LIST
 
 ```dataview
 table WITHOUT ID
