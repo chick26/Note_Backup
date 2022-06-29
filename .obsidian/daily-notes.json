@@ -1,5 +1,5 @@
 {
-  "folder": "📜 Daily Note | 日常记录",
+  "folder": "📔 Daily Note | 日记仓库/Note Repo",
   "template": "🧳 Template｜模板库/Templates/Daily-Note",
-  "autorun": false
+  "autorun": true
 }

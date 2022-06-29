@@ -3,7 +3,7 @@
 <% tp.user.weather() %>
 ---
 
-<- [[00 Daily Notes Hub | Daily Notes Hub]]
+<- [[01 Daily Notes Hub | Daily Notes Hub]]
 
 # {{date:YYYY-MM-DD}}
 
@@ -43,8 +43,6 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 
 ## 🛳️ Ship's Log
 
-### Tasks Log
-
 ### Happenings
 
 ### Personal Projects Log
@@ -52,5 +50,3 @@ dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 ### Reading Log
 
 ### Video Log
-
-### Workout Log
