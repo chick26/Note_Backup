@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/00 HOME PAGE.md",
+            "file": "🎦 Overview/01 Daily Notes Hub.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "🎦 Overview/01 Daily Notes Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "🎦 Overview/01 Daily Notes Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md"
+                "file": "🎦 Overview/01 Daily Notes Hub.md"
               }
             }
           },
@@ -138,9 +138,9 @@
   },
   "active": "ebbbf4a6b7aae9dd",
   "lastOpenFiles": [
+    "🎦 Overview/01 Daily Notes Hub.md",
     "🎦 Overview/00 HOME PAGE.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
-    "🎦 Overview/01 Daily Notes Hub.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
     "📔 Daily Note | 日记仓库/00 Ship's Log.md",
     "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",

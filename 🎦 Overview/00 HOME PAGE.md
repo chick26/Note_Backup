@@ -26,7 +26,7 @@ obsidianUIMode: preview
 
 	`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
-# 〽️ Stats
+# 〽️ STATS
 
  📌   **TOTAL**: `$=dv.pages().length` 
  📌   **INBOX**: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
