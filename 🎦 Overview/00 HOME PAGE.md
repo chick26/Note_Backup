@@ -26,10 +26,18 @@ obsidianUIMode: preview
 
 	`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
+# 〽️ Stats
+
+ 📌   **TOTAL**: `$=dv.pages().length` 
+ 📌   **INBOX**: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
+ 📌   **LEARN NOTE**: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
+ 📌   **READ NOTE**: `$=dv.pages('"📓 Reading | 读书笔记"').length`
+ 📌   **[[01 Daily Notes Hub|DAILY]]**: `$=dv.pages('"📔 Daily Note | 日记仓库/Note Repo"').length`
+
 # 📝 DAILY NOTE
 
 ```dataviewjs
-moment.locale('fr')
+moment.locale('en')
 function isWithinWeek(page) {	
 	
 	let filemoment = moment(page.file.name, 'YYYY-MM-DD')
@@ -54,13 +62,6 @@ dv.table(["Date","Summary"],
 		.map(b =>[dv.fileLink(b.file.name, false, moment(b.file.name,'YYYY-MM-DD').format("ddd")),"<span id='summary1'>"+b.Summary+"</span>"])
 	)
 ```
-
-# 〽️ Stats
-
-	-   Total Files: `$=dv.pages().length`
-	-   Learning Notes: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
-	-   Avatar Notes: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
-	-   Reading Notes: `$=dv.pages('"📓 Reading | 读书笔记"').length`
 
 
 # 📑 WAITING LIST

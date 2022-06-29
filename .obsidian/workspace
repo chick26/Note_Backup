@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/00 HOME PAGE.md",
+            "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 286.5
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md"
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md"
               }
             }
           },
@@ -139,15 +139,15 @@
   },
   "active": "ebbbf4a6b7aae9dd",
   "lastOpenFiles": [
+    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+    "📔 Daily Note | 日记仓库/00 Media Log.md",
     "🎦 Overview/00 HOME PAGE.md",
     "🎦 Overview/01 Daily Notes Hub.md",
-    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
     "🧳 Template｜模板库/Templates/Daily-Note.md",
     "🧳 Template｜模板库/Templates/Weekily-Note.md",
     "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md",
     "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "📔 Daily Note | 日记仓库/00 Media Log.md",
     "00 Daily Notes Hub.md"
   ]
 }
