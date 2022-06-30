@@ -27,7 +27,8 @@ LIMIT 7
 ### 2022
 ```dataview
 TABLE WITHOUT ID 
-("[[" + file.name + "]]") AS Entries
+("[[" + file.name + "]]") AS Entries,
+Summary
 from "📔 Daily Note | 日记仓库/Note Repo"
 WHERE file.day >= date(2022-01-01) AND file.day <=date(2022-12-31)
 SORT file.name desc
