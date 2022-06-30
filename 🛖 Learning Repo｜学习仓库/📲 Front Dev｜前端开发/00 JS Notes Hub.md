@@ -5,7 +5,7 @@ cssclass: homePage
 obsidianUIMode: preview
 banner: "![[color.jpg]]"
 ---
-<div class="title" style="color:#fff">JS Notes Hub</div>
+<div class="title" style="color:#000">JS Notes Hub</div>
 
 <-  [[02  Learninng Notes Hub|⛵️ Learning Notes Hub ]] | 🛳️  [[00 D.S. Notes Hub|Data Structure Notes Hub]]
 
