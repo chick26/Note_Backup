@@ -9,6 +9,7 @@
   * 算法之美课程
     * [数组](📉%20Data%20Structrue｜数据结构/算法之美课程/数组.md)
 * 📲 Front Dev｜前端开发
+  * [00 JS Notes Hub](📲%20Front%20Dev｜前端开发/00%20JS%20Notes%20Hub.md)
   * AppleScript | Apple 脚本语言
     * [AppleScript](📲%20Front%20Dev｜前端开发/AppleScript%20|%20Apple%20脚本语言/AppleScript.md)
   * CSS | 文档样式语言
