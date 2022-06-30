@@ -16,7 +16,7 @@ obsidianUIMode: preview
 
 -  📲 Front Develop
 
-	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 - 💵 CFA
  
@@ -30,7 +30,7 @@ obsidianUIMode: preview
 
  📌   **TOTAL**: `$=dv.pages().length` 
  📌   **INBOX**: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
- 📌   **LEARN NOTE**: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
+ 📌   **[[02  Learninng Notes Hub|LEARN NOTE]]**: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
  📌   **READ NOTE**: `$=dv.pages('"📓 Reading | 读书笔记"').length`
  📌   **[[01 Daily Notes Hub|DAILY]]**: `$=dv.pages('"📔 Daily Note | 日记仓库/Note Repo"').length`
 

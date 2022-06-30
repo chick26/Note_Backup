@@ -1,24 +1,28 @@
 ---
-title: Daily Notes Hub
+title: Learninng Notes Hub
 creation date: 2022-03-01 21:51 
 cssclass: homePage
 obsidianUIMode: preview%%%%
-banner: "![[city.jpg]]"
+banner: "![[cube.jpg]]"
 ---
 <div class="title" style="color:#fff">Learning Notes Hub</div>
-💡 [[00 New Discoveries Log | New Discoveries]] | 🛳️ [[00 Ship's Log|Ship's Log]] | 📚 [[00 Media Log | Media Log]] 
+
+💡 [[00 JS Notes Hub| JS Learning]] | 🛳️ [[00 Ship's Log|Ship's Log]] | 📚 [[00 Media Log | Media Log]] 
 
 Summaries of the daily notes go here!
 
-# 📆 This Week
+# 📆 This Week Updates
 
 ```dataview
 TABLE WITHOUT ID 
 ("[[" + file.name + "]]") AS Entries,
-Summary
-from "📔 Daily Note | 日记仓库/Note Repo"
+tags as TAG,
+dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
+dateformat(file.ctime, "yyyy-MM-dd") as CREATED
+from "🛖 Learning Repo｜学习仓库"
+where file.mtime > (date(now) - dur(7 days)) 
+and contains(file.name, "Notes Hub")
 SORT file.name desc
-LIMIT 7
 ```
 
 # 🗞 Archive List
