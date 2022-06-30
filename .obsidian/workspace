@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ebbbf4a6b7aae9dd",
+        "id": "76c3a003a479592b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/00 HOME PAGE.md",
-            "mode": "preview",
+            "file": "🎦 Overview/02  Learninng Notes Hub.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "🎦 Overview/02  Learninng Notes Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "🎦 Overview/02  Learninng Notes Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md"
+                "file": "🎦 Overview/02  Learninng Notes Hub.md"
               }
             }
           },
@@ -134,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 307.5
   },
-  "active": "ebbbf4a6b7aae9dd",
+  "active": "76c3a003a479592b",
   "lastOpenFiles": [
+    "🎦 Overview/02  Learninng Notes Hub.md",
+    "🎦 Overview/01 Daily Notes Hub.md",
+    "🛖 Learning Repo｜学习仓库/未命名.md",
     "🎦 Overview/00 HOME PAGE.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-06-30.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
     "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/各大公司的 Sketch 设计组件库下载.md",
     "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "🎦 Overview/01 Daily Notes Hub.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
-    "📔 Daily Note | 日记仓库/00 Media Log.md"
+    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
   ]
 }
