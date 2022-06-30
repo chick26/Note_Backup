@@ -14,7 +14,7 @@ obsidianUIMode: preview
 
 # 🗂 PERSONAL OBJECT
 
--  📲 Front Dev
+-  📲 Front Develop
 
 	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
