@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/00 HOME PAGE.md",
-            "mode": "preview",
+            "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#dataStructrue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md",
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/00 HOME PAGE.md"
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -138,6 +138,8 @@
   },
   "active": "a2e3b3500b380ed8",
   "lastOpenFiles": [
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
     "🎦 Overview/00 HOME PAGE.md",
     "🎦 Overview/02  Learninng Notes Hub.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
@@ -145,8 +147,6 @@
     "📔 Daily Note | 日记仓库/Note Repo/2022-07-01.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-06-30.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
-    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "📔 Daily Note | 日记仓库/00 Media Log.md",
-    "🎦 Overview/01 Daily Notes Hub.md"
+    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
   ]
 }
