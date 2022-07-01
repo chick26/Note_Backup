@@ -20,11 +20,11 @@ obsidianUIMode: preview
 
 - 💵 CFA
  
-	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 - 📉 Data Structrue
 
-	`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"').sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 # 〽️ STATS
 

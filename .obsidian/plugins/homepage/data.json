@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "defaultNote": "🎦 Overview/HOME PAGE",
+  "defaultNote": "🎦 Overview/00 HOME PAGE",
   "workspace": "Home",
   "workspaceEnabled": false,
-  "hasRibbonIcon": true,
+  "hasRibbonIcon": false,
   "openMode": "Replace all open notes",
   "view": "Reading view",
   "refreshDataview": true
