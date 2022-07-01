@@ -29,6 +29,13 @@
   border-bottom: 0.08rem solid #f2f2f2 !important;
 }
 
+.homePage table td:hover{
+	width: 200px;
+	overflow: visible;
+	white-space: pre-line;
+	cursor:pointer;
+}
+
 .homePage tbody tr:hover {
   background-color: #ececff;
   color: #403E10;
