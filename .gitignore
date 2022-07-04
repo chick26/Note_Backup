@@ -6,6 +6,7 @@
 /yarn-error.log
 /yarn.lock
 /package-lock.json
+/.obsidian/plugins/obsidian-sync-yuque
 
 # production
 /es
