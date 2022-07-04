@@ -1,6 +1,5 @@
 [
   "obsidian-image-auto-upload-plugin",
-  "obsidian-kanban",
   "calendar",
   "periodic-notes",
   "sliding-panes-obsidian",
@@ -25,5 +24,7 @@
   "homepage",
   "obsidian-banners",
   "customizable-page-header-buttons",
-  "obsidian-view-mode-by-frontmatter"
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-sample-plugin",
+  "obsidian-sync-yuque"
 ]
