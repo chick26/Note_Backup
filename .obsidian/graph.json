@@ -4,21 +4,35 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
-    {
-      "query": "path:\"🛖 Learning Repo｜学习仓库\"",
-      "color": {
-        "a": 1,
-        "rgb": 1259500
-      }
-    },
     {
       "query": "path:\"🎨 Excalidraw｜画板仓库\"",
       "color": {
         "a": 1,
         "rgb": 15142157
+      }
+    },
+    {
+      "query": "path:\"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发\"",
+      "color": {
+        "a": 1,
+        "rgb": 6902496
+      }
+    },
+    {
+      "query": "path:\"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
@@ -32,6 +46,6 @@
   "repelStrength": 12.3094093406593,
   "linkStrength": 1,
   "linkDistance": 314,
-  "scale": 1.1694173781938721,
+  "scale": 1.169417378193872,
   "close": true
 }
