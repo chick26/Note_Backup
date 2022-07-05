@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-            "mode": "preview",
+            "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📔 Daily Note | 日记仓库/00 Ship's Log.md"
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md"
               }
             }
           },
@@ -138,15 +138,15 @@
   },
   "active": "8d40532f4bbee4b5",
   "lastOpenFiles": [
-    "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+    "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
     "🎦 Overview/01 Daily Notes Hub.md",
     "🎦 Overview/02  Learninng Notes Hub.md",
+    "📔 Daily Note | 日记仓库/Note Repo/2022-07-05.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+    "🎦 Overview/00 HOME PAGE.md",
+    "📔 Daily Note | 日记仓库/00 Ship's Log.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-06-30.md",
-    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
-    "📔 Daily Note | 日记仓库/00 Media Log.md",
-    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
-    "📔 Daily Note | 日记仓库/Note Repo/2022-07-01.md",
-    "🎦 Overview/00 HOME PAGE.md"
+    "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md"
   ]
 }
