@@ -1,0 +1,4792 @@
+[
+  {
+    "fileName": "浏览器解析 CSS 样式的过程",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
+    "frontmatter": {
+      "title": "浏览器解析 CSS 样式的过程",
+      "creation date": "2022-05-24 10:28:16",
+      "status": "todo",
+      "tag": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 84
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "解析",
+        "level": 2
+      },
+      {
+        "heading": "计算",
+        "level": 2
+      },
+      {
+        "heading": "级联",
+        "level": 2
+      },
+      {
+        "heading": "来源",
+        "level": 2
+      },
+      {
+        "heading": "**用户样式**",
+        "level": 4
+      },
+      {
+        "heading": "**作者样式**",
+        "level": 4
+      },
+      {
+        "heading": "**用户代理 / 浏览器样式**",
+        "level": 4
+      },
+      {
+        "heading": "做级联",
+        "level": 2
+      },
+      {
+        "heading": "CSS 对象模型",
+        "level": 2
+      },
+      {
+        "heading": "布局",
+        "level": 2
+      },
+      {
+        "heading": "解析 Auto",
+        "level": 2
+      },
+      {
+        "heading": "处理浮动 float",
+        "level": 2
+      },
+      {
+        "heading": "了解片段（UNDERSTANDING FRAGMENTATION",
+        "level": 2
+      },
+      {
+        "heading": "绘画（Painting）",
+        "level": 2
+      },
+      {
+        "heading": "关于 Z-INDEX",
+        "level": 2
+      },
+      {
+        "heading": "组成（COMPOSITION）",
+        "level": 2
+      },
+      {
+        "heading": "创造互动的视觉",
+        "level": 2
+      },
+      {
+        "heading": "总结",
+        "level": 2
+      },
+      {
+        "heading": "交流",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "微服务是什么？",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
+    "headings": [
+      {
+        "heading": "一、单体软件",
+        "level": 2
+      },
+      {
+        "heading": "二、面向服务架构",
+        "level": 2
+      },
+      {
+        "heading": "三、微服务",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "与上下文无关的语法",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
+    "tags": [
+      "csbasic"
+    ],
+    "frontmatter": {
+      "title": "与上下文无关的语法",
+      "creation date": "2022-02-28 19:05",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 86
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "Web Browsers",
+        "link": "与上下文无关的语法",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Sketch 设计组件库",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/Sketch 设计组件库.md",
+    "frontmatter": {
+      "title": "Sketch 设计组件库",
+      "creation date": "2022-06-14 14:10:36",
+      "status": "todo",
+      "tag": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 81
+        }
+      }
+    }
+  },
+  {
+    "fileName": "前端组件库设计",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+    "tags": [
+      "uilibrary",
+      "designprinciple"
+    ],
+    "frontmatter": {
+      "title": "前端组件库设计",
+      "date": "2022-05-17 09:07",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 96
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "前端组件库的设计原则",
+        "level": 1
+      },
+      {
+        "heading": "细粒度的考量",
+        "level": 2
+      },
+      {
+        "heading": "通用性考量",
+        "level": 2
+      },
+      {
+        "heading": "技术选型",
+        "level": 1
+      },
+      {
+        "heading": "css 解决方案",
+        "level": 2
+      },
+      {
+        "heading": "[styled-components](https://styled-components.com/)",
+        "level": 3
+      },
+      {
+        "heading": "js 解决方案",
+        "level": 2
+      },
+      {
+        "heading": "组件库项目架构",
+        "level": 1
+      },
+      {
+        "heading": "打包工具 (rollup vs webpack)",
+        "level": 2
+      },
+      {
+        "heading": "代码检测",
+        "level": 2
+      },
+      {
+        "heading": "commit 规范",
+        "level": 2
+      },
+      {
+        "heading": "测试工具",
+        "level": 2
+      },
+      {
+        "heading": "其它",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "CSS解决方案",
+        "displayText": "SCSS 和 LESS 相比有什么优势",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md"
+      }
+    ]
+  },
+  {
+    "fileName": "dumi 组件库搭建",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+    "tags": [
+      "uilibrary",
+      "dumi"
+    ],
+    "frontmatter": {
+      "title": "dumi 组件库搭建",
+      "creation date": "2022-02-28 19:05",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 96
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "配置相关",
+        "level": 1
+      },
+      {
+        "heading": "father 打包",
+        "level": 2
+      },
+      {
+        "heading": "esm 和 cjs",
+        "level": 3
+      },
+      {
+        "heading": "umd",
+        "level": 3
+      },
+      {
+        "heading": "定义方式",
+        "level": 3
+      },
+      {
+        "heading": "注意事项",
+        "level": 3
+      },
+      {
+        "heading": "dumi 打包",
+        "level": 2
+      },
+      {
+        "heading": "问题记录",
+        "level": 1
+      },
+      {
+        "heading": "1.引用自身组件报错",
+        "level": 2
+      },
+      {
+        "heading": "问题描述",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "2.组件发布私有库",
+        "level": 2
+      },
+      {
+        "heading": "登录私有库",
+        "level": 3
+      },
+      {
+        "heading": "发布npm包到私有仓库",
+        "level": 3
+      },
+      {
+        "heading": "3.解决使用私有库配置",
+        "level": 2
+      },
+      {
+        "heading": "4.解决 father rollup 模式对 cjs 引用问题",
+        "level": 2
+      },
+      {
+        "heading": "问题描述",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "5. 解决组件库二次封装",
+        "level": 2
+      },
+      {
+        "heading": "问题描述",
+        "level": 3
+      },
+      {
+        "heading": "解决方案",
+        "level": 3
+      },
+      {
+        "heading": "参考文章",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "TypeScript 语法",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md",
+    "tags": [
+      "typescript"
+    ],
+    "frontmatter": {
+      "title": "TypeScript 语法",
+      "creation date": "2022-05-25 22:12",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 93
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "1. 简介",
+        "level": 1
+      },
+      {
+        "heading": "全局安装typescript",
+        "level": 2
+      },
+      {
+        "heading": "编译执行TS文件",
+        "level": 2
+      },
+      {
+        "heading": "ts-node的安装和使用",
+        "level": 2
+      },
+      {
+        "heading": "2. 静态类型",
+        "level": 1
+      },
+      {
+        "heading": "定义静态类型",
+        "level": 2
+      },
+      {
+        "heading": "自定义静态类型",
+        "level": 2
+      },
+      {
+        "heading": "3. 基础静态类型和对象类型",
+        "level": 1
+      },
+      {
+        "heading": "基础静态类型",
+        "level": 2
+      },
+      {
+        "heading": "对象类型",
+        "level": 2
+      },
+      {
+        "heading": "4. 类型注解和类型推断",
+        "level": 1
+      },
+      {
+        "heading": "type annotation 类型注解",
+        "level": 2
+      },
+      {
+        "heading": "type inference 类型推断",
+        "level": 2
+      },
+      {
+        "heading": "工作使用问题",
+        "level": 2
+      },
+      {
+        "heading": "5. 数组类型的定义",
+        "level": 1
+      },
+      {
+        "heading": "一般类型数组的定义",
+        "level": 2
+      },
+      {
+        "heading": "对象类型数组的定义（配合使用type/class）",
+        "level": 2
+      },
+      {
+        "heading": "6. 元祖和类型约束",
+        "level": 1
+      },
+      {
+        "heading": "元祖的基本应用",
+        "level": 2
+      },
+      {
+        "heading": "元祖的使用",
+        "level": 2
+      },
+      {
+        "heading": "7. 函数参数和返回类型定义",
+        "level": 1
+      },
+      {
+        "heading": "函数返回类型定义",
+        "level": 2
+      },
+      {
+        "heading": "无返回值（void）",
+        "level": 2
+      },
+      {
+        "heading": "never返回值类型",
+        "level": 2
+      },
+      {
+        "heading": "函数参数为对象（解构）时",
+        "level": 2
+      },
+      {
+        "heading": "8. interface接口",
+        "level": 1
+      },
+      {
+        "heading": "接口和类型别名的区别",
+        "level": 2
+      },
+      {
+        "heading": "接口中非必选值的定义",
+        "level": 2
+      },
+      {
+        "heading": "允许加入任意属性",
+        "level": 2
+      },
+      {
+        "heading": "接口里加入方法",
+        "level": 2
+      },
+      {
+        "heading": "类和接口的继承",
+        "level": 2
+      },
+      {
+        "heading": "接口间的继承",
+        "level": 2
+      },
+      {
+        "heading": "9. 类的使用",
+        "level": 1
+      },
+      {
+        "heading": "super关键字的使用",
+        "level": 2
+      },
+      {
+        "heading": "类的访问类型",
+        "level": 2
+      },
+      {
+        "heading": "类的构造函数",
+        "level": 2
+      },
+      {
+        "heading": "Getter和Setter",
+        "level": 2
+      },
+      {
+        "heading": "静态修饰符static、只读属性readonly",
+        "level": 2
+      },
+      {
+        "heading": "10. 高级类型",
+        "level": 1
+      },
+      {
+        "heading": "交叉类型（&）",
+        "level": 2
+      },
+      {
+        "heading": "联合类型（|）",
+        "level": 2
+      },
+      {
+        "heading": "类型别名（type）",
+        "level": 2
+      },
+      {
+        "heading": "类型索引（keyof）",
+        "level": 2
+      },
+      {
+        "heading": "类型约束（extends）",
+        "level": 2
+      },
+      {
+        "heading": "类型映射（in）",
+        "level": 2
+      },
+      {
+        "heading": "条件类型（U ? X : Y）",
+        "level": 2
+      },
+      {
+        "heading": "11. 联合类型和类型保护",
+        "level": 1
+      },
+      {
+        "heading": "联合类型",
+        "level": 2
+      },
+      {
+        "heading": "类型保护 - 类型断言",
+        "level": 2
+      },
+      {
+        "heading": "类型保护 - in语法",
+        "level": 2
+      },
+      {
+        "heading": "类型保护 - typeof语法",
+        "level": 2
+      },
+      {
+        "heading": "类型保护 - instanceof语法",
+        "level": 2
+      },
+      {
+        "heading": "12. 泛型 - 重点",
+        "level": 1
+      },
+      {
+        "heading": "13. 工具泛型",
+        "level": 1
+      },
+      {
+        "heading": "Readonly",
+        "level": 2
+      },
+      {
+        "heading": "Partial",
+        "level": 2
+      },
+      {
+        "heading": "Required",
+        "level": 2
+      },
+      {
+        "heading": "Record",
+        "level": 2
+      },
+      {
+        "heading": "Extract",
+        "level": 2
+      },
+      {
+        "heading": "Exclude",
+        "level": 2
+      },
+      {
+        "heading": "Pick",
+        "level": 2
+      },
+      {
+        "heading": "Omit",
+        "level": 2
+      },
+      {
+        "heading": "14. 配置文件tsconfig.json",
+        "level": 1
+      },
+      {
+        "heading": "生成tsconfig.json编译配置文件，注意配置文件中不支持单引号",
+        "level": 2
+      },
+      {
+        "heading": "include/exclude/files",
+        "level": 2
+      },
+      {
+        "heading": "compilerOptions配置项",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "File Preview",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
+    "tags": [
+      "javascript",
+      "filepreview"
+    ],
+    "frontmatter": {
+      "title": "File Preview",
+      "creation date": "2022-03-22 10:04",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 106
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "实现方案",
+        "level": 2
+      },
+      {
+        "heading": "docx 文件实现前端预览",
+        "level": 2
+      },
+      {
+        "heading": "代码实现",
+        "level": 3
+      },
+      {
+        "heading": "pdf 实现前端预览",
+        "level": 2
+      },
+      {
+        "heading": "代码实现",
+        "level": 3
+      },
+      {
+        "heading": "excel 实现前端预览",
+        "level": 2
+      },
+      {
+        "heading": "代码实现",
+        "level": 3
+      },
+      {
+        "heading": "pptx 的前端预览",
+        "level": 2
+      },
+      {
+        "heading": "总结",
+        "level": 2
+      },
+      {
+        "heading": "代码地址",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Charles | 抓包工具",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+    "tags": [
+      "charles"
+    ],
+    "frontmatter": {
+      "title": "Charles | 抓包工具",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 83
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "主要功能",
+        "level": 1
+      },
+      {
+        "heading": "视图选项",
+        "level": 1
+      },
+      {
+        "heading": "封包过滤",
+        "level": 2
+      },
+      {
+        "heading": "域名抓包",
+        "level": 2
+      },
+      {
+        "heading": "过滤焦点域名",
+        "level": 2
+      },
+      {
+        "heading": "界面说明",
+        "level": 1
+      },
+      {
+        "heading": "Content 乱码问题",
+        "level": 2
+      },
+      {
+        "heading": "Proxy",
+        "level": 2
+      },
+      {
+        "heading": "常用功能及其设置",
+        "level": 3
+      },
+      {
+        "heading": "stop/start recording 开始/暂停记录",
+        "level": 4
+      },
+      {
+        "heading": "stop/start throttling 开始/暂停节流",
+        "level": 4
+      },
+      {
+        "heading": "enable/disable breakpoints 启用/禁用断点",
+        "level": 4
+      },
+      {
+        "heading": "SSL Proxying Settings",
+        "level": 4
+      },
+      {
+        "heading": "反向代理和端口转发",
+        "level": 3
+      },
+      {
+        "heading": "reverse proxies 反向代理",
+        "level": 4
+      },
+      {
+        "heading": "port forwarding 端口转发",
+        "level": 4
+      },
+      {
+        "heading": "代理身份配置",
+        "level": 3
+      },
+      {
+        "heading": "macOS Proxy 开启整个系统通过charles作为代理",
+        "level": 4
+      },
+      {
+        "heading": "高级设置",
+        "level": 3
+      },
+      {
+        "heading": "proxy setting 代理设置",
+        "level": 4
+      },
+      {
+        "heading": "access control setting 访问控制设置",
+        "level": 4
+      },
+      {
+        "heading": "extErnal proxy setting 外部代理设置",
+        "level": 4
+      },
+      {
+        "heading": "web interface setting Web界面设置",
+        "level": 4
+      },
+      {
+        "heading": "Tool",
+        "level": 3
+      },
+      {
+        "heading": "No Caching Settings [[WWW#^6f5c8c|缓存]]",
+        "level": 4
+      },
+      {
+        "heading": "Block Cookies Settings",
+        "level": 4
+      },
+      {
+        "heading": "Map Remote Settings",
+        "level": 4
+      },
+      {
+        "heading": "Map Local Settings",
+        "level": 4
+      },
+      {
+        "heading": "Rewrite",
+        "level": 4
+      },
+      {
+        "heading": "repeat",
+        "level": 4
+      }
+    ],
+    "links": [
+      {
+        "link": "WWW#^6f5c8c",
+        "cleanLink": "WWW",
+        "displayText": "缓存",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      }
+    ]
+  },
+  {
+    "fileName": "前端部署",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
+    "tags": [
+      "webpack",
+      "deploy",
+      "package/fronten"
+    ],
+    "frontmatter": {
+      "title": "前端部署",
+      "creation date": "2022-05-23 10:04",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 108
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "一个简单的页面",
+        "level": 2
+      },
+      {
+        "heading": "利用缓存",
+        "level": 2
+      },
+      {
+        "heading": "协商缓存",
+        "level": 3
+      },
+      {
+        "heading": "强缓存",
+        "level": 3
+      },
+      {
+        "heading": "附录：协商缓存和强缓存详解",
+        "level": 3
+      },
+      {
+        "heading": "缓存更新问题",
+        "level": 2
+      },
+      {
+        "heading": "覆盖式发布引发的问题",
+        "level": 2
+      },
+      {
+        "heading": "与 CDN 结合",
+        "level": 2
+      },
+      {
+        "heading": "静态资源组织总结",
+        "level": 2
+      },
+      {
+        "heading": "静态资源的加工",
+        "level": 2
+      },
+      {
+        "heading": "Pre 环境、灰度上线的常见实现",
+        "level": 2
+      },
+      {
+        "heading": "方案一 Nginx 层动态转发",
+        "level": 3
+      },
+      {
+        "heading": "方案二 动态配置 + 服务端转发",
+        "level": 3
+      },
+      {
+        "heading": "前端发布服务实现与设计",
+        "level": 2
+      },
+      {
+        "heading": "静态资源组织部分",
+        "level": 2
+      },
+      {
+        "heading": "自动化部署部分",
+        "level": 2
+      },
+      {
+        "heading": "前端部署 & 静态资源加工",
+        "level": 2
+      },
+      {
+        "heading": "前端发布服务",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "rollup.js",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
+    "tags": [
+      "rollupjs",
+      "package/fronten"
+    ],
+    "frontmatter": {
+      "title": "rollup.js",
+      "creation date": "2022-05-24 09:20:20",
+      "status": "done",
+      "tag": [
+        "rollupjs",
+        "package/fronten"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 107
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "一、简介",
+        "level": 2
+      },
+      {
+        "heading": "二、安装",
+        "level": 2
+      },
+      {
+        "heading": "三、示例",
+        "level": 2
+      },
+      {
+        "heading": "四、使用注意点",
+        "level": 2
+      },
+      {
+        "heading": "五、转成 CommonJS 模块",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Promise 常用方法",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+    "tags": [
+      "javascript",
+      "javascript/promise"
+    ],
+    "frontmatter": {
+      "title": "Promise 常用方法",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 105
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Promise 中的三兄弟 .all(), .race(), .allSettled()",
+        "level": 1
+      },
+      {
+        "heading": "1. 概述",
+        "level": 2
+      },
+      {
+        "heading": "2. 回顾: Promise 状态",
+        "level": 2
+      },
+      {
+        "heading": "3. 什么是组合",
+        "level": 2
+      },
+      {
+        "heading": "4.  Promise.all()",
+        "level": 2
+      },
+      {
+        "heading": "异步 .map() 与 Promise.all()",
+        "level": 3
+      },
+      {
+        "heading": "更实际工作上关于 .map()示例",
+        "level": 3
+      },
+      {
+        "heading": "Promise.all()的一个简版实现",
+        "level": 3
+      },
+      {
+        "heading": "5. Promise.race()",
+        "level": 2
+      },
+      {
+        "heading": "Example 1",
+        "level": 3
+      },
+      {
+        "heading": "Example 2",
+        "level": 3
+      },
+      {
+        "heading": "Expample 3",
+        "level": 3
+      },
+      {
+        "heading": "Promise.race() 的一个简版实现",
+        "level": 3
+      },
+      {
+        "heading": "6.Promise.allSettled()",
+        "level": 2
+      },
+      {
+        "heading": "Promise.allSettled() 例子",
+        "level": 3
+      },
+      {
+        "heading": "Promise.allSettled() 较复杂点的例子",
+        "level": 3
+      },
+      {
+        "heading": "Promise.allSettled() 的简化实现",
+        "level": 3
+      },
+      {
+        "heading": "7.  短路特性",
+        "level": 2
+      },
+      {
+        "heading": "8. 并发性和 Promise.all()",
+        "level": 2
+      },
+      {
+        "heading": "顺序执行与并发执行",
+        "level": 3
+      },
+      {
+        "heading": "并发技巧：关注操作何时开始",
+        "level": 3
+      },
+      {
+        "heading": "Promise.all() 与 Fork-Join 分治编程",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Web Hosting",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
+    "tags": [
+      "internet",
+      "internet/webhosting"
+    ],
+    "frontmatter": {
+      "title": "Web Hosting",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 103
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "使用虚拟服务器目的",
+        "level": 1
+      },
+      {
+        "heading": "方便管理",
+        "level": 2
+      },
+      {
+        "heading": "提高性能",
+        "level": 2
+      },
+      {
+        "heading": "降低成本",
+        "level": 2
+      },
+      {
+        "heading": "虚拟主机的实现类型",
+        "level": 1
+      },
+      {
+        "heading": "网址名称对应（Name-based）",
+        "level": 2
+      },
+      {
+        "heading": "IP地址对应（IP-based）",
+        "level": 2
+      },
+      {
+        "heading": "Port端口号对应（Port-based）",
+        "level": 2
+      },
+      {
+        "heading": "选择虚拟主机",
+        "level": 1
+      },
+      {
+        "heading": "主机的硬件设施情况",
+        "level": 2
+      },
+      {
+        "heading": "虚拟主机上架设的网站有多少",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "Web Hosting",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "What is Hosing"
+      }
+    ]
+  },
+  {
+    "fileName": "Web Browsers",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+    "tags": [
+      "internet",
+      "internet/webbrowser"
+    ],
+    "frontmatter": {
+      "title": "Web Browsers",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 104
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "1. 浏览器高层结构",
+        "level": 1
+      },
+      {
+        "heading": "2. Rendering Engine 呈现引擎",
+        "level": 1
+      },
+      {
+        "heading": "Main Flow",
+        "level": 2
+      },
+      {
+        "heading": "Main Flow Examples",
+        "level": 2
+      },
+      {
+        "heading": "WebKit Main Flow",
+        "level": 3
+      },
+      {
+        "heading": "Mozilla's Gecko rendering engine main flow",
+        "level": 3
+      },
+      {
+        "heading": "3. Parsing and DOM tree construction 解析和DOM树构建",
+        "level": 1
+      },
+      {
+        "heading": "Parsing",
+        "level": 2
+      },
+      {
+        "heading": "Parser–Lexer combination",
+        "level": 3
+      },
+      {
+        "heading": "Formal definitions for vocabulary and syntax",
+        "level": 3
+      },
+      {
+        "heading": "Types of parsers",
+        "level": 3
+      },
+      {
+        "heading": "Generating parsers automatically",
+        "level": 3
+      },
+      {
+        "heading": "HTML Parser",
+        "level": 2
+      },
+      {
+        "heading": "DOM",
+        "level": 3
+      },
+      {
+        "heading": "The parsing algorithm",
+        "level": 3
+      },
+      {
+        "heading": "The tokenization algorithm 标记化算法",
+        "level": 4
+      },
+      {
+        "heading": "Tree construction algorithm 树构建算法",
+        "level": 4
+      },
+      {
+        "heading": "Browsers' error tolerance 浏览器的容错机制",
+        "level": 4
+      },
+      {
+        "heading": "CSS Parser",
+        "level": 2
+      },
+      {
+        "heading": "WebKit CSS 解析器",
+        "level": 3
+      },
+      {
+        "heading": "The order of processing scripts and style sheets",
+        "level": 2
+      },
+      {
+        "heading": "Scripts",
+        "level": 3
+      },
+      {
+        "heading": "Speculative parsing",
+        "level": 3
+      },
+      {
+        "heading": "Style sheets",
+        "level": 3
+      },
+      {
+        "heading": "4. Render tree construction 呈现树构建",
+        "level": 1
+      },
+      {
+        "heading": "The render tree relation to the DOM tree",
+        "level": 2
+      },
+      {
+        "heading": "The flow of constructing the tree",
+        "level": 2
+      },
+      {
+        "heading": "Style Computation",
+        "level": 2
+      },
+      {
+        "heading": "Sharing style data",
+        "level": 3
+      },
+      {
+        "heading": "Manipulating the rules for an easy match",
+        "level": 3
+      },
+      {
+        "heading": "Applying the rules in the correct cascade order",
+        "level": 3
+      },
+      {
+        "heading": "Style sheet cascade order",
+        "level": 4
+      },
+      {
+        "heading": "Specificity",
+        "level": 4
+      },
+      {
+        "heading": "Sorting the rules",
+        "level": 4
+      },
+      {
+        "heading": "Gradual process",
+        "level": 2
+      },
+      {
+        "heading": "5.Layout 布局",
+        "level": 1
+      },
+      {
+        "heading": "Dirty bit system",
+        "level": 2
+      },
+      {
+        "heading": "Global and incremental layout",
+        "level": 2
+      },
+      {
+        "heading": "Asynchronous and Synchronous layout",
+        "level": 2
+      },
+      {
+        "heading": "Optimizations",
+        "level": 2
+      },
+      {
+        "heading": "The layout process",
+        "level": 2
+      },
+      {
+        "heading": "Width calculation",
+        "level": 2
+      },
+      {
+        "heading": "Line Breaking",
+        "level": 2
+      },
+      {
+        "heading": "6.Painting 绘制",
+        "level": 1
+      },
+      {
+        "heading": "Global and Incremental",
+        "level": 2
+      },
+      {
+        "heading": "The painting order",
+        "level": 2
+      },
+      {
+        "heading": "WebKit rectangle storage",
+        "level": 2
+      },
+      {
+        "heading": "7.Dynamic changes",
+        "level": 1
+      },
+      {
+        "heading": "8.The rendering engine's threads",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Web Browsers#^edd771",
+        "cleanLink": "Web Browsers",
+        "displayText": "呈现树",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      },
+      {
+        "link": "与上下文无关的语法",
+        "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md"
+      },
+      {
+        "link": "正则表达式"
+      },
+      {
+        "link": "#Specificity",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+        "cleanLink": "Web Browsers",
+        "displayText": "特异性"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Web-Browser.excalidraw",
+        "link": "Web Browsers#HTML Parser",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
+        "cleanLink": "Web Browsers",
+        "displayText": "HTML Parser"
+      },
+      {
+        "fileName": "Web-Browser.excalidraw",
+        "link": "Web Browsers#5 Layout 布局",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
+        "cleanLink": "Web Browsers",
+        "displayText": "Layout"
+      },
+      {
+        "fileName": "Web-Browser.excalidraw",
+        "link": "Web Browsers#CSS Parser",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
+        "cleanLink": "Web Browsers",
+        "displayText": "CSS Parser"
+      },
+      {
+        "fileName": "Web-Browser.excalidraw",
+        "link": "Web Browsers#Style Computation",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
+        "cleanLink": "Web Browsers",
+        "displayText": "Style Computation"
+      },
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "Web Browsers",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "Browsers and How they work?"
+      }
+    ]
+  },
+  {
+    "fileName": "WWW",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+    "tags": [
+      "internet",
+      "internet/www"
+    ],
+    "frontmatter": {
+      "title": "WWW",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 88
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "工作原理",
+        "level": 2
+      },
+      {
+        "heading": "核心标准",
+        "level": 2
+      },
+      {
+        "heading": "Web 缓存",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "INTERNET",
+        "displayText": "互联网",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "link": "WWW",
+        "displayText": "万维网",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      },
+      {
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTTP",
+        "displayText": "HTTPS",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "URL",
+        "displayText": "统一资源标识符",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+      },
+      {
+        "link": "HTTP",
+        "displayText": "超文本传送协议",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTML",
+        "displayText": "超文本标记语言",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Charles | 抓包工具",
+        "link": "WWW#^6f5c8c",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+        "cleanLink": "WWW",
+        "displayText": "缓存"
+      },
+      {
+        "fileName": "INTERNET",
+        "link": "WWW",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "fileName": "INTERNET",
+        "link": "WWW",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "fileName": "HTTP",
+        "link": "WWW",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+        "displayText": "万维网"
+      }
+    ]
+  },
+  {
+    "fileName": "URL",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
+    "tags": [
+      "internet",
+      "internet/url"
+    ],
+    "frontmatter": {
+      "title": "URL",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 88
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "基础：剖析URL",
+        "level": 1
+      },
+      {
+        "heading": "Protocol",
+        "level": 2
+      },
+      {
+        "heading": "[[Domain Name]]",
+        "level": 2
+      },
+      {
+        "heading": "Port",
+        "level": 2
+      },
+      {
+        "heading": "Path to the file",
+        "level": 2
+      },
+      {
+        "heading": "Parameters",
+        "level": 2
+      },
+      {
+        "heading": "Anchor",
+        "level": 2
+      },
+      {
+        "heading": "如何使用URL",
+        "level": 1
+      },
+      {
+        "heading": "绝对URL和相对URL",
+        "level": 1
+      },
+      {
+        "heading": "绝对URL示例",
+        "level": 2
+      },
+      {
+        "heading": "相对URL示例",
+        "level": 2
+      },
+      {
+        "heading": "语义 URLs",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Domain Name",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md"
+      },
+      {
+        "link": "HTML",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "WWW",
+        "link": "URL",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+        "displayText": "统一资源标识符"
+      },
+      {
+        "fileName": "HTTP",
+        "link": "URL",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+        "displayText": "统一资源标识符"
+      }
+    ]
+  },
+  {
+    "fileName": "TCP",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
+    "tags": [
+      "internet"
+    ],
+    "frontmatter": {
+      "title": "TCP",
+      "date": "2022-01-24 14:41",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 73
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "1. 传输层协议",
+        "level": 1
+      },
+      {
+        "heading": "UDP",
+        "level": 2
+      },
+      {
+        "heading": "TCP",
+        "level": 2
+      },
+      {
+        "heading": "2. TCP 报文段首部格式",
+        "level": 1
+      },
+      {
+        "heading": "源端口和目的端口",
+        "level": 3
+      },
+      {
+        "heading": "序号 / 序列号（Sequense Number，SN）：",
+        "level": 3
+      },
+      {
+        "heading": "确认号 ack",
+        "level": 3
+      },
+      {
+        "heading": "数据偏移（首部长度）",
+        "level": 3
+      },
+      {
+        "heading": "保留",
+        "level": 3
+      },
+      {
+        "heading": "紧急位 URG",
+        "level": 3
+      },
+      {
+        "heading": "确认 ACK",
+        "level": 3
+      },
+      {
+        "heading": "推送 PSH",
+        "level": 3
+      },
+      {
+        "heading": "复位 RST",
+        "level": 3
+      },
+      {
+        "heading": "同步 SYN",
+        "level": 3
+      },
+      {
+        "heading": "终止 FIN",
+        "level": 3
+      },
+      {
+        "heading": "3. TCP 三次握手建立连接",
+        "level": 1
+      },
+      {
+        "heading": "三次握手过程详解",
+        "level": 2
+      },
+      {
+        "heading": "为什么要三次握手",
+        "level": 2
+      },
+      {
+        "heading": "ISN (Initial Sequence Number) 是固定的吗",
+        "level": 2
+      },
+      {
+        "heading": "三次握手过程中可以携带数据吗",
+        "level": 2
+      },
+      {
+        "heading": "半连接队列",
+        "level": 2
+      },
+      {
+        "heading": "SYN 洪泛攻击",
+        "level": 2
+      },
+      {
+        "heading": "如果第三次握手丢失了，客户端服务端会如何处理",
+        "level": 2
+      },
+      {
+        "heading": "4. TCP 四次挥手释放连接",
+        "level": 1
+      },
+      {
+        "heading": "四次挥手过程详解",
+        "level": 2
+      },
+      {
+        "heading": "为什么要四次挥手",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "HTTP",
+        "link": "TCP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+        "displayText": "TCP协议"
+      },
+      {
+        "fileName": "HTTP",
+        "link": "TCP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "fileName": "ARPANET",
+        "link": "TCP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
+        "displayText": "传送控制协议"
+      }
+    ]
+  },
+  {
+    "fileName": "IP",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
+    "tags": [
+      "internet",
+      "internet/ip"
+    ],
+    "frontmatter": {
+      "title": "IP",
+      "date": "2022-01-24 14:41",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 86
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "DNS",
+        "link": "IP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+        "displayText": "互联网协议"
+      },
+      {
+        "fileName": "ARPANET",
+        "link": "IP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
+        "displayText": "互联网协议"
+      }
+    ]
+  },
+  {
+    "fileName": "INTERNET",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
+    "tags": [
+      "internet"
+    ],
+    "frontmatter": {
+      "title": "INTERNET",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 78
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Internet 互联网",
+        "level": 1
+      },
+      {
+        "heading": "什么是互联网 ?",
+        "level": 2
+      },
+      {
+        "heading": "词汇区别",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "WWW",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      },
+      {
+        "link": "ARPANET",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
+      },
+      {
+        "link": "WWW",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "WWW",
+        "link": "INTERNET",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+        "displayText": "互联网"
+      },
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "INTERNET",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "How does the Internet works?"
+      }
+    ]
+  },
+  {
+    "fileName": "HTTP",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+    "headings": [
+      {
+        "heading": "协议概述",
+        "level": 1
+      },
+      {
+        "heading": "状态码",
+        "level": 1
+      },
+      {
+        "heading": "状态码分类",
+        "level": 2
+      },
+      {
+        "heading": "常见状态码",
+        "level": 2
+      },
+      {
+        "heading": "请求方法",
+        "level": 1
+      },
+      {
+        "heading": "一般方法",
+        "level": 2
+      },
+      {
+        "heading": "GET",
+        "level": 3
+      },
+      {
+        "heading": "HEAD",
+        "level": 3
+      },
+      {
+        "heading": "POST",
+        "level": 3
+      },
+      {
+        "heading": "PUT",
+        "level": 3
+      },
+      {
+        "heading": "DELETE",
+        "level": 3
+      },
+      {
+        "heading": "TRACE",
+        "level": 3
+      },
+      {
+        "heading": "OPTIONS",
+        "level": 3
+      },
+      {
+        "heading": "CONNECT",
+        "level": 3
+      },
+      {
+        "heading": "Restful API",
+        "level": 2
+      },
+      {
+        "heading": "http headers",
+        "level": 1
+      },
+      {
+        "heading": "Request Headers",
+        "level": 2
+      },
+      {
+        "heading": "Response Headers",
+        "level": 2
+      },
+      {
+        "heading": "缓存相关的 headers",
+        "level": 2
+      },
+      {
+        "heading": "http 缓存",
+        "level": 1
+      },
+      {
+        "heading": "关于缓存",
+        "level": 2
+      },
+      {
+        "heading": "什么是缓存",
+        "level": 3
+      },
+      {
+        "heading": "为什么需要缓存",
+        "level": 3
+      },
+      {
+        "heading": "什么资源可以被缓存",
+        "level": 3
+      },
+      {
+        "heading": "http 缓存策略",
+        "level": 2
+      },
+      {
+        "heading": "强制缓存",
+        "level": 3
+      },
+      {
+        "heading": "协商缓存（对比缓存）",
+        "level": 3
+      },
+      {
+        "heading": "刷新操作方式，对缓存的影响",
+        "level": 2
+      },
+      {
+        "heading": "相关面试题",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "WWW",
+        "displayText": "万维网",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      },
+      {
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTTP",
+        "displayText": "HTTPS协议",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "URL",
+        "displayText": "统一资源标识符",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+      },
+      {
+        "link": "TCP",
+        "displayText": "TCP协议",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md"
+      },
+      {
+        "link": "HTML",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+      },
+      {
+        "link": "TCP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "WWW",
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      },
+      {
+        "fileName": "WWW",
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+        "displayText": "HTTPS"
+      },
+      {
+        "fileName": "WWW",
+        "link": "HTTP",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+        "displayText": "超文本传送协议"
+      },
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "HTTP",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "What is Http?"
+      }
+    ]
+  },
+  {
+    "fileName": "Domain Name",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md",
+    "tags": [
+      "internet",
+      "internet/domainname"
+    ],
+    "frontmatter": {
+      "title": "Domain Name",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 103
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "概述",
+        "level": 1
+      },
+      {
+        "heading": "域名的结构",
+        "level": 1
+      },
+      {
+        "heading": "TLD （Top-Level Domain，顶级域名）",
+        "level": 2
+      },
+      {
+        "heading": "标签 (或者说是组件)",
+        "level": 2
+      },
+      {
+        "heading": "Secondary Level Domain (二级域名)",
+        "level": 2
+      },
+      {
+        "heading": "购买域名",
+        "level": 1
+      },
+      {
+        "heading": "谁拥有域名？",
+        "level": 2
+      },
+      {
+        "heading": "找个可用的域名",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "URL",
+        "link": "Domain Name",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+      },
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "Domain Name",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "What is Domain Name"
+      }
+    ]
+  },
+  {
+    "fileName": "DNS",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+    "tags": [
+      "internet",
+      "internet/dns"
+    ],
+    "frontmatter": {
+      "title": "DNS",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 88
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "DNS 如何工作？",
+        "level": 2
+      },
+      {
+        "heading": "加载网页涉及 4 个 DNS 服务器：",
+        "level": 2
+      },
+      {
+        "heading": "权威性 DNS 服务器与递归 DNS 解析器之间的区别是什么？",
+        "level": 2
+      },
+      {
+        "heading": "递归 DNS 解析器",
+        "level": 3
+      },
+      {
+        "heading": "权威性 DNS 服务器",
+        "level": 3
+      },
+      {
+        "heading": "DNS 查找有哪些步骤？",
+        "level": 2
+      },
+      {
+        "heading": "DNS 查找的 8 个步骤：",
+        "level": 3
+      },
+      {
+        "heading": "什么是 DNS 解析器？",
+        "level": 2
+      },
+      {
+        "heading": "DNS 查询有哪些类型？",
+        "level": 2
+      },
+      {
+        "heading": "3 种 DNS 查询类型：",
+        "level": 3
+      },
+      {
+        "heading": "什么是 DNS 高速缓存？DNS 高速缓存发生在哪里？",
+        "level": 2
+      },
+      {
+        "heading": "浏览器 DNS 缓存",
+        "level": 3
+      },
+      {
+        "heading": "操作系统（OS）级 DNS 缓存",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "IP",
+        "displayText": "互联网协议",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "DNS",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "DNS and How it works"
+      }
+    ]
+  },
+  {
+    "fileName": "ARPANET",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
+    "tags": [
+      "internet",
+      "internet/apranet"
+    ],
+    "frontmatter": {
+      "title": "ARPANET",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 96
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Apranet  阿帕网",
+        "level": 1
+      },
+      {
+        "heading": "历史房展",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "TCP",
+        "displayText": "传送控制协议",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md"
+      },
+      {
+        "link": "IP",
+        "displayText": "互联网协议",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "INTERNET",
+        "link": "ARPANET",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      }
+    ]
+  },
+  {
+    "fileName": "HTML",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+    "tags": [
+      "html"
+    ],
+    "frontmatter": {
+      "title": "HTML",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 70
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Head",
+        "level": 1
+      },
+      {
+        "heading": "Meta 标签",
+        "level": 1
+      },
+      {
+        "heading": "Doctype（文档类型）",
+        "level": 2
+      },
+      {
+        "heading": "Charset（字符）",
+        "level": 2
+      },
+      {
+        "heading": "Viewport（视口）",
+        "level": 2
+      },
+      {
+        "heading": "Title（标题）",
+        "level": 2
+      },
+      {
+        "heading": "Description（描述）",
+        "level": 2
+      },
+      {
+        "heading": "Favicons（图标）",
+        "level": 2
+      },
+      {
+        "heading": "Apple Web App Meta",
+        "level": 2
+      },
+      {
+        "heading": "Windows Tiles",
+        "level": 2
+      },
+      {
+        "heading": "Canonical",
+        "level": 2
+      },
+      {
+        "heading": "HTML 标签",
+        "level": 1
+      },
+      {
+        "heading": "Language tag（语言标签）",
+        "level": 2
+      },
+      {
+        "heading": "Alternate language（备用语言）",
+        "level": 2
+      },
+      {
+        "heading": "x-default",
+        "level": 2
+      },
+      {
+        "heading": "Conditional comments（条件注释）",
+        "level": 2
+      },
+      {
+        "heading": "RSS feed（RSS 订阅）",
+        "level": 2
+      },
+      {
+        "heading": "CSS Critical（最小 CSS 合集）",
+        "level": 2
+      },
+      {
+        "heading": "CSS order（加载顺序）",
+        "level": 2
+      },
+      {
+        "heading": "Social meta 标签",
+        "level": 1
+      },
+      {
+        "heading": "Facebook Open Graph",
+        "level": 2
+      },
+      {
+        "heading": "Twitter 卡片",
+        "level": 2
+      },
+      {
+        "heading": "HTML",
+        "level": 1
+      },
+      {
+        "heading": "最佳实践",
+        "level": 2
+      },
+      {
+        "heading": "HTML5 Semantic Elements（HTML5语义化元素）",
+        "level": 3
+      },
+      {
+        "heading": "Error pages（错误页面）",
+        "level": 3
+      },
+      {
+        "heading": "Noopener",
+        "level": 3
+      },
+      {
+        "heading": "Clean up comments（清除注释）",
+        "level": 3
+      },
+      {
+        "heading": "HTML 测试",
+        "level": 2
+      },
+      {
+        "heading": "W3C compliant（兼容）",
+        "level": 3
+      },
+      {
+        "heading": "HTML Lint",
+        "level": 3
+      },
+      {
+        "heading": "Desktop Browsers",
+        "level": 3
+      },
+      {
+        "heading": "Mobile Browsers",
+        "level": 3
+      },
+      {
+        "heading": "Link checker（链接检查器）",
+        "level": 3
+      },
+      {
+        "heading": "Adblockers test（广告拦截器测试）",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "HTML-HEAD",
+        "displayText": "HEAD列表",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "WWW",
+        "link": "HTML",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+        "displayText": "超文本标记语言"
+      },
+      {
+        "fileName": "URL",
+        "link": "HTML",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+      },
+      {
+        "fileName": "HTTP",
+        "link": "HTML",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "HTML",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+      },
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "HTML",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "Learn the Basics"
+      }
+    ]
+  },
+  {
+    "fileName": "HTML-Validation",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+    "tags": [
+      "html",
+      "html/formvalidation"
+    ],
+    "frontmatter": {
+      "title": "HTML-Validation",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 103
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "不同类型的表单数据校验",
+        "level": 1
+      },
+      {
+        "heading": "客户端校验",
+        "level": 2
+      },
+      {
+        "heading": "服务器端校验",
+        "level": 2
+      },
+      {
+        "heading": "使用内置表单数据校验",
+        "level": 1
+      },
+      {
+        "heading": "校验属性",
+        "level": 2
+      },
+      {
+        "heading": "Type, Input",
+        "level": 3
+      },
+      {
+        "heading": "[验证相关的特性（Attribute）](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Constraint_validation#%E9%AA%8C%E8%AF%81%E7%9B%B8%E5%85%B3%E7%9A%84%E7%89%B9%E6%80%A7%EF%BC%88attribute%EF%BC%89 \"Permalink to 验证相关的特性（Attribute）\")",
+        "level": 3
+      },
+      {
+        "heading": "校验样式",
+        "level": 2
+      },
+      {
+        "heading": "使用 JavaScript校验表单",
+        "level": 1
+      },
+      {
+        "heading": "约束校验的 API",
+        "level": 2
+      },
+      {
+        "heading": "常见用的原生表单校验库",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "HTML-Validation",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "Forms and Validations"
+      }
+    ]
+  },
+  {
+    "fileName": "HTML-Principel",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md",
+    "tags": [
+      "html/principel"
+    ],
+    "frontmatter": {
+      "title": "HTML-Principel",
+      "date": "2022-04-06 15:51",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 89
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "HTML 最佳实践",
+        "level": 1
+      },
+      {
+        "heading": "全局",
+        "level": 2
+      },
+      {
+        "heading": "以 DOCTYPE 为开头",
+        "level": 3
+      },
+      {
+        "heading": "不要使用过时的 DOCTYPE",
+        "level": 3
+      },
+      {
+        "heading": "不要使用 XML 作为声明",
+        "level": 3
+      },
+      {
+        "heading": "不要什么字符都转义",
+        "level": 3
+      },
+      {
+        "heading": "使用字符实体引用来转义 `&`、`<`、`>`、`\"` 和 `'`",
+        "level": 3
+      },
+      {
+        "heading": "使用字符值引用来转义控制或隐藏字符",
+        "level": 3
+      },
+      {
+        "heading": "在注释内容周围添加空格",
+        "level": 3
+      },
+      {
+        "heading": "别忘了关闭标签",
+        "level": 3
+      },
+      {
+        "heading": "不要杂糅空元素的格式",
+        "level": 3
+      },
+      {
+        "heading": "不要在标签和属性值周围添加空格",
+        "level": 3
+      },
+      {
+        "heading": "不要杂糅大小写",
+        "level": 3
+      },
+      {
+        "heading": "不要杂糅单双引号",
+        "level": 3
+      },
+      {
+        "heading": "不要用多个空格间隔属性",
+        "level": 3
+      },
+      {
+        "heading": "省略布尔型属性值",
+        "level": 3
+      },
+      {
+        "heading": "省略命名空间",
+        "level": 3
+      },
+      {
+        "heading": "不要使用 XML 属性",
+        "level": 3
+      },
+      {
+        "heading": "别把 `data-*`、Microdata、RDFa Lite 属性和普通属性混在一起",
+        "level": 3
+      },
+      {
+        "heading": "首选默认隐式 ARIA 语义",
+        "level": 3
+      },
+      {
+        "heading": "根元素",
+        "level": 2
+      },
+      {
+        "heading": "添加 `lang` 属性",
+        "level": 3
+      },
+      {
+        "heading": "保持 `lang` 属性值尽可能简短",
+        "level": 3
+      },
+      {
+        "heading": "尽可能避开 `data-*`",
+        "level": 3
+      },
+      {
+        "heading": "文档元数据",
+        "level": 2
+      },
+      {
+        "heading": "添加 `title` 元素",
+        "level": 3
+      },
+      {
+        "heading": "不要使用 `base` 元素",
+        "level": 3
+      },
+      {
+        "heading": "指定次要链接资源的 MIME 类型",
+        "level": 3
+      },
+      {
+        "heading": "别链接到 `favicon.ico`",
+        "level": 3
+      },
+      {
+        "heading": "添加 `apple-touch-icon`",
+        "level": 3
+      },
+      {
+        "heading": "给备用样式表添加 `title` 属性",
+        "level": 3
+      },
+      {
+        "heading": "使用 `link` 元素指向 URL",
+        "level": 3
+      },
+      {
+        "heading": "指定文档字符编码格式",
+        "level": 3
+      },
+      {
+        "heading": "不要使用过时的字符编码格式",
+        "level": 3
+      },
+      {
+        "heading": "一开始就指定字符编码",
+        "level": 3
+      },
+      {
+        "heading": "使用 UTF-8",
+        "level": 3
+      },
+      {
+        "heading": "省略 CSS 的 `type` 属性",
+        "level": 3
+      },
+      {
+        "heading": "不要给 `style` 元素内容写注释",
+        "level": 3
+      },
+      {
+        "heading": "不要杂糅 CSS 和 JavaScript 的标签",
+        "level": 3
+      },
+      {
+        "heading": "区块",
+        "level": 2
+      },
+      {
+        "heading": "添加 `body` 元素",
+        "level": 3
+      },
+      {
+        "heading": "不要使用 `hgroup` 元素",
+        "level": 3
+      },
+      {
+        "heading": "`address` 元素仅用于联系方式",
+        "level": 3
+      },
+      {
+        "heading": "分组内容",
+        "level": 2
+      },
+      {
+        "heading": "不要在 `pre` 元素里新起一行",
+        "level": 3
+      },
+      {
+        "heading": "在 `blockquote` 元素中使用恰当的元素",
+        "level": 3
+      },
+      {
+        "heading": "不要直接在 `blockquote` 中注明来源",
+        "level": 3
+      },
+      {
+        "heading": "[](#一行只写一个列表项)一行只写一个列表项",
+        "level": 3
+      },
+      {
+        "heading": "使用 `ol` 元素的 `type` 属性",
+        "level": 3
+      },
+      {
+        "heading": "不要用 `dl` 表示对话",
+        "level": 3
+      },
+      {
+        "heading": "把 `figcaption` 作为 `figure` 的首或尾元素",
+        "level": 3
+      },
+      {
+        "heading": "使用 `main` 元素",
+        "level": 3
+      },
+      {
+        "heading": "尽可能避免 `div` 元素",
+        "level": 3
+      },
+      {
+        "heading": "文本语义",
+        "level": 2
+      },
+      {
+        "heading": "不要把一个链接拆成两半",
+        "level": 3
+      },
+      {
+        "heading": "使用 `download` 属性指向下载资源",
+        "level": 3
+      },
+      {
+        "heading": "按需使用 `rel`、`hreflang` 和 `type` 属性",
+        "level": 3
+      },
+      {
+        "heading": "明确的链接文本",
+        "level": 3
+      },
+      {
+        "heading": "不要使用 `em` 元素表示警告",
+        "level": 3
+      },
+      {
+        "heading": "尽可能避免 `s`、`i`、`b` 和 `u` 元素",
+        "level": 3
+      },
+      {
+        "heading": "不要在 `q` 元素外使用引号",
+        "level": 3
+      },
+      {
+        "heading": "给 `abbr` 元素添加 `title` 属性",
+        "level": 3
+      },
+      {
+        "heading": "详细标记 `ruby` 元素",
+        "level": 3
+      },
+      {
+        "heading": "给电脑无法识别的 `time` 元素添加 `datetime` 属性",
+        "level": 3
+      },
+      {
+        "heading": "使用 `language-` 前缀的 `class` 属性指定代码语言",
+        "level": 3
+      },
+      {
+        "heading": "`kbd` 元素越简单越好",
+        "level": 3
+      },
+      {
+        "heading": "尽可能避免 `span` 元素",
+        "level": 3
+      },
+      {
+        "heading": "在 `br` 元素后换行",
+        "level": 3
+      },
+      {
+        "heading": "不要只为了格式好看就用 `br` 元素",
+        "level": 3
+      },
+      {
+        "heading": "编辑",
+        "level": 2
+      },
+      {
+        "heading": "不要跨元素使用 `ins` 和 `del`",
+        "level": 3
+      },
+      {
+        "heading": "内嵌内容",
+        "level": 2
+      },
+      {
+        "heading": "为 `picture` 元素提供备用 `img` 元素",
+        "level": 3
+      },
+      {
+        "heading": "按需为 `img` 元素添加 `alt` 属性",
+        "level": 3
+      },
+      {
+        "heading": "若有可能则留空 `alt` 属性",
+        "level": 3
+      },
+      {
+        "heading": "若有可能则省略 `alt` 属性",
+        "level": 3
+      },
+      {
+        "heading": "留空 `iframe` 内容",
+        "level": 3
+      },
+      {
+        "heading": "标记 `map` 元素内容",
+        "level": 3
+      },
+      {
+        "heading": "为 `audio` 和 `video` 元素提供备用内容",
+        "level": 3
+      },
+      {
+        "heading": "表格数据",
+        "level": 2
+      },
+      {
+        "heading": "一行写一个单元格",
+        "level": 3
+      },
+      {
+        "heading": "使用 `th` 元素表示标题格",
+        "level": 3
+      },
+      {
+        "heading": "表单",
+        "level": 2
+      },
+      {
+        "heading": "使用 `label` 元素包裹表单控制元素",
+        "level": 3
+      },
+      {
+        "heading": "若有可能则省略 `for` 属性",
+        "level": 3
+      },
+      {
+        "heading": "为 `input` 元素选择合适的 `type` 属性",
+        "level": 3
+      },
+      {
+        "heading": "给 `input type=\"submit\"` 添加 `value` 属性",
+        "level": 3
+      },
+      {
+        "heading": "给有 `pattern` 属性的 `input` 元素添加 `title` 属性",
+        "level": 3
+      },
+      {
+        "heading": "不要把 `placeholder` 作为标签",
+        "level": 3
+      },
+      {
+        "heading": "每行只写一个 `option` 元素",
+        "level": 3
+      },
+      {
+        "heading": "为 `progress` 元素添加 `max` 属性",
+        "level": 3
+      },
+      {
+        "heading": "为 `meter` 元素添加 `min` 和 `max` 属性",
+        "level": 3
+      },
+      {
+        "heading": "将 `legend` 作为 `fieldset` 的第一个子元素",
+        "level": 3
+      },
+      {
+        "heading": "脚本",
+        "level": 2
+      },
+      {
+        "heading": "省略 JavaScript 的 `type` 属性",
+        "level": 3
+      },
+      {
+        "heading": "不要为 `script‵ 元素的内容编写注释",
+        "level": 3
+      },
+      {
+        "heading": "不要使用注入脚本的 `script` 元素",
+        "level": 3
+      },
+      {
+        "heading": "其它",
+        "level": 2
+      },
+      {
+        "heading": "一致的缩进",
+        "level": 3
+      },
+      {
+        "heading": "使用相对路径引用内部链接",
+        "level": 3
+      },
+      {
+        "heading": "不要使用无协议的 URL 引用外部资源",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "#一行只写一个列表项",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md",
+        "cleanLink": "HTML-Principel",
+        "displayText": ""
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Front-end.excalidraw",
+        "link": "HTML-Principel",
+        "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+        "displayText": "Conventions and Best Practices"
+      }
+    ]
+  },
+  {
+    "fileName": "HTML-Semantic",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
+    "tags": [
+      "html",
+      "html/semantic"
+    ],
+    "frontmatter": {
+      "title": "HTML-Semantic",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 95
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "什么是语义元素？",
+        "level": 1
+      },
+      {
+        "heading": "HTML 中的语义元素",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "HTML-HEAD",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
+    "tags": [
+      "html",
+      "html/tag"
+    ],
+    "frontmatter": {
+      "title": "HTML-HEAD",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 86
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🤯 HEAD",
+        "level": 1
+      },
+      {
+        "heading": "最小推荐",
+        "level": 2
+      },
+      {
+        "heading": "网页元素",
+        "level": 2
+      },
+      {
+        "heading": "Meta 标签",
+        "level": 2
+      },
+      {
+        "heading": "链接",
+        "level": 2
+      },
+      {
+        "heading": "网站图标",
+        "level": 2
+      },
+      {
+        "heading": "社交",
+        "level": 2
+      },
+      {
+        "heading": "Facebook Open Graph",
+        "level": 3
+      },
+      {
+        "heading": "Twitter Card",
+        "level": 3
+      },
+      {
+        "heading": "Twitter Privacy",
+        "level": 3
+      },
+      {
+        "heading": "Schema.org",
+        "level": 3
+      },
+      {
+        "heading": "Pinterest",
+        "level": 3
+      },
+      {
+        "heading": "Facebook Instant Articles",
+        "level": 3
+      },
+      {
+        "heading": "OEmbed",
+        "level": 3
+      },
+      {
+        "heading": "QQ/微信",
+        "level": 3
+      },
+      {
+        "heading": "浏览器 / 平台",
+        "level": 2
+      },
+      {
+        "heading": "Apple iOS",
+        "level": 3
+      },
+      {
+        "heading": "Google Android",
+        "level": 3
+      },
+      {
+        "heading": "Google Chrome",
+        "level": 3
+      },
+      {
+        "heading": "Microsoft Internet Explorer",
+        "level": 3
+      },
+      {
+        "heading": "国内的浏览器",
+        "level": 2
+      },
+      {
+        "heading": "360 浏览器",
+        "level": 3
+      },
+      {
+        "heading": "QQ 移动浏览器",
+        "level": 3
+      },
+      {
+        "heading": "UC 移动浏览器",
+        "level": 3
+      },
+      {
+        "heading": "应用链接",
+        "level": 2
+      },
+      {
+        "heading": "其他资源",
+        "level": 2
+      },
+      {
+        "heading": "相关项目",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "HTML",
+        "link": "HTML-HEAD",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+        "displayText": "HEAD列表"
+      }
+    ]
+  },
+  {
+    "fileName": "CSS解决方案",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
+    "frontmatter": {
+      "title": "CSS解决方案",
+      "creation date": "2022-05-18 08:50",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 77
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "前端组件库设计",
+        "link": "CSS解决方案",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+        "displayText": "SCSS 和 LESS 相比有什么优势"
+      }
+    ]
+  },
+  {
+    "fileName": "00 JS Notes Hub",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+    "frontmatter": {
+      "title": "JS Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 128
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "02  Learninng Notes Hub",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "🎦 Overview/02  Learninng Notes Hub.md"
+      },
+      {
+        "link": "00 D.S. Notes Hub",
+        "displayText": "Data Structure Notes Hub",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 D.S. Notes Hub",
+        "link": "00 JS Notes Hub",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+        "displayText": "JS Notes"
+      },
+      {
+        "fileName": "02  Learninng Notes Hub",
+        "link": "00 JS Notes Hub",
+        "relativePath": "🎦 Overview/02  Learninng Notes Hub.md",
+        "displayText": "JS Learning"
+      }
+    ]
+  },
+  {
+    "fileName": "AppleScript",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
+    "tags": [
+      "applescript"
+    ],
+    "frontmatter": {
+      "title": "AppleScript",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 84
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "键位代码",
+        "level": 1
+      },
+      {
+        "heading": "Telegram Checkin",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "数组",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+    "tags": [
+      "datastructrue/array"
+    ],
+    "frontmatter": {
+      "title": "数组",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 91
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "线性表与非线性表",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "哈希表",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
+    "tags": [
+      "datastructrue/hashtable"
+    ],
+    "frontmatter": {
+      "title": "哈希表(散列表)",
+      "creation date": "2022-07-01 11:49",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 101
+        }
+      }
+    }
+  },
+  {
+    "fileName": "00 D.S. Notes Hub",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+    "frontmatter": {
+      "title": "DataStructure Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "banner_y": 0.5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 153
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "02  Learninng Notes Hub",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "🎦 Overview/02  Learninng Notes Hub.md"
+      },
+      {
+        "link": "00 JS Notes Hub",
+        "displayText": "JS Notes",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/00 JS Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 JS Notes Hub",
+        "link": "00 D.S. Notes Hub",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+        "displayText": "Data Structure Notes Hub"
+      },
+      {
+        "fileName": "02  Learninng Notes Hub",
+        "link": "00 D.S. Notes Hub",
+        "relativePath": "🎦 Overview/02  Learninng Notes Hub.md",
+        "displayText": "Data Structure Notes Hub"
+      }
+    ]
+  },
+  {
+    "fileName": "The Time Value of Money",
+    "relativePath": "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师/The Time Value of Money.md",
+    "tags": [
+      "cfa",
+      "time",
+      "value"
+    ],
+    "frontmatter": {
+      "title": "The Time Value of Money",
+      "creation date": "2022-03-07 09:54",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 109
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "INTEREST RATE 利率 > 0",
+        "level": 1
+      },
+      {
+        "heading": "Cash flow additivity principle",
+        "level": 2
+      },
+      {
+        "heading": "Interpretations of Interest Rate",
+        "level": 2
+      },
+      {
+        "heading": "Required rate of return",
+        "level": 3
+      },
+      {
+        "heading": "Discounted rate",
+        "level": 3
+      },
+      {
+        "heading": "Opportunity cost",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "git hooks",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
+    "tags": [
+      "git/hooks"
+    ],
+    "frontmatter": {
+      "title": "git hooks",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 88
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Mermaid",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
+    "tags": [
+      "markdown/mermaid"
+    ],
+    "frontmatter": {
+      "title": "Mermaid",
+      "creation date": "2022-03-21 21:36",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 93
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Mermaid Markdown",
+        "level": 1
+      },
+      {
+        "heading": "概述",
+        "level": 2
+      },
+      {
+        "heading": "什么是 Mermaid？",
+        "level": 3
+      },
+      {
+        "heading": "怎么使用 Mermaid？",
+        "level": 3
+      },
+      {
+        "heading": "Mermaid 能绘制哪些图？",
+        "level": 3
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "饼状图",
+        "level": 2
+      },
+      {
+        "heading": "语法——仅供参考，建议直接看实例",
+        "level": 3
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "流程图",
+        "level": 2
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "方向",
+        "level": 3
+      },
+      {
+        "heading": "结点",
+        "level": 3
+      },
+      {
+        "heading": "连线样式",
+        "level": 3
+      },
+      {
+        "heading": "实线箭头",
+        "level": 4
+      },
+      {
+        "heading": "粗实线箭头",
+        "level": 4
+      },
+      {
+        "heading": "虚线箭头",
+        "level": 4
+      },
+      {
+        "heading": "无箭头线",
+        "level": 4
+      },
+      {
+        "heading": "其他连线",
+        "level": 4
+      },
+      {
+        "heading": "延长连线",
+        "level": 4
+      },
+      {
+        "heading": "连线形式",
+        "level": 3
+      },
+      {
+        "heading": "直链",
+        "level": 4
+      },
+      {
+        "heading": "多重链",
+        "level": 4
+      },
+      {
+        "heading": "其他",
+        "level": 3
+      },
+      {
+        "heading": "子图",
+        "level": 4
+      },
+      {
+        "heading": "注释",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "Resume",
+    "relativePath": "🧸  Individual/Resume.md",
+    "headings": [
+      {
+        "heading": "<img src=\"assets/graduation-cap-solid.svg\" width=\"30x\"> 教育经历",
+        "level": 2
+      },
+      {
+        "heading": "<img src=\"assets/briefcase-solid.svg\" width=\"26px\"> 工作经历",
+        "level": 2
+      },
+      {
+        "heading": "<img src=\"assets/project-diagram-solid.svg\" width=\"28px\"> 项目经历",
+        "level": 2
+      },
+      {
+        "heading": "<img src=\"assets/tools-solid.svg\" width=\"28px\"> 技能清单",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Weekily-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Weekily-Note.md"
+  },
+  {
+    "fileName": "Script.CreateReadingNote",
+    "relativePath": "🧳 Template｜模板库/Templates/Script.CreateReadingNote.md"
+  },
+  {
+    "fileName": "Script.CreateLearningNote",
+    "relativePath": "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md"
+  },
+  {
+    "fileName": "Mind-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Mind-Note.md",
+    "tags": [
+      "<%tp.file.cursor(1)%>"
+    ],
+    "frontmatter": {
+      "created": "X-Mind",
+      "title": "<% tp.file.title %>",
+      "creation date": "<% tp.file.creation_date() %>",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 137
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Learning-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Learning-Note.md",
+    "tags": [
+      "<%tp.file.cursor(1)%>"
+    ],
+    "frontmatter": {
+      "title": "<% tp.file.title %>",
+      "creation date": "<% tp.file.creation_date() %>",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 123
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Daily-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Daily-Note.md",
+    "headings": [
+      {
+        "heading": "{{date:YYYY-MM-DD}}",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      },
+      {
+        "heading": "Reading Log",
+        "level": 3
+      },
+      {
+        "heading": "Video Log",
+        "level": 3
+      },
+      {
+        "heading": "Photographing Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Book-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Book-Note.md",
+    "tags": [
+      "booktype",
+      "bookgenre",
+      "booktheme"
+    ],
+    "frontmatter": {
+      "started on": "<% tp.file.creation_date() %>",
+      "completed on": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 10,
+          "col": 3,
+          "offset": 170
+        }
+      }
+    }
+  },
+  {
+    "fileName": "2022-07-04",
+    "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
+    "headings": [
+      {
+        "heading": "2022-07-04",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-07-05",
+    "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-05.md",
+    "headings": [
+      {
+        "heading": "2022-07-05",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      },
+      {
+        "heading": "Reading Log",
+        "level": 3
+      },
+      {
+        "heading": "Video Log",
+        "level": 3
+      },
+      {
+        "heading": "Photographing Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-07-01",
+    "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-01.md",
+    "headings": [
+      {
+        "heading": "2022-07-01",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Reading Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-06-30",
+    "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-06-30.md",
+    "headings": [
+      {
+        "heading": "2022-06-30",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Photographing Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-06-29",
+    "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+    "headings": [
+      {
+        "heading": "2022-06-29",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "00 Ship's Log",
+    "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+    "frontmatter": {
+      "title": "Ship's Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[Ship.jpeg]]",
+      "banner_y": 1,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 138
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "⛽️ Life Happenings",
+        "level": 1
+      },
+      {
+        "heading": "🧰 Personal Projects",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      },
+      {
+        "link": "00 New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
+      },
+      {
+        "link": "00 Media Log",
+        "displayText": "Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 New Discoveries Log",
+        "link": "00 Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+        "displayText": "Ship's Log"
+      },
+      {
+        "fileName": "00 Media Log",
+        "link": "00 Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
+        "displayText": "Ship's Log"
+      },
+      {
+        "fileName": "01 Daily Notes Hub",
+        "link": "00 Ship's Log",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
+        "displayText": "Ship's Log"
+      }
+    ]
+  },
+  {
+    "fileName": "00 New Discoveries Log",
+    "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+    "frontmatter": {
+      "title": "New Discoveries Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[discovery.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 139
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "List",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      },
+      {
+        "link": "00 Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md"
+      },
+      {
+        "link": "00 Media Log",
+        "displayText": "Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 Ship's Log",
+        "link": "00 New Discoveries Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+        "displayText": "New Discoveries"
+      },
+      {
+        "fileName": "00 Media Log",
+        "link": "00 New Discoveries Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
+        "displayText": "New Discoveries"
+      },
+      {
+        "fileName": "01 Daily Notes Hub",
+        "link": "00 New Discoveries Log",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
+        "displayText": "New Discoveries"
+      }
+    ]
+  },
+  {
+    "fileName": "00 Media Log",
+    "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
+    "frontmatter": {
+      "title": "Media Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[shelf.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 125
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🎧 Listening Log",
+        "level": 1
+      },
+      {
+        "heading": "📖 Reading Log",
+        "level": 1
+      },
+      {
+        "heading": "📸 Photographing Log",
+        "level": 1
+      },
+      {
+        "heading": "🎬 Video Log",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      },
+      {
+        "link": "00 New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
+      },
+      {
+        "link": "00 Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 Ship's Log",
+        "link": "00 Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+        "displayText": "Media Log"
+      },
+      {
+        "fileName": "00 New Discoveries Log",
+        "link": "00 Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+        "displayText": "Media Log"
+      },
+      {
+        "fileName": "01 Daily Notes Hub",
+        "link": "00 Media Log",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
+        "displayText": "Media Log"
+      }
+    ]
+  },
+  {
+    "fileName": "Mac Setup for Web Development",
+    "relativePath": "💻 Computer Note/Mac Setup for Web Development.md",
+    "headings": [
+      {
+        "heading": "MacBook Pro Specification",
+        "level": 2
+      },
+      {
+        "heading": "System Preferences",
+        "level": 2
+      },
+      {
+        "heading": "System Preferences (Terminal)",
+        "level": 2
+      },
+      {
+        "heading": "Files",
+        "level": 2
+      },
+      {
+        "heading": "Homebrew",
+        "level": 2
+      },
+      {
+        "heading": "GUI Applications",
+        "level": 2
+      },
+      {
+        "heading": "Built-in MacOS Applications",
+        "level": 2
+      },
+      {
+        "heading": "Terminal Applications",
+        "level": 2
+      },
+      {
+        "heading": "iTerm2",
+        "level": 2
+      },
+      {
+        "heading": "Oh My Zsh",
+        "level": 2
+      },
+      {
+        "heading": "Oh My Zsh Plugins",
+        "level": 3
+      },
+      {
+        "heading": "ZSH Configuration File (_.zshrc_):",
+        "level": 3
+      },
+      {
+        "heading": "VS Code",
+        "level": 2
+      },
+      {
+        "heading": "Extensions",
+        "level": 3
+      },
+      {
+        "heading": "Manual",
+        "level": 3
+      },
+      {
+        "heading": "JSON Settings",
+        "level": 3
+      },
+      {
+        "heading": "Git",
+        "level": 2
+      },
+      {
+        "heading": "SSH",
+        "level": 2
+      },
+      {
+        "heading": "NVM for Node/npm",
+        "level": 2
+      },
+      {
+        "heading": "PHP",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Web-Browser.excalidraw",
+    "relativePath": "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
+    "frontmatter": {
+      "excalidraw-plugin": "parsed",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Text Elements",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Web Browsers#HTML Parser",
+        "cleanLink": "Web Browsers",
+        "displayText": "HTML Parser",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      },
+      {
+        "link": "Web Browsers#5 Layout 布局",
+        "cleanLink": "Web Browsers",
+        "displayText": "Layout",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      },
+      {
+        "link": "Web Browsers#CSS Parser",
+        "cleanLink": "Web Browsers",
+        "displayText": "CSS Parser",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      },
+      {
+        "link": "Web Browsers#Style Computation",
+        "cleanLink": "Web Browsers",
+        "displayText": "Style Computation",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Front-end.excalidraw",
+    "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
+    "frontmatter": {
+      "excalidraw-plugin": "parsed",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Text Elements",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "DNS",
+        "displayText": "DNS and How it works",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
+      },
+      {
+        "link": "INTERNET",
+        "displayText": "How does the Internet works?",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "link": "HTTP",
+        "displayText": "What is Http?",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "Web Browsers",
+        "displayText": "Browsers and How they work?",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      },
+      {
+        "link": "Domain Name",
+        "displayText": "What is Domain Name",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md"
+      },
+      {
+        "link": "Web Hosting",
+        "displayText": "What is Hosing",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md"
+      },
+      {
+        "link": "HTML",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+      },
+      {
+        "link": "CSS"
+      },
+      {
+        "link": "HTML",
+        "displayText": "Learn the Basics",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+      },
+      {
+        "link": "HTML-Validation",
+        "displayText": "Forms and Validations",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
+      },
+      {
+        "link": "HTML_Semantic",
+        "displayText": "Writing the Semantic HTML"
+      },
+      {
+        "link": "HTML-Principel",
+        "displayText": "Conventions and Best Practices",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
+      },
+      {
+        "link": "JavaScript"
+      }
+    ]
+  },
+  {
+    "fileName": "CFA-end.excalidraw",
+    "relativePath": "🎨 Excalidraw｜画板仓库/CFA-end.excalidraw.md",
+    "frontmatter": {
+      "excalidraw-plugin": "parsed",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    }
+  },
+  {
+    "fileName": "02  Learninng Notes Hub",
+    "relativePath": "🎦 Overview/02  Learninng Notes Hub.md",
+    "frontmatter": {
+      "title": "Learninng Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[cube.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 134
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "00 JS Notes Hub",
+        "displayText": "JS Learning",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/00 JS Notes Hub.md"
+      },
+      {
+        "link": "00 D.S. Notes Hub",
+        "displayText": "Data Structure Notes Hub",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 JS Notes Hub",
+        "link": "02  Learninng Notes Hub",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      },
+      {
+        "fileName": "00 D.S. Notes Hub",
+        "link": "02  Learninng Notes Hub",
+        "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      },
+      {
+        "fileName": "00 HOME PAGE",
+        "link": "02  Learninng Notes Hub",
+        "relativePath": "🎦 Overview/00 HOME PAGE.md",
+        "displayText": "LEARN NOTE"
+      }
+    ]
+  },
+  {
+    "fileName": "01 Daily Notes Hub",
+    "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
+    "frontmatter": {
+      "title": "Daily Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[roadToHaven.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 137
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "00 New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
+      },
+      {
+        "link": "00 Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md"
+      },
+      {
+        "link": "00 Media Log",
+        "displayText": "Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Daily-Note",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "🧳 Template｜模板库/Templates/Daily-Note.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-07-04",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-04.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-07-05",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-05.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-07-01",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-01.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-06-30",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-06-30.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-06-29",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "00 Ship's Log",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "00 New Discoveries Log",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "00 Media Log",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "00 HOME PAGE",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "🎦 Overview/00 HOME PAGE.md",
+        "displayText": "DAILY"
+      }
+    ]
+  },
+  {
+    "fileName": "00 HOME PAGE",
+    "relativePath": "🎦 Overview/00 HOME PAGE.md",
+    "frontmatter": {
+      "title": "Learning Note OverView",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "tags": null,
+      "banner": "![[宁静.JPG]]",
+      "banner_x": 0.5,
+      "banner_y": 0.85,
+      "banner_lock": true,
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 10,
+          "col": 3,
+          "offset": 188
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🗂 PERSONAL OBJECT",
+        "level": 1
+      },
+      {
+        "heading": "〽️ STATS",
+        "level": 1
+      },
+      {
+        "heading": "📝 DAILY NOTE",
+        "level": 1
+      },
+      {
+        "heading": "📑 WAITING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📝 DOING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📨 REVIEW LIST",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "02  Learninng Notes Hub",
+        "displayText": "LEARN NOTE",
+        "relativePath": "🎦 Overview/02  Learninng Notes Hub.md"
+      },
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "DAILY",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "_coverpage",
+    "relativePath": "docs/_coverpage.md",
+    "headings": [
+      {
+        "heading": "My Note Repo <small>chick</small>",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "#f0f0f0",
+        "relativePath": "docs/_coverpage.md",
+        "cleanLink": "_coverpage",
+        "displayText": "color"
+      }
+    ]
+  },
+  {
+    "fileName": "README",
+    "relativePath": "docs/README.md",
+    "headings": [
+      {
+        "heading": "Headline",
+        "level": 1
+      }
+    ]
+  }
+]

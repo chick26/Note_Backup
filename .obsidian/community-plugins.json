@@ -26,5 +26,6 @@
   "customizable-page-header-buttons",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-sample-plugin",
-  "obsidian-sync-yuque"
+  "obsidian-sync-yuque",
+  "metadata-extractor"
 ]
