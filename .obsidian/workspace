@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1322236a0ad63b08",
+        "id": "d55bb3bdb0ceece5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+            "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+                "file": "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md"
               }
             }
           },
@@ -137,17 +137,17 @@
     "width": 297.5,
     "collapsed": true
   },
-  "active": "1322236a0ad63b08",
+  "active": "d55bb3bdb0ceece5",
   "lastOpenFiles": [
+    "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md",
+    "🎦 Overview/00 HOME PAGE.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
-    "🎦 Overview/00 HOME PAGE.md",
     "🎦 Overview/02  Learninng Notes Hub.md",
     "🎦 Overview/01 Daily Notes Hub.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
     "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
-    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "📔 Daily Note | 日记仓库/00 Ship's Log.md"
+    "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
   ]
 }

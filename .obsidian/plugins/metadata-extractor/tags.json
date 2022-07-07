@@ -1,5 +1,34 @@
 [
   {
+    "tag": "<%tp.file.cursor(1)%>",
+    "tagCount": 2,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Mind-Note.md",
+      "🧳 Template｜模板库/Templates/Learning-Note.md"
+    ]
+  },
+  {
+    "tag": "booktype",
+    "tagCount": 1,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Book-Note.md"
+    ]
+  },
+  {
+    "tag": "bookgenre",
+    "tagCount": 1,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Book-Note.md"
+    ]
+  },
+  {
+    "tag": "booktheme",
+    "tagCount": 1,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Book-Note.md"
+    ]
+  },
+  {
     "tag": "csbasic",
     "tagCount": 1,
     "relativePaths": [
@@ -36,6 +65,13 @@
     ]
   },
   {
+    "tag": "charles",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md"
+    ]
+  },
+  {
     "tag": "javascript",
     "tagCount": 3,
     "relativePaths": [
@@ -48,13 +84,6 @@
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md"
-    ]
-  },
-  {
-    "tag": "charles",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md"
     ]
   },
   {
@@ -171,8 +200,8 @@
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
     ]
   },
   {
@@ -183,10 +212,10 @@
     ]
   },
   {
-    "tag": "html/principel",
+    "tag": "html/tag",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
     ]
   },
   {
@@ -197,10 +226,10 @@
     ]
   },
   {
-    "tag": "html/tag",
+    "tag": "html/principel",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
     ]
   },
   {
@@ -208,20 +237,6 @@
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md"
-    ]
-  },
-  {
-    "tag": "datastructrue/array",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
-    ]
-  },
-  {
-    "tag": "datastructrue/hashtable",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md"
     ]
   },
   {
@@ -246,6 +261,20 @@
     ]
   },
   {
+    "tag": "datastructrue/array",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
+    ]
+  },
+  {
+    "tag": "datastructrue/hashtable",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md"
+    ]
+  },
+  {
     "tag": "git/hooks",
     "tagCount": 1,
     "relativePaths": [
@@ -257,35 +286,6 @@
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md"
-    ]
-  },
-  {
-    "tag": "<%tp.file.cursor(1)%>",
-    "tagCount": 2,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Mind-Note.md",
-      "🧳 Template｜模板库/Templates/Learning-Note.md"
-    ]
-  },
-  {
-    "tag": "booktype",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "bookgenre",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "booktheme",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
     ]
   }
 ]

@@ -5,12 +5,12 @@
       "relativePath": "/"
     },
     {
-      "name": "media",
-      "relativePath": "media"
-    },
-    {
       "name": "docs",
       "relativePath": "docs"
+    },
+    {
+      "name": "media",
+      "relativePath": "media"
     },
     {
       "name": "🎦 Overview",
@@ -37,6 +37,10 @@
       "relativePath": "🚀 Mind | 导图仓库"
     },
     {
+      "name": "🛖 Learning Repo｜学习仓库",
+      "relativePath": "🛖 Learning Repo｜学习仓库"
+    },
+    {
       "name": "🧳 Template｜模板库",
       "relativePath": "🧳 Template｜模板库"
     },
@@ -45,16 +49,36 @@
       "relativePath": "🧸  Individual"
     },
     {
-      "name": "🛖 Learning Repo｜学习仓库",
-      "relativePath": "🛖 Learning Repo｜学习仓库"
-    },
-    {
       "name": "_media",
       "relativePath": "docs/_media"
     },
     {
       "name": "Note Repo",
       "relativePath": "📔 Daily Note | 日记仓库/Note Repo"
+    },
+    {
+      "name": "🎰 Markdown",
+      "relativePath": "🛖 Learning Repo｜学习仓库/🎰 Markdown"
+    },
+    {
+      "name": "🐻‍❄️  Git Dev | 分支管理",
+      "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理"
+    },
+    {
+      "name": "📉 Data Structrue｜数据结构",
+      "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"
+    },
+    {
+      "name": "💵 CFA | 金融分析师",
+      "relativePath": "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"
+    },
+    {
+      "name": "📲 Front Dev｜前端开发",
+      "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"
+    },
+    {
+      "name": "🗄 Avatar | 待分类",
+      "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"
     },
     {
       "name": "Scripts",
@@ -67,30 +91,6 @@
     {
       "name": "assets",
       "relativePath": "🧸  Individual/assets"
-    },
-    {
-      "name": "🎰 Markdown",
-      "relativePath": "🛖 Learning Repo｜学习仓库/🎰 Markdown"
-    },
-    {
-      "name": "🐻‍❄️  Git Dev | 分支管理",
-      "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理"
-    },
-    {
-      "name": "💵 CFA | 金融分析师",
-      "relativePath": "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"
-    },
-    {
-      "name": "📉 Data Structrue｜数据结构",
-      "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"
-    },
-    {
-      "name": "📲 Front Dev｜前端开发",
-      "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"
-    },
-    {
-      "name": "🗄 Avatar | 待分类",
-      "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"
     },
     {
       "name": "LeetCode",
@@ -125,12 +125,12 @@
       "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署"
     },
     {
-      "name": "Test Tool｜测试",
-      "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试"
-    },
-    {
       "name": "Tool | 开发辅助",
       "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助"
+    },
+    {
+      "name": "Test Tool｜测试",
+      "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试"
     },
     {
       "name": "TypeScript | Web编程语言",
@@ -143,14 +143,24 @@
   ],
   "nonMdFiles": [
     {
-      "name": "1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-      "basename": "1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp",
-      "relativePath": "media/1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
+      "name": "index.html",
+      "basename": "index",
+      "relativePath": "docs/index.html"
+    },
+    {
+      "name": "sidebar.sh",
+      "basename": "sidebar",
+      "relativePath": "docs/sidebar.sh"
     },
     {
       "name": "202201070948208.png",
       "basename": "202201070948208",
       "relativePath": "media/202201070948208.png"
+    },
+    {
+      "name": "1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
+      "basename": "1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp",
+      "relativePath": "media/1b36fe5f6468468e968a78db6fad315e~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
     },
     {
       "name": "202201141056192.png",
@@ -168,11 +178,6 @@
       "relativePath": "media/202201170828680.png"
     },
     {
-      "name": "202201170926323.png",
-      "basename": "202201170926323",
-      "relativePath": "media/202201170926323.png"
-    },
-    {
       "name": "202201170951306.png",
       "basename": "202201170951306",
       "relativePath": "media/202201170951306.png"
@@ -183,9 +188,9 @@
       "relativePath": "media/202201170954660.webp"
     },
     {
-      "name": "202201171711236.webp",
-      "basename": "202201171711236",
-      "relativePath": "media/202201171711236.webp"
+      "name": "202201170926323.png",
+      "basename": "202201170926323",
+      "relativePath": "media/202201170926323.png"
     },
     {
       "name": "202201171711365.webp",
@@ -193,14 +198,19 @@
       "relativePath": "media/202201171711365.webp"
     },
     {
-      "name": "202201191702464.png",
-      "basename": "202201191702464",
-      "relativePath": "media/202201191702464.png"
+      "name": "202201171711236.webp",
+      "basename": "202201171711236",
+      "relativePath": "media/202201171711236.webp"
     },
     {
       "name": "202201211423563.webp",
       "basename": "202201211423563",
       "relativePath": "media/202201211423563.webp"
+    },
+    {
+      "name": "202201191702464.png",
+      "basename": "202201191702464",
+      "relativePath": "media/202201191702464.png"
     },
     {
       "name": "202201211425364.webp",
@@ -233,14 +243,14 @@
       "relativePath": "media/202201211553770.webp"
     },
     {
-      "name": "202201211555606.webp",
-      "basename": "202201211555606",
-      "relativePath": "media/202201211555606.webp"
-    },
-    {
       "name": "202201211557661.webp",
       "basename": "202201211557661",
       "relativePath": "media/202201211557661.webp"
+    },
+    {
+      "name": "202201211555606.webp",
+      "basename": "202201211555606",
+      "relativePath": "media/202201211555606.webp"
     },
     {
       "name": "202201211627071.png",
@@ -268,11 +278,6 @@
       "relativePath": "media/202201241840453.png"
     },
     {
-      "name": "202201261432011.png",
-      "basename": "202201261432011",
-      "relativePath": "media/202201261432011.png"
-    },
-    {
       "name": "202201261432062.png",
       "basename": "202201261432062",
       "relativePath": "media/202201261432062.png"
@@ -286,6 +291,11 @@
       "name": "202201261432160.png",
       "basename": "202201261432160",
       "relativePath": "media/202201261432160.png"
+    },
+    {
+      "name": "202201261432011.png",
+      "basename": "202201261432011",
+      "relativePath": "media/202201261432011.png"
     },
     {
       "name": "202201261432276.png",
@@ -308,14 +318,19 @@
       "relativePath": "media/202201261432607.png"
     },
     {
+      "name": "202201261432719.png",
+      "basename": "202201261432719",
+      "relativePath": "media/202201261432719.png"
+    },
+    {
       "name": "202201261432663.png",
       "basename": "202201261432663",
       "relativePath": "media/202201261432663.png"
     },
     {
-      "name": "202201261432719.png",
-      "basename": "202201261432719",
-      "relativePath": "media/202201261432719.png"
+      "name": "202201261438296.png",
+      "basename": "202201261438296",
+      "relativePath": "media/202201261438296.png"
     },
     {
       "name": "202201261432875.png",
@@ -326,11 +341,6 @@
       "name": "202201261432899.png",
       "basename": "202201261432899",
       "relativePath": "media/202201261432899.png"
-    },
-    {
-      "name": "202201261438296.png",
-      "basename": "202201261438296",
-      "relativePath": "media/202201261438296.png"
     },
     {
       "name": "202201261449245.png",
@@ -393,14 +403,14 @@
       "relativePath": "media/202202081650807.png"
     },
     {
-      "name": "202202081650872.png",
-      "basename": "202202081650872",
-      "relativePath": "media/202202081650872.png"
-    },
-    {
       "name": "202202101543606.png",
       "basename": "202202101543606",
       "relativePath": "media/202202101543606.png"
+    },
+    {
+      "name": "202202081650872.png",
+      "basename": "202202081650872",
+      "relativePath": "media/202202081650872.png"
     },
     {
       "name": "202203031005367.png",
@@ -483,14 +493,14 @@
       "relativePath": "media/afed5037b76e48caac538b05d4db79b7~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
     },
     {
-      "name": "b1a8e5e937754a7b93c2545dc9822f58~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
-      "basename": "b1a8e5e937754a7b93c2545dc9822f58~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp",
-      "relativePath": "media/b1a8e5e937754a7b93c2545dc9822f58~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
-    },
-    {
       "name": "city.jpg",
       "basename": "city",
       "relativePath": "media/city.jpg"
+    },
+    {
+      "name": "b1a8e5e937754a7b93c2545dc9822f58~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp",
+      "basename": "b1a8e5e937754a7b93c2545dc9822f58~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp",
+      "relativePath": "media/b1a8e5e937754a7b93c2545dc9822f58~tplv-k3u1fbpfcp-zoom-in-crop-mark!1304!0!0!0.awebp.webp"
     },
     {
       "name": "color.jpg",
@@ -543,16 +553,6 @@
       "relativePath": "media/宁静.JPG"
     },
     {
-      "name": "index.html",
-      "basename": "index",
-      "relativePath": "docs/index.html"
-    },
-    {
-      "name": "sidebar.sh",
-      "basename": "sidebar",
-      "relativePath": "docs/sidebar.sh"
-    },
-    {
       "name": "皮卡丘.jpeg",
       "basename": "皮卡丘",
       "relativePath": "docs/_media/皮卡丘.jpeg"
@@ -578,9 +578,9 @@
       "relativePath": "🧸  Individual/assets/envelope-solid.svg"
     },
     {
-      "name": "github-brands.svg",
-      "basename": "github-brands",
-      "relativePath": "🧸  Individual/assets/github-brands.svg"
+      "name": "info-circle-solid.svg",
+      "basename": "info-circle-solid",
+      "relativePath": "🧸  Individual/assets/info-circle-solid.svg"
     },
     {
       "name": "graduation-cap-solid.svg",
@@ -588,14 +588,14 @@
       "relativePath": "🧸  Individual/assets/graduation-cap-solid.svg"
     },
     {
-      "name": "info-circle-solid.svg",
-      "basename": "info-circle-solid",
-      "relativePath": "🧸  Individual/assets/info-circle-solid.svg"
-    },
-    {
       "name": "info-solid.svg",
       "basename": "info-solid",
       "relativePath": "🧸  Individual/assets/info-solid.svg"
+    },
+    {
+      "name": "github-brands.svg",
+      "basename": "github-brands",
+      "relativePath": "🧸  Individual/assets/github-brands.svg"
     },
     {
       "name": "phone-solid.svg",
@@ -603,14 +603,14 @@
       "relativePath": "🧸  Individual/assets/phone-solid.svg"
     },
     {
-      "name": "project-diagram-solid.svg",
-      "basename": "project-diagram-solid",
-      "relativePath": "🧸  Individual/assets/project-diagram-solid.svg"
-    },
-    {
       "name": "rss-solid.svg",
       "basename": "rss-solid",
       "relativePath": "🧸  Individual/assets/rss-solid.svg"
+    },
+    {
+      "name": "project-diagram-solid.svg",
+      "basename": "project-diagram-solid",
+      "relativePath": "🧸  Individual/assets/project-diagram-solid.svg"
     },
     {
       "name": "tools-solid.svg",
