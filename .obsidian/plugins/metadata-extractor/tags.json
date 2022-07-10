@@ -3,8 +3,8 @@
     "tag": "<%tp.file.cursor(1)%>",
     "tagCount": 2,
     "relativePaths": [
-      "🧳 Template｜模板库/Templates/Mind-Note.md",
-      "🧳 Template｜模板库/Templates/Learning-Note.md"
+      "🧳 Template｜模板库/Templates/Learning-Note.md",
+      "🧳 Template｜模板库/Templates/Mind-Note.md"
     ]
   },
   {
@@ -123,19 +123,64 @@
     ]
   },
   {
+    "tag": "html",
+    "tagCount": 8,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
+    ]
+  },
+  {
+    "tag": "html/principel",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
+    ]
+  },
+  {
+    "tag": "html/formvalidation",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
+    ]
+  },
+  {
+    "tag": "html/tag",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
+    ]
+  },
+  {
+    "tag": "html/semantic",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
+    ]
+  },
+  {
     "tag": "internet",
     "tagCount": 18,
     "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
+    ]
+  },
+  {
+    "tag": "internet/www",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
     ]
   },
   {
@@ -150,13 +195,6 @@
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
-    ]
-  },
-  {
-    "tag": "internet/www",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
     ]
   },
   {
@@ -192,44 +230,6 @@
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
-    ]
-  },
-  {
-    "tag": "html",
-    "tagCount": 8,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
-    ]
-  },
-  {
-    "tag": "html/formvalidation",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
-    ]
-  },
-  {
-    "tag": "html/principel",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
-    ]
-  },
-  {
-    "tag": "html/semantic",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
-    ]
-  },
-  {
-    "tag": "html/tag",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
     ]
   },
   {
