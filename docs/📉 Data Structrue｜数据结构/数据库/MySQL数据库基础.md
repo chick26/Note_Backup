@@ -36,7 +36,7 @@ tools/
     └── SQLAdvisor.zip
 ```
 
-
+一、MySQL数据库基础
 	1、MySQL简介和分支（NoSQL数据库）
 		（1）关系型数据库：关系模型---二维表（行、列）---遵循范式--优点：避免数据的冗余--缺点：影响性能
 						   适合OLTP环境（online transaction processing）：insert、update、delete
@@ -165,84 +165,9 @@ character-set-server=utf8
 log-error=/opt/multi/data/3309/mysql_3309.log			
 	
 
-二、InnoDB存储引擎（有助于Oracle、达梦、MongoDB）
-
-	1、存储结构：数据库都是通过逻辑存储结构管理物理存储结构
-		（1）物理存储结构：硬盘上的文件
-				（*）数据文件：参数datadir
-					mysql> show variables like '%datadir%';
-					+---------------+------------------------+
-					| Variable_name | Value                  |
-					+---------------+------------------------+
-					| datadir       | /usr/local/mysql/data/ |
-					+---------------+------------------------+
-					mysql> show variables like '%per_table%';
-					+-----------------------+-------+
-					| Variable_name         | Value |
-					+-----------------------+-------+
-					| innodb_file_per_table | ON    |
-					+-----------------------+-------+
-				
-				（*）重做日志文件：redo log，记录的是客户端的操作（事务）
-						由InnoDB引擎生成
-					mysql> show variables like '%log_file_size%';
-					+----------------------+------------+
-					| Variable_name        | Value      |
-					+----------------------+------------+
-					| innodb_log_file_size | 1073741824 |
-					+----------------------+------------+
-					1 row in set (0.01 sec)
-
-					mysql> show variables like '%log_group%';
-					+-----------------------------------------+-------+
-					| Variable_name                           | Value |
-					+-----------------------------------------+-------+
-					| binlog_group_commit_sync_delay          | 0     |
-					| binlog_group_commit_sync_no_delay_count | 0     |
-					| innodb_log_group_home_dir               | ./    |
-					+-----------------------------------------+-------+
-					3 rows in set (0.00 sec)
-
-					mysql> show variables like '%log_files_in_group%';
-					+---------------------------+-------+
-					| Variable_name             | Value |
-					+---------------------------+-------+
-					| innodb_log_files_in_group | 2     |
-					+---------------------------+-------+
-				
-				（*）撤销日志文件：undo log，也叫回滚日志
-						记录的是历史数据
-				
-				（*）参数文件：my.cnf
-						两种类型：静态参数（需要重启）、动态参数（不需要重启）
-				
-				（*）错误日志文件：类似Oracle中告警日志
-				
-				
-				（*）binlog二进制日志文件：由应用程序生成，执行就是SQL
-						从8.0开始，binlog默认开启
-						binlog记录的模式：statement、row、mixed
-				
-				（*）慢查询日志：诊断SQL的性能
-				
-				
-				（*）全量日志general log：会记录select语句和show语句
-				
-				
-		
-		（2）逻辑存储结构
-				表空间
-				段
-				区
-				页（数据块）
-		
-	2、内存结构
-	
-	3、进程结构（线程结构）
 
 
 三、用户管理与访问控制：用户、权限、角色role
-
 
 
 
