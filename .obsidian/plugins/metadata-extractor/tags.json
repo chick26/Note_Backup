@@ -240,6 +240,13 @@
     ]
   },
   {
+    "tag": "mysql",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md"
+    ]
+  },
+  {
     "tag": "datastructrue/array",
     "tagCount": 1,
     "relativePaths": [
