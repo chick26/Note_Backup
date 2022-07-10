@@ -3937,51 +3937,6 @@
     ]
   },
   {
-    "fileName": "2022-07-10",
-    "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-10.md",
-    "headings": [
-      {
-        "heading": "2022-07-10",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Happenings",
-        "level": 3
-      },
-      {
-        "heading": "Personal Projects Log",
-        "level": 3
-      },
-      {
-        "heading": "Reading Log",
-        "level": 3
-      },
-      {
-        "heading": "Video Log",
-        "level": 3
-      },
-      {
-        "heading": "Photographing Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "01 Daily Notes Hub",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
-      }
-    ]
-  },
-  {
     "fileName": "2022-07-07",
     "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md",
     "headings": [
@@ -4722,12 +4677,6 @@
         "fileName": "Daily-Note",
         "link": "01 Daily Notes Hub",
         "relativePath": "🧳 Template｜模板库/Templates/Daily-Note.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-07-10",
-        "link": "01 Daily Notes Hub",
-        "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-10.md",
         "displayText": "Daily Notes Hub"
       },
       {
