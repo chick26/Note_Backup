@@ -240,9 +240,17 @@
     ]
   },
   {
-    "tag": "mysql",
+    "tag": "innodb",
     "tagCount": 1,
     "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md"
+    ]
+  },
+  {
+    "tag": "mysql",
+    "tagCount": 2,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md",
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md"
     ]
   },
