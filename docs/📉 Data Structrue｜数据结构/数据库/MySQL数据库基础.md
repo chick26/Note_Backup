@@ -171,6 +171,8 @@ create table table2(tid int,tname varchar(10),money int) engine=memory;
 		
 ### 数据库和数据库实例
 
+
+
 #### 数据库
 物理概念，硬盘上的文件（数据文件、参数文件、日志文件。。。。。）
 
