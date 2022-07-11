@@ -3580,7 +3580,61 @@
           "offset": 94
         }
       }
-    }
+    },
+    "headings": [
+      {
+        "heading": "InnoDB存储引擎",
+        "level": 1
+      },
+      {
+        "heading": "存储结构",
+        "level": 2
+      },
+      {
+        "heading": "物理存储结构：硬盘上的文件",
+        "level": 3
+      },
+      {
+        "heading": "数据文件",
+        "level": 4
+      },
+      {
+        "heading": "重做日志文件",
+        "level": 4
+      },
+      {
+        "heading": "撤销日志文件",
+        "level": 4
+      },
+      {
+        "heading": "参数文件",
+        "level": 4
+      },
+      {
+        "heading": "错误日志文件",
+        "level": 4
+      },
+      {
+        "heading": "binlog二进制日志文件",
+        "level": 4
+      },
+      {
+        "heading": "慢查询日志",
+        "level": 4
+      },
+      {
+        "heading": "全量日志general log",
+        "level": 4
+      },
+      {
+        "heading": "逻辑存储结构",
+        "level": 3
+      },
+      {
+        "heading": "内存结构：SGA和PGA",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "MySQL数据库基础",
@@ -3609,6 +3663,106 @@
       {
         "heading": "虚拟机使用说明",
         "level": 2
+      },
+      {
+        "heading": "MySQL数据库基础",
+        "level": 1
+      },
+      {
+        "heading": "MySQL简介和分支（NoSQL数据库）",
+        "level": 2
+      },
+      {
+        "heading": "关系型数据库",
+        "level": 3
+      },
+      {
+        "heading": "属性",
+        "level": 4
+      },
+      {
+        "heading": "特点",
+        "level": 4
+      },
+      {
+        "heading": "NoSQL数据库：not only SQL",
+        "level": 3
+      },
+      {
+        "heading": "MySQL分支",
+        "level": 3
+      },
+      {
+        "heading": "安装和配置MySQL数据库",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的配置文件搜索过程: my.cnf",
+        "level": 3
+      },
+      {
+        "heading": "my.cnf配置参数",
+        "level": 3
+      },
+      {
+        "heading": "客户端的连接方式",
+        "level": 2
+      },
+      {
+        "heading": "本地连接",
+        "level": 3
+      },
+      {
+        "heading": "远程连接",
+        "level": 3
+      },
+      {
+        "heading": "安全连接",
+        "level": 3
+      },
+      {
+        "heading": "MySQL数据库的体系架构（服务器端）",
+        "level": 2
+      },
+      {
+        "heading": "Server层",
+        "level": 3
+      },
+      {
+        "heading": "存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "InnoDB",
+        "level": 4
+      },
+      {
+        "heading": "MyISAM",
+        "level": 4
+      },
+      {
+        "heading": "Memory",
+        "level": 4
+      },
+      {
+        "heading": "多实例环境（数据库、数据库实例）",
+        "level": 2
+      },
+      {
+        "heading": "数据库和数据库实例",
+        "level": 3
+      },
+      {
+        "heading": "数据库",
+        "level": 4
+      },
+      {
+        "heading": "数据库实例",
+        "level": 4
+      },
+      {
+        "heading": "使用mysqld_multi工具",
+        "level": 3
       }
     ]
   },

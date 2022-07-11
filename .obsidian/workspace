@@ -7,8 +7,12 @@
         "id": "f3a6ba3413d78e2f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md"
+              }
             }
           },
           {
@@ -122,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -131,9 +140,9 @@
   },
   "active": "f3a6ba3413d78e2f",
   "lastOpenFiles": [
-    "📔 Daily Note | 日记仓库/Note Repo/2022-07-10.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md",
+    "📔 Daily Note | 日记仓库/Note Repo/2022-07-10.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-07-08.md",
     "📔 Daily Note | 日记仓库/Note Repo/2022-07-07.md",
     "🎦 Overview/00 HOME PAGE.md",
