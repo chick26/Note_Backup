@@ -80,7 +80,7 @@ tools/
 ### my.cnf 配置参数
 
 ```bash
-[mysqld]%
+[mysqld]
 server-id=1	#当前数据库实例的ID号，唯一标识一个数据库，在主从复制和主主复制必须唯一
 port=3306 #端口号
 basedir=/usr/local/mysql #安装目录
