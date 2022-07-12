@@ -8,7 +8,6 @@
 * 📉 Data Structrue｜数据结构
   * [00 D.S. Notes Hub](📉%20Data%20Structrue｜数据结构/00%20D.S.%20Notes%20Hub.md)
   * 数据库
-    * [Img_Note 2022-07-11.excalidraw](📉%20Data%20Structrue｜数据结构/数据库/Img_Note%202022-07-11.excalidraw.md)
     * [InnoDB存储引擎](📉%20Data%20Structrue｜数据结构/数据库/InnoDB存储引擎.md)
     * [MySQL数据库基础](📉%20Data%20Structrue｜数据结构/数据库/MySQL数据库基础.md)
     * [应用程序开发](📉%20Data%20Structrue｜数据结构/数据库/应用程序开发.md)
