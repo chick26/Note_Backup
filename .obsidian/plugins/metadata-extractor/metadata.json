@@ -3615,7 +3615,8 @@
     "fileName": "用户管理与访问控制",
     "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md",
     "tags": [
-      "mysql"
+      "mysql",
+      "permission"
     ],
     "frontmatter": {
       "title": "用户管理与访问控制",
@@ -3630,7 +3631,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 87
+          "offset": 97
         }
       }
     },
@@ -3641,6 +3642,26 @@
       },
       {
         "heading": "创建和管理用户",
+        "level": 3
+      },
+      {
+        "heading": "管理用户的密码",
+        "level": 3
+      },
+      {
+        "heading": "权限的管理",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的权限的系统",
+        "level": 3
+      },
+      {
+        "heading": "grant和revoke",
+        "level": 3
+      },
+      {
+        "heading": "权限的生效机制",
         "level": 3
       }
     ]
