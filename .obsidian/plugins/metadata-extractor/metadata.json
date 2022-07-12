@@ -3612,6 +3612,80 @@
     }
   },
   {
+    "fileName": "数据库对象",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
+    "tags": [
+      "mysql/dataobject"
+    ],
+    "frontmatter": {
+      "title": "数据库对象",
+      "creation date": "2022-07-12 12:40",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 91
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "表",
+        "level": 2
+      },
+      {
+        "heading": "数据类型",
+        "level": 3
+      },
+      {
+        "heading": "表的基本操作",
+        "level": 3
+      },
+      {
+        "heading": "约束",
+        "level": 3
+      },
+      {
+        "heading": "主键",
+        "level": 3
+      },
+      {
+        "heading": "外键",
+        "level": 3
+      },
+      {
+        "heading": "表的碎片",
+        "level": 3
+      },
+      {
+        "heading": "临时表",
+        "level": 3
+      },
+      {
+        "heading": "统计信息 statistics",
+        "level": 3
+      },
+      {
+        "heading": "视图",
+        "level": 2
+      },
+      {
+        "heading": "索引",
+        "level": 2
+      },
+      {
+        "heading": "事件Event",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "用户管理与访问控制",
     "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md",
     "tags": [
