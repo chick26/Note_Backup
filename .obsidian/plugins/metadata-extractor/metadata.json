@@ -3612,6 +3612,40 @@
     }
   },
   {
+    "fileName": "用户管理与访问控制",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md",
+    "tags": [
+      "mysql"
+    ],
+    "frontmatter": {
+      "title": "用户管理与访问控制",
+      "creation date": "2022-07-12 11:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 87
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "用户的管理",
+        "level": 2
+      },
+      {
+        "heading": "创建和管理用户",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "Img_Note 2022-07-11.excalidraw",
     "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/Img_Note 2022-07-11.excalidraw.md",
     "tags": [
@@ -3841,8 +3875,40 @@
         "level": 2
       },
       {
+        "heading": "SGA",
+        "level": 3
+      },
+      {
+        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
+        "level": 3
+      },
+      {
+        "heading": "检查点的类型",
+        "level": 3
+      },
+      {
+        "heading": "完全检查点",
+        "level": 4
+      },
+      {
+        "heading": "模糊检查点",
+        "level": 4
+      },
+      {
         "heading": "进程结构 (线程结构)",
         "level": 2
+      },
+      {
+        "heading": "主线程",
+        "level": 3
+      },
+      {
+        "heading": "IO线程",
+        "level": 3
+      },
+      {
+        "heading": "其他线程",
+        "level": 3
       }
     ]
   },

@@ -254,18 +254,19 @@
     ]
   },
   {
+    "tag": "mysql",
+    "tagCount": 3,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md"
+    ]
+  },
+  {
     "tag": "excalidraw",
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/Img_Note 2022-07-11.excalidraw.md"
-    ]
-  },
-  {
-    "tag": "mysql",
-    "tagCount": 2,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md"
     ]
   },
   {

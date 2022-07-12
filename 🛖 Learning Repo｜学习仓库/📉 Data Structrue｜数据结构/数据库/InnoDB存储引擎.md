@@ -110,5 +110,25 @@ show variables like 'innodb_page_size'; #Oracle的参数：block_size
 
 ## 内存结构
 
+### SGA
+system global area 系统的全局区，一个实例只有一个
+
+### PGA：process global area 进程的全局区，对应的是客户端的连接
+
+### 检查点的类型
+
+#### 完全检查点
+
+#### 模糊检查点
+
+Oracle叫增量检查点
 
 ## 进程结构 (线程结构)
+
+### 主线程
+
+主循环（最主要，分为：每隔1秒、每隔10秒）、后台循环、刷新循环、暂定循环
+
+### IO线程
+
+### 其他线程
