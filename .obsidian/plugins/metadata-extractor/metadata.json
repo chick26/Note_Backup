@@ -3612,6 +3612,56 @@
     }
   },
   {
+    "fileName": "应用程序开发",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/应用程序开发.md",
+    "tags": [
+      "mysql/programdev"
+    ],
+    "frontmatter": {
+      "title": "应用程序开发",
+      "creation date": "2022-07-12 14:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 92
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "存储过程 procedure",
+        "level": 2
+      },
+      {
+        "heading": "存储函数 function",
+        "level": 2
+      },
+      {
+        "heading": "触发器 trigger",
+        "level": 2
+      },
+      {
+        "heading": "实现安全性的检查",
+        "level": 3
+      },
+      {
+        "heading": "进行数据的确认",
+        "level": 3
+      },
+      {
+        "heading": "实现审计的功能",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "数据库对象",
     "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
     "tags": [
