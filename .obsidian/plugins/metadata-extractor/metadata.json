@@ -4314,20 +4314,8 @@
         "level": 1
       },
       {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
         "heading": "🛳️ Ship's Log",
         "level": 2
-      },
-      {
-        "heading": "Happenings",
-        "level": 3
-      },
-      {
-        "heading": "Personal Projects Log",
-        "level": 3
       },
       {
         "heading": "Photographing Log",
@@ -4801,8 +4789,8 @@
     ]
   },
   {
-    "fileName": "Img_Note 2022-07-12.excalidraw",
-    "relativePath": "🎨 Excalidraw｜画板仓库/数据库/Img_Note 2022-07-12.excalidraw.md",
+    "fileName": "数据库与数据库实例.excalidraw",
+    "relativePath": "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md",
     "tags": [
       "excalidraw"
     ],
@@ -4820,7 +4808,13 @@
           "offset": 54
         }
       }
-    }
+    },
+    "headings": [
+      {
+        "heading": "Text Elements",
+        "level": 1
+      }
+    ]
   },
   {
     "fileName": "Web-Browser.excalidraw",
