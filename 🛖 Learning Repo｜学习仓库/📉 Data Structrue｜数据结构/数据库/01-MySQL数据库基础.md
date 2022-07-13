@@ -178,13 +178,16 @@ mysql --ssl-ca=/usr/local/mysql/data/ca.pem \
 ## MySQL数据库的体系架构（服务器端）
 
 ### Server层
+> 7个主要组件
 
-7个主要组件
-- Connectors: MySQL对外提供的交互接口
-- Connection Pool		连接池
-- Management Service &Tools
-- SQL Interface：SQL命令行工具
-- SQL Parser 查询分析器
+#### Connectors
+
+MySQL对外提供的交互接口,如 java，.net，php 等语言可以通过 该组件来操作 SQL 语句
+
+- Connection Pool: 连接池
+- Management Service &Tools: 管理服务组件和工具组件
+- SQL Interface: SQL命令行工具
+- SQL Parser: 查询分析器
 - SQL Optimizer 优化器组件，根据数据库的统计信息（反应的是数据的分布情况）
 	- 基于CBO： cost based optimizer
 	- 基于RBO（很少用到）：rule based optimizer
