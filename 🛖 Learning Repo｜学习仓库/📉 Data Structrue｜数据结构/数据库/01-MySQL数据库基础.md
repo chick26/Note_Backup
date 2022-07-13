@@ -67,7 +67,7 @@ tools/
 - 主流：Oracle官方
 - MariaDB
 - Percona Server for MySQL
-	
+
 ## 安装和配置MySQL数据库
 
 ### MySQL的配置文件搜索过程: my.cnf
@@ -102,16 +102,61 @@ port=3306
 default-character-set=utf8
 ```
 
-		
+
 ## 客户端的连接方式
 
 > 系统表mysql.user
-		
+
 ### 本地连接
 
 ### 远程连接
 
+- 创建用户“user001”, 密码是“Welcome_1”
+
+```bash
+mysql> create user 'user001'@'%' identified by 'Welcome_1';
+```
+
+- 为用户“user001”授权
+
+```bash
+mysql> grant all on mysql.* to 'user001'@'%'; 
+mysql> flush privileges;
+```
+
+- 使用 root 用户查看系统的“user”表
+
+```bash
+mysql> use mysql; 
+mysql> select host,user from user;
+
++-----------+------------------+
+| host      | user             |
++-----------+------------------+
+| %         | root             |
+| %         | user001          |
+| %         | user002          |
+| localhost | mysql.infoschema |
+| localhost | mysql.session    |
+| localhost | mysql.sys        |
+| localhost | root             |
++-----------+------------------+
+```
+
+- 使用 root 用户查看系统的“db”表
+
+```bash
+mysql> select host,user,db from db where user='user001';
++------+---------+-------+
+| host | user    | db    |
++------+---------+-------+
+| %    | user001 | mysql |
++------+---------+-------+
+```
+
 ### 安全连接
+
+>MySQL 默认的数据通道是不加密的，在一些安全性要求特别高的场景下，需要配置 MySQL 端口为 SSL，使得数据通道加密处理，避免敏感信息泄漏和被篡改。当启用 MySQL SSL 之后，由于每个数据包都需要加密和解密，将对 MySQL 数据库的性能造成严重的影响。
 
 使用ssl，单独配置用户
 
@@ -135,7 +180,7 @@ mysql --ssl-ca=/usr/local/mysql/data/ca.pem \
 ### Server层
 
 7个主要组件
-- Connectors			MySQL对外提供的交互接口
+- Connectors: MySQL对外提供的交互接口
 - Connection Pool		连接池
 - Management Service &Tools
 - SQL Interface：SQL命令行工具
@@ -162,7 +207,8 @@ create table table1(tid int,tname varchar(10),money int) engine=myisam;
 ```sql
 create table table2(tid int,tname varchar(10),money int) engine=memory;
 ```
-									
+
+
 ## 多实例环境（数据库、数据库实例）
 
 >在一个宿主机上启动多个MySQL数据库实例

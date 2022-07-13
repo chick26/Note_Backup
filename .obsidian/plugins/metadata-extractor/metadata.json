@@ -3612,8 +3612,174 @@
     }
   },
   {
-    "fileName": "应用程序开发",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/应用程序开发.md",
+    "fileName": "09-高可用架构",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
+    "tags": [
+      "mysql"
+    ],
+    "frontmatter": {
+      "title": "高可用架构",
+      "creation date": "2022-07-13 09:22",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 80
+        }
+      }
+    }
+  },
+  {
+    "fileName": "08-主从复制和主主复制",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
+    "tags": [
+      "mysql"
+    ],
+    "frontmatter": {
+      "title": "主从复制和主主复制",
+      "creation date": "2022-07-13 09:13",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 84
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "主从复制的目的",
+        "level": 2
+      },
+      {
+        "heading": "MySQL主从复制的架构模式",
+        "level": 2
+      },
+      {
+        "heading": "部署星型模型的主从复制",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "07-备份与恢复",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
+    "tags": [
+      "mysql"
+    ],
+    "frontmatter": {
+      "title": "备份与恢复",
+      "creation date": "2022-07-13 09:07",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 80
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "基本的术语",
+        "level": 2
+      },
+      {
+        "heading": "操作实例",
+        "level": 2
+      },
+      {
+        "heading": "备份指定数据库 demo1",
+        "level": 3
+      },
+      {
+        "heading": "备份指定数据库demo下指定的表",
+        "level": 3
+      },
+      {
+        "heading": "可传输的表空间",
+        "level": 2
+      },
+      {
+        "heading": "闪回技术（flashback）",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "06-事务与锁",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
+    "tags": [
+      "mysql"
+    ],
+    "frontmatter": {
+      "title": "事务与锁",
+      "creation date": "2022-07-13 09:04",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "MySQL的事务",
+        "level": 2
+      },
+      {
+        "heading": "事务的特征",
+        "level": 3
+      },
+      {
+        "heading": "控制事务",
+        "level": 3
+      },
+      {
+        "heading": "事务的并发：隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "锁机制",
+        "level": 2
+      },
+      {
+        "heading": "行锁",
+        "level": 3
+      },
+      {
+        "heading": "表锁",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "05-应用程序开发",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
     "tags": [
       "mysql/programdev"
     ],
@@ -3662,8 +3828,8 @@
     ]
   },
   {
-    "fileName": "数据库对象",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
+    "fileName": "04-数据库对象",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
     "tags": [
       "mysql/dataobject"
     ],
@@ -3736,8 +3902,8 @@
     ]
   },
   {
-    "fileName": "用户管理与访问控制",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md",
+    "fileName": "03-用户管理与访问控制",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
     "tags": [
       "mysql",
       "permission"
@@ -3791,8 +3957,123 @@
     ]
   },
   {
-    "fileName": "MySQL数据库基础",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
+    "fileName": "02-InnoDB存储引擎",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
+    "tags": [
+      "innodb",
+      "mysql"
+    ],
+    "frontmatter": {
+      "title": "InnoDB存储引擎",
+      "creation date": "2022-07-10 20:30",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 94
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "InnoDB存储引擎",
+        "level": 1
+      },
+      {
+        "heading": "存储结构",
+        "level": 2
+      },
+      {
+        "heading": "物理存储结构：硬盘上的文件",
+        "level": 3
+      },
+      {
+        "heading": "数据文件",
+        "level": 4
+      },
+      {
+        "heading": "重做日志文件",
+        "level": 4
+      },
+      {
+        "heading": "撤销日志文件",
+        "level": 4
+      },
+      {
+        "heading": "参数文件",
+        "level": 4
+      },
+      {
+        "heading": "错误日志文件",
+        "level": 4
+      },
+      {
+        "heading": "binlog二进制日志文件",
+        "level": 4
+      },
+      {
+        "heading": "慢查询日志",
+        "level": 4
+      },
+      {
+        "heading": "全量日志general log",
+        "level": 4
+      },
+      {
+        "heading": "逻辑存储结构",
+        "level": 3
+      },
+      {
+        "heading": "内存结构",
+        "level": 2
+      },
+      {
+        "heading": "SGA",
+        "level": 3
+      },
+      {
+        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
+        "level": 3
+      },
+      {
+        "heading": "检查点的类型",
+        "level": 3
+      },
+      {
+        "heading": "完全检查点",
+        "level": 4
+      },
+      {
+        "heading": "模糊检查点",
+        "level": 4
+      },
+      {
+        "heading": "进程结构 (线程结构)",
+        "level": 2
+      },
+      {
+        "heading": "主线程",
+        "level": 3
+      },
+      {
+        "heading": "IO线程",
+        "level": 3
+      },
+      {
+        "heading": "其他线程",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "01-MySQL数据库基础",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
     "tags": [
       "mysql"
     ],
@@ -3916,121 +4197,6 @@
       },
       {
         "heading": "使用mysqld_multi工具",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "InnoDB存储引擎",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md",
-    "tags": [
-      "innodb",
-      "mysql"
-    ],
-    "frontmatter": {
-      "title": "InnoDB存储引擎",
-      "creation date": "2022-07-10 20:30",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 94
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "InnoDB存储引擎",
-        "level": 1
-      },
-      {
-        "heading": "存储结构",
-        "level": 2
-      },
-      {
-        "heading": "物理存储结构：硬盘上的文件",
-        "level": 3
-      },
-      {
-        "heading": "数据文件",
-        "level": 4
-      },
-      {
-        "heading": "重做日志文件",
-        "level": 4
-      },
-      {
-        "heading": "撤销日志文件",
-        "level": 4
-      },
-      {
-        "heading": "参数文件",
-        "level": 4
-      },
-      {
-        "heading": "错误日志文件",
-        "level": 4
-      },
-      {
-        "heading": "binlog二进制日志文件",
-        "level": 4
-      },
-      {
-        "heading": "慢查询日志",
-        "level": 4
-      },
-      {
-        "heading": "全量日志general log",
-        "level": 4
-      },
-      {
-        "heading": "逻辑存储结构",
-        "level": 3
-      },
-      {
-        "heading": "内存结构",
-        "level": 2
-      },
-      {
-        "heading": "SGA",
-        "level": 3
-      },
-      {
-        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
-        "level": 3
-      },
-      {
-        "heading": "检查点的类型",
-        "level": 3
-      },
-      {
-        "heading": "完全检查点",
-        "level": 4
-      },
-      {
-        "heading": "模糊检查点",
-        "level": 4
-      },
-      {
-        "heading": "进程结构 (线程结构)",
-        "level": 2
-      },
-      {
-        "heading": "主线程",
-        "level": 3
-      },
-      {
-        "heading": "IO线程",
-        "level": 3
-      },
-      {
-        "heading": "其他线程",
         "level": 3
       }
     ]

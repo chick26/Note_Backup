@@ -254,40 +254,44 @@
     ]
   },
   {
+    "tag": "mysql",
+    "tagCount": 9,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
+    ]
+  },
+  {
     "tag": "mysql/programdev",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/应用程序开发.md"
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md"
     ]
   },
   {
     "tag": "mysql/dataobject",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md"
-    ]
-  },
-  {
-    "tag": "mysql",
-    "tagCount": 5,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/MySQL数据库基础.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md"
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md"
     ]
   },
   {
     "tag": "permission",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/用户管理与访问控制.md"
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md"
     ]
   },
   {
     "tag": "innodb",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/InnoDB存储引擎.md"
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
     ]
   },
   {

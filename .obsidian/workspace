@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
+            "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md"
+                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
               }
             }
           },
@@ -139,15 +140,15 @@
   },
   "active": "ee21306de504694b",
   "lastOpenFiles": [
-    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/数据库对象.md",
-    "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md",
-    "📔 Daily Note | 日记仓库/Note Repo/2022-07-12.md",
-    "📔 Daily Note | 日记仓库/00 Media Log.md",
-    "🎦 Overview/01 Daily Notes Hub.md",
-    "🎦 Overview/00 HOME PAGE.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
-    "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-    "🎨 Excalidraw｜画板仓库/数据库/Untitled.md",
-    "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md"
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
+    "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md"
   ]
 }
