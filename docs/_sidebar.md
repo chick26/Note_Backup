@@ -8,11 +8,15 @@
 * 📉 Data Structrue｜数据结构
   * [00 D.S. Notes Hub](📉%20Data%20Structrue｜数据结构/00%20D.S.%20Notes%20Hub.md)
   * 数据库
-    * [InnoDB存储引擎](📉%20Data%20Structrue｜数据结构/数据库/InnoDB存储引擎.md)
-    * [MySQL数据库基础](📉%20Data%20Structrue｜数据结构/数据库/MySQL数据库基础.md)
-    * [应用程序开发](📉%20Data%20Structrue｜数据结构/数据库/应用程序开发.md)
-    * [数据库对象](📉%20Data%20Structrue｜数据结构/数据库/数据库对象.md)
-    * [用户管理与访问控制](📉%20Data%20Structrue｜数据结构/数据库/用户管理与访问控制.md)
+    * [01-MySQL数据库基础](📉%20Data%20Structrue｜数据结构/数据库/01-MySQL数据库基础.md)
+    * [02-InnoDB存储引擎](📉%20Data%20Structrue｜数据结构/数据库/02-InnoDB存储引擎.md)
+    * [03-用户管理与访问控制](📉%20Data%20Structrue｜数据结构/数据库/03-用户管理与访问控制.md)
+    * [04-数据库对象](📉%20Data%20Structrue｜数据结构/数据库/04-数据库对象.md)
+    * [05-应用程序开发](📉%20Data%20Structrue｜数据结构/数据库/05-应用程序开发.md)
+    * [06-事务与锁](📉%20Data%20Structrue｜数据结构/数据库/06-事务与锁.md)
+    * [07-备份与恢复](📉%20Data%20Structrue｜数据结构/数据库/07-备份与恢复.md)
+    * [08-主从复制和主主复制](📉%20Data%20Structrue｜数据结构/数据库/08-主从复制和主主复制.md)
+    * [09-高可用架构](📉%20Data%20Structrue｜数据结构/数据库/09-高可用架构.md)
   * 算法之美课程
     * [哈希表](📉%20Data%20Structrue｜数据结构/算法之美课程/哈希表.md)
     * [数组](📉%20Data%20Structrue｜数据结构/算法之美课程/数组.md)
