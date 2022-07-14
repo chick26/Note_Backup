@@ -1,7 +1,6 @@
 [
   "obsidian-image-auto-upload-plugin",
   "calendar",
-  "periodic-notes",
   "sliding-panes-obsidian",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
@@ -18,7 +17,6 @@
   "dataview",
   "obsidian-mind-map",
   "tag-wrangler",
-  "obsidian-hover-editor",
   "quickadd",
   "obsidian-local-images",
   "homepage",

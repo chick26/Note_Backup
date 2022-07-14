@@ -22,137 +22,6 @@
     ]
   },
   {
-    "fileName": "Weekily-Note",
-    "relativePath": "🧳 Template｜模板库/Templates/Weekily-Note.md"
-  },
-  {
-    "fileName": "Script.CreateReadingNote",
-    "relativePath": "🧳 Template｜模板库/Templates/Script.CreateReadingNote.md"
-  },
-  {
-    "fileName": "Script.CreateLearningNote",
-    "relativePath": "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md"
-  },
-  {
-    "fileName": "Mind-Note",
-    "relativePath": "🧳 Template｜模板库/Templates/Mind-Note.md",
-    "tags": [
-      "<%tp.file.cursor(1)%>"
-    ],
-    "frontmatter": {
-      "created": "X-Mind",
-      "title": "<% tp.file.title %>",
-      "creation date": "<% tp.file.creation_date() %>",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 137
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Learning-Note",
-    "relativePath": "🧳 Template｜模板库/Templates/Learning-Note.md",
-    "tags": [
-      "<%tp.file.cursor(1)%>"
-    ],
-    "frontmatter": {
-      "title": "<% tp.file.title %>",
-      "creation date": "<% tp.file.creation_date() %>",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 123
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Daily-Note",
-    "relativePath": "🧳 Template｜模板库/Templates/Daily-Note.md",
-    "headings": [
-      {
-        "heading": "{{date:YYYY-MM-DD}}",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Happenings",
-        "level": 3
-      },
-      {
-        "heading": "Personal Projects Log",
-        "level": 3
-      },
-      {
-        "heading": "Reading Log",
-        "level": 3
-      },
-      {
-        "heading": "Video Log",
-        "level": 3
-      },
-      {
-        "heading": "Photographing Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "01 Daily Notes Hub",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Book-Note",
-    "relativePath": "🧳 Template｜模板库/Templates/Book-Note.md",
-    "tags": [
-      "booktype",
-      "bookgenre",
-      "booktheme"
-    ],
-    "frontmatter": {
-      "started on": "<% tp.file.creation_date() %>",
-      "completed on": null,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 10,
-          "col": 3,
-          "offset": 170
-        }
-      }
-    }
-  },
-  {
     "fileName": "浏览器解析 CSS 样式的过程",
     "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
     "frontmatter": {
@@ -253,24 +122,6 @@
     ]
   },
   {
-    "fileName": "微服务是什么？",
-    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
-    "headings": [
-      {
-        "heading": "一、单体软件",
-        "level": 2
-      },
-      {
-        "heading": "二、面向服务架构",
-        "level": 2
-      },
-      {
-        "heading": "三、微服务",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "与上下文无关的语法",
     "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md",
     "tags": [
@@ -298,6 +149,24 @@
         "fileName": "Web Browsers",
         "link": "与上下文无关的语法",
         "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      }
+    ]
+  },
+  {
+    "fileName": "微服务是什么？",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/微服务是什么？.md",
+    "headings": [
+      {
+        "heading": "一、单体软件",
+        "level": 2
+      },
+      {
+        "heading": "二、面向服务架构",
+        "level": 2
+      },
+      {
+        "heading": "三、微服务",
+        "level": 2
       }
     ]
   },
@@ -2808,41 +2677,6 @@
     ]
   },
   {
-    "fileName": "HTML-Semantic",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
-    "tags": [
-      "html",
-      "html/semantic"
-    ],
-    "frontmatter": {
-      "title": "HTML-Semantic",
-      "date": "2022-01-24 14:41",
-      "status": "done",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 95
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "什么是语义元素？",
-        "level": 1
-      },
-      {
-        "heading": "HTML 中的语义元素",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "HTML-Principel",
     "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md",
     "tags": [
@@ -3285,6 +3119,41 @@
         "link": "HTML-Principel",
         "relativePath": "🎨 Excalidraw｜画板仓库/Front-end.excalidraw.md",
         "displayText": "Conventions and Best Practices"
+      }
+    ]
+  },
+  {
+    "fileName": "HTML-Semantic",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
+    "tags": [
+      "html",
+      "html/semantic"
+    ],
+    "frontmatter": {
+      "title": "HTML-Semantic",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 95
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "什么是语义元素？",
+        "level": 1
+      },
+      {
+        "heading": "HTML 中的语义元素",
+        "level": 1
       }
     ]
   },
@@ -3902,6 +3771,61 @@
     ]
   },
   {
+    "fileName": "03-用户管理与访问控制",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+    "tags": [
+      "mysql",
+      "permission"
+    ],
+    "frontmatter": {
+      "title": "用户管理与访问控制",
+      "creation date": "2022-07-12 11:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 97
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "用户的管理",
+        "level": 2
+      },
+      {
+        "heading": "创建和管理用户",
+        "level": 3
+      },
+      {
+        "heading": "管理用户的密码",
+        "level": 3
+      },
+      {
+        "heading": "权限的管理",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的权限的系统",
+        "level": 3
+      },
+      {
+        "heading": "grant和revoke",
+        "level": 3
+      },
+      {
+        "heading": "权限的生效机制",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "02-InnoDB存储引擎",
     "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
     "tags": [
@@ -4012,61 +3936,6 @@
       },
       {
         "heading": "其他线程",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "03-用户管理与访问控制",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
-    "tags": [
-      "mysql",
-      "permission"
-    ],
-    "frontmatter": {
-      "title": "用户管理与访问控制",
-      "creation date": "2022-07-12 11:09",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 97
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "用户的管理",
-        "level": 2
-      },
-      {
-        "heading": "创建和管理用户",
-        "level": 3
-      },
-      {
-        "heading": "管理用户的密码",
-        "level": 3
-      },
-      {
-        "heading": "权限的管理",
-        "level": 2
-      },
-      {
-        "heading": "MySQL的权限的系统",
-        "level": 3
-      },
-      {
-        "heading": "grant和revoke",
-        "level": 3
-      },
-      {
-        "heading": "权限的生效机制",
         "level": 3
       }
     ]
@@ -4322,30 +4191,6 @@
     ]
   },
   {
-    "fileName": "git hooks",
-    "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
-    "tags": [
-      "git/hooks"
-    ],
-    "frontmatter": {
-      "title": "git hooks",
-      "creation date": "2022-03-01 09:26",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 88
-        }
-      }
-    }
-  },
-  {
     "fileName": "Mermaid",
     "relativePath": "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md",
     "tags": [
@@ -4472,6 +4317,298 @@
       {
         "heading": "注释",
         "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "git hooks",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
+    "tags": [
+      "git/hooks"
+    ],
+    "frontmatter": {
+      "title": "git hooks",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 88
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Weekily-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Weekily-Note.md"
+  },
+  {
+    "fileName": "Script.CreateReadingNote",
+    "relativePath": "🧳 Template｜模板库/Templates/Script.CreateReadingNote.md"
+  },
+  {
+    "fileName": "Script.CreateLearningNote",
+    "relativePath": "🧳 Template｜模板库/Templates/Script.CreateLearningNote.md"
+  },
+  {
+    "fileName": "Daily-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Daily-Note.md",
+    "headings": [
+      {
+        "heading": "{{date:YYYY-MM-DD}}",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      },
+      {
+        "heading": "Reading Log",
+        "level": 3
+      },
+      {
+        "heading": "Video Log",
+        "level": 3
+      },
+      {
+        "heading": "Photographing Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Mind-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Mind-Note.md",
+    "tags": [
+      "<%tp.file.cursor(1)%>"
+    ],
+    "frontmatter": {
+      "created": "X-Mind",
+      "title": "<% tp.file.title %>",
+      "creation date": "<% tp.file.creation_date() %>",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 137
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Learning-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Learning-Note.md",
+    "tags": [
+      "<%tp.file.cursor(1)%>"
+    ],
+    "frontmatter": {
+      "title": "<% tp.file.title %>",
+      "creation date": "<% tp.file.creation_date() %>",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 123
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Book-Note",
+    "relativePath": "🧳 Template｜模板库/Templates/Book-Note.md",
+    "tags": [
+      "booktype",
+      "bookgenre",
+      "booktheme"
+    ],
+    "frontmatter": {
+      "started on": "<% tp.file.creation_date() %>",
+      "completed on": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 10,
+          "col": 3,
+          "offset": 170
+        }
+      }
+    }
+  },
+  {
+    "fileName": "00 New Discoveries Log",
+    "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+    "frontmatter": {
+      "title": "New Discoveries Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[discovery.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 139
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "List",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      },
+      {
+        "link": "00 Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md"
+      },
+      {
+        "link": "00 Media Log",
+        "displayText": "Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 Ship's Log",
+        "link": "00 New Discoveries Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+        "displayText": "New Discoveries"
+      },
+      {
+        "fileName": "00 Media Log",
+        "link": "00 New Discoveries Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
+        "displayText": "New Discoveries"
+      },
+      {
+        "fileName": "01 Daily Notes Hub",
+        "link": "00 New Discoveries Log",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
+        "displayText": "New Discoveries"
+      }
+    ]
+  },
+  {
+    "fileName": "00 Ship's Log",
+    "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+    "frontmatter": {
+      "title": "Ship's Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[Ship.jpeg]]",
+      "banner_y": 1,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 138
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "⛽️ Life Happenings",
+        "level": 1
+      },
+      {
+        "heading": "🧰 Personal Projects",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "01 Daily Notes Hub",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
+      },
+      {
+        "link": "00 New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
+      },
+      {
+        "link": "00 Media Log",
+        "displayText": "Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 New Discoveries Log",
+        "link": "00 Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+        "displayText": "Ship's Log"
+      },
+      {
+        "fileName": "00 Media Log",
+        "link": "00 Ship's Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
+        "displayText": "Ship's Log"
+      },
+      {
+        "fileName": "01 Daily Notes Hub",
+        "link": "00 Ship's Log",
+        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
+        "displayText": "Ship's Log"
       }
     ]
   },
@@ -4658,143 +4795,6 @@
     ]
   },
   {
-    "fileName": "00 Ship's Log",
-    "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-    "frontmatter": {
-      "title": "Ship's Log",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[Ship.jpeg]]",
-      "banner_y": 1,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 138
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "⛽️ Life Happenings",
-        "level": 1
-      },
-      {
-        "heading": "🧰 Personal Projects",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "01 Daily Notes Hub",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
-      },
-      {
-        "link": "00 New Discoveries Log",
-        "displayText": "New Discoveries",
-        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md"
-      },
-      {
-        "link": "00 Media Log",
-        "displayText": "Media Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "00 New Discoveries Log",
-        "link": "00 Ship's Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-        "displayText": "Ship's Log"
-      },
-      {
-        "fileName": "00 Media Log",
-        "link": "00 Ship's Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
-        "displayText": "Ship's Log"
-      },
-      {
-        "fileName": "01 Daily Notes Hub",
-        "link": "00 Ship's Log",
-        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
-        "displayText": "Ship's Log"
-      }
-    ]
-  },
-  {
-    "fileName": "00 New Discoveries Log",
-    "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
-    "frontmatter": {
-      "title": "New Discoveries Log",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[discovery.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 139
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "List",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "01 Daily Notes Hub",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "🎦 Overview/01 Daily Notes Hub.md"
-      },
-      {
-        "link": "00 Ship's Log",
-        "displayText": "Ship's Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md"
-      },
-      {
-        "link": "00 Media Log",
-        "displayText": "Media Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "00 Ship's Log",
-        "link": "00 New Discoveries Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-        "displayText": "New Discoveries"
-      },
-      {
-        "fileName": "00 Media Log",
-        "link": "00 New Discoveries Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
-        "displayText": "New Discoveries"
-      },
-      {
-        "fileName": "01 Daily Notes Hub",
-        "link": "00 New Discoveries Log",
-        "relativePath": "🎦 Overview/01 Daily Notes Hub.md",
-        "displayText": "New Discoveries"
-      }
-    ]
-  },
-  {
     "fileName": "00 Media Log",
     "relativePath": "📔 Daily Note | 日记仓库/00 Media Log.md",
     "frontmatter": {
@@ -4853,15 +4853,15 @@
     ],
     "backlinks": [
       {
-        "fileName": "00 Ship's Log",
-        "link": "00 Media Log",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-        "displayText": "Media Log"
-      },
-      {
         "fileName": "00 New Discoveries Log",
         "link": "00 Media Log",
         "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+        "displayText": "Media Log"
+      },
+      {
+        "fileName": "00 Ship's Log",
+        "link": "00 Media Log",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
         "displayText": "Media Log"
       },
       {
@@ -4959,34 +4959,6 @@
     ]
   },
   {
-    "fileName": "数据库与数据库实例.excalidraw",
-    "relativePath": "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md",
-    "tags": [
-      "excalidraw"
-    ],
-    "frontmatter": {
-      "excalidraw-plugin": "parsed",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 54
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Text Elements",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "Web-Browser.excalidraw",
     "relativePath": "🎨 Excalidraw｜画板仓库/Web-Browser.excalidraw.md",
     "frontmatter": {
@@ -5034,6 +5006,34 @@
         "cleanLink": "Web Browsers",
         "displayText": "Style Computation",
         "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      }
+    ]
+  },
+  {
+    "fileName": "数据库与数据库实例.excalidraw",
+    "relativePath": "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md",
+    "tags": [
+      "excalidraw"
+    ],
+    "frontmatter": {
+      "excalidraw-plugin": "parsed",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 54
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Text Elements",
+        "level": 1
       }
     ]
   },
@@ -5272,6 +5272,18 @@
         "displayText": "Daily Notes Hub"
       },
       {
+        "fileName": "00 New Discoveries Log",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "00 Ship's Log",
+        "link": "01 Daily Notes Hub",
+        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
         "fileName": "2022-07-12",
         "link": "01 Daily Notes Hub",
         "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-07-12.md",
@@ -5305,18 +5317,6 @@
         "fileName": "2022-06-29",
         "link": "01 Daily Notes Hub",
         "relativePath": "📔 Daily Note | 日记仓库/Note Repo/2022-06-29.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "00 Ship's Log",
-        "link": "01 Daily Notes Hub",
-        "relativePath": "📔 Daily Note | 日记仓库/00 Ship's Log.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "00 New Discoveries Log",
-        "link": "01 Daily Notes Hub",
-        "relativePath": "📔 Daily Note | 日记仓库/00 New Discoveries Log.md",
         "displayText": "Daily Notes Hub"
       },
       {

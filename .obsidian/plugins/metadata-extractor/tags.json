@@ -1,34 +1,5 @@
 [
   {
-    "tag": "<%tp.file.cursor(1)%>",
-    "tagCount": 2,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Mind-Note.md",
-      "🧳 Template｜模板库/Templates/Learning-Note.md"
-    ]
-  },
-  {
-    "tag": "booktype",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "bookgenre",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "booktheme",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
     "tag": "csbasic",
     "tagCount": 1,
     "relativePaths": [
@@ -212,17 +183,17 @@
     ]
   },
   {
-    "tag": "html/semantic",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
-    ]
-  },
-  {
     "tag": "html/principel",
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
+    ]
+  },
+  {
+    "tag": "html/semantic",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
     ]
   },
   {
@@ -261,8 +232,8 @@
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
     ]
   },
@@ -281,17 +252,17 @@
     ]
   },
   {
-    "tag": "innodb",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
-    ]
-  },
-  {
     "tag": "permission",
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md"
+    ]
+  },
+  {
+    "tag": "innodb",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
     ]
   },
   {
@@ -316,6 +287,13 @@
     ]
   },
   {
+    "tag": "markdown/mermaid",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md"
+    ]
+  },
+  {
     "tag": "git/hooks",
     "tagCount": 1,
     "relativePaths": [
@@ -323,10 +301,32 @@
     ]
   },
   {
-    "tag": "markdown/mermaid",
+    "tag": "<%tp.file.cursor(1)%>",
+    "tagCount": 2,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Mind-Note.md",
+      "🧳 Template｜模板库/Templates/Learning-Note.md"
+    ]
+  },
+  {
+    "tag": "booktype",
     "tagCount": 1,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md"
+      "🧳 Template｜模板库/Templates/Book-Note.md"
+    ]
+  },
+  {
+    "tag": "bookgenre",
+    "tagCount": 1,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Book-Note.md"
+    ]
+  },
+  {
+    "tag": "booktheme",
+    "tagCount": 1,
+    "relativePaths": [
+      "🧳 Template｜模板库/Templates/Book-Note.md"
     ]
   },
   {
