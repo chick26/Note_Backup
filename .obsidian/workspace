@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ee21306de504694b",
+        "id": "0fb441fa2c1d7c4d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
-            "mode": "source",
+            "file": "🎦 Overview/00 HOME PAGE.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "7edd17491be04f6b",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+                "file": "🎦 Overview/00 HOME PAGE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+                "file": "🎦 Overview/00 HOME PAGE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
+                "file": "🎦 Overview/00 HOME PAGE.md"
               }
             }
           },
@@ -138,8 +137,9 @@
     "width": 297.5,
     "collapsed": true
   },
-  "active": "ee21306de504694b",
+  "active": "0fb441fa2c1d7c4d",
   "lastOpenFiles": [
+    "🎦 Overview/00 HOME PAGE.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
@@ -148,7 +148,6 @@
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
     "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
-    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
-    "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md"
+    "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
   ]
 }

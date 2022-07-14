@@ -3902,61 +3902,6 @@
     ]
   },
   {
-    "fileName": "03-用户管理与访问控制",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
-    "tags": [
-      "mysql",
-      "permission"
-    ],
-    "frontmatter": {
-      "title": "用户管理与访问控制",
-      "creation date": "2022-07-12 11:09",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 97
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "用户的管理",
-        "level": 2
-      },
-      {
-        "heading": "创建和管理用户",
-        "level": 3
-      },
-      {
-        "heading": "管理用户的密码",
-        "level": 3
-      },
-      {
-        "heading": "权限的管理",
-        "level": 2
-      },
-      {
-        "heading": "MySQL的权限的系统",
-        "level": 3
-      },
-      {
-        "heading": "grant和revoke",
-        "level": 3
-      },
-      {
-        "heading": "权限的生效机制",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "02-InnoDB存储引擎",
     "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
     "tags": [
@@ -4067,6 +4012,61 @@
       },
       {
         "heading": "其他线程",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "03-用户管理与访问控制",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+    "tags": [
+      "mysql",
+      "permission"
+    ],
+    "frontmatter": {
+      "title": "用户管理与访问控制",
+      "creation date": "2022-07-12 11:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 97
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "用户的管理",
+        "level": 2
+      },
+      {
+        "heading": "创建和管理用户",
+        "level": 3
+      },
+      {
+        "heading": "管理用户的密码",
+        "level": 3
+      },
+      {
+        "heading": "权限的管理",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的权限的系统",
+        "level": 3
+      },
+      {
+        "heading": "grant和revoke",
+        "level": 3
+      },
+      {
+        "heading": "权限的生效机制",
         "level": 3
       }
     ]
