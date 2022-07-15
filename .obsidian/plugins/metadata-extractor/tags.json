@@ -1,19 +1,5 @@
 [
   {
-    "tag": "frontentool",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/文件处理库.md"
-    ]
-  },
-  {
-    "tag": "ducumenthandler",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/文件处理库.md"
-    ]
-  },
-  {
     "tag": "csbasic",
     "tagCount": 1,
     "relativePaths": [
@@ -47,6 +33,20 @@
     "tagCount": 1,
     "relativePaths": [
       "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md"
+    ]
+  },
+  {
+    "tag": "frontentool",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/文件处理库.md"
+    ]
+  },
+  {
+    "tag": "ducumenthandler",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/文件处理库.md"
     ]
   },
   {
