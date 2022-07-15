@@ -2,7 +2,6 @@
   * [Sketch 设计组件库](🗄%20Avatar%20|%20待分类/Sketch%20设计组件库.md)
   * [与上下文无关的语法](🗄%20Avatar%20|%20待分类/与上下文无关的语法.md)
   * [微服务是什么？](🗄%20Avatar%20|%20待分类/微服务是什么？.md)
-  * [文件处理库](🗄%20Avatar%20|%20待分类/文件处理库.md)
   * [浏览器解析 CSS 样式的过程](🗄%20Avatar%20|%20待分类/浏览器解析%20CSS%20样式的过程.md)
 * 💵 CFA | 金融分析师
   * [The Time Value of Money](💵%20CFA%20|%20金融分析师/The%20Time%20Value%20of%20Money.md)
@@ -54,6 +53,7 @@
     * [Charles | 抓包工具](📲%20Front%20Dev｜前端开发/Test%20Tool｜测试/Charles%20|%20抓包工具.md)
   * Tool | 开发辅助
     * [File Preview](📲%20Front%20Dev｜前端开发/Tool%20|%20开发辅助/File%20Preview.md)
+    * [文件处理库](📲%20Front%20Dev｜前端开发/Tool%20|%20开发辅助/文件处理库.md)
   * TypeScript | Web编程语言
     * [TypeScript 语法](📲%20Front%20Dev｜前端开发/TypeScript%20|%20Web编程语言/TypeScript%20语法.md)
   * UILibrary | 组件库
