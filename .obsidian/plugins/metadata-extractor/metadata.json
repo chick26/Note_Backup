@@ -22,6 +22,205 @@
     ]
   },
   {
+    "fileName": "文件处理库",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/文件处理库.md",
+    "tags": [
+      "frontentool",
+      "ducumenthandler"
+    ],
+    "frontmatter": {
+      "title": "文件处理库",
+      "creation date": "2022-07-15 15:48:08",
+      "status": "todo",
+      "tag": [
+        "FrontenTool",
+        "DucumentHandler"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 105
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "1. PDF",
+        "level": 2
+      },
+      {
+        "heading": "PDF.js",
+        "level": 3
+      },
+      {
+        "heading": "jsPDF",
+        "level": 3
+      },
+      {
+        "heading": "pdfmake",
+        "level": 3
+      },
+      {
+        "heading": "pdf-lib",
+        "level": 3
+      },
+      {
+        "heading": "pdfkit",
+        "level": 3
+      },
+      {
+        "heading": "react-pdf",
+        "level": 3
+      },
+      {
+        "heading": "2. 图片",
+        "level": 2
+      },
+      {
+        "heading": "sharp",
+        "level": 3
+      },
+      {
+        "heading": "cropperjs",
+        "level": 3
+      },
+      {
+        "heading": "tui.image-editor",
+        "level": 3
+      },
+      {
+        "heading": "compressorjs",
+        "level": 3
+      },
+      {
+        "heading": "viewerjs",
+        "level": 3
+      },
+      {
+        "heading": "omagesloaded",
+        "level": 3
+      },
+      {
+        "heading": "3. 音视频",
+        "level": 2
+      },
+      {
+        "heading": "video.js",
+        "level": 3
+      },
+      {
+        "heading": "plyr",
+        "level": 3
+      },
+      {
+        "heading": "MediaElement.js",
+        "level": 3
+      },
+      {
+        "heading": "xgplayer",
+        "level": 3
+      },
+      {
+        "heading": "DPlayer",
+        "level": 3
+      },
+      {
+        "heading": "Howler.js",
+        "level": 3
+      },
+      {
+        "heading": "4. 表格",
+        "level": 2
+      },
+      {
+        "heading": "Handsontable",
+        "level": 3
+      },
+      {
+        "heading": "**ag-grid**",
+        "level": 3
+      },
+      {
+        "heading": "x-spreadsheet",
+        "level": 3
+      },
+      {
+        "heading": "cheetah-grid",
+        "level": 3
+      },
+      {
+        "heading": "ExcelJS",
+        "level": 3
+      },
+      {
+        "heading": "SheetJS",
+        "level": 3
+      },
+      {
+        "heading": "5. 文件上传",
+        "level": 2
+      },
+      {
+        "heading": "Uppy",
+        "level": 3
+      },
+      {
+        "heading": "filepond",
+        "level": 3
+      },
+      {
+        "heading": "Dropzone",
+        "level": 3
+      },
+      {
+        "heading": "vue-upload-component",
+        "level": 3
+      },
+      {
+        "heading": "Uppload",
+        "level": 3
+      },
+      {
+        "heading": "react-dropzone",
+        "level": 3
+      },
+      {
+        "heading": "6. 其他",
+        "level": 2
+      },
+      {
+        "heading": "JSZip",
+        "level": 3
+      },
+      {
+        "heading": "**docxtemplater**",
+        "level": 3
+      },
+      {
+        "heading": "textract",
+        "level": 3
+      },
+      {
+        "heading": "PptxGenJS",
+        "level": 3
+      },
+      {
+        "heading": "officegen",
+        "level": 3
+      },
+      {
+        "heading": "PapaParse",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "浏览器解析 CSS 样式的过程",
     "relativePath": "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
     "frontmatter": {
