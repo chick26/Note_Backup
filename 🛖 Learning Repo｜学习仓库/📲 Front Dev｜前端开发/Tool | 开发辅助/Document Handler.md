@@ -1,7 +1,7 @@
 ---
-title: 文件处理库
+title: Document Handler
 creation date: 2022-07-15 15:48:08
-status: todo
+status: done
 tag:
 - FrontenTool
 - DucumentHandler
@@ -129,140 +129,138 @@ MediaElement.js 是一个 HTML5 `<audio>` 或 `<video>` 播放器，支持 MP4�
 
 ### DPlayer
 
+- Github: [DIYgod/DPlayer: Wow, such a lovely HTML5 danmaku video player](https://github.com/DIYgod/DPlayer)
+- Document: [DPlayer](http://dplayer.js.org/)
+
 DPlayer 是一款可爱的 HTML5 弹幕视频播放器，可帮助人们轻松构建视频和弹幕。
 
-**Github（⭐️ 12.9k）：**https://github.com/DIYgod/DPlayer
-
-### Howler.js
-
-howler.js 是一个现代 web 音频库。它默认为 Web Audio API 并回退到 HTML5 Audio。这使得在所有平台上使用 JavaScript 处理音频变得容易且可靠。
-
-**Github（⭐️ 20.3k）：**https://github.com/goldfire/howler.j
 
 ## 4. 表格
 
 ### Handsontable
 
-Handsontable 是一个具有电子表格外观的 JavaScript 数据网格组件。适用于 React、Angular 和 Vue。它结合了数据网格功能和类似电子表格的 UX。它提供数据绑定、数据验证、过滤、排序和 CRUD 操作。
+- Github: [handsontable/handsontable: JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡](https://github.com/handsontable/handsontable)
+- Document: [Handsontable is a JavaScript data grid that looks and feels like a spreadsheet - Available for React, Angular and Vue](https://handsontable.com/)
 
-**Github（⭐️ 16.8k）：**https://github.com/handsontable/handsontable
+Handsontable 是一个具有电子表格外观的 JavaScript 数据网格组件。适用于 React、Angular 和 Vue。它结合了数据网格功能和类似电子表格的 UX。它提供数据绑定、数据验证、过滤、排序和 CRUD 操作。
 
 ### **ag-grid**
 
-AG Grid 是一个功能齐全且高度可定制的 JavaScript 数据网格。它提供了出色的性能，没有第三方依赖，并且可以与所有主要的 JavaScript 框架顺利集成。
+- Github: [ag-grid/ag-grid: The best JavaScript Data Table for building Enterprise Applications. Supports React / Angular / Vue / Plain JavaScript.](https://github.com/ag-grid/ag-grid)
+- Document: [Data Grid: AG Grid: High-Performance React Grid, Angular Grid, JavaScript Grid](https://www.ag-grid.com/)
 
-**Github（⭐️ 16.8k）：**https://github.com/ag-grid/ag-grid
+AG Grid 是一个功能齐全且高度可定制的 JavaScript 数据网格。它提供了出色的性能，没有第三方依赖，并且可以与所有主要的 JavaScript 框架顺利集成。
 
 ### x-spreadsheet
 
-x-spreadsheet 是一个基于 Web 的 JavaScript（canvas）电子表格。
+- Github: [myliang/x-spreadsheet: A web-based JavaScript（canvas） spreadsheet](https://github.com/myliang/x-spreadsheet)
+- Document: [x-spreadsheet](https://myliang.github.io/x-spreadsheet/)
 
-**Github（⭐️ 12.6k）：**https://github.com/myliang/x-spreadsheet
+x-spreadsheet 是一个基于 Web 的 JavaScript（canvas）电子表格。
 
 ### cheetah-grid
 
-cheetah-grid 是最快的 Web 开源数据表。
+- Github: [future-architect/cheetah-grid: The fastest open-source data table for web.](https://github.com/future-architect/cheetah-grid)
+- Document: [Welcome | Cheetah Grid Demo](https://future-architect.github.io/cheetah-grid/#/)
 
-**Github（⭐️ 1.2k）：**https://github.com/future-architect/cheetah-grid
+cheetah-grid 是最快的 Web 开源数据表。
 
 ### ExcelJS
 
-ExcelJS 是一个 Excel 电子表格文件逆向工程项目。可以读取，操作并写入电子表格数据和样式到 XLSX 和 JSON 文件。
+- Github: [exceljs/exceljs: Excel Workbook Manager](https://github.com/exceljs/exceljs)
+- Document: [exceljs/README_zh.md at master · exceljs/exceljs](https://github.com/exceljs/exceljs/blob/master/README_zh.md)
 
-**Github（⭐️ 9.7k）：**https://github.com/exceljs/exceljs
+ExcelJS 是一个 Excel 电子表格文件逆向工程项目。可以读取，操作并写入电子表格数据和样式到 XLSX 和 JSON 文件。
 
 ### SheetJS
 
-SheetJS 是一个简化的电子表格，用意用来阅读、编辑和导出电子表格，其适用于 Web 浏览器和服务器，在 Office 365 中受 Microsoft 信任。
+- Github: [SheetJS/sheetjs: SheetJS Community Edition -- Spreadsheet Data Toolkit](https://github.com/SheetJS/sheetjs)
+- Document: [SheetJS - Home](https://sheetjs.com/)
 
-**Github（⭐️ 30.6k）：**https://github.com/SheetJS/sheetjs
+SheetJS 是一个简化的电子表格，用意用来阅读、编辑和导出电子表格，其适用于 Web 浏览器和服务器，在 Office 365 中受 Microsoft 信任。
 
 ## 5. 文件上传
 
 ### Uppy
 
-Uppy 是一款时尚的模块化 JavaScript 文件上传器，可与任何应用程序无缝集成。它速度快，具有易于理解的 API，让您不必担心比构建文件上传器更重要的问题。
+- Github: [transloadit/uppy: The next open source file uploader for web browsers](https://github.com/transloadit/uppy)
+- Document: [Uppy](https://uppy.io/)
 
-**Github（⭐️ 25.5k）：**https://github.com/transloadit/uppy
+Uppy 是一款时尚的模块化 JavaScript 文件上传器，可与任何应用程序无缝集成。它速度快，具有易于理解的 API，让您不必担心比构建文件上传器更重要的问题。
 
 ### filepond
 
-filepond 是一个用于上传文件的 JavaScript 库，优化图像以加快上传速度，并提供出色、可访问、如丝般流畅的用户体验。
+- Github: [pqina/filepond: 🌊 A flexible and fun JavaScript file upload library](https://github.com/pqina/filepond)
+- Document: [Easy File Uploading With JavaScript | FilePond](https://pqina.nl/filepond/)
 
-**Github（⭐️ 12.6k）：**https://github.com/pqina/filepond
+filepond 是一个用于上传文件的 JavaScript 库，优化图像以加快上传速度，并提供出色、可访问、如丝般流畅的用户体验。
 
 ### Dropzone
 
-Dropzone 是一个 JavaScript 库，可以将任何 HTML 元素转换为 dropzone。这意味着用户可以将文件拖放到上面，Dropzone 将显示文件预览和上传进度，并通过 XHR 为你处理上传。
+- Github: [dropzone/dropzone: Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars.](https://github.com/dropzone/dropzone)
+- Document: [Dropzone.js](https://www.dropzone.dev/js/)
 
-**Github（⭐️ 16.7k）：**https://github.com/dropzone/dropzone
+Dropzone 是一个 JavaScript 库，可以将任何 HTML 元素转换为 dropzone。这意味着用户可以将文件拖放到上面，Dropzone 将显示文件预览和上传进度，并通过 XHR 为你处理上传。
 
 ### vue-upload-component
 
-vue-upload-component 是一个用于 Vue.js 的上传组件，支持多文件上传，上传目录，拖拽上传，拖拽目录，以及支持同时上传多个文件等。
+- Github: [lian-yue/vue-upload-component: Vue.js file upload component, Multi-file upload, Upload directory, Drag upload, Drag the directory, Upload multiple files at the same time, html4 (IE 9), `PUT` method, Customize the filter](https://github.com/lian-yue/vue-upload-component)
+- Document: [vue-upload-component- Upload Component - Uploader](https://lian-yue.github.io/vue-upload-component/#/)
 
-**Github（⭐️ 2.5k）：**https://github.com/lian-yue/vue-upload-component
+vue-upload-component 是一个用于 Vue.js 的上传组件，支持多文件上传，上传目录，拖拽上传，拖拽目录，以及支持同时上传多个文件等。
 
 ### Uppload
 
-Uppload 是一个更好的 JavaScript 图片上传器。它具有 30 多个插件的高度可定制性，完全免费和开源，并且可以与任何文件上传后端一起使用。
+- Github: [elninotech/uppload: 📁 JavaScript image uploader and editor, no backend required](https://github.com/elninotech/uppload)
+- Document: [Uppload](https://uppload.js.org/)
 
-**Github（⭐️ 1.7k）：**https://github.com/elninotech/uppload
+Uppload 是一个更好的 JavaScript 图片上传器。它具有 30 多个插件的高度可定制性，完全免费和开源，并且可以与任何文件上传后端一起使用。
 
 ### react-dropzone
 
-react-dropzone 是一个为 React 量身定制的，基于 HTML5 的 drop && drag API，可以实现拖拽上传文件的 JavaScript 库。
+- [react-dropzone/react-dropzone: Simple HTML5 drag-drop zone with React.js.](https://github.com/react-dropzone/react-dropzone)
+- [react-dropzone](https://react-dropzone.js.org/)
 
-**Github（⭐️ 1.7k）：**https://github.com/react-dropzone/react-dropzone
+react-dropzone 是一个为 React 量身定制的，基于 HTML5 的 drop && drag API，可以实现拖拽上传文件的 JavaScript 库。
 
 ## 6. 其他
 
 ### JSZip
 
+- Github: [Stuk/jszip: Create, read and edit .zip files with Javascript](https://github.com/Stuk/jszip)
+- Document: [JSZip](https://stuk.github.io/jszip/)
+
 JSZip 是一个使用 JavaScript 创建、读取和编辑 .zip 文件的库，具有简单的 API。
 
-**Github（⭐️ 8.1k）：**https://github.com/Stuk/jszip
+### docxtemplater
 
-### **docxtemplater**
+- Github: [open-xml-templating/docxtemplater: Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js, the Browser and the command line / Demo: https://www.docxtemplater.com/demo. #docx #office #generator #templating #report #json #generate #generation #template #pptx #docx](https://github.com/open-xml-templating/docxtemplater)
+- Document: [Docxtemplater | Word, Powerpoint, Excel generation using templates in your application | docxtemplater](https://docxtemplater.com/)
 
 docxtemplater 是一个从 docx/pptx 模板生成 docx/pptx 文档的库。它可以用数据替换 {placeholders} 并且还支持循环和条件。
 
-**Github（⭐️ 2.2k）：**https://github.com/open-xml-templating/docxtemplater
-
 ### textract
+
+- Github: [dbashford/textract: node.js module for extracting text from html, pdf, doc, docx, xls, xlsx, csv, pptx, png, jpg, gif, rtf and more!](https://github.com/dbashford/textract)
 
 textract 是一个 node.js 模块，用于从 html、pdf、doc、docx、xls、xlsx、csv、pptx、png、jpg、gif、rtf 等中提取文本。
 
-**Github（⭐️ 1.5k）：**https://github.com/dbashford/textract
-
 ### PptxGenJS
+
+- Github: [gitbrent/PptxGenJS: Create PowerPoint presentations with a powerful, concise JavaScript API.](https://github.com/gitbrent/PptxGenJS)
+- Document: [Home | PptxGenJS](https://gitbrent.github.io/PptxGenJS/)
 
 PptxGenJS 是一个使用功能强大、简洁的 JavaScript API 创建 PowerPoint 演示文稿。
 
-**Github（⭐️ 1.6k）：**https://github.com/gitbrent/PptxGenJS
-
 ### officegen
+
+- Github: [Ziv-Barber/officegen: Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.](https://github.com/Ziv-Barber/officegen)
 
 officegen 是一个用于 JavaScript 中 Word (docx)、PowerPoint (pptx) 和 Excell (xlsx) 的独立 Office Open XML 文件（Microsoft Office 2007 及更高版本）生成器。
 
-**Github（⭐️ 2.4k）：**https://github.com/Ziv-Barber/officegen
-
 ### PapaParse
 
+- Github: [mholt/PapaParse: Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input](https://github.com/mholt/PapaParse)
+- Document: [Papa Parse - Powerful CSV Parser for JavaScript](https://www.papaparse.com/)
+
 PapaParse 是一个快速而强大的 CSV（分隔文本）解析器，可以优雅地处理大文件和格式错误的输入。
-
-**Github（⭐️ 10.6k）：**https://github.com/mholt/PapaParse
-
-**往期推荐：**
-
-[2022 年 Vue 的发展如何？](http://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247503284&idx=1&sn=96c5b387407735da81aa7071a6081450&chksm=fc7e83efcb090af90af5b6260f13e9d7642b2b8738c877e8a7fcfa6b88072884cdc59574706d&scene=21#wechat_redirect)
-
-[你需要知道的 19 个 console 实用调试技巧](http://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247502838&idx=1&sn=54ae743a8cae6d7e80ca4c707d1dcbbd&chksm=fc7e85adcb090cbb4f2c574e764ebef29586fe3c7ec84c8f5c5e48f5f47757f71be0af9bc559&scene=21#wechat_redirect)
-
-[盘点 10 个 GitHub 上的前端高仿项目](http://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247502590&idx=1&sn=cec32a37ee59d383209d2d7c7c799f8c&chksm=fc7e84a5cb090db38b17addcabf354f1eb98623b27f10913527175f182084dee24e37610a9b2&scene=21#wechat_redirect)
-
-[JavaScript 条件语句优化小技巧](http://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247502560&idx=1&sn=b2980065d79b050ec00041ebf3fac467&chksm=fc7e84bbcb090dadf754fdb7e85a465b3dd9f4c0baa192f4892101c46629b5e18a8992294cc5&scene=21#wechat_redirect)
-
-[Vue 2.7 正式发布，代号为 Naruto](http://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247502488&idx=1&sn=8e37820b656f79f2557e575baf1d4e8d&chksm=fc7e84c3cb090dd5525a31617c741c2a7b6f51cdb770fc7ee5008ac2644094852cbef7922cbb&scene=21#wechat_redirect)
-
-[盘点 Vue.js 那些有趣的版本名称！](http://mp.weixin.qq.com/s?__biz=MzU2MTIyNDUwMA==&mid=2247502461&idx=1&sn=915544239032a69b5724e23c0abcdb5b&chksm=fc7e8426cb090d30452183e1ac55da49c555f76fd84806dc53e9b6921bad8b878789708496f3&scene=21#wechat_redirect)

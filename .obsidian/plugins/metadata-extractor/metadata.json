@@ -684,16 +684,26 @@
     ]
   },
   {
-    "fileName": "文件处理库",
-    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/文件处理库.md",
+    "fileName": "Document Handler",
+    "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md",
     "tags": [
       "frontentool",
-      "ducumenthandler"
+      "ducumenthandler",
+      "docx",
+      "office",
+      "generator",
+      "templating",
+      "report",
+      "json",
+      "generate",
+      "generation",
+      "template",
+      "pptx"
     ],
     "frontmatter": {
-      "title": "文件处理库",
+      "title": "Document Handler",
       "creation date": "2022-07-15 15:48:08",
-      "status": "todo",
+      "status": "done",
       "tag": [
         "FrontenTool",
         "DucumentHandler"
@@ -707,7 +717,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 105
+          "offset": 116
         }
       }
     },
@@ -793,10 +803,6 @@
         "level": 3
       },
       {
-        "heading": "Howler.js",
-        "level": 3
-      },
-      {
         "heading": "4. 表格",
         "level": 2
       },
@@ -861,7 +867,7 @@
         "level": 3
       },
       {
-        "heading": "**docxtemplater**",
+        "heading": "docxtemplater",
         "level": 3
       },
       {
