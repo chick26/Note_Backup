@@ -4526,6 +4526,61 @@
     ]
   },
   {
+    "fileName": "Git commit message",
+    "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
+    "tags": [
+      "git",
+      "commit"
+    ],
+    "frontmatter": {
+      "title": "Git commit message",
+      "creation date": "2022-07-18 17:09:53",
+      "status": "todo",
+      "tag": [
+        "Git",
+        "commit"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 102
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "\"type\" must be one of the following mentioned below!",
+        "level": 2
+      },
+      {
+        "heading": "\"scope\" is optional",
+        "level": 2
+      },
+      {
+        "heading": "\"subject\"",
+        "level": 2
+      },
+      {
+        "heading": "[](#references)References:",
+        "level": 4
+      }
+    ],
+    "links": [
+      {
+        "link": "#references",
+        "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
+        "cleanLink": "Git commit message",
+        "displayText": ""
+      }
+    ]
+  },
+  {
     "fileName": "git hooks",
     "relativePath": "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
     "tags": [

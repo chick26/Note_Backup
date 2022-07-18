@@ -378,6 +378,20 @@
     ]
   },
   {
+    "tag": "git",
+    "tagCount": 2,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
+    ]
+  },
+  {
+    "tag": "commit",
+    "tagCount": 1,
+    "relativePaths": [
+      "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
+    ]
+  },
+  {
     "tag": "git/hooks",
     "tagCount": 1,
     "relativePaths": [
