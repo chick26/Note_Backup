@@ -1,103 +1,50 @@
 [
   {
     "tag": "x/readme",
-    "tagCount": 5,
+    "tagCount": 4,
     "relativePaths": [
+      "• Encounters/+ About Encounters.md",
       "Spaces/+ About Spaces.md",
-      "Sources/Articles/+ About the Articles Folder.md",
       "Sources/+ About Sources.md",
-      "Cards/+ About Cards.md",
-      "• Encounters/+ About Encounters.md"
+      "Cards/+ About Cards.md"
     ]
   },
   {
     "tag": "atlas/moc🗺",
-    "tagCount": 24,
+    "tagCount": 19,
     "relativePaths": [
-      "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Spaces/Life/• MOCs/Life Space™ (Kit).md",
-      "Cards/Convergence (defn).md",
-      "Cards/Evergreen notes.md",
-      "Cards/Commonplace Book 📖.md",
-      "Cards/FlowCreation MOC.md",
-      "Cards/Cabin 🪵.md",
-      "Atlas/MOCs/Concepts MOC.md",
-      "Atlas/MOCs/People MOC.md",
-      "Atlas/MOCs/Finance MOC.md",
-      "Atlas/MOCs/Philosophy MOC (Kit).md",
+      "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Atlas/MOCs/Thinking.md",
       "Atlas/MOCs/Sources MOC.md",
-      "Atlas/MOCs/Psychology MOC (Kit).md",
       "Atlas/MOCs/Projects 🏗.md",
+      "Atlas/MOCs/Psychology MOC (Kit).md",
+      "Atlas/MOCs/Philosophy MOC (Kit).md",
+      "Atlas/MOCs/People MOC.md",
+      "Atlas/MOCs/Health MOC.md",
       "Atlas/MOCs/My PKM MOC (Kit).md",
       "Atlas/MOCs/Library/Systems MOC (Kit).md",
+      "Atlas/MOCs/Library/Speech MOC.md",
       "Atlas/MOCs/Library/Places MOC.md",
       "Atlas/MOCs/Library/Language MOC.md",
-      "Atlas/MOCs/Library/Collective Intelligence MOC.md",
-      "Atlas/MOCs/Library/Speech MOC.md",
       "Atlas/MOCs/Library/Habits MOC.md",
-      "Atlas/MOCs/Health MOC.md",
+      "Atlas/MOCs/Library/Collective Intelligence MOC.md",
+      "Atlas/MOCs/Finance MOC.md",
+      "Atlas/MOCs/Concepts MOC.md",
       "Atlas/+ Library.md"
-    ]
-  },
-  {
-    "tag": "space/lyt",
-    "tagCount": 1,
-    "relativePaths": [
-      "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
-    ]
-  },
-  {
-    "tag": "project/archive",
-    "tagCount": 1,
-    "relativePaths": [
-      "Spaces/Work/Projects/Archive/LYT Kit v4.md"
-    ]
-  },
-  {
-    "tag": "output/newsletter",
-    "tagCount": 5,
-    "relativePaths": [
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 5 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 4 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 3 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 2 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md"
     ]
   },
   {
     "tag": "x/index",
     "tagCount": 7,
     "relativePaths": [
-      "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md",
       "Spaces/Life/Support notes/+ Index for Life Spaces.md",
+      "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md",
       "Sources/+ Index for Sources.md",
       "Cards/+ Index for Cards.md",
       "Cards/People/+ Index for People.md",
       "Atlas/Scopes/+ Index for index notes.md",
       "Atlas/+ Index for Atlases (Kit).md"
-    ]
-  },
-  {
-    "tag": "project",
-    "tagCount": 4,
-    "relativePaths": [
-      "Spaces/Life/Projects/2022 Car Tires Project/Tire Billing Invoice.md",
-      "Atlas/MOCs/Projects 🏗.md"
-    ]
-  },
-  {
-    "tag": "project/active",
-    "tagCount": 1,
-    "relativePaths": [
-      "Spaces/Life/Projects/2022 Car Tires Project/Project • Get new tires.md"
-    ]
-  },
-  {
-    "tag": "space/life",
-    "tagCount": 3,
-    "relativePaths": [
-      "Spaces/Life/Projects/2022 Car Tires Project/Project • Get new tires.md"
     ]
   },
   {
@@ -109,17 +56,420 @@
     ]
   },
   {
-    "tag": "source/paper📑",
+    "tag": "space/lyt",
     "tagCount": 1,
     "relativePaths": [
-      "Sources/Research Papers/2010 📑 Willpower - Robinson et al.md"
+      "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
     ]
   },
   {
-    "tag": "on/willpower",
+    "tag": "output/newsletter",
+    "tagCount": 5,
+    "relativePaths": [
+      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 5 (Example).md",
+      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 2 (Example).md",
+      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 4 (Example).md",
+      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 3 (Example).md",
+      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md"
+    ]
+  },
+  {
+    "tag": "csbasic",
     "tagCount": 1,
     "relativePaths": [
-      "Sources/Research Papers/2010 📑 Willpower - Robinson et al.md"
+      "Sources/Knowledges/🗄 Avatar | 待分类/与上下文无关的语法.md"
+    ]
+  },
+  {
+    "tag": "datastructrue/array",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
+    ]
+  },
+  {
+    "tag": "datastructrue/hashtable",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md"
+    ]
+  },
+  {
+    "tag": "mysql",
+    "tagCount": 9,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
+    ]
+  },
+  {
+    "tag": "permission",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md"
+    ]
+  },
+  {
+    "tag": "mysql/programdev",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md"
+    ]
+  },
+  {
+    "tag": "mysql/dataobject",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md"
+    ]
+  },
+  {
+    "tag": "innodb",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
+    ]
+  },
+  {
+    "tag": "uilibrary",
+    "tagCount": 2,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
+    ]
+  },
+  {
+    "tag": "designprinciple",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md"
+    ]
+  },
+  {
+    "tag": "dumi",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
+    ]
+  },
+  {
+    "tag": "frontentool",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "ducumenthandler",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "docx",
+    "tagCount": 2,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "office",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "generator",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "templating",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "report",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "json",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "generate",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "generation",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "template",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "pptx",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "javascript",
+    "tagCount": 3,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
+    ]
+  },
+  {
+    "tag": "filepreview",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md"
+    ]
+  },
+  {
+    "tag": "charles",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md"
+    ]
+  },
+  {
+    "tag": "typescript",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md"
+    ]
+  },
+  {
+    "tag": "rollupjs",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md"
+    ]
+  },
+  {
+    "tag": "package/fronten",
+    "tagCount": 2,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
+    ]
+  },
+  {
+    "tag": "webpack",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
+    ]
+  },
+  {
+    "tag": "deploy",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
+    ]
+  },
+  {
+    "tag": "applescript",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md"
+    ]
+  },
+  {
+    "tag": "html",
+    "tagCount": 8,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
+    ]
+  },
+  {
+    "tag": "html/formvalidation",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
+    ]
+  },
+  {
+    "tag": "html/tag",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
+    ]
+  },
+  {
+    "tag": "html/principel",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
+    ]
+  },
+  {
+    "tag": "html/semantic",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
+    ]
+  },
+  {
+    "tag": "javascript/promise",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
+    ]
+  },
+  {
+    "tag": "internet",
+    "tagCount": 18,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
+    ]
+  },
+  {
+    "tag": "internet/webhosting",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md"
+    ]
+  },
+  {
+    "tag": "internet/www",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+    ]
+  },
+  {
+    "tag": "internet/webbrowser",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+    ]
+  },
+  {
+    "tag": "internet/ip",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/IP.md"
+    ]
+  },
+  {
+    "tag": "internet/domainname",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md"
+    ]
+  },
+  {
+    "tag": "internet/url",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+    ]
+  },
+  {
+    "tag": "internet/dns",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
+    ]
+  },
+  {
+    "tag": "internet/apranet",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
+    ]
+  },
+  {
+    "tag": "git/hooks",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md"
+    ]
+  },
+  {
+    "tag": "git",
+    "tagCount": 2,
+    "relativePaths": [
+      "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
+    ]
+  },
+  {
+    "tag": "commit",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
+    ]
+  },
+  {
+    "tag": "markdown/mermaid",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/🎰 Markdown/Mermaid.md"
+    ]
+  },
+  {
+    "tag": "cfa",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md"
+    ]
+  },
+  {
+    "tag": "time",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md"
+    ]
+  },
+  {
+    "tag": "value",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md"
     ]
   },
   {
@@ -131,123 +481,11 @@
     ]
   },
   {
-    "tag": "source/book📚",
-    "tagCount": 5,
-    "relativePaths": [
-      "Sources/Books/2018 📚 Atomic Habits.md",
-      "Sources/Books/1949 📚 1984 (Kit).md",
-      "Sources/Books/2015 📚 Between the World and Me (Kit).md",
-      "Sources/Books/1844 📚 The Count of Monte Cristo (Kit).md",
-      "Sources/Books/150 📚 The Almagest.md"
-    ]
-  },
-  {
-    "tag": "on/habit",
-    "tagCount": 26,
-    "relativePaths": [
-      "Sources/Books/2018 📚 Atomic Habits.md",
-      "Cards/Understanding the habit cycle and habitual cues.md",
-      "Cards/Changing a habit is really about replacing a routine.md",
-      "Cards/The neural formation of habits is additive.md",
-      "Cards/Habits carry a ton of hidden inertia.md",
-      "Cards/Words I've used to describe important habits.md",
-      "Cards/Habit formation provides an evolutionary advantage.md",
-      "Cards/How Atomic Habits fit into the conversation on habits.md",
-      "Cards/Ant pheromone trails act like potential habits.md",
-      "Cards/Important habits preserve mental clarity and a sense of control.md",
-      "Cards/The truest habit metaphors are additive.md",
-      "Cards/Charting out habit cycles in my life circa 2013.md",
-      "Cards/Improving Micro Habits at the Point of Contact.md",
-      "Cards/An asymptotic curve models the development of skills, strength, habits, and more.md",
-      "Cards/Preparing for the next day is an important habit.md",
-      "Cards/Writing down daily goals in the morning is an important habit.md",
-      "Cards/Previous versions/Habits MOC - Gather.md",
-      "Cards/Previous versions/Habits MOC - Collide.md",
-      "Cards/The mechanism for breaking through development plateaus.md",
-      "Cards/Being able to adapt is an important habit.md",
-      "Cards/Like begets like.md",
-      "Cards/Defining a habit.md",
-      "Cards/Journaling in the morning is an important habit.md",
-      "Cards/Resiliency Routines help regain a sense of control.md",
-      "Cards/Cobwebs into Cables.md",
-      "Atlas/MOCs/Library/Habits MOC.md"
-    ]
-  },
-  {
-    "tag": "on/pd",
-    "tagCount": 16,
-    "relativePaths": [
-      "Sources/Books/2018 📚 Atomic Habits.md",
-      "Cards/Understanding the habit cycle and habitual cues.md",
-      "Cards/Words I've used to describe important habits.md",
-      "Cards/How Atomic Habits fit into the conversation on habits.md",
-      "Cards/Important habits preserve mental clarity and a sense of control.md",
-      "Cards/Charting out habit cycles in my life circa 2013.md",
-      "Cards/Improving Micro Habits at the Point of Contact.md",
-      "Cards/Preparing for the next day is an important habit.md",
-      "Cards/Writing down daily goals in the morning is an important habit.md",
-      "Cards/Being able to adapt is an important habit.md",
-      "Cards/Like begets like.md",
-      "Cards/FlowCreation MOC.md",
-      "Cards/Journaling in the morning is an important habit.md",
-      "Cards/Resiliency Routines help regain a sense of control.md",
-      "Cards/Small Wins foster a Sense of Control.md",
-      "Cards/Cobwebs into Cables.md"
-    ]
-  },
-  {
-    "tag": "source/speech🗣",
+    "tag": "<%tp.file.cursor(1)%>",
     "tagCount": 2,
     "relativePaths": [
-      "Sources/Talks/2009 🗣 Analogy as Core - Hofstadter (Kit).md",
-      "Cards/The Riddle IS the Answer (Kit).md"
-    ]
-  },
-  {
-    "tag": "source/quote💬/250",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Talks/2009 🗣 Analogy as Core - Hofstadter (Kit).md"
-    ]
-  },
-  {
-    "tag": "source/quote💬",
-    "tagCount": 12,
-    "relativePaths": [
-      "Sources/Talks/2009 🗣 Analogy as Core - Hofstadter (Kit).md",
-      "Cards/Concept Expansion.md",
-      "Cards/Commonplace Book 📖.md",
-      "Cards/Fluid Taxonomies.md"
-    ]
-  },
-  {
-    "tag": "source/article🗞",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Articles/2020 - Reading Comprehension - Bob Bain.md"
-    ]
-  },
-  {
-    "tag": "source/movie🎬",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Movies + TV/1993 🎬  Groundhog Day (Kit).md"
-    ]
-  },
-  {
-    "tag": "note/question❓",
-    "tagCount": 5,
-    "relativePaths": [
-      "Sources/Movies + TV/1993 🎬  Groundhog Day (Kit).md",
-      "Cards/How can we be responsible pro-active citizens without becoming full-time activists.md",
-      "Cards/What would it take to get to self-driving cars to collectively communicate.md"
-    ]
-  },
-  {
-    "tag": "source/music🎵/100",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Music/1962 🎵 Sinnerman.md"
+      "Extras/Templates/Template, Mind-Note.md",
+      "Extras/Templates/Template, Learning-Note.md"
     ]
   },
   {
@@ -259,244 +497,64 @@
     ]
   },
   {
-    "tag": "calendar",
-    "tagCount": 5,
+    "tag": "booktype",
+    "tagCount": 1,
     "relativePaths": [
-      "Extras/Templates/Template, Daily Note (Kit).md"
+      "Extras/Templates/Template, Book-Note.md"
     ]
   },
   {
-    "tag": "on/flow",
-    "tagCount": 14,
+    "tag": "bookgenre",
+    "tagCount": 1,
     "relativePaths": [
-      "Cards/Flow Stoppers.md",
-      "Cards/Attention (re Flow).md",
-      "Cards/Energy (re Flow).md",
-      "Cards/Balancing Challenge and Skill.md",
-      "Cards/Four Factors of Flow.md",
-      "Cards/Flow.md",
-      "Cards/Enthusiasm (re Flow).md",
-      "Cards/Practical Tactics for Finding Flow.md",
-      "Cards/Solutions to Flow Stoppers.md",
-      "Cards/Direction (re Flow).md",
-      "Cards/FlowCreation Theory.md",
-      "Cards/Meta-Skills for Flowcreation.md",
-      "Cards/Conditions of Flow.md",
-      "Cards/Flow Map.md"
+      "Extras/Templates/Template, Book-Note.md"
     ]
   },
   {
-    "tag": "concept",
-    "tagCount": 37,
+    "tag": "booktheme",
+    "tagCount": 1,
     "relativePaths": [
-      "Cards/Selfish Gene.md",
-      "Cards/Use it or Lose it.md",
-      "Cards/You are what you eat.md",
-      "Cards/No-Face.md",
-      "Cards/Priming.md",
-      "Cards/Positive Feedback Loop.md",
-      "Cards/Signal to Noise Ratio.md",
-      "Cards/Natural Selection.md",
-      "Cards/The Id.md",
-      "Cards/Flow.md",
-      "Cards/Munger's Mental Models.md",
-      "Cards/Method of Loci.md",
-      "Cards/MOCs encourage flexible non-destructive thinking.md",
-      "Cards/Newton's Laws of Motion.md",
-      "Cards/Yin and Yang.md",
-      "Cards/Concept Expansion.md",
-      "Cards/Hormesis.md",
-      "Cards/Gall's Law.md",
-      "Cards/Wu wei.md",
-      "Cards/Aikido.md",
-      "Cards/Antifragility.md",
-      "Cards/Shadow Clone.md",
-      "Cards/Dimensions of Reality.md",
-      "Cards/Synthesis.md",
-      "Cards/Rubik's Cube.md",
-      "Cards/Like begets like.md",
-      "Cards/Mountain Top Water Drop.md",
-      "Cards/Strong opinions, weakly held.md",
-      "Cards/Reps.md",
-      "Cards/Framing.md",
-      "Cards/Cause and Effect.md",
-      "Cards/Lindy Effect.md",
-      "Cards/OODA Loop.md",
-      "Cards/Forcing Function.md",
-      "Cards/Levels of Magnification.md",
-      "Cards/Refraction Thinking.md",
-      "Cards/Cobwebs into Cables.md"
+      "Extras/Templates/Template, Book-Note.md"
     ]
   },
   {
-    "tag": "note/boat🚤",
-    "tagCount": 7,
+    "tag": "excalidraw",
+    "tagCount": 1,
     "relativePaths": [
-      "Cards/Selfish Gene.md",
-      "Cards/Signal to Noise Ratio.md",
-      "Cards/Method of Loci.md",
-      "Cards/People/Mihaly Csikszentmihalyi.md",
-      "Cards/People's attributes are domain-specific.md",
-      "Cards/Survival of the Fittest.md",
-      "Cards/Sense of Control.md"
+      "Extras/Excalidraw/数据库/数据库与数据库实例.excalidraw.md"
     ]
   },
   {
     "tag": "on/pkm",
-    "tagCount": 54,
+    "tagCount": 3,
     "relativePaths": [
       "Cards/Zettelkasten and LYT Frameworks.md",
-      "Cards/Commentary on the silliness of trying to maintain an A-Z list of MOCs.md",
-      "Cards/What does X mean in metadata.md",
-      "Cards/Spatial Context.md",
-      "Cards/What is an MOC - Various Answers.md",
-      "Cards/On having a TODO note.md",
-      "Cards/Information that crosses our attentional filter becomes knowledge.md",
-      "Cards/What is a note.md",
-      "Cards/LYT About.md",
-      "Cards/MOCs are Dialectics.md",
-      "Cards/Evergreen notes are antifragile.md",
-      "Cards/Mental Squeeze Point.md",
-      "Cards/MOCs encourage flexible non-destructive thinking.md",
-      "Cards/Deploy Spaces with the MAPS folder structure.md",
-      "Cards/Idea Emergence.md",
-      "Cards/On the process of note-making.md",
-      "Cards/Benefits of LYT frameworks.md",
-      "Cards/LYT Glossary.md",
-      "Cards/When Naming Notes, What UID should I use.md",
       "Cards/Previous versions/Habits MOC - Gather.md",
-      "Cards/Previous versions/Habits MOC - Collide.md",
-      "Cards/Note-making is about the pursuit of truth.md",
-      "Cards/Why Categories for Your Notes are a Good Idea.md",
-      "Cards/Evergreen notes.md",
-      "Cards/LYT Framework.md",
-      "Cards/Note-making creates unexpected optionality.md",
-      "Cards/Thought Collisions.md",
-      "Cards/Set Up Your Home Note.md",
-      "Cards/Is LYT For Me.md",
-      "Cards/Datascope (defn).md",
-      "Cards/MOCs (defn).md",
-      "Cards/The 3 Phases of MOCs.md",
-      "Cards/Evergreen notes are things or statements about things.md",
-      "Cards/Guiding Values of PKM.md",
-      "Cards/MOCs are both workbenches and maps.md",
-      "Cards/Note-makers.md",
-      "Cards/Linking your thinking encourages leaps of insights.md",
-      "Cards/Mapping the flexible flow of ideas.md",
-      "Cards/Note-making sharpens your thinking.md",
-      "Cards/LYT FAQ.md",
-      "Cards/Fluid Taxonomies.md",
-      "Cards/Figuring out your Home MOCs.md",
-      "Cards/Evergreen notes maximize reusability.md",
-      "Cards/The 3 Phases of MOCs, a coda.md",
-      "Cards/Fluid Frameworks.md",
-      "Cards/What is a Zettelkasten - Various Answers.md",
-      "Cards/The Home note vs The MOC Library.md",
-      "Cards/MOCs Overview.md",
-      "Cards/Evergreen notes (defn).md",
-      "Cards/What are higher-order notes.md",
-      "Cards/BOAT notes.md",
-      "Cards/Evergreen notes compound in value over time.md",
-      "Cards/Progressive Ideation.md",
       "Atlas/MOCs/Library/Habits MOC.md"
     ]
   },
   {
-    "tag": "note/develop🍃",
-    "tagCount": 9,
-    "relativePaths": [
-      "Cards/Use it or Lose it.md",
-      "Cards/You are what you eat.md",
-      "Cards/Seasons.md",
-      "Cards/Priming.md",
-      "Cards/Plato's Cave.md",
-      "Cards/Yin and Yang.md",
-      "Cards/We chronically underestimate how long something takes.md",
-      "Cards/Cause and Effect.md",
-      "Cards/Forcing Function.md"
-    ]
-  },
-  {
-    "tag": "on/reps",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/Deliberate Practice.md",
-      "Cards/Trust the process (Kit).md",
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "source/quote💬/my",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/Signal to Noise Ratio.md",
-      "Cards/It's circular but true, we become what we do.md",
-      "Cards/Gall's Law.md"
-    ]
-  },
-  {
-    "tag": "note/tidy🧹",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Natural Selection.md"
-    ]
-  },
-  {
-    "tag": "on/systems",
-    "tagCount": 5,
-    "relativePaths": [
-      "Cards/Complexity (defn).md",
-      "Cards/Idea Emergence.md",
-      "Cards/Emergence (defn).md",
-      "Cards/Heterarchy.md",
-      "Cards/Divergence (defn).md"
-    ]
-  },
-  {
-    "tag": "output/youtube/☑️",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/What is a note.md"
-    ]
-  },
-  {
-    "tag": "on/freedom",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/a few so free that they are enslaved in pursuit of their follies''.md"
-    ]
-  },
-  {
-    "tag": "source/quote💬/100",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/a few so free that they are enslaved in pursuit of their follies''.md",
-      "Cards/It's circular but true, we become what we do.md",
-      "Cards/evaporated in a thousand follies''.md"
-    ]
-  },
-  {
-    "tag": "on/memory",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Chunking.md"
-    ]
-  },
-  {
-    "tag": "idea/spark✨",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/Idea example 1.md",
-      "Cards/Idea example 3.md",
-      "Cards/Idea example 2.md"
-    ]
-  },
-  {
-    "tag": "on/living",
+    "tag": "concept",
     "tagCount": 2,
     "relativePaths": [
-      "Cards/Four Virtues.md",
-      "Cards/Commonplace Book 📖.md"
+      "Cards/You are what you eat.md",
+      "Cards/Yin and Yang.md"
+    ]
+  },
+  {
+    "tag": "note/develop🍃",
+    "tagCount": 2,
+    "relativePaths": [
+      "Cards/You are what you eat.md",
+      "Cards/Yin and Yang.md"
+    ]
+  },
+  {
+    "tag": "on/habit",
+    "tagCount": 2,
+    "relativePaths": [
+      "Cards/Previous versions/Habits MOC - Gather.md",
+      "Atlas/MOCs/Library/Habits MOC.md"
     ]
   },
   {
@@ -508,378 +566,16 @@
   },
   {
     "tag": "on/breathing",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/People/Wim Hof.md",
-      "Cards/Exploring Wim Hof's Breath Manipulation (Kit).md"
-    ]
-  },
-  {
-    "tag": "people/p/business",
     "tagCount": 1,
     "relativePaths": [
-      "Cards/People/Steve Jobs.md"
+      "Cards/People/Wim Hof.md"
     ]
   },
   {
-    "tag": "people/p/ancient/greek",
+    "tag": "project",
     "tagCount": 1,
     "relativePaths": [
-      "Cards/People/Ptolemy (Kit).md"
-    ]
-  },
-  {
-    "tag": "people/p/science",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/People/Ptolemy (Kit).md",
-      "Cards/People/Carl Sagan.md"
-    ]
-  },
-  {
-    "tag": "people/p/art/music",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/People/Nina Simone.md",
-      "Cards/K. Anders Ericsson.md"
-    ]
-  },
-  {
-    "tag": "people/p",
-    "tagCount": 8,
-    "relativePaths": [
-      "Cards/People/Mihaly Csikszentmihalyi.md"
-    ]
-  },
-  {
-    "tag": "people/p/politics",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/People/Mary Wollstonecraft.md"
-    ]
-  },
-  {
-    "tag": "people",
-    "tagCount": 11,
-    "relativePaths": [
-      "Cards/People/Douglas R. Hofstadter.md",
-      "Cards/Birthdays Example.md"
-    ]
-  },
-  {
-    "tag": "essay/2020",
-    "tagCount": 5,
-    "relativePaths": [
-      "Cards/Art of Link Curation.md",
-      "Cards/Note-making is about the pursuit of truth.md",
-      "Cards/Thought Collisions.md",
-      "Cards/Fluid Thinking.md",
-      "Cards/The Riddle of Two Paths (Kit).md"
-    ]
-  },
-  {
-    "tag": "essay/2019",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Trust the process (Kit).md"
-    ]
-  },
-  {
-    "tag": "on/mind",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/The truest habit metaphors are additive.md"
-    ]
-  },
-  {
-    "tag": "x/meta",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/LYT Kit - Release Notes.md",
-      "Atlas/MOCs/My PKM MOC (Kit).md"
-    ]
-  },
-  {
-    "tag": "on/design",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/Cybertron Theme.md",
-      "Cards/LYT Mode Theme.md"
-    ]
-  },
-  {
-    "tag": "calendar/journal",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Charting out habit cycles in my life circa 2013.md"
-    ]
-  },
-  {
-    "tag": "essay/2013",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Improving Micro Habits at the Point of Contact.md"
-    ]
-  },
-  {
-    "tag": "on/practice",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/An asymptotic curve models the development of skills, strength, habits, and more.md",
-      "Cards/Commonplace Book 📖.md",
-      "Cards/The mechanism for breaking through development plateaus.md"
-    ]
-  },
-  {
-    "tag": "on/excellence",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/An asymptotic curve models the development of skills, strength, habits, and more.md",
-      "Cards/Commonplace Book 📖.md",
-      "Cards/The mechanism for breaking through development plateaus.md"
-    ]
-  },
-  {
-    "tag": "on/aq",
-    "tagCount": 3,
-    "relativePaths": [
-      "Cards/An asymptotic curve models the development of skills, strength, habits, and more.md",
-      "Cards/The mechanism for breaking through development plateaus.md",
-      "Cards/The Riddle of Two Paths (Kit).md"
-    ]
-  },
-  {
-    "tag": "essay/2014",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/Writing down daily goals in the morning is an important habit.md",
-      "Cards/Journaling in the morning is an important habit.md"
-    ]
-  },
-  {
-    "tag": "on/lyt",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Thought Collisions.md"
-    ]
-  },
-  {
-    "tag": "on/health",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/nutrition",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/diet",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/exercise",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/dying",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/legacy",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/people",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/leadership",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/attitude",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/belief",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/courage",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/action",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/doing",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/starting",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/perseverance",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/toughness",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/luck",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/integrity",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/goals",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md"
-    ]
-  },
-  {
-    "tag": "on/constraints",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/Commonplace Book 📖.md",
-      "Cards/evaporated in a thousand follies''.md"
-    ]
-  },
-  {
-    "tag": "on/body",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/The mechanism for breaking through development plateaus.md"
-    ]
-  },
-  {
-    "tag": "on/strength",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/The mechanism for breaking through development plateaus.md"
-    ]
-  },
-  {
-    "tag": "on/philosophy",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Aikido.md"
-    ]
-  },
-  {
-    "tag": "output/blog",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/On the process of making MOCs.md",
-      "Cards/In what ways can we form useful relationships between notes.md"
-    ]
-  },
-  {
-    "tag": "on/thinking",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/Fluid Thinking.md",
-      "Cards/Bottom-up thinking.md"
-    ]
-  },
-  {
-    "tag": "essay/2015",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Exploring Wim Hof's Breath Manipulation (Kit).md"
-    ]
-  },
-  {
-    "tag": "essay/2022",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/The Riddle IS the Answer (Kit).md"
-    ]
-  },
-  {
-    "tag": "on/riddle",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/The Riddle of Two Paths (Kit).md"
-    ]
-  },
-  {
-    "tag": "essay/2012",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/Conditions of Flow.md"
-    ]
-  },
-  {
-    "tag": "atlas/scope🔬",
-    "tagCount": 7,
-    "relativePaths": [
-      "Atlas/Scopes/Prominent People 🌋 (Kit).md",
-      "Atlas/Scopes/Ideas ✨ (Kit).md",
-      "Atlas/Scopes/Cooling pad 🧊.md",
-      "Atlas/Scopes/Notebox 🗃 (Kit).md",
-      "Atlas/Scopes/Artifacts 💠.md",
-      "Atlas/Scopes/Bookshelf 📚 (Kit).md",
-      "Atlas/Logs/Essays 🖌.md"
+      "Atlas/MOCs/Projects 🏗.md"
     ]
   },
   {
@@ -911,6 +607,13 @@
     ]
   },
   {
+    "tag": "x/meta",
+    "tagCount": 1,
+    "relativePaths": [
+      "Atlas/MOCs/My PKM MOC (Kit).md"
+    ]
+  },
+  {
     "tag": "on/travel",
     "tagCount": 1,
     "relativePaths": [
@@ -925,438 +628,16 @@
     ]
   },
   {
-    "tag": "csbasic",
-    "tagCount": 1,
+    "tag": "atlas/scope🔬",
+    "tagCount": 7,
     "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类/与上下文无关的语法.md"
-    ]
-  },
-  {
-    "tag": "uilibrary",
-    "tagCount": 2,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
-    ]
-  },
-  {
-    "tag": "designprinciple",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md"
-    ]
-  },
-  {
-    "tag": "dumi",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
-    ]
-  },
-  {
-    "tag": "typescript",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md"
-    ]
-  },
-  {
-    "tag": "frontentool",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "ducumenthandler",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "docx",
-    "tagCount": 2,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "office",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "generator",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "templating",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "report",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "json",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "generate",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "generation",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "template",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "pptx",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "javascript",
-    "tagCount": 3,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
-    ]
-  },
-  {
-    "tag": "filepreview",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md"
-    ]
-  },
-  {
-    "tag": "charles",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md"
-    ]
-  },
-  {
-    "tag": "webpack",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
-    ]
-  },
-  {
-    "tag": "deploy",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
-    ]
-  },
-  {
-    "tag": "package/fronten",
-    "tagCount": 2,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md"
-    ]
-  },
-  {
-    "tag": "rollupjs",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md"
-    ]
-  },
-  {
-    "tag": "javascript/promise",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
-    ]
-  },
-  {
-    "tag": "internet",
-    "tagCount": 18,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
-    ]
-  },
-  {
-    "tag": "internet/webhosting",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md"
-    ]
-  },
-  {
-    "tag": "internet/webbrowser",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
-    ]
-  },
-  {
-    "tag": "internet/www",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
-    ]
-  },
-  {
-    "tag": "internet/url",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
-    ]
-  },
-  {
-    "tag": "internet/ip",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/IP.md"
-    ]
-  },
-  {
-    "tag": "internet/domainname",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md"
-    ]
-  },
-  {
-    "tag": "internet/dns",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
-    ]
-  },
-  {
-    "tag": "internet/apranet",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
-    ]
-  },
-  {
-    "tag": "html",
-    "tagCount": 8,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
-    ]
-  },
-  {
-    "tag": "html/formvalidation",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
-    ]
-  },
-  {
-    "tag": "html/principel",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
-    ]
-  },
-  {
-    "tag": "html/semantic",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
-    ]
-  },
-  {
-    "tag": "html/tag",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
-    ]
-  },
-  {
-    "tag": "applescript",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md"
-    ]
-  },
-  {
-    "tag": "datastructrue/array",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
-    ]
-  },
-  {
-    "tag": "datastructrue/hashtable",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md"
-    ]
-  },
-  {
-    "tag": "mysql",
-    "tagCount": 9,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
-    ]
-  },
-  {
-    "tag": "mysql/programdev",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md"
-    ]
-  },
-  {
-    "tag": "mysql/dataobject",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md"
-    ]
-  },
-  {
-    "tag": "permission",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md"
-    ]
-  },
-  {
-    "tag": "innodb",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
-    ]
-  },
-  {
-    "tag": "cfa",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师/The Time Value of Money.md"
-    ]
-  },
-  {
-    "tag": "time",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师/The Time Value of Money.md"
-    ]
-  },
-  {
-    "tag": "value",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师/The Time Value of Money.md"
-    ]
-  },
-  {
-    "tag": "markdown/mermaid",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🎰 Markdown/Mermaid.md"
-    ]
-  },
-  {
-    "tag": "git",
-    "tagCount": 2,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
-    ]
-  },
-  {
-    "tag": "commit",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
-    ]
-  },
-  {
-    "tag": "git/hooks",
-    "tagCount": 1,
-    "relativePaths": [
-      "🛖 Learning Repo｜学习仓库/🐻‍❄️  Git Dev | 分支管理/git hooks.md"
-    ]
-  },
-  {
-    "tag": "<%tp.file.cursor(1)%>",
-    "tagCount": 2,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Mind-Note.md",
-      "🧳 Template｜模板库/Templates/Learning-Note.md"
-    ]
-  },
-  {
-    "tag": "booktype",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "bookgenre",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "booktheme",
-    "tagCount": 1,
-    "relativePaths": [
-      "🧳 Template｜模板库/Templates/Book-Note.md"
-    ]
-  },
-  {
-    "tag": "excalidraw",
-    "tagCount": 1,
-    "relativePaths": [
-      "🎨 Excalidraw｜画板仓库/数据库/数据库与数据库实例.excalidraw.md"
+      "Atlas/Logs/Essays 🖌.md",
+      "Atlas/Scopes/Prominent People 🌋 (Kit).md",
+      "Atlas/Scopes/Notebox 🗃 (Kit).md",
+      "Atlas/Scopes/Ideas ✨ (Kit).md",
+      "Atlas/Scopes/Cooling pad 🧊.md",
+      "Atlas/Scopes/Bookshelf 📚 (Kit).md",
+      "Atlas/Scopes/Artifacts 💠.md"
     ]
   }
 ]

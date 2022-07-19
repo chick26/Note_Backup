@@ -15,23 +15,19 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "🚀 Mind | 导图仓库",
-      "template": "🧳 Template｜模板库/Templates/Mind-Note.md"
+      "folder": "Extras/MindMap",
+      "template": "Extras/Templates/Template, Mind-Note.md"
     },
     {
-      "folder": "📔 Daily Note | 日记仓库/Note Repo",
-      "template": "🧳 Template｜模板库/Templates/Daily-Note.md"
+      "folder": "Calendar",
+      "template": "Extras/Templates/Template, Daily-Note.md"
     },
     {
-      "folder": "📓 Reading | 读书笔记",
-      "template": "🧳 Template｜模板库/Templates/Book-Note.md"
+      "folder": "Sources/Books",
+      "template": "Extras/Templates/Template, Book-Note.md"
     },
     {
       "folder": "🛖 Learning Repo｜学习仓库",
-      "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
-    },
-    {
-      "folder": "🎨 Excalidraw｜画板仓库",
       "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
     },
     {
