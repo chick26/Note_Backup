@@ -33,7 +33,7 @@ tags:
 *   rejected: 意味着操作失败。
 *   Settled： `Promise` 要么被完成，要么被拒绝。`Promise`一旦达成，它的状态就不再改变。
 
-![](media/202203191415396.webp)
+![](202203191415396.webp)
 
 
 ## 3. 什么是组合
@@ -90,7 +90,7 @@ Promise.all(promises)
 ```
 
 下图说明`Promise.all()`是如何工作的
-![](media/202203191418572.webp)
+![](202203191418572.webp)
 
 
 
@@ -245,7 +245,7 @@ Promise.race(promises)
 
 下图演示了`Promise.race()`的工作原理：
 
-![](media/202203191421934.webp)
+![](202203191421934.webp)
 
 
 ### Expample 3
@@ -358,7 +358,7 @@ interface RejectionObject {
 
 下图说明`promise.allsettle()`是如何工作的
 
-![](media/202203191424594.webp)
+![](202203191424594.webp)
 
 
 ### Promise.allSettled() 例子
