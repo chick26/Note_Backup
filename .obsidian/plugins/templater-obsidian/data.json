@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "🧳 Template｜模板库/Templates",
+  "templates_folder": "Extras/Templates",
   "templates_pairs": [
     [
       "weather",
@@ -36,7 +36,7 @@
     },
     {
       "folder": "/",
-      "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
+      "template": "Extras/Templates/Template, Learning-Note.md"
     }
   ],
   "syntax_highlighting": true,

@@ -32,7 +32,7 @@ obsidianUIMode: preview
  📌   **INBOX**: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
  📌   **[[02  Learninng Notes Hub|LEARN NOTE]]**: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
  📌   **READ NOTE**: `$=dv.pages('"📓 Reading | 读书笔记"').length`
- 📌   **[[01 Daily Notes Hub|DAILY]]**: `$=dv.pages('"📔 Daily Note | 日记仓库/Note Repo"').length`
+ 📌   **[[+ Index for Calendar|DAILY]]**: `$=dv.pages('"📔 Daily Note | 日记仓库/Note Repo"').length`
 
 # 📝 DAILY NOTE
 

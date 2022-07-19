@@ -32,17 +32,17 @@ DNS 解析过程涉及将主机名（例如 `www.example.com` 转换为计算机
 
 递归解析器是一种计算机，其响应来自客户端的递归请求并花时间追踪 [DNS 记录](https://www.cloudflare.com/learning/dns/dns-records/)。为执行此操作，其发出一系列请求，直至到达用于所请求的记录的权威性 DNS 域名服务器为止（或者超时，或者如果未找到记录，则返回错误）。幸运的是，递归 DNS 解析器并不总是需要发出多个请求才能追踪响应客户端所需的记录；[缓存](https://www.cloudflare.com/learning/cdn/what-is-caching/)是一种数据持久性过程，可通过在 DNS 查找中更早地服务于所请求的资源记录来为所需的请求提供捷径。
 
-![](media/202202081643909.png)
+![](202202081643909.png)
 
 ### 权威性 DNS 服务器
 
 简言之，权威性 DNS 服务器是实际持有并负责 DNS 资源记录的服务器。这是位于 DNS 查找链底部的服务器，其将使用所查询的资源记录进行响应，从而最终允许发出请求的 Web 浏览器达到访问网站或其他 Web 资源所需的 IP 地址。权威性域名服务器从自身数据满足查询需求，无需查询其他来源，因为这是某些 DNS 记录的最终真实来源。
 
-![](media/202202081649907.png)
+![](202202081649907.png)
 
 值得一提的是，在查询对象为子域（例如 foo.example.com 或 [blog.cloudflare.com](https://blog.cloudflare.com/)）的情况下，将向权威性域名服务器之后的序列添加一个附加域名服务器，其负责存储该子域的 [CNAME 记录](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/)。
 
-![](media/202202081650872.png)
+![](202202081650872.png)
 
 
 许多 DNS 服务与 Cloudflare 提供的服务之间存在一个关键区别。Google DNS、OpenDNS 等不同 DNS 递归解析器以及 Comcast 等提供商均保持 DNS 递归解析器的数据中心安装。这些解析器可实现通过 DNS 优化式计算机系统的优化群集快速轻松地进行查询，但它们与 Cloudflare 托管的域名服务器截然不同。
@@ -68,7 +68,7 @@ Cloudflare 维护 Internet 功能不可或缺的基础设施级域名服务器�
 9.  浏览器向该 IP 地址发出 [HTTP](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/) 请求。
 10.  位于该 IP 的服务器返回将在浏览器中呈现的网页（第 10 步）。
 
-![](media/202202081650807.png)
+![](202202081650807.png)
 
 
 ## 什么是 DNS 解析器？
@@ -79,7 +79,7 @@ DNS 解析器是 DNS 查找的第一站，其负责与发出初始请求的客�
 
 务必区分[递归 DNS](https://www.cloudflare.com/learning/dns/what-is-recursive-dns/) 查询和递归 DNS 解析器。该查询是指向需要解析该查询的 DNS 解析器发出的请求。DNS 递归解析器是一种计算机，其接受递归查询并通过发出必要的请求来处理响应。
 
-![](media/202202081650513.png)
+![](202202081650513.png)
 
 
 ## DNS 查询有哪些类型？

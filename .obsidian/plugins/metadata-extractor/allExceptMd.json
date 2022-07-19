@@ -29,10 +29,6 @@
       "relativePath": "📓 Reading | 读书笔记"
     },
     {
-      "name": "📔 Daily Note | 日记仓库",
-      "relativePath": "📔 Daily Note | 日记仓库"
-    },
-    {
       "name": "🚀 Mind | 导图仓库",
       "relativePath": "🚀 Mind | 导图仓库"
     },
@@ -51,10 +47,6 @@
     {
       "name": "数据库",
       "relativePath": "🎨 Excalidraw｜画板仓库/数据库"
-    },
-    {
-      "name": "Note Repo",
-      "relativePath": "📔 Daily Note | 日记仓库/Note Repo"
     },
     {
       "name": "🐻‍❄️  Git Dev | 分支管理",
@@ -147,6 +139,210 @@
     {
       "name": "UILibrary | 组件库",
       "relativePath": "🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发/UILibrary | 组件库"
+    },
+    {
+      "name": "• Encounters",
+      "relativePath": "• Encounters"
+    },
+    {
+      "name": "• Unsorted",
+      "relativePath": "• Encounters/• Unsorted"
+    },
+    {
+      "name": "• Cooling Pad",
+      "relativePath": "• Encounters/• Cooling Pad"
+    },
+    {
+      "name": "Atlas",
+      "relativePath": "Atlas"
+    },
+    {
+      "name": "Calendar",
+      "relativePath": "Calendar"
+    },
+    {
+      "name": "Cards",
+      "relativePath": "Cards"
+    },
+    {
+      "name": "Extras",
+      "relativePath": "Extras"
+    },
+    {
+      "name": "Sources",
+      "relativePath": "Sources"
+    },
+    {
+      "name": "Spaces",
+      "relativePath": "Spaces"
+    },
+    {
+      "name": "Logs",
+      "relativePath": "Atlas/Logs"
+    },
+    {
+      "name": "MOCs",
+      "relativePath": "Atlas/MOCs"
+    },
+    {
+      "name": "Library",
+      "relativePath": "Atlas/MOCs/Library"
+    },
+    {
+      "name": "Scopes",
+      "relativePath": "Atlas/Scopes"
+    },
+    {
+      "name": "Non-active examples",
+      "relativePath": "Atlas/Scopes/Non-active examples"
+    },
+    {
+      "name": "2022",
+      "relativePath": "Calendar/2022"
+    },
+    {
+      "name": "Previous versions",
+      "relativePath": "Cards/Previous versions"
+    },
+    {
+      "name": "People",
+      "relativePath": "Cards/People"
+    },
+    {
+      "name": "Templates",
+      "relativePath": "Extras/Templates"
+    },
+    {
+      "name": "Media",
+      "relativePath": "Extras/Media"
+    },
+    {
+      "name": "Files",
+      "relativePath": "Extras/Media/Files"
+    },
+    {
+      "name": "Images",
+      "relativePath": "Extras/Media/Images"
+    },
+    {
+      "name": "PDFs",
+      "relativePath": "Extras/Media/PDFs"
+    },
+    {
+      "name": "Flow",
+      "relativePath": "Extras/Media/Images/Flow"
+    },
+    {
+      "name": "LYT Kit",
+      "relativePath": "Extras/Media/Images/LYT Kit"
+    },
+    {
+      "name": "Music",
+      "relativePath": "Sources/Music"
+    },
+    {
+      "name": "Movies + TV",
+      "relativePath": "Sources/Movies + TV"
+    },
+    {
+      "name": "Articles",
+      "relativePath": "Sources/Articles"
+    },
+    {
+      "name": "Talks",
+      "relativePath": "Sources/Talks"
+    },
+    {
+      "name": "Books",
+      "relativePath": "Sources/Books"
+    },
+    {
+      "name": "Courses",
+      "relativePath": "Sources/Courses"
+    },
+    {
+      "name": "Research Papers",
+      "relativePath": "Sources/Research Papers"
+    },
+    {
+      "name": "Life",
+      "relativePath": "Spaces/Life"
+    },
+    {
+      "name": "Areas",
+      "relativePath": "Spaces/Life/Areas"
+    },
+    {
+      "name": "Projects",
+      "relativePath": "Spaces/Life/Projects"
+    },
+    {
+      "name": "Support notes",
+      "relativePath": "Spaces/Life/Support notes"
+    },
+    {
+      "name": "• MOCs",
+      "relativePath": "Spaces/Life/• MOCs"
+    },
+    {
+      "name": "Financial",
+      "relativePath": "Spaces/Life/Areas/Financial"
+    },
+    {
+      "name": "Medical",
+      "relativePath": "Spaces/Life/Areas/Medical"
+    },
+    {
+      "name": "2022 Car Tires Project",
+      "relativePath": "Spaces/Life/Projects/2022 Car Tires Project"
+    },
+    {
+      "name": "Archive",
+      "relativePath": "Spaces/Life/Projects/Archive"
+    },
+    {
+      "name": "Work",
+      "relativePath": "Spaces/Work"
+    },
+    {
+      "name": "Areas",
+      "relativePath": "Spaces/Work/Areas"
+    },
+    {
+      "name": "Projects",
+      "relativePath": "Spaces/Work/Projects"
+    },
+    {
+      "name": "Support notes",
+      "relativePath": "Spaces/Work/Support notes"
+    },
+    {
+      "name": "Archive",
+      "relativePath": "Spaces/Work/Areas/Archive"
+    },
+    {
+      "name": "LYT Notes Newsletters",
+      "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters"
+    },
+    {
+      "name": "Archive",
+      "relativePath": "Spaces/Work/Projects/Archive"
+    },
+    {
+      "name": "Folgezettel Example",
+      "relativePath": "Spaces/Work/Projects/Archive/Folgezettel Example"
+    },
+    {
+      "name": "Project XYZ",
+      "relativePath": "Spaces/Work/Projects/Project XYZ"
+    },
+    {
+      "name": "• MOCs",
+      "relativePath": "Spaces/Work/• MOCs"
+    },
+    {
+      "name": "Archive",
+      "relativePath": "Spaces/Work/• MOCs/Archive"
     }
   ],
   "nonMdFiles": [
@@ -629,6 +825,106 @@
       "name": "Pasted image 20220715163056.png",
       "basename": "Pasted image 20220715163056",
       "relativePath": "media/Pasted image 20220715163056.png"
+    },
+    {
+      "name": "flow-map-original.jpg",
+      "basename": "flow-map-original",
+      "relativePath": "Extras/Media/Images/Flow/flow-map-original.jpg"
+    },
+    {
+      "name": "flow-map.png",
+      "basename": "flow-map",
+      "relativePath": "Extras/Media/Images/Flow/flow-map.png"
+    },
+    {
+      "name": "flow-zone-channel.jpg",
+      "basename": "flow-zone-channel",
+      "relativePath": "Extras/Media/Images/Flow/flow-zone-channel.jpg"
+    },
+    {
+      "name": "four-factors-of-flow.png",
+      "basename": "four-factors-of-flow",
+      "relativePath": "Extras/Media/Images/Flow/four-factors-of-flow.png"
+    },
+    {
+      "name": "Evergreen note links to other notes.png",
+      "basename": "Evergreen note links to other notes",
+      "relativePath": "Extras/Media/Images/LYT Kit/Evergreen note links to other notes.png"
+    },
+    {
+      "name": "LYT-logo-04.png",
+      "basename": "LYT-logo-04",
+      "relativePath": "Extras/Media/Images/LYT Kit/LYT-logo-04.png"
+    },
+    {
+      "name": "Ptolemy model.png",
+      "basename": "Ptolemy model",
+      "relativePath": "Extras/Media/Images/LYT Kit/Ptolemy model.png"
+    },
+    {
+      "name": "Wolverine-tethered.jpg",
+      "basename": "Wolverine-tethered",
+      "relativePath": "Extras/Media/Images/LYT Kit/Wolverine-tethered.jpg"
+    },
+    {
+      "name": "crafting-mocs-0.jpg",
+      "basename": "crafting-mocs-0",
+      "relativePath": "Extras/Media/Images/LYT Kit/crafting-mocs-0.jpg"
+    },
+    {
+      "name": "crafting-mocs-1.jpg",
+      "basename": "crafting-mocs-1",
+      "relativePath": "Extras/Media/Images/LYT Kit/crafting-mocs-1.jpg"
+    },
+    {
+      "name": "crafting-mocs-2.jpg",
+      "basename": "crafting-mocs-2",
+      "relativePath": "Extras/Media/Images/LYT Kit/crafting-mocs-2.jpg"
+    },
+    {
+      "name": "crafting-mocs-3.jpg",
+      "basename": "crafting-mocs-3",
+      "relativePath": "Extras/Media/Images/LYT Kit/crafting-mocs-3.jpg"
+    },
+    {
+      "name": "crafting-mocs-4.jpg",
+      "basename": "crafting-mocs-4",
+      "relativePath": "Extras/Media/Images/LYT Kit/crafting-mocs-4.jpg"
+    },
+    {
+      "name": "crafting-mocs-5.jpg",
+      "basename": "crafting-mocs-5",
+      "relativePath": "Extras/Media/Images/LYT Kit/crafting-mocs-5.jpg"
+    },
+    {
+      "name": "lyt-kit-example-cooling-pad-.jpg",
+      "basename": "lyt-kit-example-cooling-pad-",
+      "relativePath": "Extras/Media/Images/LYT Kit/lyt-kit-example-cooling-pad-.jpg"
+    },
+    {
+      "name": "lyt-mode-graphic-1.jpg",
+      "basename": "lyt-mode-graphic-1",
+      "relativePath": "Extras/Media/Images/LYT Kit/lyt-mode-graphic-1.jpg"
+    },
+    {
+      "name": "mapping-the-flexible-flow-of-ideas.jpg",
+      "basename": "mapping-the-flexible-flow-of-ideas",
+      "relativePath": "Extras/Media/Images/LYT Kit/mapping-the-flexible-flow-of-ideas.jpg"
+    },
+    {
+      "name": "pale-blue-dot-banner.jpg",
+      "basename": "pale-blue-dot-banner",
+      "relativePath": "Extras/Media/Images/LYT Kit/pale-blue-dot-banner.jpg"
+    },
+    {
+      "name": "sort-by-file-name-a-to-z.png",
+      "basename": "sort-by-file-name-a-to-z",
+      "relativePath": "Extras/Media/Images/LYT Kit/sort-by-file-name-a-to-z.png"
+    },
+    {
+      "name": "stay-on-target.jpg",
+      "basename": "stay-on-target",
+      "relativePath": "Extras/Media/Images/LYT Kit/stay-on-target.jpg"
     }
   ]
 }
