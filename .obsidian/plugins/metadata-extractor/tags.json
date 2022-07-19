@@ -11,12 +11,11 @@
   },
   {
     "tag": "atlas/moc🗺",
-    "tagCount": 13,
+    "tagCount": 12,
     "relativePaths": [
       "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Spaces/Life/• MOCs/Life Space™ (Kit).md",
       "Atlas/MOCs/Thinking.md",
-      "Atlas/MOCs/Sources MOC.md",
       "Atlas/MOCs/My PKM MOC (Kit).md",
       "Atlas/MOCs/Library/Systems MOC (Kit).md",
       "Atlas/MOCs/Library/Speech MOC.md",
@@ -426,27 +425,10 @@
   },
   {
     "tag": "on/pkm",
-    "tagCount": 3,
+    "tagCount": 2,
     "relativePaths": [
-      "Cards/Zettelkasten and LYT Frameworks.md",
       "Cards/Previous versions/Habits MOC - Gather.md",
       "Atlas/MOCs/Library/Habits MOC.md"
-    ]
-  },
-  {
-    "tag": "concept",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/You are what you eat.md",
-      "Cards/Yin and Yang.md"
-    ]
-  },
-  {
-    "tag": "note/develop🍃",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/You are what you eat.md",
-      "Cards/Yin and Yang.md"
     ]
   },
   {

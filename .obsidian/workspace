@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c23a73cff4904a67",
+        "id": "dfb145ca52269d01",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Calendar/+ Media Log.md",
-            "mode": "preview",
+            "file": "Atlas/MOCs/My PKM MOC (Kit).md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#concept",
+                "query": "tag:#x/index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/+ Media Log.md",
+                "file": "Atlas/MOCs/My PKM MOC (Kit).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/+ Media Log.md",
+                "file": "Atlas/MOCs/My PKM MOC (Kit).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/+ Media Log.md"
+                "file": "Atlas/MOCs/My PKM MOC (Kit).md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "direction": "horizontal",
     "width": 283.5
   },
-  "active": "c23a73cff4904a67",
+  "active": "dfb145ca52269d01",
   "lastOpenFiles": [
-    "Calendar/+ New Discoveries Log.md",
-    "Calendar/+ Ship's Log.md",
-    "Calendar/+ Index for Calendar.md",
-    "Home.md",
-    "Atlas/Scopes/Ideas ✨ (Kit).md",
-    "• Encounters/• Cooling Pad/We've already discovered aliens...we just call them bees.md",
-    "• Encounters/+ About Encounters.md",
-    "• Encounters/• Cooling Pad/sound sensory sensitivity.md",
+    "My PKM Folders.md",
+    "Atlas/MOCs/My PKM MOC (Kit).md",
+    "Atlas/MOCs/Sources MOC.md",
+    "Atlas/MOCs/Thinking.md",
+    "Atlas/MOCs/Library/Habits MOC.md",
     "Atlas/MOCs/Library/Collective Intelligence MOC.md",
-    "Atlas/Scopes/Cooling pad 🧊.md"
+    "Atlas/Logs/Essays 🖌.md",
+    "Cards/Previous versions/Habits MOC - Gather.md",
+    "Cards/Yin and Yang.md",
+    "Cards/+ Index for Cards.md"
   ]
 }

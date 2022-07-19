@@ -113,8 +113,7 @@
         "link": "People MOC"
       },
       {
-        "link": "Sources MOC",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
+        "link": "Sources MOC"
       },
       {
         "link": "Thinking",
@@ -161,11 +160,6 @@
         "fileName": "Thinking",
         "link": "Home",
         "relativePath": "Atlas/MOCs/Thinking.md"
-      },
-      {
-        "fileName": "Sources MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
       },
       {
         "fileName": "My PKM MOC (Kit)",
@@ -5759,96 +5753,6 @@
     }
   },
   {
-    "fileName": "Zettelkasten and LYT Frameworks",
-    "relativePath": "Cards/Zettelkasten and LYT Frameworks.md",
-    "tags": [
-      "on/pkm"
-    ],
-    "links": [
-      {
-        "link": "LYT Kit"
-      },
-      {
-        "link": "Idea Emergence"
-      },
-      {
-        "link": "LYT Framework"
-      },
-      {
-        "link": "Benefits of LYT frameworks"
-      },
-      {
-        "link": "Is LYT For Me"
-      },
-      {
-        "link": "MOCs Overview"
-      }
-    ]
-  },
-  {
-    "fileName": "You are what you eat",
-    "relativePath": "Cards/You are what you eat.md",
-    "tags": [
-      "concept",
-      "note/develop🍃"
-    ],
-    "headings": [
-      {
-        "heading": "You are what you eat",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Positive Feedback Loop"
-      },
-      {
-        "link": "Our Tools Shape Us MOC"
-      },
-      {
-        "link": "Positive Feedback Loop"
-      },
-      {
-        "link": "Art of Link Curation",
-        "displayText": "open it"
-      }
-    ]
-  },
-  {
-    "fileName": "Yin and Yang",
-    "relativePath": "Cards/Yin and Yang.md",
-    "tags": [
-      "concept",
-      "note/develop🍃"
-    ],
-    "headings": [
-      {
-        "heading": "Yin and Yang",
-        "level": 1
-      },
-      {
-        "heading": "Wiki",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Concepts MOC",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "link": "Seasons"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Concepts MOC",
-        "link": "Yin and Yang",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      }
-    ]
-  },
-  {
     "fileName": "Habits MOC - Gather",
     "relativePath": "Cards/Previous versions/Habits MOC - Gather.md",
     "tags": [
@@ -6616,8 +6520,7 @@
     ],
     "links": [
       {
-        "link": "Sources MOC",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
+        "link": "Sources MOC"
       },
       {
         "link": "Books I've Read MOC"
@@ -6812,50 +6715,6 @@
         "fileName": "+ Library",
         "link": "Thinking",
         "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Sources MOC",
-    "relativePath": "Atlas/MOCs/Sources MOC.md",
-    "tags": [
-      "atlas/moc🗺"
-    ],
-    "headings": [
-      {
-        "heading": "Sources MOC",
-        "level": 1
-      },
-      {
-        "heading": "Commentary",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Source Starmap 🔭"
-      },
-      {
-        "link": "Commonplace Book 📖"
-      },
-      {
-        "link": "Bookshelf 📚"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Sources MOC",
-        "relativePath": "Home.md"
-      },
-      {
-        "fileName": "Bookshelf 📚 (Kit)",
-        "link": "Sources MOC",
-        "relativePath": "Atlas/Scopes/Bookshelf 📚 (Kit).md"
       }
     ]
   },
@@ -7498,8 +7357,7 @@
         "link": "Concept Expansion"
       },
       {
-        "link": "Yin and Yang",
-        "relativePath": "Cards/Yin and Yang.md"
+        "link": "Yin and Yang"
       },
       {
         "link": "Synthesis"
@@ -7536,11 +7394,6 @@
         "relativePath": "Home.md"
       },
       {
-        "fileName": "Yin and Yang",
-        "link": "Concepts MOC",
-        "relativePath": "Cards/Yin and Yang.md"
-      },
-      {
         "fileName": "Thinking",
         "link": "Concepts MOC",
         "relativePath": "Atlas/MOCs/Thinking.md"
@@ -7558,37 +7411,27 @@
     "tags": [
       "atlas/scope🔬"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 31
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Essays 🖌",
+        "heading": "<- [[Home]]  | Essays 🖌",
         "level": 1
       },
       {
         "heading": "2022",
-        "level": 2
-      },
-      {
-        "heading": "2020",
-        "level": 2
-      },
-      {
-        "heading": "2019",
-        "level": 2
-      },
-      {
-        "heading": "2015",
-        "level": 2
-      },
-      {
-        "heading": "2014",
-        "level": 2
-      },
-      {
-        "heading": "2013",
-        "level": 2
-      },
-      {
-        "heading": "2012",
         "level": 2
       }
     ],
