@@ -16,23 +16,23 @@ obsidianUIMode: preview
 
 -  📲 Front Develop
 
-	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	 `$=dv.list(dv.pages('"Sources/Knowledges/📲 Front Dev｜前端开发"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 - 💵 CFA
  
-	 `$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	 `$=dv.list(dv.pages('"Sources/Knowledges/💵 CFA | 金融分析师"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 - 📉 Data Structrue
 
-	`$=dv.list(dv.pages('"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	`$=dv.list(dv.pages('"Sources/Knowledges/📉 Data Structrue｜数据结构"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 # 〽️ STATS
 
  📌   **TOTAL**: `$=dv.pages().length` 
- 📌   **INBOX**: `$=dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
- 📌   **[[02  Learninng Notes Hub|LEARN NOTE]]**: `$=dv.pages('"🛖 Learning Repo｜学习仓库"').length - dv.pages('"🛖 Learning Repo｜学习仓库/🗄 Avatar | 待分类"').length`
- 📌   **READ NOTE**: `$=dv.pages('"📓 Reading | 读书笔记"').length`
- 📌   **[[+ Index for Calendar|DAILY]]**: `$=dv.pages('"📔 Daily Note | 日记仓库/Note Repo"').length`
+ 📌   **INBOX**: `$=dv.pages('"Sources/Knowledges/🗄 Avatar | 待分类"').length`
+ 📌   **[[+ Learninng Notes Hub|LEARN NOTE]]**: `$=dv.pages('"Sources/Knowledges"').length - dv.pages('"Sources/Knowledges/🗄 Avatar | 待分类"').length`
+ 📌   **READ NOTE**: `$=dv.pages('"Scources/Books"').length`
+ 📌   **[[+ Index for Calendar|DAILY]]**: `$=dv.pages('"Calendar"').length`
 
 # 📝 DAILY NOTE
 
@@ -56,7 +56,7 @@ function isWithinWeek(page) {
 
 
 dv.table(["Date","Summary"], 
-	 dv.pages('"📔 Daily Note | 日记仓库/Note Repo"')
+	 dv.pages('"Calendar"')
 		.filter(isWithinWeek)
 		.sort(b => b.file.name,'desc')
 		.map(b =>[dv.fileLink(b.file.name, false, moment(b.file.name,'YYYY-MM-DD').format("ddd")),"<span id='summary1'>"+b.Summary+"</span>"])
@@ -72,7 +72,7 @@ table WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "🛖 Learning Repo｜学习仓库"
+from "Sources"
 where status = "todo"
 sort file.mtime asc
 ```
@@ -85,7 +85,7 @@ table WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "🛖 Learning Repo｜学习仓库"
+from "Sources"
 where status = "ondo"
 sort file.mtime asc
 ```
@@ -98,7 +98,7 @@ table WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "🛖 Learning Repo｜学习仓库"
+from "Sources"
 where status = "done" or status = "review"
 limit 10
 ```

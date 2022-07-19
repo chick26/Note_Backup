@@ -17,7 +17,7 @@ TABLE WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "🛖 Learning Repo｜学习仓库"
+from "Sources/Knowledges"
 where file.mtime > (date(now) - dur(7 days)) 
 and !contains(file.name, "Notes Hub")
 SORT file.name desc
@@ -32,7 +32,7 @@ TABLE WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "🛖 Learning Repo｜学习仓库"
+from "Sources/Knowledges"
 where file.ctime >= date(2022-01-01) AND file.ctime <=date(2022-12-31)
 and !contains(file.name, "Notes Hub")
 SORT file.name desc
