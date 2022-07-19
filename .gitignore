@@ -14,9 +14,9 @@
 /lib
 
 # misc
-.DS_Store
-.github/.DS_Store
-.obsidian/plugins/.DS_Store
+/.DS_Store
+/.github/.DS_Store
+/.obsidian/plugins/.DS_Store
 /coverage
 
 # umi
