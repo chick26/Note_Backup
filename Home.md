@@ -38,9 +38,3 @@ These are maps to launch your efforts. Where would you like to go?
 
 | I want to enjoy the uniquely human, wondrous joy of...                   | [[Thinking]] |
 | :------------------------------ | :---------------------------------------- |
-
----
-
-![[pale-blue-dot-banner.jpg]]
-
-

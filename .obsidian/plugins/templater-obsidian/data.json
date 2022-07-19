@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "🧳 Template｜模板库/Scripts",
+  "user_scripts_folder": "Extras/Templates",
   "enable_folder_templates": true,
   "folder_templates": [
     {
@@ -27,8 +27,8 @@
       "template": "Extras/Templates/Template, Book-Note.md"
     },
     {
-      "folder": "🛖 Learning Repo｜学习仓库",
-      "template": "🧳 Template｜模板库/Templates/Learning-Note.md"
+      "folder": "Sources/Knowledges",
+      "template": "Extras/Templates/Template, Learning-Note.md"
     },
     {
       "folder": "/",

@@ -1,8 +1,8 @@
 {
-  "folder": "🎨 Excalidraw｜画板仓库",
+  "folder": "Extras/Excalidraw",
   "embedUseExcalidrawFolder": false,
-  "templateFilePath": "🎨 Excalidraw｜画板仓库/Template.excalidraw",
-  "scriptFolderPath": "🎨 Excalidraw｜画板仓库/Scripts",
+  "templateFilePath": "Extras/Templates/Template, Mind-Note",
+  "scriptFolderPath": "Extras/Excalidraw/Script",
   "compress": false,
   "autosave": true,
   "autosaveInterval": 10000,

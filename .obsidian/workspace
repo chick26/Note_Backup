@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9f2bbefe7d6ad6be",
+        "id": "6083a0e95694668b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🎦 Overview/02  Learninng Notes Hub.md",
+            "file": "Atlas/+ Index for Atlases.md",
             "mode": "preview",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "97ce11673df39444",
+    "id": "6cf33a6651c18d11",
     "type": "split",
     "children": [
       {
-        "id": "b4ff03f863899dc7",
+        "id": "d8b9e06acb970b92",
         "type": "tabs",
         "children": [
           {
-            "id": "797ba6ae2b71d939",
+            "id": "f67541010ae9ab23",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +35,12 @@
             }
           },
           {
-            "id": "3bafaaf6b55cdac6",
+            "id": "38fd6dec19d27553",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#calendar",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,23 +53,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 300
   },
   "right": {
-    "id": "7edd17491be04f6b",
+    "id": "676a4eceb6008bb5",
     "type": "split",
     "children": [
       {
-        "id": "b6fc16de5b5fb918",
+        "id": "8121b6397f822a5b",
         "type": "tabs",
         "children": [
           {
-            "id": "9cd8353abf3aea55",
+            "id": "90f7a8b1d4bcdd43",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "58658765d65448e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🎦 Overview/02  Learninng Notes Hub.md",
+                "file": "Atlas/+ Index for Atlases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,27 +89,19 @@
             }
           },
           {
-            "id": "5e043d953aee52cc",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "bc7c74a96f0eb9b2",
+            "id": "232f53dea98955a2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🎦 Overview/02  Learninng Notes Hub.md",
+                "file": "Atlas/+ Index for Atlases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ae53e7897e8fd982",
+            "id": "07e2cc88b339921d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,41 +112,33 @@
             }
           },
           {
-            "id": "cefa0dfd388fa57e",
+            "id": "b666d03bb2c4a3e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎦 Overview/02  Learninng Notes Hub.md"
+                "file": "Atlas/+ Index for Atlases.md"
               }
             }
-          },
-          {
-            "id": "12f0dbf601aae226",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 300,
+    "collapsed": true
   },
-  "active": "9f2bbefe7d6ad6be",
+  "active": "6083a0e95694668b",
   "lastOpenFiles": [
-    "Home.md",
-    "docs/README.md",
-    "docs/_coverpage.md",
+    "Atlas/Scopes/+ Index for index notes.md",
+    "Atlas/+ Index for Atlases.md",
+    "Atlas/+ Library.md",
     "🎦 Overview/00 HOME PAGE.md",
-    "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+    "00 HOME PAGE.md",
     "Sources/Knowledges/🎰 Markdown/Mermaid.md",
-    "Sources/Courses/The LYT Workshop.md",
-    "Atlas/MOCs/People MOC.md",
-    "Extras/Templates/Template, Book-Note.md",
-    "Extras/Templates/Template, Daily-Note.md"
+    "Atlas/MOCs/My PKM MOC (Kit).md",
+    "Home.md",
+    "Sources/+ About Sources.md",
+    "Sources/+ Index for Sources.md"
   ]
 }
