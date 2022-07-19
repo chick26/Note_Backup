@@ -3,7 +3,7 @@ title: TypeScript 语法
 creation date: 2022-05-25 22:12 
 status: done
 tags:
-- TypeScript
+- source/javaScript/typeScript
 ---
 # 1. 简介
 

@@ -3,8 +3,8 @@ title: File Preview
 creation date: 2022-03-22 10:04 
 status: todo
 tags:
-- JavaScript
-- FilePreview
+- source/javaScript
+- source/tools/frontenTool/filePreview
 ---
 
 ## 实现方案

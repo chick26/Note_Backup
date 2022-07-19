@@ -3,7 +3,7 @@ title: MySQL数据库基础
 creation date: 2022-07-10 15:37 
 status: todo
 tags:
-- MySQL
+- source/mySql
 ---
 
 ## 虚拟机使用说明

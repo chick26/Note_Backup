@@ -1,11 +1,193 @@
 [
   {
-    "fileName": "sound sensory sensitivity",
-    "relativePath": "• Encounters/• Cooling Pad/sound sensory sensitivity.md"
-  },
-  {
-    "fileName": "We've already discovered aliens...we just call them bees",
-    "relativePath": "• Encounters/• Cooling Pad/We've already discovered aliens...we just call them bees.md"
+    "fileName": "Home",
+    "relativePath": "Home.md",
+    "frontmatter": {
+      "title": "Learning Note OverView",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "tags": null,
+      "banner": "![[宁静.JPG]]",
+      "banner_x": 0.5,
+      "banner_y": 0.85,
+      "banner_lock": true,
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 10,
+          "col": 3,
+          "offset": 188
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🗂 PERSONAL OBJECT",
+        "level": 1
+      },
+      {
+        "heading": "〽️ STATS",
+        "level": 1
+      },
+      {
+        "heading": "Atlas 🗺",
+        "level": 1
+      },
+      {
+        "heading": "📝 DAILY NOTE",
+        "level": 1
+      },
+      {
+        "heading": "📑 WAITING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📝 DOING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📨 REVIEW LIST",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Learninng Notes Hub",
+        "displayText": "LEARN NOTE",
+        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
+      },
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "DAILY",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      },
+      {
+        "link": "Cooling pad 🧊",
+        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+      },
+      {
+        "link": "Notebox 🗃 (Kit)",
+        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+      },
+      {
+        "link": "Ideas ✨ (Kit)",
+        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
+      },
+      {
+        "link": "Essays 🖌",
+        "relativePath": "Atlas/Logs/Essays 🖌.md"
+      },
+      {
+        "link": "Artifacts 💠",
+        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
+      },
+      {
+        "link": "Projects 🏗"
+      },
+      {
+        "link": "LYT Space 🔆 (Kit)",
+        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
+      },
+      {
+        "link": "Life Space™ (Kit)",
+        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "link": "+ Library",
+        "relativePath": "Atlas/+ Library.md"
+      },
+      {
+        "link": "My PKM MOC (Kit)",
+        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+      },
+      {
+        "link": "Concepts MOC",
+        "relativePath": "Atlas/MOCs/Concepts MOC.md"
+      },
+      {
+        "link": "People MOC"
+      },
+      {
+        "link": "Sources MOC",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
+      },
+      {
+        "link": "Thinking",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "LYT Space 🔆 (Kit)",
+        "link": "Home",
+        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
+      },
+      {
+        "fileName": "Life Space™ (Kit)",
+        "link": "Home",
+        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "fileName": "Notebox 🗃 (Kit)",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+      },
+      {
+        "fileName": "Ideas ✨ (Kit)",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
+      },
+      {
+        "fileName": "Cooling pad 🧊",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+      },
+      {
+        "fileName": "Artifacts 💠",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
+      },
+      {
+        "fileName": "+ Index for index notes",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+      },
+      {
+        "fileName": "Thinking",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      },
+      {
+        "fileName": "Sources MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
+      },
+      {
+        "fileName": "My PKM MOC (Kit)",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+      },
+      {
+        "fileName": "Concepts MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Concepts MOC.md"
+      },
+      {
+        "fileName": "Essays 🖌",
+        "link": "Home",
+        "relativePath": "Atlas/Logs/Essays 🖌.md"
+      },
+      {
+        "fileName": "+ Library",
+        "link": "Home",
+        "relativePath": "Atlas/+ Library.md"
+      }
+    ]
   },
   {
     "fileName": "+ About Encounters",
@@ -363,12 +545,10 @@
         "relativePath": "Home.md"
       },
       {
-        "link": "Finance MOC",
-        "relativePath": "Atlas/MOCs/Finance MOC.md"
+        "link": "Finance MOC"
       },
       {
-        "link": "Health MOC",
-        "relativePath": "Atlas/MOCs/Health MOC.md"
+        "link": "Health MOC"
       },
       {
         "link": "The Studio 🎨"
@@ -440,18 +620,10 @@
     ],
     "links": [
       {
-        "link": "Finance MOC",
-        "relativePath": "Atlas/MOCs/Finance MOC.md"
+        "link": "Finance MOC"
       },
       {
         "link": "Project • Get new tires"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Finance MOC",
-        "link": "Auto Maintenance Log",
-        "relativePath": "Atlas/MOCs/Finance MOC.md"
       }
     ]
   },
@@ -596,7 +768,7 @@
     "fileName": "与上下文无关的语法",
     "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类/与上下文无关的语法.md",
     "tags": [
-      "csbasic"
+      "note/csbasic"
     ],
     "frontmatter": {
       "title": "与上下文无关的语法",
@@ -611,7 +783,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 86
+          "offset": 91
         }
       }
     },
@@ -649,8 +821,8 @@
     "fileName": "前端组件库设计",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
     "tags": [
-      "uilibrary",
-      "designprinciple"
+      "source/javascript/uilibrary",
+      "source/uilibrary/designprinciple"
     ],
     "frontmatter": {
       "title": "前端组件库设计",
@@ -665,7 +837,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 96
+          "offset": 131
         }
       }
     },
@@ -735,8 +907,8 @@
     "fileName": "dumi 组件库搭建",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
     "tags": [
-      "uilibrary",
-      "dumi"
+      "source/javascript/uilibrary",
+      "source/deploy/dumi"
     ],
     "frontmatter": {
       "title": "dumi 组件库搭建",
@@ -751,7 +923,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 96
+          "offset": 128
         }
       }
     },
@@ -850,7 +1022,7 @@
     "fileName": "TypeScript 语法",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md",
     "tags": [
-      "typescript"
+      "source/javascript/typescript"
     ],
     "frontmatter": {
       "title": "TypeScript 语法",
@@ -865,7 +1037,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 93
+          "offset": 111
         }
       }
     },
@@ -1140,8 +1312,8 @@
     "fileName": "File Preview",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
     "tags": [
-      "javascript",
-      "filepreview"
+      "source/javascript",
+      "source/tools/frontentool/filepreview"
     ],
     "frontmatter": {
       "title": "File Preview",
@@ -1156,7 +1328,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 106
+          "offset": 138
         }
       }
     },
@@ -1207,26 +1379,16 @@
     "fileName": "Document Handler",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md",
     "tags": [
-      "frontentool",
-      "ducumenthandler",
-      "docx",
-      "office",
-      "generator",
-      "templating",
-      "report",
-      "json",
-      "generate",
-      "generation",
-      "template",
-      "pptx"
+      "source/tools/frontentool",
+      "source/tools/frontentool/ducumenthandler"
     ],
     "frontmatter": {
       "title": "Document Handler",
       "creation date": "2022-07-15 15:48:08",
       "status": "done",
       "tag": [
-        "FrontenTool",
-        "DucumentHandler"
+        "source/tools/frontenTool",
+        "source/tools/frontenTool/ducumentHandler"
       ],
       "position": {
         "start": {
@@ -1237,7 +1399,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 116
+          "offset": 154
         }
       }
     },
@@ -1412,7 +1574,7 @@
     "fileName": "Charles | 抓包工具",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
     "tags": [
-      "charles"
+      "source/tools/frontentool/charles"
     ],
     "frontmatter": {
       "title": "Charles | 抓包工具",
@@ -1427,7 +1589,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 83
+          "offset": 108
         }
       }
     },
@@ -1566,9 +1728,9 @@
     "fileName": "前端部署",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
     "tags": [
-      "webpack",
-      "deploy",
-      "package/fronten"
+      "source/deploy/webpack",
+      "source/deploy",
+      "source/package/fronten"
     ],
     "frontmatter": {
       "title": "前端部署",
@@ -1583,7 +1745,7 @@
         "end": {
           "line": 8,
           "col": 3,
-          "offset": 108
+          "offset": 136
         }
       }
     },
@@ -1666,16 +1828,16 @@
     "fileName": "rollup.js",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
     "tags": [
-      "rollupjs",
-      "package/fronten"
+      "source/deploy/rollupjs",
+      "source/package/fronten"
     ],
     "frontmatter": {
       "title": "rollup.js",
       "creation date": "2022-05-24 09:20:20",
       "status": "done",
       "tag": [
-        "rollupjs",
-        "package/fronten"
+        "source/deploy/rollupjs",
+        "source/package/fronten"
       ],
       "position": {
         "start": {
@@ -1686,7 +1848,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 107
+          "offset": 128
         }
       }
     },
@@ -1717,8 +1879,8 @@
     "fileName": "Promise 常用方法",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
     "tags": [
-      "javascript",
-      "javascript/promise"
+      "source/javascript",
+      "source/javascript/promise"
     ],
     "frontmatter": {
       "title": "Promise 常用方法",
@@ -1733,7 +1895,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 105
+          "offset": 119
         }
       }
     },
@@ -1832,8 +1994,8 @@
     "fileName": "Web Hosting",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
     "tags": [
-      "internet",
-      "internet/webhosting"
+      "source/internet",
+      "source/internet/webhosting"
     ],
     "frontmatter": {
       "title": "Web Hosting",
@@ -1848,7 +2010,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 103
+          "offset": 117
         }
       }
     },
@@ -1911,8 +2073,8 @@
     "fileName": "Web Browsers",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md",
     "tags": [
-      "internet",
-      "internet/webbrowser"
+      "source/internet",
+      "source/internet/webbrowser"
     ],
     "frontmatter": {
       "title": "Web Browsers",
@@ -1927,7 +2089,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 104
+          "offset": 118
         }
       }
     },
@@ -2191,8 +2353,8 @@
     "fileName": "WWW",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
     "tags": [
-      "internet",
-      "internet/www"
+      "source/internet",
+      "source/internet/www"
     ],
     "frontmatter": {
       "title": "WWW",
@@ -2207,7 +2369,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 88
+          "offset": 102
         }
       }
     },
@@ -2291,8 +2453,8 @@
     "fileName": "URL",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/URL.md",
     "tags": [
-      "internet",
-      "internet/url"
+      "source/internet",
+      "source/internet/url"
     ],
     "frontmatter": {
       "title": "URL",
@@ -2307,7 +2469,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 88
+          "offset": 102
         }
       }
     },
@@ -2390,7 +2552,7 @@
     "fileName": "TCP",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/TCP.md",
     "tags": [
-      "internet"
+      "source/internet"
     ],
     "frontmatter": {
       "title": "TCP",
@@ -2405,7 +2567,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 73
+          "offset": 80
         }
       }
     },
@@ -2539,8 +2701,8 @@
     "fileName": "IP",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
     "tags": [
-      "internet",
-      "internet/ip"
+      "source/internet",
+      "source/internet/ip"
     ],
     "frontmatter": {
       "title": "IP",
@@ -2555,7 +2717,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 86
+          "offset": 100
         }
       }
     },
@@ -2578,7 +2740,7 @@
     "fileName": "INTERNET",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md",
     "tags": [
-      "internet"
+      "source/internet"
     ],
     "frontmatter": {
       "title": "INTERNET",
@@ -2593,7 +2755,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 78
+          "offset": 85
         }
       }
     },
@@ -2837,8 +2999,8 @@
     "fileName": "Domain Name",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md",
     "tags": [
-      "internet",
-      "internet/domainname"
+      "source/internet",
+      "source/internet/domainname"
     ],
     "frontmatter": {
       "title": "Domain Name",
@@ -2853,7 +3015,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 103
+          "offset": 117
         }
       }
     },
@@ -2909,8 +3071,8 @@
     "fileName": "DNS",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
     "tags": [
-      "internet",
-      "internet/dns"
+      "source/internet",
+      "source/internet/dns"
     ],
     "frontmatter": {
       "title": "DNS",
@@ -2925,7 +3087,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 88
+          "offset": 102
         }
       }
     },
@@ -3003,8 +3165,8 @@
     "fileName": "ARPANET",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
     "tags": [
-      "internet",
-      "internet/apranet"
+      "source/internet",
+      "source/internet/apranet"
     ],
     "frontmatter": {
       "title": "ARPANET",
@@ -3019,7 +3181,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 96
+          "offset": 110
         }
       }
     },
@@ -3057,7 +3219,7 @@
     "fileName": "HTML",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
     "tags": [
-      "html"
+      "source/html"
     ],
     "frontmatter": {
       "title": "HTML",
@@ -3072,7 +3234,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 70
+          "offset": 77
         }
       }
     },
@@ -3259,8 +3421,8 @@
     "fileName": "HTML-Validation",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md",
     "tags": [
-      "html",
-      "html/formvalidation"
+      "source/html",
+      "source/html/formvalidation"
     ],
     "frontmatter": {
       "title": "HTML-Validation",
@@ -3275,7 +3437,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 103
+          "offset": 117
         }
       }
     },
@@ -3338,8 +3500,8 @@
     "fileName": "HTML-Semantic",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
     "tags": [
-      "html",
-      "html/semantic"
+      "source/html",
+      "source/html/semantic"
     ],
     "frontmatter": {
       "title": "HTML-Semantic",
@@ -3354,7 +3516,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 95
+          "offset": 109
         }
       }
     },
@@ -3373,7 +3535,7 @@
     "fileName": "HTML-Principel",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md",
     "tags": [
-      "html/principel"
+      "source/html/principel"
     ],
     "frontmatter": {
       "title": "HTML-Principel",
@@ -3388,7 +3550,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 89
+          "offset": 96
         }
       }
     },
@@ -3819,8 +3981,8 @@
     "fileName": "HTML-HEAD",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
     "tags": [
-      "html",
-      "html/tag"
+      "source/html",
+      "source/html/tag"
     ],
     "frontmatter": {
       "title": "HTML-HEAD",
@@ -3835,7 +3997,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 86
+          "offset": 100
         }
       }
     },
@@ -3991,7 +4153,7 @@
     "fileName": "AppleScript",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
     "tags": [
-      "applescript"
+      "source/applescript"
     ],
     "frontmatter": {
       "title": "AppleScript",
@@ -4006,7 +4168,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 84
+          "offset": 91
         }
       }
     },
@@ -4088,7 +4250,7 @@
     "fileName": "数组",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
     "tags": [
-      "datastructrue/array"
+      "source/datastructrue/array"
     ],
     "frontmatter": {
       "title": "数组",
@@ -4103,7 +4265,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 91
+          "offset": 98
         }
       }
     },
@@ -4118,7 +4280,7 @@
     "fileName": "哈希表",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
     "tags": [
-      "datastructrue/hashtable"
+      "source/datastructrue/hashtable"
     ],
     "frontmatter": {
       "title": "哈希表(散列表)",
@@ -4133,7 +4295,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 101
+          "offset": 108
         }
       }
     }
@@ -4142,7 +4304,7 @@
     "fileName": "09-高可用架构",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
     "tags": [
-      "mysql"
+      "source/mysql"
     ],
     "frontmatter": {
       "title": "高可用架构",
@@ -4157,7 +4319,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 80
+          "offset": 87
         }
       }
     }
@@ -4166,7 +4328,7 @@
     "fileName": "08-主从复制和主主复制",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
     "tags": [
-      "mysql"
+      "source/mysql"
     ],
     "frontmatter": {
       "title": "主从复制和主主复制",
@@ -4181,7 +4343,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 84
+          "offset": 91
         }
       }
     },
@@ -4204,7 +4366,7 @@
     "fileName": "07-备份与恢复",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
     "tags": [
-      "mysql"
+      "source/mysql"
     ],
     "frontmatter": {
       "title": "备份与恢复",
@@ -4219,7 +4381,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 80
+          "offset": 87
         }
       }
     },
@@ -4254,7 +4416,7 @@
     "fileName": "06-事务与锁",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
     "tags": [
-      "mysql"
+      "source/mysql"
     ],
     "frontmatter": {
       "title": "事务与锁",
@@ -4269,7 +4431,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 79
+          "offset": 86
         }
       }
     },
@@ -4308,7 +4470,7 @@
     "fileName": "05-应用程序开发",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
     "tags": [
-      "mysql/programdev"
+      "source/mysql/programdev"
     ],
     "frontmatter": {
       "title": "应用程序开发",
@@ -4323,7 +4485,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 92
+          "offset": 99
         }
       }
     },
@@ -4358,8 +4520,8 @@
     "fileName": "03-用户管理与访问控制",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
     "tags": [
-      "mysql",
-      "permission"
+      "source/mysql",
+      "source/mysql/permission"
     ],
     "frontmatter": {
       "title": "用户管理与访问控制",
@@ -4374,7 +4536,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 97
+          "offset": 117
         }
       }
     },
@@ -4413,7 +4575,7 @@
     "fileName": "04-数据库对象",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
     "tags": [
-      "mysql/dataobject"
+      "source/mysql/dataobject"
     ],
     "frontmatter": {
       "title": "数据库对象",
@@ -4428,7 +4590,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 91
+          "offset": 98
         }
       }
     },
@@ -4487,8 +4649,8 @@
     "fileName": "02-InnoDB存储引擎",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
     "tags": [
-      "innodb",
-      "mysql"
+      "source/mysql/innodb",
+      "source/mysql"
     ],
     "frontmatter": {
       "title": "InnoDB存储引擎",
@@ -4503,7 +4665,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 94
+          "offset": 114
         }
       }
     },
@@ -4602,7 +4764,7 @@
     "fileName": "01-MySQL数据库基础",
     "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
     "tags": [
-      "mysql"
+      "source/mysql"
     ],
     "frontmatter": {
       "title": "MySQL数据库基础",
@@ -4617,7 +4779,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 85
+          "offset": 92
         }
       }
     },
@@ -4797,62 +4959,10 @@
     ]
   },
   {
-    "fileName": "The Time Value of Money",
-    "relativePath": "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md",
-    "tags": [
-      "cfa",
-      "time",
-      "value"
-    ],
-    "frontmatter": {
-      "title": "The Time Value of Money",
-      "creation date": "2022-03-07 09:54",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 109
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "INTEREST RATE 利率 > 0",
-        "level": 1
-      },
-      {
-        "heading": "Cash flow additivity principle",
-        "level": 2
-      },
-      {
-        "heading": "Interpretations of Interest Rate",
-        "level": 2
-      },
-      {
-        "heading": "Required rate of return",
-        "level": 3
-      },
-      {
-        "heading": "Discounted rate",
-        "level": 3
-      },
-      {
-        "heading": "Opportunity cost",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "git hooks",
     "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
     "tags": [
-      "git/hooks"
+      "source/git/hooks"
     ],
     "frontmatter": {
       "title": "git hooks",
@@ -4867,7 +4977,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 88
+          "offset": 95
         }
       }
     }
@@ -4876,16 +4986,16 @@
     "fileName": "Git commit message",
     "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
     "tags": [
-      "git",
-      "commit"
+      "source/git",
+      "source/git/commit"
     ],
     "frontmatter": {
       "title": "Git commit message",
       "creation date": "2022-07-18 17:09:53",
       "status": "todo",
       "tag": [
-        "Git",
-        "commit"
+        "source/git",
+        "source/git/commit"
       ],
       "position": {
         "start": {
@@ -4896,7 +5006,7 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 102
+          "offset": 120
         }
       }
     },
@@ -4931,7 +5041,7 @@
     "fileName": "Mermaid",
     "relativePath": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
     "tags": [
-      "markdown/mermaid"
+      "source/markdown/mermaid"
     ],
     "frontmatter": {
       "title": "Mermaid",
@@ -4946,7 +5056,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 93
+          "offset": 100
         }
       }
     },
@@ -5107,6 +5217,12 @@
     ],
     "backlinks": [
       {
+        "fileName": "Home",
+        "link": "+ Learninng Notes Hub",
+        "relativePath": "Home.md",
+        "displayText": "LEARN NOTE"
+      },
+      {
         "fileName": "00 JS Notes Hub",
         "link": "+ Learninng Notes Hub",
         "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
@@ -5117,81 +5233,57 @@
         "link": "+ Learninng Notes Hub",
         "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
         "displayText": "⛵️ Learning Notes Hub"
-      },
-      {
-        "fileName": "00 HOME PAGE",
-        "link": "+ Learninng Notes Hub",
-        "relativePath": "00 HOME PAGE.md",
-        "displayText": "LEARN NOTE"
       }
     ]
   },
   {
-    "fileName": "The LYT Workshop",
-    "relativePath": "Sources/Courses/The LYT Workshop.md",
+    "fileName": "The Time Value of Money",
+    "relativePath": "Sources/Courses/💵 CFA | 金融分析师/The Time Value of Money.md",
     "tags": [
-      "source/course🏛"
+      "source/course🏛/cfa",
+      "source/course🏛/cfa/timevalue"
     ],
+    "frontmatter": {
+      "title": "The Time Value of Money",
+      "creation date": "2022-03-07 09:54",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 144
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "The LYT Workshop",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "LYT Kit"
-      },
-      {
-        "link": "Nick Milo"
-      },
-      {
-        "link": "Obsidian Flight School",
-        "relativePath": "Sources/Courses/Obsidian Flight School.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Obsidian Flight School",
-        "link": "The LYT Workshop",
-        "relativePath": "Sources/Courses/Obsidian Flight School.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Obsidian Flight School",
-    "relativePath": "Sources/Courses/Obsidian Flight School.md",
-    "tags": [
-      "source/course🏛"
-    ],
-    "headings": [
-      {
-        "heading": "Obsidian Flight School",
+        "heading": "INTEREST RATE 利率 > 0",
         "level": 1
       },
       {
-        "heading": "Stop watching. Start practicing.",
+        "heading": "Cash flow additivity principle",
+        "level": 2
+      },
+      {
+        "heading": "Interpretations of Interest Rate",
+        "level": 2
+      },
+      {
+        "heading": "Required rate of return",
         "level": 3
       },
       {
-        "heading": "What's inside the vault?",
+        "heading": "Discounted rate",
         "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "The LYT Workshop",
-        "relativePath": "Sources/Courses/The LYT Workshop.md"
       },
       {
-        "link": "Nick Milo"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "The LYT Workshop",
-        "link": "Obsidian Flight School",
-        "relativePath": "Sources/Courses/The LYT Workshop.md"
+        "heading": "Opportunity cost",
+        "level": 3
       }
     ]
   },
@@ -5326,185 +5418,6 @@
     ]
   },
   {
-    "fileName": "Home",
-    "relativePath": "Home.md",
-    "frontmatter": {
-      "alias": [
-        "000"
-      ],
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 22
-        }
-      }
-    },
-    "aliases": [
-      "000"
-    ],
-    "headings": [
-      {
-        "heading": "Home 🌎",
-        "level": 1
-      },
-      {
-        "heading": "Atlas 🗺",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Cooling pad 🧊",
-        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
-      },
-      {
-        "link": "Notebox 🗃 (Kit)",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
-      },
-      {
-        "link": "Ideas ✨ (Kit)",
-        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
-      },
-      {
-        "link": "Essays 🖌",
-        "relativePath": "Atlas/Logs/Essays 🖌.md"
-      },
-      {
-        "link": "Artifacts 💠",
-        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
-      },
-      {
-        "link": "Projects 🏗",
-        "relativePath": "Atlas/MOCs/Projects 🏗.md"
-      },
-      {
-        "link": "LYT Space 🔆 (Kit)",
-        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
-      },
-      {
-        "link": "Life Space™ (Kit)",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
-        "link": "+ Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
-      },
-      {
-        "link": "Concepts MOC",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "link": "People MOC",
-        "relativePath": "Atlas/MOCs/People MOC.md"
-      },
-      {
-        "link": "Sources MOC",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
-      },
-      {
-        "link": "Thinking",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "LYT Space 🔆 (Kit)",
-        "link": "Home",
-        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
-      },
-      {
-        "fileName": "Life Space™ (Kit)",
-        "link": "Home",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
-        "fileName": "Notebox 🗃 (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
-      },
-      {
-        "fileName": "Ideas ✨ (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
-      },
-      {
-        "fileName": "Cooling pad 🧊",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
-      },
-      {
-        "fileName": "Artifacts 💠",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
-      },
-      {
-        "fileName": "+ Index for index notes",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      },
-      {
-        "fileName": "Thinking",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      },
-      {
-        "fileName": "Sources MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
-      },
-      {
-        "fileName": "Projects 🏗",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Projects 🏗.md"
-      },
-      {
-        "fileName": "People MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/People MOC.md"
-      },
-      {
-        "fileName": "My PKM MOC (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
-      },
-      {
-        "fileName": "Health MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Health MOC.md"
-      },
-      {
-        "fileName": "Finance MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Finance MOC.md"
-      },
-      {
-        "fileName": "Concepts MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "fileName": "Essays 🖌",
-        "link": "Home",
-        "relativePath": "Atlas/Logs/Essays 🖌.md"
-      },
-      {
-        "fileName": "+ Library",
-        "link": "Home",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
     "fileName": "Template, Weekily-Note",
     "relativePath": "Extras/Templates/Template, Weekily-Note.md"
   },
@@ -5635,9 +5548,9 @@
     "fileName": "Template, Book-Note",
     "relativePath": "Extras/Templates/Template, Book-Note.md",
     "tags": [
-      "booktype",
-      "bookgenre",
-      "booktheme"
+      "book/booktype",
+      "book/bookgenre",
+      "book/booktheme"
     ],
     "frontmatter": {
       "started on": "<% tp.file.creation_date() %>",
@@ -5651,7 +5564,7 @@
         "end": {
           "line": 10,
           "col": 3,
-          "offset": 170
+          "offset": 185
         }
       }
     }
@@ -5667,9 +5580,6 @@
   {
     "fileName": "数据库与数据库实例.excalidraw",
     "relativePath": "Extras/Excalidraw/数据库/数据库与数据库实例.excalidraw.md",
-    "tags": [
-      "excalidraw"
-    ],
     "frontmatter": {
       "excalidraw-plugin": "parsed",
       "position": {
@@ -5679,9 +5589,9 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 4,
           "col": 3,
-          "offset": 54
+          "offset": 35
         }
       }
     },
@@ -5972,33 +5882,6 @@
       },
       {
         "link": "Habits MOC - Collide"
-      }
-    ]
-  },
-  {
-    "fileName": "Wim Hof",
-    "relativePath": "Cards/People/Wim Hof.md",
-    "tags": [
-      "people/npc",
-      "on/breathing"
-    ],
-    "headings": [
-      {
-        "heading": "Wim Hof",
-        "level": 1
-      },
-      {
-        "heading": "Wiki",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "People MOC",
-        "relativePath": "Atlas/MOCs/People MOC.md"
-      },
-      {
-        "link": "Exploring Wim Hof's Breath Manipulation (Kit)"
       }
     ]
   },
@@ -6508,6 +6391,12 @@
     ],
     "backlinks": [
       {
+        "fileName": "Home",
+        "link": "+ Index for Calendar",
+        "relativePath": "Home.md",
+        "displayText": "DAILY"
+      },
+      {
         "fileName": "Template, Daily-Note",
         "link": "+ Index for Calendar",
         "relativePath": "Extras/Templates/Template, Daily-Note.md",
@@ -6566,12 +6455,6 @@
         "link": "+ Index for Calendar",
         "relativePath": "Calendar/+ Media Log.md",
         "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "00 HOME PAGE",
-        "link": "+ Index for Calendar",
-        "relativePath": "00 HOME PAGE.md",
-        "displayText": "DAILY"
       }
     ]
   },
@@ -6608,15 +6491,7 @@
     ],
     "links": [
       {
-        "link": "People MOC",
-        "relativePath": "Atlas/MOCs/People MOC.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "People MOC",
-        "link": "Prominent People 🌋 (Kit)",
-        "relativePath": "Atlas/MOCs/People MOC.md"
+        "link": "People MOC"
       }
     ]
   },
@@ -6924,14 +6799,14 @@
     ],
     "backlinks": [
       {
-        "fileName": "Life Space™ (Kit)",
-        "link": "Thinking",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
         "fileName": "Home",
         "link": "Thinking",
         "relativePath": "Home.md"
+      },
+      {
+        "fileName": "Life Space™ (Kit)",
+        "link": "Thinking",
+        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
       },
       {
         "fileName": "+ Library",
@@ -6981,265 +6856,6 @@
         "fileName": "Bookshelf 📚 (Kit)",
         "link": "Sources MOC",
         "relativePath": "Atlas/Scopes/Bookshelf 📚 (Kit).md"
-      }
-    ]
-  },
-  {
-    "fileName": "Psychology MOC (Kit)",
-    "relativePath": "Atlas/MOCs/Psychology MOC (Kit).md",
-    "tags": [
-      "atlas/moc🗺"
-    ],
-    "headings": [
-      {
-        "heading": "Psychology MOC (Kit)",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "Psychology MOC"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Library",
-        "link": "Psychology MOC (Kit)",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Projects 🏗",
-    "relativePath": "Atlas/MOCs/Projects 🏗.md",
-    "tags": [
-      "atlas/moc🗺",
-      "project"
-    ],
-    "headings": [
-      {
-        "heading": "Projects 🏗",
-        "level": 1
-      },
-      {
-        "heading": "Past spaces for projects",
-        "level": 3
-      },
-      {
-        "heading": "Commentary",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "LYT Projects 🏗"
-      },
-      {
-        "link": "Life Projects 🏗"
-      },
-      {
-        "link": "ENT Projects 🏗"
-      },
-      {
-        "link": "PGB Projects 🏗"
-      },
-      {
-        "link": "ToDo"
-      },
-      {
-        "link": "The Studio 🎨"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Projects 🏗",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Philosophy MOC (Kit)",
-    "relativePath": "Atlas/MOCs/Philosophy MOC (Kit).md",
-    "tags": [
-      "atlas/moc🗺"
-    ],
-    "headings": [
-      {
-        "heading": "Philosophy MOC",
-        "level": 1
-      },
-      {
-        "heading": "Traditional Philosophy",
-        "level": 2
-      },
-      {
-        "heading": "Top Philosophers",
-        "level": 3
-      },
-      {
-        "heading": "Chronological",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "Philosophy MOC"
-      },
-      {
-        "link": "Ancient Greece MOC"
-      },
-      {
-        "link": "Collective Intelligence MOC",
-        "relativePath": "Atlas/MOCs/Library/Collective Intelligence MOC.md"
-      },
-      {
-        "link": "Design MOC"
-      },
-      {
-        "link": "1952 📚 The Syntopicon"
-      },
-      {
-        "link": "Dimensions of Reality"
-      },
-      {
-        "link": "Socrates"
-      },
-      {
-        "link": "Plato"
-      },
-      {
-        "link": "Aristotle"
-      },
-      {
-        "link": "Montaigne"
-      },
-      {
-        "link": "Protagoras"
-      },
-      {
-        "link": "Gorgias"
-      },
-      {
-        "link": "Socrates"
-      },
-      {
-        "link": "Democritus"
-      },
-      {
-        "link": "Plato"
-      },
-      {
-        "link": "Aristotle"
-      },
-      {
-        "link": "Juvenal"
-      },
-      {
-        "link": "Montaigne"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Library",
-        "link": "Philosophy MOC (Kit)",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "People MOC",
-    "relativePath": "Atlas/MOCs/People MOC.md",
-    "tags": [
-      "atlas/moc🗺",
-      "calendar/event🎪",
-      "calendar/meeting👥",
-      "to/ping",
-      "to/waiting",
-      "on/ent"
-    ],
-    "headings": [
-      {
-        "heading": "People MOC",
-        "level": 1
-      },
-      {
-        "heading": "Actions I have related to people",
-        "level": 3
-      },
-      {
-        "heading": "People I know or are in my network",
-        "level": 3
-      },
-      {
-        "heading": "Other people",
-        "level": 3
-      },
-      {
-        "heading": "Prominent people",
-        "level": 3
-      },
-      {
-        "heading": "Other",
-        "level": 4
-      },
-      {
-        "heading": "Templates",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Birthdays Example",
-        "displayText": "Birthdays"
-      },
-      {
-        "link": "Prominent People 🌋 (Kit)",
-        "relativePath": "Atlas/Scopes/Prominent People 🌋 (Kit).md"
-      },
-      {
-        "link": "Prominent People Scope"
-      },
-      {
-        "link": "People across time that I admire their contributions to thinking"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "People MOC",
-        "relativePath": "Home.md"
-      },
-      {
-        "fileName": "Wim Hof",
-        "link": "People MOC",
-        "relativePath": "Cards/People/Wim Hof.md"
-      },
-      {
-        "fileName": "Prominent People 🌋 (Kit)",
-        "link": "People MOC",
-        "relativePath": "Atlas/Scopes/Prominent People 🌋 (Kit).md"
-      },
-      {
-        "fileName": "+ Library",
-        "link": "People MOC",
-        "relativePath": "Atlas/+ Library.md"
       }
     ]
   },
@@ -7300,6 +6916,11 @@
     ],
     "backlinks": [
       {
+        "fileName": "Home",
+        "link": "My PKM MOC (Kit)",
+        "relativePath": "Home.md"
+      },
+      {
         "fileName": "+ About Encounters",
         "link": "My PKM MOC (Kit)",
         "relativePath": "• Encounters/+ About Encounters.md"
@@ -7315,11 +6936,6 @@
         "relativePath": "Sources/+ About Sources.md"
       },
       {
-        "fileName": "Home",
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Home.md"
-      },
-      {
         "fileName": "+ About Cards",
         "link": "My PKM MOC (Kit)",
         "relativePath": "Cards/+ About Cards.md"
@@ -7328,86 +6944,6 @@
         "fileName": "+ Library",
         "link": "My PKM MOC (Kit)",
         "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Health MOC",
-    "relativePath": "Atlas/MOCs/Health MOC.md",
-    "tags": [
-      "atlas/moc🗺"
-    ],
-    "headings": [
-      {
-        "heading": "Health MOC",
-        "level": 1
-      },
-      {
-        "heading": "Nutrition",
-        "level": 3
-      },
-      {
-        "heading": "Physical Training",
-        "level": 3
-      },
-      {
-        "heading": "Medical and Health Metrics",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Breathing Exercises MOC"
-      },
-      {
-        "link": "Hormesis MOC"
-      },
-      {
-        "link": "Posture MOC"
-      },
-      {
-        "link": "Sleep MOC"
-      },
-      {
-        "link": "Health MOC redux"
-      },
-      {
-        "link": "Nutrition MOC"
-      },
-      {
-        "link": "Nutrients MOC"
-      },
-      {
-        "link": "Physical Training MOC"
-      },
-      {
-        "link": "Exercises MOC"
-      },
-      {
-        "link": "201903282254"
-      },
-      {
-        "link": "Workouts Tracker 🦾"
-      },
-      {
-        "link": "Injury Tracker MOC"
-      },
-      {
-        "link": "Body Quirks Tracker"
-      },
-      {
-        "link": "Medical MOC"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Life Space™ (Kit)",
-        "link": "Health MOC",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
       }
     ]
   },
@@ -7882,108 +7418,9 @@
     ],
     "backlinks": [
       {
-        "fileName": "Philosophy MOC (Kit)",
-        "link": "Collective Intelligence MOC",
-        "relativePath": "Atlas/MOCs/Philosophy MOC (Kit).md"
-      },
-      {
         "fileName": "+ Library",
         "link": "Collective Intelligence MOC",
         "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Finance MOC",
-    "relativePath": "Atlas/MOCs/Finance MOC.md",
-    "tags": [
-      "atlas/moc🗺",
-      "space/life/finance"
-    ],
-    "headings": [
-      {
-        "heading": "Finance MOC Example",
-        "level": 1
-      },
-      {
-        "heading": "Healthcare",
-        "level": 3
-      },
-      {
-        "heading": "Insurance",
-        "level": 3
-      },
-      {
-        "heading": "Tax",
-        "level": 3
-      },
-      {
-        "heading": "Credit Card & Bills",
-        "level": 3
-      },
-      {
-        "heading": "Stocks & Investments",
-        "level": 3
-      },
-      {
-        "heading": "Housing",
-        "level": 3
-      },
-      {
-        "heading": "Auto",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Finances 💰"
-      },
-      {
-        "link": "Medical MOC"
-      },
-      {
-        "link": "Insurance MOC"
-      },
-      {
-        "link": "Taxes MOC"
-      },
-      {
-        "link": "Bills MOC"
-      },
-      {
-        "link": "Credit Card MOC"
-      },
-      {
-        "link": "ID Ledger"
-      },
-      {
-        "link": "Investments MOC"
-      },
-      {
-        "link": "Housing MOC"
-      },
-      {
-        "link": "Auto Maintenance Log",
-        "relativePath": "Spaces/Life/Areas/Financial/Auto Maintenance Log.md"
-      },
-      {
-        "link": "Auto MOC"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Life Space™ (Kit)",
-        "link": "Finance MOC",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
-        "fileName": "Auto Maintenance Log",
-        "link": "Finance MOC",
-        "relativePath": "Spaces/Life/Areas/Financial/Auto Maintenance Log.md"
       }
     ]
   },
@@ -8279,8 +7716,7 @@
         "link": "Breathing Exercises MOC"
       },
       {
-        "link": "Philosophy MOC (Kit)",
-        "relativePath": "Atlas/MOCs/Philosophy MOC (Kit).md"
+        "link": "Philosophy MOC (Kit)"
       },
       {
         "link": "Stoicism MOC"
@@ -8295,12 +7731,10 @@
         "link": "Taoism MOC"
       },
       {
-        "link": "Psychology MOC (Kit)",
-        "relativePath": "Atlas/MOCs/Psychology MOC (Kit).md"
+        "link": "Psychology MOC (Kit)"
       },
       {
-        "link": "People MOC",
-        "relativePath": "Atlas/MOCs/People MOC.md"
+        "link": "People MOC"
       },
       {
         "link": "Prominent People 🌋"
@@ -8395,16 +7829,6 @@
         "relativePath": "Home.md"
       },
       {
-        "fileName": "Psychology MOC (Kit)",
-        "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Psychology MOC (Kit).md"
-      },
-      {
-        "fileName": "Philosophy MOC (Kit)",
-        "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Philosophy MOC (Kit).md"
-      },
-      {
         "fileName": "Systems MOC (Kit)",
         "link": "+ Library",
         "relativePath": "Atlas/MOCs/Library/Systems MOC (Kit).md"
@@ -8423,71 +7847,6 @@
         "fileName": "Collective Intelligence MOC",
         "link": "+ Library",
         "relativePath": "Atlas/MOCs/Library/Collective Intelligence MOC.md"
-      }
-    ]
-  },
-  {
-    "fileName": "00 HOME PAGE",
-    "relativePath": "00 HOME PAGE.md",
-    "frontmatter": {
-      "title": "Learning Note OverView",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "tags": null,
-      "banner": "![[宁静.JPG]]",
-      "banner_x": 0.5,
-      "banner_y": 0.85,
-      "banner_lock": true,
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 10,
-          "col": 3,
-          "offset": 188
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "🗂 PERSONAL OBJECT",
-        "level": 1
-      },
-      {
-        "heading": "〽️ STATS",
-        "level": 1
-      },
-      {
-        "heading": "📝 DAILY NOTE",
-        "level": 1
-      },
-      {
-        "heading": "📑 WAITING LIST",
-        "level": 1
-      },
-      {
-        "heading": "📝 DOING LIST",
-        "level": 1
-      },
-      {
-        "heading": "📨 REVIEW LIST",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Learninng Notes Hub",
-        "displayText": "LEARN NOTE",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
-      },
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "DAILY",
-        "relativePath": "Calendar/+ Index for Calendar.md"
       }
     ]
   }

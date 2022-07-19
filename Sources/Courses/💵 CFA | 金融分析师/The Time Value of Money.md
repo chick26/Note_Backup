@@ -3,8 +3,8 @@ title: The Time Value of Money
 creation date: 2022-03-07 09:54 
 status: todo
 tags:
-- CFA
-- Time Value
+- source/course🏛/CFA
+- source/course🏛/CFA/TimeValue
 ---
 > - interest rates 利率 
 > - required rates of return 要求回报率

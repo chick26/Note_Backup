@@ -3,8 +3,8 @@ title: dumi 组件库搭建
 creation date: 2022-02-28 19:05 
 status: done
 tags:
-- UILibrary
-- dumi
+- source/javaScript/uiLibrary
+- source/deploy/dumi
 ---
 
 # 配置相关

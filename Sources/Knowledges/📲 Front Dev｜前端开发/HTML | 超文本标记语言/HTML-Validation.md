@@ -3,8 +3,8 @@ title: "HTML-Validation"
 date: 2022-01-24 14:41
 status: done
 tags:
-- HTML
-- HTML/FormValidation
+- source/html
+- source/html/FormValidation
 ---
 
 # 不同类型的表单数据校验

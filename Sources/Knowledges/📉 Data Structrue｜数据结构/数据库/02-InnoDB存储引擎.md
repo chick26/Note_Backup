@@ -3,8 +3,8 @@ title: InnoDB存储引擎
 creation date: 2022-07-10 20:30 
 status: todo
 tags:
-- InnoDB
-- MySQL
+- source/mySql/InnoDB
+- source/mySql
 ---
 
 # InnoDB存储引擎

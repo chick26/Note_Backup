@@ -3,8 +3,8 @@ title: "DNS"
 date: 2022-01-24 14:41
 status: done
 tags:
-- Internet
-- Internet/DNS
+- source/internet
+- source/internet/DNS
 ---
 
 >域名系统 (DNS) 是互联网的电话簿。人们通过例如 nytimes.com 或 espn.com 等域名在线访问信息。Web 浏览器通过 [[IP|互联网协议]]（IP） 地址进行交互。DNS 将域名转换为 IP 地址，以便浏览器能够加载互联网资源。

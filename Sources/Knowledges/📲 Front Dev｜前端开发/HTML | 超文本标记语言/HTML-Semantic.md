@@ -3,8 +3,8 @@ title: "HTML-Semantic"
 date: 2022-01-24 14:41
 status: done
 tags:
-- HTML
-- HTML/Semantic
+- source/html
+- source/html/Semantic
 ---
 # 什么是语义元素？
 

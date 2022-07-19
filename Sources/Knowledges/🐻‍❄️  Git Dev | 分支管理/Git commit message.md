@@ -3,8 +3,8 @@ title: Git commit message
 creation date: 2022-07-18 17:09:53
 status: todo
 tag: 
-- Git
-- commit
+- source/git
+- source/git/commit
 ---
 
 > A typical git commit message will look like  

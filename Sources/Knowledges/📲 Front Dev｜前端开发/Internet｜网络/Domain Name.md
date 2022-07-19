@@ -3,8 +3,8 @@ title: "Domain Name"
 date: 2022-01-24 14:41
 status: done
 tags:
-- Internet
-- Internet/DomainName
+- source/internet
+- source/internet/DomainName
 ---
 
 >域名（Domain names）是互联网基础架构的关键部分。它们为互联网上任何可用的网页服务器提供了方便人类理解的地址。

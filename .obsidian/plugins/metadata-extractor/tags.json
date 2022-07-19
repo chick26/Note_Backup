@@ -11,25 +11,19 @@
   },
   {
     "tag": "atlas/moc🗺",
-    "tagCount": 19,
+    "tagCount": 13,
     "relativePaths": [
       "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Spaces/Life/• MOCs/Life Space™ (Kit).md",
       "Atlas/MOCs/Thinking.md",
       "Atlas/MOCs/Sources MOC.md",
-      "Atlas/MOCs/Psychology MOC (Kit).md",
-      "Atlas/MOCs/Projects 🏗.md",
-      "Atlas/MOCs/Philosophy MOC (Kit).md",
-      "Atlas/MOCs/People MOC.md",
       "Atlas/MOCs/My PKM MOC (Kit).md",
-      "Atlas/MOCs/Health MOC.md",
       "Atlas/MOCs/Library/Systems MOC (Kit).md",
       "Atlas/MOCs/Library/Speech MOC.md",
       "Atlas/MOCs/Library/Habits MOC.md",
       "Atlas/MOCs/Library/Places MOC.md",
       "Atlas/MOCs/Library/Language MOC.md",
       "Atlas/MOCs/Library/Collective Intelligence MOC.md",
-      "Atlas/MOCs/Finance MOC.md",
       "Atlas/MOCs/Concepts MOC.md",
       "Atlas/+ Library.md"
     ]
@@ -67,21 +61,20 @@
   },
   {
     "tag": "space/life/finance",
-    "tagCount": 2,
+    "tagCount": 1,
     "relativePaths": [
-      "Spaces/Life/Areas/Financial/Auto Maintenance Log.md",
-      "Atlas/MOCs/Finance MOC.md"
+      "Spaces/Life/Areas/Financial/Auto Maintenance Log.md"
     ]
   },
   {
-    "tag": "csbasic",
+    "tag": "note/csbasic",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/🗄 Avatar | 待分类/与上下文无关的语法.md"
     ]
   },
   {
-    "tag": "uilibrary",
+    "tag": "source/javascript/uilibrary",
     "tagCount": 2,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
@@ -89,148 +82,78 @@
     ]
   },
   {
-    "tag": "designprinciple",
+    "tag": "source/uilibrary/designprinciple",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md"
     ]
   },
   {
-    "tag": "dumi",
+    "tag": "source/deploy/dumi",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
     ]
   },
   {
-    "tag": "typescript",
+    "tag": "source/javascript/typescript",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/TypeScript | Web编程语言/TypeScript 语法.md"
     ]
   },
   {
-    "tag": "javascript",
-    "tagCount": 3,
+    "tag": "source/javascript",
+    "tagCount": 6,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md",
       "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
     ]
   },
   {
-    "tag": "filepreview",
+    "tag": "source/tools/frontentool/filepreview",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/File Preview.md"
     ]
   },
   {
-    "tag": "frontentool",
+    "tag": "source/tools/frontentool",
+    "tagCount": 4,
+    "relativePaths": [
+      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
+    ]
+  },
+  {
+    "tag": "source/tools/frontentool/ducumenthandler",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
     ]
   },
   {
-    "tag": "ducumenthandler",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "docx",
-    "tagCount": 2,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "office",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "generator",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "templating",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "report",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "json",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "generate",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "generation",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "template",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "pptx",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md"
-    ]
-  },
-  {
-    "tag": "charles",
+    "tag": "source/tools/frontentool/charles",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md"
     ]
   },
   {
-    "tag": "webpack",
+    "tag": "source/deploy/webpack",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
     ]
   },
   {
-    "tag": "deploy",
-    "tagCount": 1,
+    "tag": "source/deploy",
+    "tagCount": 4,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md"
     ]
   },
   {
-    "tag": "package/fronten",
+    "tag": "source/package/fronten",
     "tagCount": 2,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
@@ -238,21 +161,21 @@
     ]
   },
   {
-    "tag": "rollupjs",
+    "tag": "source/deploy/rollupjs",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md"
     ]
   },
   {
-    "tag": "javascript/promise",
+    "tag": "source/javascript/promise",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md"
     ]
   },
   {
-    "tag": "internet",
+    "tag": "source/internet",
     "tagCount": 18,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
@@ -268,63 +191,63 @@
     ]
   },
   {
-    "tag": "internet/webhosting",
+    "tag": "source/internet/webhosting",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md"
     ]
   },
   {
-    "tag": "internet/webbrowser",
+    "tag": "source/internet/webbrowser",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
     ]
   },
   {
-    "tag": "internet/www",
+    "tag": "source/internet/www",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
     ]
   },
   {
-    "tag": "internet/url",
+    "tag": "source/internet/url",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
     ]
   },
   {
-    "tag": "internet/ip",
+    "tag": "source/internet/ip",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/IP.md"
     ]
   },
   {
-    "tag": "internet/domainname",
+    "tag": "source/internet/domainname",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Domain Name.md"
     ]
   },
   {
-    "tag": "internet/dns",
+    "tag": "source/internet/dns",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/DNS.md"
     ]
   },
   {
-    "tag": "internet/apranet",
+    "tag": "source/internet/apranet",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md"
     ]
   },
   {
-    "tag": "html",
+    "tag": "source/html",
     "tagCount": 8,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
@@ -334,57 +257,57 @@
     ]
   },
   {
-    "tag": "html/formvalidation",
+    "tag": "source/html/formvalidation",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Validation.md"
     ]
   },
   {
-    "tag": "html/semantic",
+    "tag": "source/html/semantic",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md"
     ]
   },
   {
-    "tag": "html/principel",
+    "tag": "source/html/principel",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md"
     ]
   },
   {
-    "tag": "html/tag",
+    "tag": "source/html/tag",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md"
     ]
   },
   {
-    "tag": "applescript",
+    "tag": "source/applescript",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md"
     ]
   },
   {
-    "tag": "datastructrue/array",
+    "tag": "source/datastructrue/array",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md"
     ]
   },
   {
-    "tag": "datastructrue/hashtable",
+    "tag": "source/datastructrue/hashtable",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md"
     ]
   },
   {
-    "tag": "mysql",
-    "tagCount": 9,
+    "tag": "source/mysql",
+    "tagCount": 11,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
@@ -396,96 +319,80 @@
     ]
   },
   {
-    "tag": "mysql/programdev",
+    "tag": "source/mysql/programdev",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md"
     ]
   },
   {
-    "tag": "permission",
+    "tag": "source/mysql/permission",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md"
     ]
   },
   {
-    "tag": "mysql/dataobject",
+    "tag": "source/mysql/dataobject",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md"
     ]
   },
   {
-    "tag": "innodb",
+    "tag": "source/mysql/innodb",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
     ]
   },
   {
-    "tag": "cfa",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md"
-    ]
-  },
-  {
-    "tag": "time",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md"
-    ]
-  },
-  {
-    "tag": "value",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/💵 CFA | 金融分析师/The Time Value of Money.md"
-    ]
-  },
-  {
-    "tag": "git/hooks",
+    "tag": "source/git/hooks",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md"
     ]
   },
   {
-    "tag": "git",
-    "tagCount": 2,
+    "tag": "source/git",
+    "tagCount": 3,
     "relativePaths": [
       "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
     ]
   },
   {
-    "tag": "commit",
+    "tag": "source/git/commit",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md"
     ]
   },
   {
-    "tag": "markdown/mermaid",
+    "tag": "source/markdown/mermaid",
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/🎰 Markdown/Mermaid.md"
     ]
   },
   {
-    "tag": "source/course🏛",
+    "tag": "source/course🏛/cfa",
     "tagCount": 2,
     "relativePaths": [
-      "Sources/Courses/The LYT Workshop.md",
-      "Sources/Courses/Obsidian Flight School.md"
+      "Sources/Courses/💵 CFA | 金融分析师/The Time Value of Money.md"
+    ]
+  },
+  {
+    "tag": "source/course🏛/cfa/timevalue",
+    "tagCount": 1,
+    "relativePaths": [
+      "Sources/Courses/💵 CFA | 金融分析师/The Time Value of Money.md"
     ]
   },
   {
     "tag": "calendar/meeting👥",
-    "tagCount": 2,
+    "tagCount": 1,
     "relativePaths": [
-      "Extras/Templates/Template, Meeting in Daily Note 👥 (Kit).md",
-      "Atlas/MOCs/People MOC.md"
+      "Extras/Templates/Template, Meeting in Daily Note 👥 (Kit).md"
     ]
   },
   {
@@ -497,31 +404,24 @@
     ]
   },
   {
-    "tag": "booktype",
+    "tag": "book/booktype",
     "tagCount": 1,
     "relativePaths": [
       "Extras/Templates/Template, Book-Note.md"
     ]
   },
   {
-    "tag": "bookgenre",
+    "tag": "book/bookgenre",
     "tagCount": 1,
     "relativePaths": [
       "Extras/Templates/Template, Book-Note.md"
     ]
   },
   {
-    "tag": "booktheme",
+    "tag": "book/booktheme",
     "tagCount": 1,
     "relativePaths": [
       "Extras/Templates/Template, Book-Note.md"
-    ]
-  },
-  {
-    "tag": "excalidraw",
-    "tagCount": 1,
-    "relativePaths": [
-      "Extras/Excalidraw/数据库/数据库与数据库实例.excalidraw.md"
     ]
   },
   {
@@ -558,20 +458,6 @@
     ]
   },
   {
-    "tag": "people/npc",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/People/Wim Hof.md"
-    ]
-  },
-  {
-    "tag": "on/breathing",
-    "tagCount": 1,
-    "relativePaths": [
-      "Cards/People/Wim Hof.md"
-    ]
-  },
-  {
     "tag": "atlas/scope🔬",
     "tagCount": 7,
     "relativePaths": [
@@ -582,41 +468,6 @@
       "Atlas/Scopes/Bookshelf 📚 (Kit).md",
       "Atlas/Scopes/Artifacts 💠.md",
       "Atlas/Logs/Essays 🖌.md"
-    ]
-  },
-  {
-    "tag": "project",
-    "tagCount": 1,
-    "relativePaths": [
-      "Atlas/MOCs/Projects 🏗.md"
-    ]
-  },
-  {
-    "tag": "calendar/event🎪",
-    "tagCount": 1,
-    "relativePaths": [
-      "Atlas/MOCs/People MOC.md"
-    ]
-  },
-  {
-    "tag": "to/ping",
-    "tagCount": 1,
-    "relativePaths": [
-      "Atlas/MOCs/People MOC.md"
-    ]
-  },
-  {
-    "tag": "to/waiting",
-    "tagCount": 1,
-    "relativePaths": [
-      "Atlas/MOCs/People MOC.md"
-    ]
-  },
-  {
-    "tag": "on/ent",
-    "tagCount": 1,
-    "relativePaths": [
-      "Atlas/MOCs/People MOC.md"
     ]
   },
   {

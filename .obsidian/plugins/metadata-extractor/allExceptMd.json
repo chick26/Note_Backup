@@ -149,10 +149,6 @@
       "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理"
     },
     {
-      "name": "💵 CFA | 金融分析师",
-      "relativePath": "Sources/Knowledges/💵 CFA | 金融分析师"
-    },
-    {
       "name": "📉 Data Structrue｜数据结构",
       "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构"
     },
@@ -275,6 +271,10 @@
     {
       "name": "Archive",
       "relativePath": "Spaces/Work/• MOCs/Archive"
+    },
+    {
+      "name": "💵 CFA | 金融分析师",
+      "relativePath": "Sources/Courses/💵 CFA | 金融分析师"
     }
   ],
   "nonMdFiles": [

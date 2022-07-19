@@ -3,8 +3,8 @@ title: "Promise 常用方法"
 date: 2022-01-24 14:41
 status: done
 tags:
-- JavaScript
-- JavaScript/Promise
+- source/javaScript
+- source/javaScript/Promise
 ---
 
 # Promise 中的三兄弟 .all(), .race(), .allSettled()

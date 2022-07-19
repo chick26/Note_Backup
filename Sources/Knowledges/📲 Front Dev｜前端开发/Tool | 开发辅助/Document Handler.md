@@ -3,8 +3,8 @@ title: Document Handler
 creation date: 2022-07-15 15:48:08
 status: done
 tag:
-- FrontenTool
-- DucumentHandler
+- source/tools/frontenTool
+- source/tools/frontenTool/ducumentHandler
 ---
 
 ![[Pasted image 20220715163056.png]]
@@ -234,7 +234,7 @@ JSZip 是一个使用 JavaScript 创建、读取和编辑 .zip 文件的库，�
 
 ### docxtemplater
 
-- Github: [open-xml-templating/docxtemplater: Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js, the Browser and the command line / Demo: https://www.docxtemplater.com/demo. #docx #office #generator #templating #report #json #generate #generation #template #pptx #docx](https://github.com/open-xml-templating/docxtemplater)
+- Github: [open-xml-templating/docxtemplater: Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js, the Browser and the command line / Demo: https://www.docxtemplater.com/demo.](https://github.com/open-xml-templating/docxtemplater)
 - Document: [Docxtemplater | Word, Powerpoint, Excel generation using templates in your application | docxtemplater](https://docxtemplater.com/)
 
 docxtemplater 是一个从 docx/pptx 模板生成 docx/pptx 文档的库。它可以用数据替换 {placeholders} 并且还支持循环和条件。

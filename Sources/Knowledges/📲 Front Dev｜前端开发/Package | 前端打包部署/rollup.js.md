@@ -3,8 +3,8 @@ title: rollup.js
 creation date: 2022-05-24 09:20:20
 status: done
 tag: 
-- rollupjs
-- package/fronten
+- source/deploy/rollupjs
+- source/package/fronten
 ---
 [rollup.js](https://rollupjs.org/) 是一个 JavaScript 打包工具。本文介绍它的基本用法。
 
