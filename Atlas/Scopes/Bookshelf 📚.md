@@ -12,6 +12,8 @@ Do not be a completionist. Allow this place to develop as needed and not sooner!
 | [[Books I've Read MOC]] | [[Books Purgatory List]] |
 
 ```dataview
-table dates
+table WITHOUT ID
+("[[" + file.name + "]]") as TITLE, 
+dates
 from #source/book📚 
 ```

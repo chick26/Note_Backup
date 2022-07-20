@@ -6,10 +6,10 @@ tags:
 
 # <-[[Home]] | Thinking
 
-| I want to...                                           | ...wander                                                                  |
-|:------------------------------------------------------ |:----------------------------------------------------------------- |
-| Connect ideas • Make leaps of insights | [[Notebox 🗃]] • [[Concepts MOC]]                            |
-| Broaden my perspective • Think laterally               | [[Refraction Thinking]]                       |
+| I want to...                             | ...wander                        |
+|:---------------------------------------- |:-------------------------------- |
+| Connect ideas • Make leaps of insights   | [[Notebox 🗃]] • [[Concepts MOC]] |
+| Broaden my perspective • Think laterally | [[Refraction Thinking]]          |
 
 ---
 
