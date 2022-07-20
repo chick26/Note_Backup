@@ -1,13 +1,9 @@
-up:: [[+ Library]]
-tags:: #atlas/MOC🗺 
-dates:: 2020-11-17
+---
+tags:
+- atlas/MOC🗺 
+---
 
-> [!INFO]-  
-> This is just a **rough** thinking space that we put together as a group in about 10 minutes. 
-
-Don't *over-link*...you don't have to create links everywhere.
-
-# Collective Intelligence MOC
+# <-[[+ Library|Library]] | Collective Intelligence MOC
 **Questions**
 *Ask questions to prompt my thinking?*
 

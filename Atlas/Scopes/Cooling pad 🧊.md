@@ -1,7 +1,9 @@
-up:: [[Home]]
-tags:: #atlas/Scope🔬 
+---
+tags:
+- atlas/Scope🔬 
+---
 
-# Cooling pad 🧊
+# <-[[Home]] | Cooling pad 🧊
 Thoughts come in hot 🌶. But after a few days, they cool down ❄️.
 
 When cooler thoughts prevail, you will be better at prioritizing what is truly important. Cool? 

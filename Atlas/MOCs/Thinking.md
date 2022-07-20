@@ -1,14 +1,9 @@
-up:: [[Home]]
-tags:: #atlas/MOC🗺 
+---
+tags:
+- atlas/MOC🗺 
+---
 
-> [!NOTE]- Notes on this note
-> This is a sanitized version of my actual note. 
-> - Content and links have been removed.
-
-# Thinking
-We need to recognize there are many different and joyful ways to think. 
-
-It's time to cultivate this inherently rich endeavor.
+# <-[[Home]] | Thinking
 
 | I want to...                                           | ...wander                                                                  |
 |:------------------------------------------------------ |:----------------------------------------------------------------- |

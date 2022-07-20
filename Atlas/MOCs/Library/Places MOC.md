@@ -1,12 +1,10 @@
-up:: [[+ Library]]
-tags:: #atlas/MOC🗺 #on/travel 
+---
+tags:
+- atlas/MOC🗺
+- on/travel 
+---
 
-> [!INFO]- Notes on this note
-> This is a sanitized version of my actual note. 
-> - Content and links have been removed.
-
-
-# Places MOC
+# <-[[+ Library|Library]] | Places MOC
 Welcome to the Places MOC. It is the most under-developed major category for me, but I value having a "map" for "places", it's rather apt.
 
 ### Main Travel Categories

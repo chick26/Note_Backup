@@ -1,12 +1,7 @@
-up:: 
-tags:: #atlas/Scope🔬
-X:: [[Mapping the flexible flow of ideas]]
-
-> [!INFO]-  Only the "idea sparks" datascope is included in the LYT Kit.
-> This is a sanitized version of my actual note. 
-> 
-> - Content and links have been removed.
-> - Nick, go here [[Ideas ✨]]
+---
+tags:
+- atlas/Scope🔬
+---
 
 # <-[[Home]] | Ideas ✨ 
 

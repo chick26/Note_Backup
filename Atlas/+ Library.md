@@ -1,11 +1,9 @@
-up:: [[Home]]
-tags:: #atlas/MOC🗺
+---
+tags:
+- atlas/MOC🗺
+---
 
-> [!NOTE]- Notes on this note
-> This is a sanitized version of my actual note. 
-> - Content and links have been removed.
-
-# Library
+# <-[[Home]] | Library
 Navigate your library of maps with a classification system made for PKM. 
 
 This is a ready-made scaffolding that can hold your diverse interests. Try to only populate it with interests where you actually have some zest and zeal. 

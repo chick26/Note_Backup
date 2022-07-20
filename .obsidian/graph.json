@@ -5,34 +5,41 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"🎨 Excalidraw｜画板仓库\"",
+      "query": "file:Home",
       "color": {
         "a": 1,
-        "rgb": 15142157
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:\"🛖 Learning Repo｜学习仓库/📲 Front Dev｜前端开发\"",
+      "query": "path:Sources",
       "color": {
         "a": 1,
-        "rgb": 6902496
+        "rgb": 7733018
       }
     },
     {
-      "query": "path:\"🛖 Learning Repo｜学习仓库/📉 Data Structrue｜数据结构\"",
+      "query": "path:Cards",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 5397472
       }
     },
     {
-      "query": "path:\"🛖 Learning Repo｜学习仓库/💵 CFA | 金融分析师\"",
+      "query": "path:Spaces",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 10220469
+      }
+    },
+    {
+      "query": "path:Calendar",
+      "color": {
+        "a": 1,
+        "rgb": 14701242
       }
     }
   ],
@@ -46,6 +53,6 @@
   "repelStrength": 12.3094093406593,
   "linkStrength": 1,
   "linkDistance": 314,
-  "scale": 0.3464940379833693,
-  "close": false
+  "scale": 0.7796115854625809,
+  "close": true
 }

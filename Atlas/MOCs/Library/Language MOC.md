@@ -1,11 +1,10 @@
-up:: [[+ Library]]
-tags:: #atlas/MOC🗺, #on/language 
+---
+tags:
+- atlas/MOC🗺
+- on/language 
+---
 
-> [!INFO]- Notes on this note
-> This is a sanitized version of my actual note. 
-> - Content and links have been removed.
-
-# Language MOC
+# <-[[+ Library|Library]] | Language MOC
 - [[Words MOC]]
 
 ---

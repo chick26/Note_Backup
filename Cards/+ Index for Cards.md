@@ -17,5 +17,4 @@ SORT file.name ASC
 TABLE dates
 FROM "Cards" and -#index
 GROUP BY file.folder
-
 ```

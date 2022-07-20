@@ -3,7 +3,6 @@ tags:
 - atlas/Scope🔬 
 ---
 
-
 # <-[[Home]] | Notebox 🗃 
 
 ## Boats 🚤

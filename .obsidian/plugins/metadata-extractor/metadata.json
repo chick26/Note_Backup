@@ -1059,8 +1059,7 @@
         "relativePath": "Atlas/Logs/Essays 🖌.md"
       },
       {
-        "link": "Artifacts 💠",
-        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
+        "link": "Artifacts 💠"
       },
       {
         "link": "Projects 🏗"
@@ -1136,11 +1135,6 @@
         "fileName": "Cooling pad 🧊",
         "link": "Home",
         "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
-      },
-      {
-        "fileName": "Artifacts 💠",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
       },
       {
         "fileName": "+ Index for index notes",
@@ -6288,43 +6282,6 @@
     ]
   },
   {
-    "fileName": "Habits MOC - Gather",
-    "relativePath": "Cards/Previous versions/Habits MOC - Gather.md",
-    "tags": [
-      "on/pkm",
-      "on/habit"
-    ],
-    "headings": [
-      {
-        "heading": "Habits MOC - Gather Phase",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "The 3 Phases of MOCs"
-      },
-      {
-        "link": "2013-03-10 Habit Planning"
-      },
-      {
-        "link": "2015-02-20 Habit Formation Research Article"
-      },
-      {
-        "link": "2015-02-20 Habit Concepts and Theory"
-      },
-      {
-        "link": "2018 📚 Atomic Habits"
-      },
-      {
-        "link": "2019-01-25 Resiliency Routines"
-      },
-      {
-        "link": "Habits MOC - Collide"
-      }
-    ]
-  },
-  {
     "fileName": "+ Index for People",
     "relativePath": "Cards/People/+ Index for People.md",
     "tags": [
@@ -6368,9 +6325,23 @@
     "tags": [
       "atlas/moc🗺"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 28
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Thinking",
+        "heading": "<-[[Home]] | Thinking",
         "level": 1
       },
       {
@@ -6426,8 +6397,7 @@
         "link": "Mindfulness Practice"
       },
       {
-        "link": "Habits MOC",
-        "relativePath": "Atlas/MOCs/Library/Habits MOC.md"
+        "link": "Habits MOC"
       },
       {
         "link": "Thought Enriching"
@@ -6473,18 +6443,24 @@
       "atlas/moc🗺",
       "x/meta"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "PKM MOC",
+        "heading": "<-[[Home]] | PKM MOC",
         "level": 1
-      },
-      {
-        "heading": "Managing my PKM system",
-        "level": 3
-      },
-      {
-        "heading": "Managing my PKM workflows ♽",
-        "level": 3
       },
       {
         "heading": "Unrequited Links",
@@ -6495,30 +6471,6 @@
       {
         "link": "Home",
         "relativePath": "Home.md"
-      },
-      {
-        "link": "My PKM MOC"
-      },
-      {
-        "link": "My PKM Folders"
-      },
-      {
-        "link": "My PKM Tags"
-      },
-      {
-        "link": "My PKM Metadata"
-      },
-      {
-        "link": "My PKM Queries"
-      },
-      {
-        "link": "My PKM Workflows - Global Guidelines"
-      },
-      {
-        "link": "My PKM Workflows - Inputs + Oldputs"
-      },
-      {
-        "link": "My PKM Workflows - Outputs"
       }
     ],
     "backlinks": [
@@ -6555,358 +6507,36 @@
     ]
   },
   {
-    "fileName": "Systems MOC (Kit)",
-    "relativePath": "Atlas/MOCs/Library/Systems MOC (Kit).md",
-    "tags": [
-      "atlas/moc🗺"
-    ],
-    "headings": [
-      {
-        "heading": "Systems MOC (Kit)",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "Convergence (defn)"
-      },
-      {
-        "link": "Divergence (defn)"
-      },
-      {
-        "link": "Complexity (defn)"
-      },
-      {
-        "link": "Emergence (defn)"
-      },
-      {
-        "link": "Idea Emergence"
-      },
-      {
-        "link": "Fluid Thinking"
-      },
-      {
-        "link": "FlowCreation MOC"
-      },
-      {
-        "link": "Bottom-up thinking"
-      },
-      {
-        "link": "Heterarchy"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Library",
-        "link": "Systems MOC (Kit)",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Speech MOC",
-    "relativePath": "Atlas/MOCs/Library/Speech MOC.md",
-    "tags": [
-      "atlas/moc🗺"
-    ],
-    "headings": [
-      {
-        "heading": "Speech MOC",
-        "level": 1
-      },
-      {
-        "heading": "List of Notable Speeches",
-        "level": 2
-      },
-      {
-        "heading": "By Topic",
-        "level": 2
-      },
-      {
-        "heading": "Work",
-        "level": 3
-      },
-      {
-        "heading": "Personal Development",
-        "level": 3
-      },
-      {
-        "heading": "Story Development",
-        "level": 3
-      },
-      {
-        "heading": "Science",
-        "level": 3
-      },
-      {
-        "heading": "By Chronology",
-        "level": 2
-      },
-      {
-        "heading": "2020",
-        "level": 3
-      },
-      {
-        "heading": "2019",
-        "level": 3
-      },
-      {
-        "heading": "2018",
-        "level": 3
-      },
-      {
-        "heading": "2017",
-        "level": 3
-      },
-      {
-        "heading": "2016",
-        "level": 3
-      },
-      {
-        "heading": "2015",
-        "level": 3
-      },
-      {
-        "heading": "2014",
-        "level": 3
-      },
-      {
-        "heading": "2013",
-        "level": 3
-      },
-      {
-        "heading": "2012",
-        "level": 3
-      },
-      {
-        "heading": "2011",
-        "level": 3
-      },
-      {
-        "heading": "2010",
-        "level": 3
-      },
-      {
-        "heading": "2009",
-        "level": 3
-      },
-      {
-        "heading": "2008",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "The Studio 🎨"
-      },
-      {
-        "link": "2016-02-18-2018 Example Speech"
-      },
-      {
-        "link": "201506011200 Example Speech"
-      },
-      {
-        "link": "201502241739 Example Speech"
-      },
-      {
-        "link": "201501181600 Example Speech"
-      },
-      {
-        "link": "201412131922 Example Speech"
-      },
-      {
-        "link": "201412131938 Example Speech"
-      },
-      {
-        "link": "201412131836 Example Speech"
-      },
-      {
-        "link": "201409031722 Example Speech"
-      },
-      {
-        "link": "201405120614 Example Speech"
-      },
-      {
-        "link": "201405110920 Example Speech"
-      },
-      {
-        "link": "201310161254 Example Speech"
-      },
-      {
-        "link": "201304081735 Example Speech"
-      },
-      {
-        "link": "2010042711311 Example Speech"
-      },
-      {
-        "link": "200999999999 Example Speech"
-      }
-    ]
-  },
-  {
-    "fileName": "Habits MOC",
-    "relativePath": "Atlas/MOCs/Library/Habits MOC.md",
-    "tags": [
-      "atlas/moc🗺",
-      "on/pkm",
-      "on/habit"
-    ],
-    "headings": [
-      {
-        "heading": "Navigate with your new MOC",
-        "level": 6
-      },
-      {
-        "heading": "Habits MOC",
-        "level": 1
-      },
-      {
-        "heading": "Understanding Habits",
-        "level": 2
-      },
-      {
-        "heading": "Designing Habits",
-        "level": 2
-      },
-      {
-        "heading": "Example of Habit Design",
-        "level": 3
-      },
-      {
-        "heading": "Important Habits",
-        "level": 3
-      },
-      {
-        "heading": "Related Concepts",
-        "level": 2
-      },
-      {
-        "heading": "Other Miscellaneous",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "The 3 Phases of MOCs"
-      },
-      {
-        "link": "Defining a habit"
-      },
-      {
-        "link": "Habit formation provides an evolutionary advantage"
-      },
-      {
-        "link": "Habits carry a ton of hidden inertia"
-      },
-      {
-        "link": "The neural formation of habits is additive"
-      },
-      {
-        "link": "The truest habit metaphors are additive"
-      },
-      {
-        "link": "Ant pheromone trails act like potential habits"
-      },
-      {
-        "link": "Understanding the habit cycle and habitual cues"
-      },
-      {
-        "link": "How Atomic Habits fit into the conversation on habits"
-      },
-      {
-        "link": "Resiliency Routines help regain a sense of control"
-      },
-      {
-        "link": "Improving Micro Habits at the Point of Contact"
-      },
-      {
-        "link": "Small Wins foster a Sense of Control"
-      },
-      {
-        "link": "An asymptotic curve models the development of skills, strength, habits, and more"
-      },
-      {
-        "link": "The mechanism for breaking through development plateaus"
-      },
-      {
-        "link": "Charting out habit cycles in my life circa 2013"
-      },
-      {
-        "link": "Important habits preserve mental clarity and a sense of control"
-      },
-      {
-        "link": "Preparing for the next day is an important habit"
-      },
-      {
-        "link": "Journaling in the morning is an important habit"
-      },
-      {
-        "link": "Writing down daily goals in the morning is an important habit"
-      },
-      {
-        "link": "Positive Feedback Loop"
-      },
-      {
-        "link": "Like begets like"
-      },
-      {
-        "link": "Cobwebs into Cables"
-      },
-      {
-        "link": "Reps"
-      },
-      {
-        "link": "Sense of Control"
-      },
-      {
-        "link": "Natural Selection"
-      },
-      {
-        "link": "Selfish Gene"
-      },
-      {
-        "link": "Survival of the Fittest"
-      },
-      {
-        "link": "Words I've used to describe important habits"
-      },
-      {
-        "link": "The 3 Phases of MOCs, a coda"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Thinking",
-        "link": "Habits MOC",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      },
-      {
-        "fileName": "+ Library",
-        "link": "Habits MOC",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
     "fileName": "Language MOC",
     "relativePath": "Atlas/MOCs/Library/Language MOC.md",
     "tags": [
       "atlas/moc🗺",
       "on/language"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Language MOC",
+        "heading": "<-[[+ Library|Library]] | Language MOC",
         "level": 1
       }
     ],
     "links": [
       {
         "link": "+ Library",
+        "displayText": "Library",
         "relativePath": "Atlas/+ Library.md"
       },
       {
@@ -6940,9 +6570,23 @@
       "atlas/moc🗺",
       "on/travel"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 40
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Places MOC",
+        "heading": "<-[[+ Library|Library]] | Places MOC",
         "level": 1
       },
       {
@@ -6957,6 +6601,7 @@
     "links": [
       {
         "link": "+ Library",
+        "displayText": "Library",
         "relativePath": "Atlas/+ Library.md"
       },
       {
@@ -6986,9 +6631,23 @@
     "tags": [
       "atlas/moc🗺"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 28
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Collective Intelligence MOC",
+        "heading": "<-[[+ Library|Library]] | Collective Intelligence MOC",
         "level": 1
       },
       {
@@ -7011,6 +6670,7 @@
     "links": [
       {
         "link": "+ Library",
+        "displayText": "Library",
         "relativePath": "Atlas/+ Library.md"
       },
       {
@@ -7037,18 +6697,24 @@
     "tags": [
       "atlas/moc🗺"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Concepts MOC",
+        "heading": "<-[[Home]] | Concepts MOC",
         "level": 1
-      },
-      {
-        "heading": "Daily reminders of powerful concepts",
-        "level": 2
-      },
-      {
-        "heading": "Click below to see the flexible power of MOCs",
-        "level": 3
       },
       {
         "heading": "Unrequited notes (by link)",
@@ -7063,76 +6729,6 @@
       {
         "link": "Home",
         "relativePath": "Home.md"
-      },
-      {
-        "link": "OODA Loop"
-      },
-      {
-        "link": "Levels of Magnification"
-      },
-      {
-        "link": "Refraction Thinking"
-      },
-      {
-        "link": "Reps"
-      },
-      {
-        "link": "Flow"
-      },
-      {
-        "link": "Forcing Function",
-        "displayText": "Forcing Functions"
-      },
-      {
-        "link": "Shadow Clone"
-      },
-      {
-        "link": "Natural Selection"
-      },
-      {
-        "link": "Lindy Effect"
-      },
-      {
-        "link": "Hormesis"
-      },
-      {
-        "link": "Antifragility"
-      },
-      {
-        "link": "Cause and Effect"
-      },
-      {
-        "link": "Concept Expansion"
-      },
-      {
-        "link": "Yin and Yang"
-      },
-      {
-        "link": "Synthesis"
-      },
-      {
-        "link": "Seasons"
-      },
-      {
-        "link": "Mountain Top Water Drop"
-      },
-      {
-        "link": "No-Face"
-      },
-      {
-        "link": "The Id"
-      },
-      {
-        "link": "Aikido"
-      },
-      {
-        "link": "Rubik's Cube"
-      },
-      {
-        "link": "Munger's Mental Models"
-      },
-      {
-        "link": "MOCs encourage flexible non-destructive thinking"
       }
     ],
     "backlinks": [
@@ -7249,6 +6845,20 @@
     "tags": [
       "atlas/scope🔬"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 29
+        }
+      }
+    },
     "headings": [
       {
         "heading": "<-[[Home]] | Ideas ✨",
@@ -7264,13 +6874,6 @@
       }
     ],
     "links": [
-      {
-        "link": "Mapping the flexible flow of ideas"
-      },
-      {
-        "link": "Ideas ✨",
-        "relativePath": "Atlas/Scopes/Ideas ✨.md"
-      },
       {
         "link": "Home",
         "relativePath": "Home.md"
@@ -7290,9 +6893,23 @@
     "tags": [
       "atlas/scope🔬"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 30
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Cooling pad 🧊",
+        "heading": "<-[[Home]] | Cooling pad 🧊",
         "level": 1
       }
     ],
@@ -7311,47 +6928,28 @@
     ]
   },
   {
-    "fileName": "Artifacts 💠",
-    "relativePath": "Atlas/Scopes/Artifacts 💠.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Artifacts 💠",
-        "level": 1
-      },
-      {
-        "heading": "Newsletter outputs",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Content Outbox 📤"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Artifacts 💠",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
     "fileName": "+ Index for index notes",
     "relativePath": "Atlas/Scopes/+ Index for index notes.md",
     "tags": [
       "x/index"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 24
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "+ Index for index notes",
+        "heading": "<-[[Home]] | + Index for index notes",
         "level": 1
       }
     ],
@@ -7444,9 +7042,23 @@
     "tags": [
       "atlas/moc🗺"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Library",
+        "heading": "<-[[Home]] | Library",
         "level": 1
       },
       {
@@ -7525,8 +7137,7 @@
         "relativePath": "Atlas/MOCs/Concepts MOC.md"
       },
       {
-        "link": "Habits MOC",
-        "relativePath": "Atlas/MOCs/Library/Habits MOC.md"
+        "link": "Habits MOC"
       },
       {
         "link": "Cabin 🪵"
@@ -7616,8 +7227,7 @@
         "link": "Genetics MOC"
       },
       {
-        "link": "Systems MOC (Kit)",
-        "relativePath": "Atlas/MOCs/Library/Systems MOC (Kit).md"
+        "link": "Systems MOC (Kit)"
       },
       {
         "link": "Design MOC"
@@ -7661,24 +7271,22 @@
         "relativePath": "Home.md"
       },
       {
-        "fileName": "Systems MOC (Kit)",
-        "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Library/Systems MOC (Kit).md"
-      },
-      {
         "fileName": "Language MOC",
         "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Library/Language MOC.md"
+        "relativePath": "Atlas/MOCs/Library/Language MOC.md",
+        "displayText": "Library"
       },
       {
         "fileName": "Places MOC",
         "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Library/Places MOC.md"
+        "relativePath": "Atlas/MOCs/Library/Places MOC.md",
+        "displayText": "Library"
       },
       {
         "fileName": "Collective Intelligence MOC",
         "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Library/Collective Intelligence MOC.md"
+        "relativePath": "Atlas/MOCs/Library/Collective Intelligence MOC.md",
+        "displayText": "Library"
       }
     ]
   },
@@ -7688,9 +7296,23 @@
     "tags": [
       "x/index"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 23
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Index for Atlases (Kit)",
+        "heading": "<-[[+ Index for index notes]] | Index for Atlases",
         "level": 1
       }
     ],

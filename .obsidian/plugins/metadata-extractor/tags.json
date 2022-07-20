@@ -1,15 +1,12 @@
 [
   {
     "tag": "atlas/moc🗺",
-    "tagCount": 12,
+    "tagCount": 9,
     "relativePaths": [
       "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Spaces/Life/• MOCs/Life Space™ (Kit).md",
       "Atlas/MOCs/Thinking.md",
       "Atlas/MOCs/My PKM MOC (Kit).md",
-      "Atlas/MOCs/Library/Systems MOC (Kit).md",
-      "Atlas/MOCs/Library/Speech MOC.md",
-      "Atlas/MOCs/Library/Habits MOC.md",
       "Atlas/MOCs/Library/Language MOC.md",
       "Atlas/MOCs/Library/Places MOC.md",
       "Atlas/MOCs/Library/Collective Intelligence MOC.md",
@@ -424,22 +421,6 @@
     ]
   },
   {
-    "tag": "on/pkm",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/Previous versions/Habits MOC - Gather.md",
-      "Atlas/MOCs/Library/Habits MOC.md"
-    ]
-  },
-  {
-    "tag": "on/habit",
-    "tagCount": 2,
-    "relativePaths": [
-      "Cards/Previous versions/Habits MOC - Gather.md",
-      "Atlas/MOCs/Library/Habits MOC.md"
-    ]
-  },
-  {
     "tag": "x/meta",
     "tagCount": 1,
     "relativePaths": [
@@ -462,13 +443,12 @@
   },
   {
     "tag": "atlas/scope🔬",
-    "tagCount": 6,
+    "tagCount": 5,
     "relativePaths": [
       "Atlas/Scopes/Notebox 🗃.md",
       "Atlas/Scopes/Bookshelf 📚.md",
       "Atlas/Scopes/Ideas ✨.md",
       "Atlas/Scopes/Cooling pad 🧊.md",
-      "Atlas/Scopes/Artifacts 💠.md",
       "Atlas/Logs/Essays 🖌.md"
     ]
   }

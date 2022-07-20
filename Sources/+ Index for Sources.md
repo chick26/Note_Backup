@@ -10,7 +10,7 @@ tags:: #x/index
 Sorted by the source tag.
 
 ``` dataview
-TABLE  dates, tags FROM "Sources" and -#x/index and -#x/readme 
+TABLE tags FROM "Sources" and -#x/index and -#x/readme 
 
 SORT tags ASC
 
