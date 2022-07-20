@@ -1,4 +1,4 @@
-up:: [[Home]]
+up:: 
 tags:: #atlas/Scope🔬
 X:: [[Mapping the flexible flow of ideas]]
 
@@ -8,10 +8,7 @@ X:: [[Mapping the flexible flow of ideas]]
 > - Content and links have been removed.
 > - Nick, go here [[Ideas ✨]]
 
-# Ideas ✨ (Kit)
-*Instructions:* Time-block an hour and choose an idea.
-
-> Note: This is modifies but keeps the spirit of Fabian Röken's setup.
+# <-[[Home]] | Ideas ✨ 
 
 ## Decide on your idea sparks ✨
 Your new ideas have cooled down 🧊 for at least a few days. Good, now your intuition can help you decide where to spend your time. 
@@ -28,8 +25,7 @@ SORT file.cday asc
 ```
 
 
----
-
+-
 # Advanced scope
 Here is an advanced datascope for your ideas.
 

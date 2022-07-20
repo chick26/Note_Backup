@@ -462,13 +462,12 @@
   },
   {
     "tag": "atlas/scope🔬",
-    "tagCount": 7,
+    "tagCount": 6,
     "relativePaths": [
-      "Atlas/Scopes/Prominent People 🌋 (Kit).md",
-      "Atlas/Scopes/Notebox 🗃 (Kit).md",
-      "Atlas/Scopes/Ideas ✨ (Kit).md",
+      "Atlas/Scopes/Notebox 🗃.md",
+      "Atlas/Scopes/Bookshelf 📚.md",
+      "Atlas/Scopes/Ideas ✨.md",
       "Atlas/Scopes/Cooling pad 🧊.md",
-      "Atlas/Scopes/Bookshelf 📚 (Kit).md",
       "Atlas/Scopes/Artifacts 💠.md",
       "Atlas/Logs/Essays 🖌.md"
     ]

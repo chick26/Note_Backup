@@ -20,7 +20,7 @@ obsidianUIMode: preview
 
 - 💵 CFA
  
-	 `$=dv.list(dv.pages('"Sources/Knowledges/💵 CFA | 金融分析师"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
+	 `$=dv.list(dv.pages('"Sources/Courses/💵 CFA | 金融分析师"').filter(f=>f.file.name.indexOf('Notes Hub') == -1).sort(f=>f.file.mtime.ts,"desc").limit(5).map(f => "[[" + f.file.name + "]]"))`
 
 - 📉 Data Structrue
 
@@ -41,8 +41,8 @@ These are maps to launch your efforts. Where would you like to go?
 |:------------------------- |:---------------------------------------------------------------------- |
 | Encounter some new things      | [🐦](https://www.twitter.com) , [📚](https://readwise.io/lyt/) |
 | Process interesting stuff | [[Cooling pad 🧊]]                                                     |
-| Develop my notes         | [[Notebox 🗃 (Kit)]]                                                        |
-| Develop my ideas          | [[Ideas ✨ (Kit)]]                                                        |
+| Develop my notes         | [[Notebox 🗃]]                                                        |
+| Develop my ideas          | [[Ideas ✨]]                                                        |
 | Evolve my ideas           | [[Essays 🖌]]                                                          |
 | Share my ideas         | [[Artifacts 💠]]                                                       |
 

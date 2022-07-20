@@ -1047,12 +1047,12 @@
         "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
       },
       {
-        "link": "Notebox 🗃 (Kit)",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
       },
       {
-        "link": "Ideas ✨ (Kit)",
-        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
+        "link": "Ideas ✨",
+        "relativePath": "Atlas/Scopes/Ideas ✨.md"
       },
       {
         "link": "Essays 🖌",
@@ -1123,14 +1123,14 @@
         "relativePath": "Atlas/MOCs/Concepts MOC.md"
       },
       {
-        "fileName": "Notebox 🗃 (Kit)",
+        "fileName": "Notebox 🗃",
         "link": "Home",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
       },
       {
-        "fileName": "Ideas ✨ (Kit)",
+        "fileName": "Ideas ✨",
         "link": "Home",
-        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
+        "relativePath": "Atlas/Scopes/Ideas ✨.md"
       },
       {
         "fileName": "Cooling pad 🧊",
@@ -6388,8 +6388,8 @@
         "relativePath": "Home.md"
       },
       {
-        "link": "Notebox 🗃 (Kit)",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
       },
       {
         "link": "Concepts MOC",
@@ -7154,32 +7154,28 @@
     ]
   },
   {
-    "fileName": "Prominent People 🌋 (Kit)",
-    "relativePath": "Atlas/Scopes/Prominent People 🌋 (Kit).md",
+    "fileName": "Notebox 🗃",
+    "relativePath": "Atlas/Scopes/Notebox 🗃.md",
     "tags": [
       "atlas/scope🔬"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 31
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Prominent People 🌋",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "People MOC"
-      }
-    ]
-  },
-  {
-    "fileName": "Notebox 🗃 (Kit)",
-    "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Notebox 🗃 (Kit)",
+        "heading": "<-[[Home]] | Notebox 🗃",
         "level": 1
       },
       {
@@ -7193,34 +7189,69 @@
         "relativePath": "Home.md"
       },
       {
-        "link": "Notebox 🗃"
-      },
-      {
         "link": "BOAT notes"
       }
     ],
     "backlinks": [
       {
         "fileName": "Home",
-        "link": "Notebox 🗃 (Kit)",
+        "link": "Notebox 🗃",
         "relativePath": "Home.md"
       },
       {
         "fileName": "Thinking",
-        "link": "Notebox 🗃 (Kit)",
+        "link": "Notebox 🗃",
         "relativePath": "Atlas/MOCs/Thinking.md"
       }
     ]
   },
   {
-    "fileName": "Ideas ✨ (Kit)",
-    "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md",
+    "fileName": "Bookshelf 📚",
+    "relativePath": "Atlas/Scopes/Bookshelf 📚.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 30
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Sources MOC]] | Bookshelf 📚",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Sources MOC"
+      },
+      {
+        "link": "Books I've Read MOC"
+      },
+      {
+        "link": "Books Purgatory List"
+      }
+    ]
+  },
+  {
+    "fileName": "Ideas ✨",
+    "relativePath": "Atlas/Scopes/Ideas ✨.md",
     "tags": [
       "atlas/scope🔬"
     ],
     "headings": [
       {
-        "heading": "Ideas ✨ (Kit)",
+        "heading": "<-[[Home]] | Ideas ✨",
         "level": 1
       },
       {
@@ -7234,20 +7265,21 @@
     ],
     "links": [
       {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
         "link": "Mapping the flexible flow of ideas"
       },
       {
-        "link": "Ideas ✨"
+        "link": "Ideas ✨",
+        "relativePath": "Atlas/Scopes/Ideas ✨.md"
+      },
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
       }
     ],
     "backlinks": [
       {
         "fileName": "Home",
-        "link": "Ideas ✨ (Kit)",
+        "link": "Ideas ✨",
         "relativePath": "Home.md"
       }
     ]
@@ -7275,30 +7307,6 @@
         "fileName": "Home",
         "link": "Cooling pad 🧊",
         "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Bookshelf 📚 (Kit)",
-    "relativePath": "Atlas/Scopes/Bookshelf 📚 (Kit).md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Bookshelf 📚 (Kit)",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Sources MOC"
-      },
-      {
-        "link": "Books I've Read MOC"
-      },
-      {
-        "link": "Books Purgatory List"
       }
     ]
   },

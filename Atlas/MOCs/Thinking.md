@@ -12,7 +12,7 @@ It's time to cultivate this inherently rich endeavor.
 
 | I want to...                                           | ...wander                                                                  |
 |:------------------------------------------------------ |:----------------------------------------------------------------- |
-| Connect ideas • Make leaps of insights | [[Notebox 🗃 (Kit)]] • [[Concepts MOC]]                            |
+| Connect ideas • Make leaps of insights | [[Notebox 🗃]] • [[Concepts MOC]]                            |
 | Broaden my perspective • Think laterally               | [[Refraction Thinking]]                       |
 
 ---
