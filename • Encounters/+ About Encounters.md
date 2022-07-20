@@ -1,7 +1,9 @@
-up:: [[My PKM MOC]]
-tags:: #x/readme 
+---
+tags:
+- x/readme 
+---
 
-# About Encounters
+# <-[[My PKM MOC]] | About Encounters
 This is a space to store notes as you capture them.
 
 - Have a fresh idea that you want to reassess in a few days to see if it's still exciting? Store it in the **Cooling Pad** folder.

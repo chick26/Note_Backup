@@ -40,5 +40,7 @@
     "editor:configure-toolbar"
   ],
   "defaultViewMode": "source",
-  "trashOption": "none"
+  "trashOption": "none",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "cool"
 }

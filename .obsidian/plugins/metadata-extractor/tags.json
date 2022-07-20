@@ -1,10 +1,11 @@
 [
   {
     "tag": "atlas/moc🗺",
-    "tagCount": 9,
+    "tagCount": 10,
     "relativePaths": [
       "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Spaces/Life/• MOCs/Life Space™ (Kit).md",
+      "Atlas/MOCs/Sources MOC.md",
       "Atlas/MOCs/My PKM MOC.md",
       "Atlas/MOCs/Thinking.md",
       "Atlas/MOCs/Library/Language MOC.md",
@@ -23,24 +24,31 @@
   },
   {
     "tag": "x/readme",
-    "tagCount": 4,
+    "tagCount": 3,
     "relativePaths": [
       "Spaces/+ About Spaces.md",
       "• Encounters/+ About Encounters.md",
-      "Sources/+ About Sources.md",
       "Cards/+ About Cards.md"
     ]
   },
   {
     "tag": "x/index",
-    "tagCount": 6,
+    "tagCount": 7,
     "relativePaths": [
       "Spaces/Life/Support notes/+ Index for Life Spaces.md",
       "Sources/+ Index for Sources.md",
+      "Sources/+ About Sources.md",
       "Cards/People/+ Index for People.md",
       "Cards/+ Index for Cards.md",
       "Atlas/Scopes/+ Index for index notes.md",
       "Atlas/+ Index for Atlases.md"
+    ]
+  },
+  {
+    "tag": "note/csbasic",
+    "tagCount": 1,
+    "relativePaths": [
+      "• Encounters/• Cooling Pad/与上下文无关的语法.md"
     ]
   },
   {
@@ -124,13 +132,6 @@
     "tagCount": 1,
     "relativePaths": [
       "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md"
-    ]
-  },
-  {
-    "tag": "note/csbasic",
-    "tagCount": 1,
-    "relativePaths": [
-      "Sources/Knowledges/🗄 Avatar | 待分类/与上下文无关的语法.md"
     ]
   },
   {

@@ -8,7 +8,7 @@ banner_y: 0.5
 ---
 <div class="title" style="color:#000">Data Structure Notes Hub</div>
 
-<-  [[+ Learninng Notes Hub|⛵️ Learning Notes Hub ]] | 🛳️  [[00 JS Notes Hub|JS Notes]] 
+<-  [[Notebox 🗃|⛵️ Learning Notes Hub ]] | 🛳️  [[JS Notes Hub|JS Notes]] 
 
 
 # 📆 This Week Updates

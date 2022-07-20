@@ -569,13 +569,6 @@
       {
         "link": "LYT Projects 🏗"
       }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "LYT Space 🔆 (Kit)",
-        "relativePath": "Home.md"
-      }
     ]
   },
   {
@@ -686,11 +679,6 @@
     ],
     "backlinks": [
       {
-        "fileName": "Home",
-        "link": "Life Space™ (Kit)",
-        "relativePath": "Home.md"
-      },
-      {
         "fileName": "+ Library",
         "link": "Life Space™ (Kit)",
         "relativePath": "Atlas/+ Library.md"
@@ -731,14 +719,199 @@
     ]
   },
   {
+    "fileName": "Sketch 设计组件库",
+    "relativePath": "• Encounters/• Cooling Pad/Sketch 设计组件库.md",
+    "frontmatter": {
+      "title": "Sketch 设计组件库",
+      "creation date": "2022-06-14 14:10:36",
+      "status": "todo",
+      "tag": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 81
+        }
+      }
+    }
+  },
+  {
+    "fileName": "与上下文无关的语法",
+    "relativePath": "• Encounters/• Cooling Pad/与上下文无关的语法.md",
+    "tags": [
+      "note/csbasic"
+    ],
+    "frontmatter": {
+      "title": "与上下文无关的语法",
+      "creation date": "2022-02-28 19:05",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 91
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "Web Browsers",
+        "link": "与上下文无关的语法",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      }
+    ]
+  },
+  {
+    "fileName": "微服务是什么？",
+    "relativePath": "• Encounters/• Cooling Pad/微服务是什么？.md",
+    "headings": [
+      {
+        "heading": "一、单体软件",
+        "level": 2
+      },
+      {
+        "heading": "二、面向服务架构",
+        "level": 2
+      },
+      {
+        "heading": "三、微服务",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "浏览器解析 CSS 样式的过程",
+    "relativePath": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md",
+    "frontmatter": {
+      "title": "浏览器解析 CSS 样式的过程",
+      "creation date": "2022-05-24 10:28:16",
+      "status": "todo",
+      "tag": null,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 84
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "解析",
+        "level": 2
+      },
+      {
+        "heading": "计算",
+        "level": 2
+      },
+      {
+        "heading": "级联",
+        "level": 2
+      },
+      {
+        "heading": "来源",
+        "level": 2
+      },
+      {
+        "heading": "**用户样式**",
+        "level": 4
+      },
+      {
+        "heading": "**作者样式**",
+        "level": 4
+      },
+      {
+        "heading": "**用户代理 / 浏览器样式**",
+        "level": 4
+      },
+      {
+        "heading": "做级联",
+        "level": 2
+      },
+      {
+        "heading": "CSS 对象模型",
+        "level": 2
+      },
+      {
+        "heading": "布局",
+        "level": 2
+      },
+      {
+        "heading": "解析 Auto",
+        "level": 2
+      },
+      {
+        "heading": "处理浮动 float",
+        "level": 2
+      },
+      {
+        "heading": "了解片段（UNDERSTANDING FRAGMENTATION",
+        "level": 2
+      },
+      {
+        "heading": "绘画（Painting）",
+        "level": 2
+      },
+      {
+        "heading": "关于 Z-INDEX",
+        "level": 2
+      },
+      {
+        "heading": "组成（COMPOSITION）",
+        "level": 2
+      },
+      {
+        "heading": "创造互动的视觉",
+        "level": 2
+      },
+      {
+        "heading": "总结",
+        "level": 2
+      },
+      {
+        "heading": "交流",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "+ About Encounters",
     "relativePath": "• Encounters/+ About Encounters.md",
     "tags": [
       "x/readme"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 25
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "About Encounters",
+        "heading": "<-[[My PKM MOC]] | About Encounters",
         "level": 1
       }
     ],
@@ -789,6 +962,14 @@
         "level": 1
       },
       {
+        "heading": "Ideas ✨",
+        "level": 2
+      },
+      {
+        "heading": "Knowledges 📖",
+        "level": 2
+      },
+      {
         "heading": "📝 DAILY NOTE",
         "level": 1
       },
@@ -807,9 +988,9 @@
     ],
     "links": [
       {
-        "link": "+ Learninng Notes Hub",
+        "link": "Notebox 🗃",
         "displayText": "LEARN NOTE",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
       },
       {
         "link": "+ Index for Calendar",
@@ -836,18 +1017,8 @@
         "link": "Artifacts 💠"
       },
       {
-        "link": "Projects 🏗"
-      },
-      {
-        "link": "LYT Space 🔆 (Kit)",
-        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
-      },
-      {
-        "link": "Life Space™ (Kit)",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
         "link": "+ Library",
+        "displayText": "Library",
         "relativePath": "Atlas/+ Library.md"
       },
       {
@@ -859,14 +1030,8 @@
         "relativePath": "Atlas/MOCs/Concepts MOC.md"
       },
       {
-        "link": "People MOC"
-      },
-      {
-        "link": "Sources MOC"
-      },
-      {
-        "link": "Thinking",
-        "relativePath": "Atlas/MOCs/Thinking.md"
+        "link": "Sources MOC",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
       }
     ],
     "backlinks": [
@@ -879,6 +1044,11 @@
         "fileName": "Life Space™ (Kit)",
         "link": "Home",
         "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "fileName": "Sources MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
       },
       {
         "fileName": "My PKM MOC",
@@ -1783,241 +1953,6 @@
         "level": 3
       }
     ]
-  },
-  {
-    "fileName": "00 D.S. Notes Hub",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
-    "frontmatter": {
-      "title": "DataStructure Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[color.jpg]]",
-      "banner_y": 0.5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 153
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Learninng Notes Hub",
-        "displayText": "⛵️ Learning Notes Hub",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
-      },
-      {
-        "link": "00 JS Notes Hub",
-        "displayText": "JS Notes",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "00 JS Notes Hub",
-        "link": "00 D.S. Notes Hub",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
-        "displayText": "Data Structure Notes Hub"
-      },
-      {
-        "fileName": "+ Learninng Notes Hub",
-        "link": "00 D.S. Notes Hub",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md",
-        "displayText": "Data Structure Notes Hub"
-      }
-    ]
-  },
-  {
-    "fileName": "浏览器解析 CSS 样式的过程",
-    "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类/浏览器解析 CSS 样式的过程.md",
-    "frontmatter": {
-      "title": "浏览器解析 CSS 样式的过程",
-      "creation date": "2022-05-24 10:28:16",
-      "status": "todo",
-      "tag": null,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 84
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "解析",
-        "level": 2
-      },
-      {
-        "heading": "计算",
-        "level": 2
-      },
-      {
-        "heading": "级联",
-        "level": 2
-      },
-      {
-        "heading": "来源",
-        "level": 2
-      },
-      {
-        "heading": "**用户样式**",
-        "level": 4
-      },
-      {
-        "heading": "**作者样式**",
-        "level": 4
-      },
-      {
-        "heading": "**用户代理 / 浏览器样式**",
-        "level": 4
-      },
-      {
-        "heading": "做级联",
-        "level": 2
-      },
-      {
-        "heading": "CSS 对象模型",
-        "level": 2
-      },
-      {
-        "heading": "布局",
-        "level": 2
-      },
-      {
-        "heading": "解析 Auto",
-        "level": 2
-      },
-      {
-        "heading": "处理浮动 float",
-        "level": 2
-      },
-      {
-        "heading": "了解片段（UNDERSTANDING FRAGMENTATION",
-        "level": 2
-      },
-      {
-        "heading": "绘画（Painting）",
-        "level": 2
-      },
-      {
-        "heading": "关于 Z-INDEX",
-        "level": 2
-      },
-      {
-        "heading": "组成（COMPOSITION）",
-        "level": 2
-      },
-      {
-        "heading": "创造互动的视觉",
-        "level": 2
-      },
-      {
-        "heading": "总结",
-        "level": 2
-      },
-      {
-        "heading": "交流",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "微服务是什么？",
-    "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类/微服务是什么？.md",
-    "headings": [
-      {
-        "heading": "一、单体软件",
-        "level": 2
-      },
-      {
-        "heading": "二、面向服务架构",
-        "level": 2
-      },
-      {
-        "heading": "三、微服务",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "与上下文无关的语法",
-    "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类/与上下文无关的语法.md",
-    "tags": [
-      "note/csbasic"
-    ],
-    "frontmatter": {
-      "title": "与上下文无关的语法",
-      "creation date": "2022-02-28 19:05",
-      "status": "ondo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 91
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "Web Browsers",
-        "link": "与上下文无关的语法",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Sketch 设计组件库",
-    "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类/Sketch 设计组件库.md",
-    "frontmatter": {
-      "title": "Sketch 设计组件库",
-      "creation date": "2022-06-14 14:10:36",
-      "status": "todo",
-      "tag": null,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 81
-        }
-      }
-    }
   },
   {
     "fileName": "CSS解决方案",
@@ -3531,7 +3466,7 @@
       },
       {
         "link": "与上下文无关的语法",
-        "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类/与上下文无关的语法.md"
+        "relativePath": "• Encounters/• Cooling Pad/与上下文无关的语法.md"
       },
       {
         "link": "正则表达式"
@@ -5352,69 +5287,6 @@
     ]
   },
   {
-    "fileName": "00 JS Notes Hub",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
-    "frontmatter": {
-      "title": "JS Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[color.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 128
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Learninng Notes Hub",
-        "displayText": "⛵️ Learning Notes Hub",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
-      },
-      {
-        "link": "00 D.S. Notes Hub",
-        "displayText": "Data Structure Notes Hub",
-        "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "00 D.S. Notes Hub",
-        "link": "00 JS Notes Hub",
-        "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
-        "displayText": "JS Notes"
-      },
-      {
-        "fileName": "+ Learninng Notes Hub",
-        "link": "00 JS Notes Hub",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md",
-        "displayText": "JS Learning"
-      }
-    ]
-  },
-  {
     "fileName": "AppleScript",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
     "tags": [
@@ -5445,75 +5317,6 @@
       {
         "heading": "Telegram Checkin",
         "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "+ Learninng Notes Hub",
-    "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md",
-    "frontmatter": {
-      "title": "Learninng Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[cube.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 134
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "00 JS Notes Hub",
-        "displayText": "JS Learning",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md"
-      },
-      {
-        "link": "00 D.S. Notes Hub",
-        "displayText": "Data Structure Notes Hub",
-        "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "+ Learninng Notes Hub",
-        "relativePath": "Home.md",
-        "displayText": "LEARN NOTE"
-      },
-      {
-        "fileName": "00 D.S. Notes Hub",
-        "link": "+ Learninng Notes Hub",
-        "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
-        "displayText": "⛵️ Learning Notes Hub"
-      },
-      {
-        "fileName": "00 JS Notes Hub",
-        "link": "+ Learninng Notes Hub",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
-        "displayText": "⛵️ Learning Notes Hub"
       }
     ]
   },
@@ -5691,7 +5494,7 @@
     "fileName": "+ About Sources",
     "relativePath": "Sources/+ About Sources.md",
     "tags": [
-      "x/readme"
+      "x/index"
     ],
     "frontmatter": {
       "position": {
@@ -5703,7 +5506,7 @@
         "end": {
           "line": 3,
           "col": 3,
-          "offset": 25
+          "offset": 24
         }
       }
     },
@@ -6176,6 +5979,59 @@
     ]
   },
   {
+    "fileName": "Sources MOC",
+    "relativePath": "Atlas/MOCs/Sources MOC.md",
+    "tags": [
+      "atlas/moc🗺"
+    ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Home]] | Sources MOC",
+        "level": 1
+      },
+      {
+        "heading": "Unrequited notes (by link)",
+        "level": 2
+      },
+      {
+        "heading": "Associated notes (by tag)",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Sources MOC",
+        "relativePath": "Home.md"
+      },
+      {
+        "fileName": "Bookshelf 📚",
+        "link": "Sources MOC",
+        "relativePath": "Atlas/Scopes/Bookshelf 📚.md"
+      }
+    ]
+  },
+  {
     "fileName": "My PKM MOC",
     "relativePath": "Atlas/MOCs/My PKM MOC.md",
     "tags": [
@@ -6349,11 +6205,6 @@
         "fileName": "Life Space™ (Kit)",
         "link": "Thinking",
         "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
-        "fileName": "Home",
-        "link": "Thinking",
-        "relativePath": "Home.md"
       },
       {
         "fileName": "+ Library",
@@ -6612,6 +6463,11 @@
       "atlas/scope🔬"
     ],
     "frontmatter": {
+      "title": "Learninng Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[cube.jpg]]",
       "position": {
         "start": {
           "line": 0,
@@ -6619,20 +6475,24 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 8,
           "col": 3,
-          "offset": 31
+          "offset": 157
         }
       }
     },
     "headings": [
       {
-        "heading": "<-[[Home]] | Notebox 🗃",
+        "heading": "📆 This Week Updates",
         "level": 1
       },
       {
-        "heading": "Boats 🚤",
-        "level": 2
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
       }
     ],
     "links": [
@@ -6641,10 +6501,23 @@
         "relativePath": "Home.md"
       },
       {
-        "link": "BOAT notes"
+        "link": "JS Notes Hub",
+        "displayText": "JS Learning",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md"
+      },
+      {
+        "link": "D.S. Notes Hub",
+        "displayText": "Data Structure Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md"
       }
     ],
     "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Notebox 🗃",
+        "relativePath": "Home.md",
+        "displayText": "LEARN NOTE"
+      },
       {
         "fileName": "Home",
         "link": "Notebox 🗃",
@@ -6654,6 +6527,145 @@
         "fileName": "Thinking",
         "link": "Notebox 🗃",
         "relativePath": "Atlas/MOCs/Thinking.md"
+      },
+      {
+        "fileName": "JS Notes Hub",
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      },
+      {
+        "fileName": "D.S. Notes Hub",
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      }
+    ]
+  },
+  {
+    "fileName": "JS Notes Hub",
+    "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
+    "frontmatter": {
+      "title": "JS Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 128
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Notebox 🗃",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "link": "D.S. Notes Hub",
+        "displayText": "Data Structure Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Notebox 🗃",
+        "link": "JS Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md",
+        "displayText": "JS Learning"
+      },
+      {
+        "fileName": "D.S. Notes Hub",
+        "link": "JS Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
+        "displayText": "JS Notes"
+      }
+    ]
+  },
+  {
+    "fileName": "D.S. Notes Hub",
+    "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
+    "frontmatter": {
+      "title": "DataStructure Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "banner_y": 0.5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 153
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Notebox 🗃",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "link": "JS Notes Hub",
+        "displayText": "JS Notes",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Notebox 🗃",
+        "link": "D.S. Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md",
+        "displayText": "Data Structure Notes Hub"
+      },
+      {
+        "fileName": "JS Notes Hub",
+        "link": "D.S. Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
+        "displayText": "Data Structure Notes Hub"
       }
     ]
   },
@@ -6685,7 +6697,8 @@
     ],
     "links": [
       {
-        "link": "Sources MOC"
+        "link": "Sources MOC",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
       },
       {
         "link": "Books I've Read MOC"
@@ -7112,7 +7125,8 @@
       {
         "fileName": "Home",
         "link": "+ Library",
-        "relativePath": "Home.md"
+        "relativePath": "Home.md",
+        "displayText": "Library"
       },
       {
         "fileName": "Language MOC",

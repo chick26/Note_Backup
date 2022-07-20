@@ -30,45 +30,32 @@ obsidianUIMode: preview
 
  📌   **TOTAL**: `$=dv.pages().length` 
  📌   **INBOX**: `$=dv.pages('"Sources/Knowledges/🗄 Avatar | 待分类"').length`
- 📌   **[[+ Learninng Notes Hub|LEARN NOTE]]**: `$=dv.pages('"Sources/Knowledges"').length - dv.pages('"Sources/Knowledges/🗄 Avatar | 待分类"').length`
+ 📌   **[[Notebox 🗃|LEARN NOTE]]**: `$=dv.pages('"Sources/Knowledges"').length - dv.pages('"Sources/Knowledges/🗄 Avatar | 待分类"').length`
  📌   **READ NOTE**: `$=dv.pages('"Scources/Books"').length`
  📌   **[[+ Index for Calendar|DAILY]]**: `$=dv.pages('"Calendar"').length`
 
 # Atlas 🗺
-These are maps to launch your efforts. Where would you like to go?
 
-| I want to...              | ...play with ideas                                                     |
-|:------------------------- |:---------------------------------------------------------------------- |
-| Encounter some new things      | [🐦](https://www.twitter.com) , [📚](https://readwise.io/lyt/) |
-| Process interesting stuff | [[Cooling pad 🧊]]                                                     |
-| Develop my notes         | [[Notebox 🗃]]                                                        |
-| Develop my ideas          | [[Ideas ✨]]                                                        |
-| Evolve my ideas           | [[Essays 🖌]]                                                          |
-| Share my ideas         | [[Artifacts 💠]]                                                       |
+## Ideas ✨
 
----
-
-| **I want to...**                     | ...manage my efforts |
-| :------------------------------------ | :-------------------- |
-| Manage my projects                   | [[Projects 🏗]]       |
-| Plan and prioritize my work life     | [[LYT Space 🔆 (Kit)]]      |
-| Plan and prioritize my personal life | [[Life Space™ (Kit)]]        |
+| I want to...              | ...play with ideas |
+|:------------------------- |:------------------:|
+| Process interesting stuff | [[Cooling pad 🧊]] |
+| Develop my notes          |   [[Notebox 🗃]]    |
+| Develop my ideas          |    [[Ideas ✨]]    |
+| Evolve my ideas           |    [[Essays 🖌]]    |
+| Share my ideas            |  [[Artifacts 💠]]  |
 
 ---
-
+## Knowledges 📖
 | I want to...                   | ...reference my knowledge |
-| :------------------------------ | :---------------------------------------- |
-| Explore my library of MOCs         | [[+ Library]]                            |
-| Manage my knowledge system | [[My PKM MOC]]                           |
-| Build scaffolding for concepts | [[Concepts MOC]]                         |
-| Build scaffolding for people | [[People MOC]]                           |
-| Build scaffolding for sources  | [[Sources MOC]]                          |
+|:------------------------------ |:-------------------------:|
+| Explore my library of MOCs     |  [[+ Library\|Library]]   |
+| Manage my knowledge system     |      [[My PKM MOC]]       |
+| Build scaffolding for concepts |     [[Concepts MOC]]      |
+| Build scaffolding for sources  |      [[Sources MOC]]      |
 
 ---
-
-| I want to enjoy the uniquely human, wondrous joy of...                   | [[Thinking]] |
-| :------------------------------ | :---------------------------------------- |
-
 
 
 # 📝 DAILY NOTE

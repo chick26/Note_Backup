@@ -1,13 +1,14 @@
 ---
-title: Learninng Notes Hub
+title: JS Notes Hub
 creation date: 2022-03-01 21:51 
 cssclass: homePage
 obsidianUIMode: preview
-banner: "![[cube.jpg]]"
+banner: "![[color.jpg]]"
 ---
-<div class="title" style="color:#fff">Learning Notes Hub</div>
+<div class="title" style="color:#000">JS Notes Hub</div>
 
-💡 [[00 JS Notes Hub| JS Learning]] | 🛳️  [[00 D.S. Notes Hub|Data Structure Notes Hub]]
+<-  [[Notebox 🗃|⛵️ Learning Notes Hub ]] | 🛳️  [[D.S. Notes Hub|Data Structure Notes Hub]]
+
 
 # 📆 This Week Updates
 
@@ -17,7 +18,7 @@ TABLE WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "Sources/Knowledges"
+from "Sources/Knowledges/📲 Front Dev｜前端开发"
 where file.mtime > (date(now) - dur(7 days)) 
 and !contains(file.name, "Notes Hub")
 SORT file.name desc
@@ -32,7 +33,7 @@ TABLE WITHOUT ID
 tags as TAG,
 dateformat(file.mtime, "yyyy-MM-dd") as MODIFIED,
 dateformat(file.ctime, "yyyy-MM-dd") as CREATED
-from "Sources/Knowledges"
+from "Sources/Knowledges/📲 Front Dev｜前端开发"
 where file.ctime >= date(2022-01-01) AND file.ctime <=date(2022-12-31)
 and !contains(file.name, "Notes Hub")
 SORT file.name desc

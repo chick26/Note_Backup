@@ -1,6 +1,6 @@
 ---
 tags:
-- x/readme 
+- x/index 
 ---
 
 # <- [[My PKM MOC | My PKM MOC]]

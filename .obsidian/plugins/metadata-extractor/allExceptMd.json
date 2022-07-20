@@ -165,10 +165,6 @@
       "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发"
     },
     {
-      "name": "🗄 Avatar | 待分类",
-      "relativePath": "Sources/Knowledges/🗄 Avatar | 待分类"
-    },
-    {
       "name": "📉 Data Structrue｜数据结构",
       "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构"
     },
@@ -271,6 +267,10 @@
     {
       "name": "Archive",
       "relativePath": "Spaces/Work/• MOCs/Archive"
+    },
+    {
+      "name": "NoteBox",
+      "relativePath": "Atlas/Scopes/NoteBox"
     }
   ],
   "nonMdFiles": [
