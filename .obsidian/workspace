@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "dfb145ca52269d01",
+        "id": "b4746fa12f15a6fe",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Atlas/MOCs/My PKM MOC (Kit).md",
-            "mode": "source",
+            "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -19,126 +19,111 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6cf33a6651c18d11",
-    "type": "split",
+    "id": "50c82ba28261ff72",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "d8b9e06acb970b92",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f67541010ae9ab23",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "38fd6dec19d27553",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#x/index",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "2a03ba0c6b0f72c0",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "5bcddb711a004a2b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "bd82b3345a0244a9",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "676a4eceb6008bb5",
-    "type": "split",
+    "id": "3ea035ab891cd9fa",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "8121b6397f822a5b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "90f7a8b1d4bcdd43",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "58658765d65448e1",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Atlas/MOCs/My PKM MOC (Kit).md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "232f53dea98955a2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Atlas/MOCs/My PKM MOC (Kit).md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "07e2cc88b339921d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b666d03bb2c4a3e9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Atlas/MOCs/My PKM MOC (Kit).md"
-              }
-            }
+        "id": "3295ad4f885cb63c",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "e4ff40a1261582ee",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 3
+        }
+      },
+      {
+        "id": "9ef1ed2922212159",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8f34890e8923239f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 283.5
+    "currentTab": 0
   },
-  "active": "dfb145ca52269d01",
+  "active": "b4746fa12f15a6fe",
   "lastOpenFiles": [
+    "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+    "Calendar/+ Index for Calendar.md",
+    "Home.md",
     "My PKM Folders.md",
     "Atlas/MOCs/My PKM MOC (Kit).md",
     "Atlas/MOCs/Sources MOC.md",
     "Atlas/MOCs/Thinking.md",
     "Atlas/MOCs/Library/Habits MOC.md",
     "Atlas/MOCs/Library/Collective Intelligence MOC.md",
-    "Atlas/Logs/Essays 🖌.md",
-    "Cards/Previous versions/Habits MOC - Gather.md",
-    "Cards/Yin and Yang.md",
-    "Cards/+ Index for Cards.md"
+    "Atlas/Logs/Essays 🖌.md"
   ]
 }

@@ -1,17 +1,196 @@
 [
   {
-    "fileName": "Home",
-    "relativePath": "Home.md",
+    "fileName": "2022-07-12",
+    "relativePath": "Calendar/2022/2022-07-12.md",
+    "headings": [
+      {
+        "heading": "2022-07-12",
+        "level": 1
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Photographing Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-07-07",
+    "relativePath": "Calendar/2022/2022-07-07.md",
+    "headings": [
+      {
+        "heading": "2022-07-07",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-07-04",
+    "relativePath": "Calendar/2022/2022-07-04.md",
+    "headings": [
+      {
+        "heading": "2022-07-04",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-07-01",
+    "relativePath": "Calendar/2022/2022-07-01.md",
+    "headings": [
+      {
+        "heading": "2022-07-01",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Reading Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-06-30",
+    "relativePath": "Calendar/2022/2022-06-30.md",
+    "headings": [
+      {
+        "heading": "2022-06-30",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Photographing Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      }
+    ]
+  },
+  {
+    "fileName": "2022-06-29",
+    "relativePath": "Calendar/2022/2022-06-29.md",
+    "headings": [
+      {
+        "heading": "2022-06-29",
+        "level": 1
+      },
+      {
+        "heading": "💡 New Discoveries",
+        "level": 2
+      },
+      {
+        "heading": "🛳️ Ship's Log",
+        "level": 2
+      },
+      {
+        "heading": "Happenings",
+        "level": 3
+      },
+      {
+        "heading": "Personal Projects Log",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Ship's Log",
+    "relativePath": "Calendar/+ Ship's Log.md",
     "frontmatter": {
-      "title": "Learning Note OverView",
+      "title": "Ship's Log",
       "creation date": "2022-03-01 21:51",
       "cssclass": "homePage",
-      "tags": null,
-      "banner": "![[宁静.JPG]]",
-      "banner_x": 0.5,
-      "banner_y": 0.85,
-      "banner_lock": true,
       "obsidianUIMode": "preview",
+      "banner": "![[Ship.jpeg]]",
+      "banner_y": 1,
       "position": {
         "start": {
           "line": 0,
@@ -19,186 +198,323 @@
           "offset": 0
         },
         "end": {
-          "line": 10,
+          "line": 7,
           "col": 3,
-          "offset": 188
+          "offset": 138
         }
       }
     },
     "headings": [
       {
-        "heading": "🗂 PERSONAL OBJECT",
+        "heading": "⛽️ Life Happenings",
         "level": 1
       },
       {
-        "heading": "〽️ STATS",
-        "level": 1
-      },
-      {
-        "heading": "Atlas 🗺",
-        "level": 1
-      },
-      {
-        "heading": "📝 DAILY NOTE",
-        "level": 1
-      },
-      {
-        "heading": "📑 WAITING LIST",
-        "level": 1
-      },
-      {
-        "heading": "📝 DOING LIST",
-        "level": 1
-      },
-      {
-        "heading": "📨 REVIEW LIST",
+        "heading": "🧰 Personal Projects",
         "level": 1
       }
     ],
     "links": [
       {
-        "link": "+ Learninng Notes Hub",
-        "displayText": "LEARN NOTE",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
-      },
-      {
         "link": "+ Index for Calendar",
-        "displayText": "DAILY",
+        "displayText": "Daily Notes Hub",
         "relativePath": "Calendar/+ Index for Calendar.md"
       },
       {
-        "link": "Cooling pad 🧊",
-        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+        "link": "+ New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "Calendar/+ New Discoveries Log.md"
       },
       {
-        "link": "Notebox 🗃 (Kit)",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
-      },
-      {
-        "link": "Ideas ✨ (Kit)",
-        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
-      },
-      {
-        "link": "Essays 🖌",
-        "relativePath": "Atlas/Logs/Essays 🖌.md"
-      },
-      {
-        "link": "Artifacts 💠",
-        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
-      },
-      {
-        "link": "Projects 🏗"
-      },
-      {
-        "link": "LYT Space 🔆 (Kit)",
-        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
-      },
-      {
-        "link": "Life Space™ (Kit)",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
-        "link": "+ Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
-      },
-      {
-        "link": "Concepts MOC",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "link": "People MOC"
-      },
-      {
-        "link": "Sources MOC"
-      },
-      {
-        "link": "Thinking",
-        "relativePath": "Atlas/MOCs/Thinking.md"
+        "link": "+ Media Log",
+        "displayText": "Media Log",
+        "relativePath": "Calendar/+ Media Log.md"
       }
     ],
     "backlinks": [
       {
-        "fileName": "LYT Space 🔆 (Kit)",
-        "link": "Home",
-        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
+        "fileName": "+ New Discoveries Log",
+        "link": "+ Ship's Log",
+        "relativePath": "Calendar/+ New Discoveries Log.md",
+        "displayText": "Ship's Log"
       },
       {
-        "fileName": "Life Space™ (Kit)",
-        "link": "Home",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+        "fileName": "+ Media Log",
+        "link": "+ Ship's Log",
+        "relativePath": "Calendar/+ Media Log.md",
+        "displayText": "Ship's Log"
       },
       {
-        "fileName": "Notebox 🗃 (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
-      },
-      {
-        "fileName": "Ideas ✨ (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
-      },
-      {
-        "fileName": "Cooling pad 🧊",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
-      },
-      {
-        "fileName": "Artifacts 💠",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
-      },
-      {
-        "fileName": "+ Index for index notes",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      },
-      {
-        "fileName": "Thinking",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      },
-      {
-        "fileName": "My PKM MOC (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
-      },
-      {
-        "fileName": "Concepts MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "fileName": "Essays 🖌",
-        "link": "Home",
-        "relativePath": "Atlas/Logs/Essays 🖌.md"
-      },
-      {
-        "fileName": "+ Library",
-        "link": "Home",
-        "relativePath": "Atlas/+ Library.md"
+        "fileName": "+ Index for Calendar",
+        "link": "+ Ship's Log",
+        "relativePath": "Calendar/+ Index for Calendar.md",
+        "displayText": "Ship's Log"
       }
     ]
   },
   {
-    "fileName": "+ About Encounters",
-    "relativePath": "• Encounters/+ About Encounters.md",
-    "tags": [
-      "x/readme"
-    ],
+    "fileName": "+ New Discoveries Log",
+    "relativePath": "Calendar/+ New Discoveries Log.md",
+    "frontmatter": {
+      "title": "New Discoveries Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[discovery.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 139
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "About Encounters",
+        "heading": "List",
         "level": 1
       }
     ],
     "links": [
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      },
+      {
+        "link": "+ Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "Calendar/+ Ship's Log.md"
+      },
+      {
+        "link": "+ Media Log",
+        "displayText": "Media Log",
+        "relativePath": "Calendar/+ Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ Ship's Log",
+        "link": "+ New Discoveries Log",
+        "relativePath": "Calendar/+ Ship's Log.md",
+        "displayText": "New Discoveries"
+      },
+      {
+        "fileName": "+ Media Log",
+        "link": "+ New Discoveries Log",
+        "relativePath": "Calendar/+ Media Log.md",
+        "displayText": "New Discoveries"
+      },
+      {
+        "fileName": "+ Index for Calendar",
+        "link": "+ New Discoveries Log",
+        "relativePath": "Calendar/+ Index for Calendar.md",
+        "displayText": "New Discoveries"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Media Log",
+    "relativePath": "Calendar/+ Media Log.md",
+    "frontmatter": {
+      "title": "Media Log",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[shelf.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 125
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🎧 Listening Log",
+        "level": 1
+      },
+      {
+        "heading": "📖 Reading Log",
+        "level": 1
+      },
+      {
+        "heading": "📸 Photographing Log",
+        "level": 1
+      },
+      {
+        "heading": "🎬 Video Log",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "Daily Notes Hub",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      },
+      {
+        "link": "+ New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "Calendar/+ New Discoveries Log.md"
+      },
+      {
+        "link": "+ Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "Calendar/+ Ship's Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ Ship's Log",
+        "link": "+ Media Log",
+        "relativePath": "Calendar/+ Ship's Log.md",
+        "displayText": "Media Log"
+      },
+      {
+        "fileName": "+ New Discoveries Log",
+        "link": "+ Media Log",
+        "relativePath": "Calendar/+ New Discoveries Log.md",
+        "displayText": "Media Log"
+      },
+      {
+        "fileName": "+ Index for Calendar",
+        "link": "+ Media Log",
+        "relativePath": "Calendar/+ Index for Calendar.md",
+        "displayText": "Media Log"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for Calendar",
+    "relativePath": "Calendar/+ Index for Calendar.md",
+    "frontmatter": {
+      "title": "Daily Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[roadToHaven.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 137
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ New Discoveries Log",
+        "displayText": "New Discoveries",
+        "relativePath": "Calendar/+ New Discoveries Log.md"
+      },
+      {
+        "link": "+ Ship's Log",
+        "displayText": "Ship's Log",
+        "relativePath": "Calendar/+ Ship's Log.md"
+      },
+      {
+        "link": "+ Media Log",
+        "displayText": "Media Log",
+        "relativePath": "Calendar/+ Media Log.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "2022-07-12",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/2022/2022-07-12.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-07-07",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/2022/2022-07-07.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-07-04",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/2022/2022-07-04.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-07-01",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/2022/2022-07-01.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-06-30",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/2022/2022-06-30.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "2022-06-29",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/2022/2022-06-29.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "+ Ship's Log",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/+ Ship's Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "+ New Discoveries Log",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/+ New Discoveries Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "+ Media Log",
+        "link": "+ Index for Calendar",
+        "relativePath": "Calendar/+ Media Log.md",
+        "displayText": "Daily Notes Hub"
+      },
+      {
+        "fileName": "Home",
+        "link": "+ Index for Calendar",
+        "relativePath": "Home.md",
+        "displayText": "DAILY"
+      },
+      {
+        "fileName": "Template, Daily-Note",
+        "link": "+ Index for Calendar",
+        "relativePath": "Extras/Templates/Template, Daily-Note.md",
+        "displayText": "Daily Notes Hub"
       }
     ]
   },
@@ -381,6 +697,20 @@
     ]
   },
   {
+    "fileName": "Email Thanks",
+    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Email Thanks.md",
+    "headings": [
+      {
+        "heading": "Thanks!",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "BLE Incoming...",
+    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/BLE Incoming....md"
+  },
+  {
     "fileName": "LYT Notes 2 (Example)",
     "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 2 (Example).md",
     "tags": [
@@ -413,51 +743,6 @@
         "link": "150 📚 The Almagest"
       }
     ]
-  },
-  {
-    "fileName": "LYT Notes 1 (Example)",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md",
-    "tags": [
-      "output/newsletter"
-    ],
-    "headings": [
-      {
-        "heading": "LYT Notes 1",
-        "level": 6
-      },
-      {
-        "heading": "LYT Kit, Pace layers, and the power of language",
-        "level": 1
-      },
-      {
-        "heading": "On Pace Layers",
-        "level": 2
-      },
-      {
-        "heading": "On the power of language",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Email Thanks",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Email Thanks.md",
-    "headings": [
-      {
-        "heading": "Thanks!",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "BLE Incoming...",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/BLE Incoming....md"
   },
   {
     "fileName": "+ Index for LYT Notes Newsletters",
@@ -502,6 +787,56 @@
         "fileName": "LYT Notes 1 (Example)",
         "link": "+ Index for LYT Notes Newsletters",
         "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md"
+      }
+    ]
+  },
+  {
+    "fileName": "LYT Notes 1 (Example)",
+    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md",
+    "tags": [
+      "output/newsletter"
+    ],
+    "headings": [
+      {
+        "heading": "LYT Notes 1",
+        "level": 6
+      },
+      {
+        "heading": "LYT Kit, Pace layers, and the power of language",
+        "level": 1
+      },
+      {
+        "heading": "On Pace Layers",
+        "level": 2
+      },
+      {
+        "heading": "On the power of language",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for LYT Notes Newsletters",
+        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
+      }
+    ]
+  },
+  {
+    "fileName": "+ About Spaces",
+    "relativePath": "Spaces/+ About Spaces.md",
+    "tags": [
+      "x/readme"
+    ],
+    "headings": [
+      {
+        "heading": "About Spaces",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "My PKM MOC (Kit)",
+        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
       }
     ]
   },
@@ -622,14 +957,14 @@
     ]
   },
   {
-    "fileName": "+ About Spaces",
-    "relativePath": "Spaces/+ About Spaces.md",
+    "fileName": "+ About Encounters",
+    "relativePath": "• Encounters/+ About Encounters.md",
     "tags": [
       "x/readme"
     ],
     "headings": [
       {
-        "heading": "About Spaces",
+        "heading": "About Encounters",
         "level": 1
       }
     ],
@@ -637,6 +972,1111 @@
       {
         "link": "My PKM MOC (Kit)",
         "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+      }
+    ]
+  },
+  {
+    "fileName": "Home",
+    "relativePath": "Home.md",
+    "frontmatter": {
+      "title": "Learning Note OverView",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "tags": null,
+      "banner": "![[宁静.JPG]]",
+      "banner_x": 0.5,
+      "banner_y": 0.85,
+      "banner_lock": true,
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 10,
+          "col": 3,
+          "offset": 188
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🗂 PERSONAL OBJECT",
+        "level": 1
+      },
+      {
+        "heading": "〽️ STATS",
+        "level": 1
+      },
+      {
+        "heading": "Atlas 🗺",
+        "level": 1
+      },
+      {
+        "heading": "📝 DAILY NOTE",
+        "level": 1
+      },
+      {
+        "heading": "📑 WAITING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📝 DOING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📨 REVIEW LIST",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Learninng Notes Hub",
+        "displayText": "LEARN NOTE",
+        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
+      },
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "DAILY",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      },
+      {
+        "link": "Cooling pad 🧊",
+        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+      },
+      {
+        "link": "Notebox 🗃 (Kit)",
+        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+      },
+      {
+        "link": "Ideas ✨ (Kit)",
+        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
+      },
+      {
+        "link": "Essays 🖌",
+        "relativePath": "Atlas/Logs/Essays 🖌.md"
+      },
+      {
+        "link": "Artifacts 💠",
+        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
+      },
+      {
+        "link": "Projects 🏗"
+      },
+      {
+        "link": "LYT Space 🔆 (Kit)",
+        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
+      },
+      {
+        "link": "Life Space™ (Kit)",
+        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "link": "+ Library",
+        "relativePath": "Atlas/+ Library.md"
+      },
+      {
+        "link": "My PKM MOC (Kit)",
+        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+      },
+      {
+        "link": "Concepts MOC",
+        "relativePath": "Atlas/MOCs/Concepts MOC.md"
+      },
+      {
+        "link": "People MOC"
+      },
+      {
+        "link": "Sources MOC"
+      },
+      {
+        "link": "Thinking",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "LYT Space 🔆 (Kit)",
+        "link": "Home",
+        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
+      },
+      {
+        "fileName": "Life Space™ (Kit)",
+        "link": "Home",
+        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "fileName": "Thinking",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      },
+      {
+        "fileName": "My PKM MOC (Kit)",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+      },
+      {
+        "fileName": "Concepts MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Concepts MOC.md"
+      },
+      {
+        "fileName": "Notebox 🗃 (Kit)",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md"
+      },
+      {
+        "fileName": "Ideas ✨ (Kit)",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md"
+      },
+      {
+        "fileName": "Cooling pad 🧊",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+      },
+      {
+        "fileName": "Artifacts 💠",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Artifacts 💠.md"
+      },
+      {
+        "fileName": "+ Index for index notes",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+      },
+      {
+        "fileName": "Essays 🖌",
+        "link": "Home",
+        "relativePath": "Atlas/Logs/Essays 🖌.md"
+      },
+      {
+        "fileName": "+ Library",
+        "link": "Home",
+        "relativePath": "Atlas/+ Library.md"
+      }
+    ]
+  },
+  {
+    "fileName": "git hooks",
+    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
+    "tags": [
+      "source/git/hooks"
+    ],
+    "frontmatter": {
+      "title": "git hooks",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 95
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Git commit message",
+    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
+    "tags": [
+      "source/git",
+      "source/git/commit"
+    ],
+    "frontmatter": {
+      "title": "Git commit message",
+      "creation date": "2022-07-18 17:09:53",
+      "status": "todo",
+      "tag": [
+        "source/git",
+        "source/git/commit"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 120
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "\"type\" must be one of the following mentioned below!",
+        "level": 2
+      },
+      {
+        "heading": "\"scope\" is optional",
+        "level": 2
+      },
+      {
+        "heading": "\"subject\"",
+        "level": 2
+      },
+      {
+        "heading": "[](#references)References:",
+        "level": 4
+      }
+    ],
+    "links": [
+      {
+        "link": "#references",
+        "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
+        "cleanLink": "Git commit message",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Mermaid",
+    "relativePath": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
+    "tags": [
+      "source/markdown/mermaid"
+    ],
+    "frontmatter": {
+      "title": "Mermaid",
+      "creation date": "2022-03-21 21:36",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 100
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Mermaid Markdown",
+        "level": 1
+      },
+      {
+        "heading": "概述",
+        "level": 2
+      },
+      {
+        "heading": "什么是 Mermaid？",
+        "level": 3
+      },
+      {
+        "heading": "怎么使用 Mermaid？",
+        "level": 3
+      },
+      {
+        "heading": "Mermaid 能绘制哪些图？",
+        "level": 3
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "饼状图",
+        "level": 2
+      },
+      {
+        "heading": "语法——仅供参考，建议直接看实例",
+        "level": 3
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "流程图",
+        "level": 2
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "方向",
+        "level": 3
+      },
+      {
+        "heading": "结点",
+        "level": 3
+      },
+      {
+        "heading": "连线样式",
+        "level": 3
+      },
+      {
+        "heading": "实线箭头",
+        "level": 4
+      },
+      {
+        "heading": "粗实线箭头",
+        "level": 4
+      },
+      {
+        "heading": "虚线箭头",
+        "level": 4
+      },
+      {
+        "heading": "无箭头线",
+        "level": 4
+      },
+      {
+        "heading": "其他连线",
+        "level": 4
+      },
+      {
+        "heading": "延长连线",
+        "level": 4
+      },
+      {
+        "heading": "连线形式",
+        "level": 3
+      },
+      {
+        "heading": "直链",
+        "level": 4
+      },
+      {
+        "heading": "多重链",
+        "level": 4
+      },
+      {
+        "heading": "其他",
+        "level": 3
+      },
+      {
+        "heading": "子图",
+        "level": 4
+      },
+      {
+        "heading": "注释",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "数组",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+    "tags": [
+      "source/datastructrue/array"
+    ],
+    "frontmatter": {
+      "title": "数组",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 98
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "线性表与非线性表",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "哈希表",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
+    "tags": [
+      "source/datastructrue/hashtable"
+    ],
+    "frontmatter": {
+      "title": "哈希表(散列表)",
+      "creation date": "2022-07-01 11:49",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 108
+        }
+      }
+    }
+  },
+  {
+    "fileName": "08-主从复制和主主复制",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "主从复制和主主复制",
+      "creation date": "2022-07-13 09:13",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 91
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "主从复制的目的",
+        "level": 2
+      },
+      {
+        "heading": "MySQL主从复制的架构模式",
+        "level": 2
+      },
+      {
+        "heading": "部署星型模型的主从复制",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "09-高可用架构",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "高可用架构",
+      "creation date": "2022-07-13 09:22",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 87
+        }
+      }
+    }
+  },
+  {
+    "fileName": "07-备份与恢复",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "备份与恢复",
+      "creation date": "2022-07-13 09:07",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 87
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "基本的术语",
+        "level": 2
+      },
+      {
+        "heading": "操作实例",
+        "level": 2
+      },
+      {
+        "heading": "备份指定数据库 demo1",
+        "level": 3
+      },
+      {
+        "heading": "备份指定数据库demo下指定的表",
+        "level": 3
+      },
+      {
+        "heading": "可传输的表空间",
+        "level": 2
+      },
+      {
+        "heading": "闪回技术（flashback）",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "06-事务与锁",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "事务与锁",
+      "creation date": "2022-07-13 09:04",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 86
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "MySQL的事务",
+        "level": 2
+      },
+      {
+        "heading": "事务的特征",
+        "level": 3
+      },
+      {
+        "heading": "控制事务",
+        "level": 3
+      },
+      {
+        "heading": "事务的并发：隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "锁机制",
+        "level": 2
+      },
+      {
+        "heading": "行锁",
+        "level": 3
+      },
+      {
+        "heading": "表锁",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "05-应用程序开发",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
+    "tags": [
+      "source/mysql/programdev"
+    ],
+    "frontmatter": {
+      "title": "应用程序开发",
+      "creation date": "2022-07-12 14:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "存储过程 procedure",
+        "level": 2
+      },
+      {
+        "heading": "存储函数 function",
+        "level": 2
+      },
+      {
+        "heading": "触发器 trigger",
+        "level": 2
+      },
+      {
+        "heading": "实现安全性的检查",
+        "level": 3
+      },
+      {
+        "heading": "进行数据的确认",
+        "level": 3
+      },
+      {
+        "heading": "实现审计的功能",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "04-数据库对象",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
+    "tags": [
+      "source/mysql/dataobject"
+    ],
+    "frontmatter": {
+      "title": "数据库对象",
+      "creation date": "2022-07-12 12:40",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 98
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "表",
+        "level": 2
+      },
+      {
+        "heading": "数据类型",
+        "level": 3
+      },
+      {
+        "heading": "表的基本操作",
+        "level": 3
+      },
+      {
+        "heading": "约束",
+        "level": 3
+      },
+      {
+        "heading": "主键",
+        "level": 3
+      },
+      {
+        "heading": "外键",
+        "level": 3
+      },
+      {
+        "heading": "表的碎片",
+        "level": 3
+      },
+      {
+        "heading": "临时表",
+        "level": 3
+      },
+      {
+        "heading": "统计信息 statistics",
+        "level": 3
+      },
+      {
+        "heading": "视图",
+        "level": 2
+      },
+      {
+        "heading": "索引",
+        "level": 2
+      },
+      {
+        "heading": "事件Event",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "03-用户管理与访问控制",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+    "tags": [
+      "source/mysql",
+      "source/mysql/permission"
+    ],
+    "frontmatter": {
+      "title": "用户管理与访问控制",
+      "creation date": "2022-07-12 11:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 117
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "用户的管理",
+        "level": 2
+      },
+      {
+        "heading": "创建和管理用户",
+        "level": 3
+      },
+      {
+        "heading": "管理用户的密码",
+        "level": 3
+      },
+      {
+        "heading": "权限的管理",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的权限的系统",
+        "level": 3
+      },
+      {
+        "heading": "grant和revoke",
+        "level": 3
+      },
+      {
+        "heading": "权限的生效机制",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "02-InnoDB存储引擎",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
+    "tags": [
+      "source/mysql/innodb",
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "InnoDB存储引擎",
+      "creation date": "2022-07-10 20:30",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 114
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "InnoDB存储引擎",
+        "level": 1
+      },
+      {
+        "heading": "存储结构",
+        "level": 2
+      },
+      {
+        "heading": "物理存储结构：硬盘上的文件",
+        "level": 3
+      },
+      {
+        "heading": "数据文件",
+        "level": 4
+      },
+      {
+        "heading": "重做日志文件",
+        "level": 4
+      },
+      {
+        "heading": "撤销日志文件",
+        "level": 4
+      },
+      {
+        "heading": "参数文件",
+        "level": 4
+      },
+      {
+        "heading": "错误日志文件",
+        "level": 4
+      },
+      {
+        "heading": "binlog二进制日志文件",
+        "level": 4
+      },
+      {
+        "heading": "慢查询日志",
+        "level": 4
+      },
+      {
+        "heading": "全量日志general log",
+        "level": 4
+      },
+      {
+        "heading": "逻辑存储结构",
+        "level": 3
+      },
+      {
+        "heading": "内存结构",
+        "level": 2
+      },
+      {
+        "heading": "SGA",
+        "level": 3
+      },
+      {
+        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
+        "level": 3
+      },
+      {
+        "heading": "检查点的类型",
+        "level": 3
+      },
+      {
+        "heading": "完全检查点",
+        "level": 4
+      },
+      {
+        "heading": "模糊检查点",
+        "level": 4
+      },
+      {
+        "heading": "进程结构 (线程结构)",
+        "level": 2
+      },
+      {
+        "heading": "主线程",
+        "level": 3
+      },
+      {
+        "heading": "IO线程",
+        "level": 3
+      },
+      {
+        "heading": "其他线程",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "01-MySQL数据库基础",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "MySQL数据库基础",
+      "creation date": "2022-07-10 15:37",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 92
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "虚拟机使用说明",
+        "level": 2
+      },
+      {
+        "heading": "MySQL数据库基础",
+        "level": 1
+      },
+      {
+        "heading": "MySQL简介和分支（NoSQL数据库）",
+        "level": 2
+      },
+      {
+        "heading": "关系型数据库",
+        "level": 3
+      },
+      {
+        "heading": "属性",
+        "level": 4
+      },
+      {
+        "heading": "特点",
+        "level": 4
+      },
+      {
+        "heading": "NoSQL数据库：not only SQL",
+        "level": 3
+      },
+      {
+        "heading": "MySQL分支",
+        "level": 3
+      },
+      {
+        "heading": "安装和配置MySQL数据库",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的配置文件搜索过程: my.cnf",
+        "level": 3
+      },
+      {
+        "heading": "my.cnf 配置参数",
+        "level": 3
+      },
+      {
+        "heading": "客户端的连接方式",
+        "level": 2
+      },
+      {
+        "heading": "本地连接",
+        "level": 3
+      },
+      {
+        "heading": "远程连接",
+        "level": 3
+      },
+      {
+        "heading": "安全连接",
+        "level": 3
+      },
+      {
+        "heading": "MySQL数据库的体系架构（服务器端）",
+        "level": 2
+      },
+      {
+        "heading": "Server层",
+        "level": 3
+      },
+      {
+        "heading": "Connectors",
+        "level": 4
+      },
+      {
+        "heading": "存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "InnoDB",
+        "level": 4
+      },
+      {
+        "heading": "MyISAM",
+        "level": 4
+      },
+      {
+        "heading": "Memory",
+        "level": 4
+      },
+      {
+        "heading": "多实例环境（数据库、数据库实例）",
+        "level": 2
+      },
+      {
+        "heading": "数据库和数据库实例",
+        "level": 3
+      },
+      {
+        "heading": "数据库",
+        "level": 4
+      },
+      {
+        "heading": "数据库实例",
+        "level": 4
+      },
+      {
+        "heading": "使用mysqld_multi工具",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "00 D.S. Notes Hub",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
+    "frontmatter": {
+      "title": "DataStructure Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "banner_y": 0.5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 153
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Learninng Notes Hub",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
+      },
+      {
+        "link": "00 JS Notes Hub",
+        "displayText": "JS Notes",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "00 JS Notes Hub",
+        "link": "00 D.S. Notes Hub",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+        "displayText": "Data Structure Notes Hub"
+      },
+      {
+        "fileName": "+ Learninng Notes Hub",
+        "link": "00 D.S. Notes Hub",
+        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md",
+        "displayText": "Data Structure Notes Hub"
       }
     ]
   },
@@ -810,6 +2250,35 @@
         }
       }
     }
+  },
+  {
+    "fileName": "CSS解决方案",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
+    "frontmatter": {
+      "title": "CSS解决方案",
+      "creation date": "2022-05-18 08:50",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 77
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "前端组件库设计",
+        "link": "CSS解决方案",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+        "displayText": "SCSS 和 LESS 相比有什么优势"
+      }
+    ]
   },
   {
     "fileName": "前端组件库设计",
@@ -4115,69 +5584,6 @@
     ]
   },
   {
-    "fileName": "CSS解决方案",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
-    "frontmatter": {
-      "title": "CSS解决方案",
-      "creation date": "2022-05-18 08:50",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 77
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "前端组件库设计",
-        "link": "CSS解决方案",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-        "displayText": "SCSS 和 LESS 相比有什么优势"
-      }
-    ]
-  },
-  {
-    "fileName": "AppleScript",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
-    "tags": [
-      "source/applescript"
-    ],
-    "frontmatter": {
-      "title": "AppleScript",
-      "date": "2022-01-24 14:41",
-      "status": "done",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 91
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "键位代码",
-        "level": 1
-      },
-      {
-        "heading": "Telegram Checkin",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "00 JS Notes Hub",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
     "frontmatter": {
@@ -4241,93 +5647,15 @@
     ]
   },
   {
-    "fileName": "数组",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+    "fileName": "AppleScript",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
     "tags": [
-      "source/datastructrue/array"
+      "source/applescript"
     ],
     "frontmatter": {
-      "title": "数组",
-      "creation date": "2022-03-01 09:26",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 98
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "线性表与非线性表",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "哈希表",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
-    "tags": [
-      "source/datastructrue/hashtable"
-    ],
-    "frontmatter": {
-      "title": "哈希表(散列表)",
-      "creation date": "2022-07-01 11:49",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 108
-        }
-      }
-    }
-  },
-  {
-    "fileName": "09-高可用架构",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "高可用架构",
-      "creation date": "2022-07-13 09:22",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 87
-        }
-      }
-    }
-  },
-  {
-    "fileName": "08-主从复制和主主复制",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "主从复制和主主复制",
-      "creation date": "2022-07-13 09:13",
-      "status": "todo",
+      "title": "AppleScript",
+      "date": "2022-01-24 14:41",
+      "status": "done",
       "position": {
         "start": {
           "line": 0,
@@ -4343,821 +5671,12 @@
     },
     "headings": [
       {
-        "heading": "主从复制的目的",
-        "level": 2
-      },
-      {
-        "heading": "MySQL主从复制的架构模式",
-        "level": 2
-      },
-      {
-        "heading": "部署星型模型的主从复制",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "07-备份与恢复",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "备份与恢复",
-      "creation date": "2022-07-13 09:07",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 87
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "基本的术语",
-        "level": 2
-      },
-      {
-        "heading": "操作实例",
-        "level": 2
-      },
-      {
-        "heading": "备份指定数据库 demo1",
-        "level": 3
-      },
-      {
-        "heading": "备份指定数据库demo下指定的表",
-        "level": 3
-      },
-      {
-        "heading": "可传输的表空间",
-        "level": 2
-      },
-      {
-        "heading": "闪回技术（flashback）",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "06-事务与锁",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "事务与锁",
-      "creation date": "2022-07-13 09:04",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 86
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "MySQL的事务",
-        "level": 2
-      },
-      {
-        "heading": "事务的特征",
-        "level": 3
-      },
-      {
-        "heading": "控制事务",
-        "level": 3
-      },
-      {
-        "heading": "事务的并发：隔离级别",
-        "level": 3
-      },
-      {
-        "heading": "锁机制",
-        "level": 2
-      },
-      {
-        "heading": "行锁",
-        "level": 3
-      },
-      {
-        "heading": "表锁",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "05-应用程序开发",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
-    "tags": [
-      "source/mysql/programdev"
-    ],
-    "frontmatter": {
-      "title": "应用程序开发",
-      "creation date": "2022-07-12 14:09",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 99
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "存储过程 procedure",
-        "level": 2
-      },
-      {
-        "heading": "存储函数 function",
-        "level": 2
-      },
-      {
-        "heading": "触发器 trigger",
-        "level": 2
-      },
-      {
-        "heading": "实现安全性的检查",
-        "level": 3
-      },
-      {
-        "heading": "进行数据的确认",
-        "level": 3
-      },
-      {
-        "heading": "实现审计的功能",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "03-用户管理与访问控制",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
-    "tags": [
-      "source/mysql",
-      "source/mysql/permission"
-    ],
-    "frontmatter": {
-      "title": "用户管理与访问控制",
-      "creation date": "2022-07-12 11:09",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 117
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "用户的管理",
-        "level": 2
-      },
-      {
-        "heading": "创建和管理用户",
-        "level": 3
-      },
-      {
-        "heading": "管理用户的密码",
-        "level": 3
-      },
-      {
-        "heading": "权限的管理",
-        "level": 2
-      },
-      {
-        "heading": "MySQL的权限的系统",
-        "level": 3
-      },
-      {
-        "heading": "grant和revoke",
-        "level": 3
-      },
-      {
-        "heading": "权限的生效机制",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "04-数据库对象",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
-    "tags": [
-      "source/mysql/dataobject"
-    ],
-    "frontmatter": {
-      "title": "数据库对象",
-      "creation date": "2022-07-12 12:40",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 98
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "表",
-        "level": 2
-      },
-      {
-        "heading": "数据类型",
-        "level": 3
-      },
-      {
-        "heading": "表的基本操作",
-        "level": 3
-      },
-      {
-        "heading": "约束",
-        "level": 3
-      },
-      {
-        "heading": "主键",
-        "level": 3
-      },
-      {
-        "heading": "外键",
-        "level": 3
-      },
-      {
-        "heading": "表的碎片",
-        "level": 3
-      },
-      {
-        "heading": "临时表",
-        "level": 3
-      },
-      {
-        "heading": "统计信息 statistics",
-        "level": 3
-      },
-      {
-        "heading": "视图",
-        "level": 2
-      },
-      {
-        "heading": "索引",
-        "level": 2
-      },
-      {
-        "heading": "事件Event",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "02-InnoDB存储引擎",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
-    "tags": [
-      "source/mysql/innodb",
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "InnoDB存储引擎",
-      "creation date": "2022-07-10 20:30",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 114
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "InnoDB存储引擎",
+        "heading": "键位代码",
         "level": 1
       },
       {
-        "heading": "存储结构",
+        "heading": "Telegram Checkin",
         "level": 2
-      },
-      {
-        "heading": "物理存储结构：硬盘上的文件",
-        "level": 3
-      },
-      {
-        "heading": "数据文件",
-        "level": 4
-      },
-      {
-        "heading": "重做日志文件",
-        "level": 4
-      },
-      {
-        "heading": "撤销日志文件",
-        "level": 4
-      },
-      {
-        "heading": "参数文件",
-        "level": 4
-      },
-      {
-        "heading": "错误日志文件",
-        "level": 4
-      },
-      {
-        "heading": "binlog二进制日志文件",
-        "level": 4
-      },
-      {
-        "heading": "慢查询日志",
-        "level": 4
-      },
-      {
-        "heading": "全量日志general log",
-        "level": 4
-      },
-      {
-        "heading": "逻辑存储结构",
-        "level": 3
-      },
-      {
-        "heading": "内存结构",
-        "level": 2
-      },
-      {
-        "heading": "SGA",
-        "level": 3
-      },
-      {
-        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
-        "level": 3
-      },
-      {
-        "heading": "检查点的类型",
-        "level": 3
-      },
-      {
-        "heading": "完全检查点",
-        "level": 4
-      },
-      {
-        "heading": "模糊检查点",
-        "level": 4
-      },
-      {
-        "heading": "进程结构 (线程结构)",
-        "level": 2
-      },
-      {
-        "heading": "主线程",
-        "level": 3
-      },
-      {
-        "heading": "IO线程",
-        "level": 3
-      },
-      {
-        "heading": "其他线程",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "01-MySQL数据库基础",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "MySQL数据库基础",
-      "creation date": "2022-07-10 15:37",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 92
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "虚拟机使用说明",
-        "level": 2
-      },
-      {
-        "heading": "MySQL数据库基础",
-        "level": 1
-      },
-      {
-        "heading": "MySQL简介和分支（NoSQL数据库）",
-        "level": 2
-      },
-      {
-        "heading": "关系型数据库",
-        "level": 3
-      },
-      {
-        "heading": "属性",
-        "level": 4
-      },
-      {
-        "heading": "特点",
-        "level": 4
-      },
-      {
-        "heading": "NoSQL数据库：not only SQL",
-        "level": 3
-      },
-      {
-        "heading": "MySQL分支",
-        "level": 3
-      },
-      {
-        "heading": "安装和配置MySQL数据库",
-        "level": 2
-      },
-      {
-        "heading": "MySQL的配置文件搜索过程: my.cnf",
-        "level": 3
-      },
-      {
-        "heading": "my.cnf 配置参数",
-        "level": 3
-      },
-      {
-        "heading": "客户端的连接方式",
-        "level": 2
-      },
-      {
-        "heading": "本地连接",
-        "level": 3
-      },
-      {
-        "heading": "远程连接",
-        "level": 3
-      },
-      {
-        "heading": "安全连接",
-        "level": 3
-      },
-      {
-        "heading": "MySQL数据库的体系架构（服务器端）",
-        "level": 2
-      },
-      {
-        "heading": "Server层",
-        "level": 3
-      },
-      {
-        "heading": "Connectors",
-        "level": 4
-      },
-      {
-        "heading": "存储引擎",
-        "level": 3
-      },
-      {
-        "heading": "InnoDB",
-        "level": 4
-      },
-      {
-        "heading": "MyISAM",
-        "level": 4
-      },
-      {
-        "heading": "Memory",
-        "level": 4
-      },
-      {
-        "heading": "多实例环境（数据库、数据库实例）",
-        "level": 2
-      },
-      {
-        "heading": "数据库和数据库实例",
-        "level": 3
-      },
-      {
-        "heading": "数据库",
-        "level": 4
-      },
-      {
-        "heading": "数据库实例",
-        "level": 4
-      },
-      {
-        "heading": "使用mysqld_multi工具",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "00 D.S. Notes Hub",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
-    "frontmatter": {
-      "title": "DataStructure Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[color.jpg]]",
-      "banner_y": 0.5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 153
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Learninng Notes Hub",
-        "displayText": "⛵️ Learning Notes Hub",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md"
-      },
-      {
-        "link": "00 JS Notes Hub",
-        "displayText": "JS Notes",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "00 JS Notes Hub",
-        "link": "00 D.S. Notes Hub",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
-        "displayText": "Data Structure Notes Hub"
-      },
-      {
-        "fileName": "+ Learninng Notes Hub",
-        "link": "00 D.S. Notes Hub",
-        "relativePath": "Sources/Knowledges/+ Learninng Notes Hub.md",
-        "displayText": "Data Structure Notes Hub"
-      }
-    ]
-  },
-  {
-    "fileName": "git hooks",
-    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
-    "tags": [
-      "source/git/hooks"
-    ],
-    "frontmatter": {
-      "title": "git hooks",
-      "creation date": "2022-03-01 09:26",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 95
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Git commit message",
-    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
-    "tags": [
-      "source/git",
-      "source/git/commit"
-    ],
-    "frontmatter": {
-      "title": "Git commit message",
-      "creation date": "2022-07-18 17:09:53",
-      "status": "todo",
-      "tag": [
-        "source/git",
-        "source/git/commit"
-      ],
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 120
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "\"type\" must be one of the following mentioned below!",
-        "level": 2
-      },
-      {
-        "heading": "\"scope\" is optional",
-        "level": 2
-      },
-      {
-        "heading": "\"subject\"",
-        "level": 2
-      },
-      {
-        "heading": "[](#references)References:",
-        "level": 4
-      }
-    ],
-    "links": [
-      {
-        "link": "#references",
-        "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
-        "cleanLink": "Git commit message",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "Mermaid",
-    "relativePath": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
-    "tags": [
-      "source/markdown/mermaid"
-    ],
-    "frontmatter": {
-      "title": "Mermaid",
-      "creation date": "2022-03-21 21:36",
-      "status": "done",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 100
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Mermaid Markdown",
-        "level": 1
-      },
-      {
-        "heading": "概述",
-        "level": 2
-      },
-      {
-        "heading": "什么是 Mermaid？",
-        "level": 3
-      },
-      {
-        "heading": "怎么使用 Mermaid？",
-        "level": 3
-      },
-      {
-        "heading": "Mermaid 能绘制哪些图？",
-        "level": 3
-      },
-      {
-        "heading": "实例",
-        "level": 3
-      },
-      {
-        "heading": "饼状图",
-        "level": 2
-      },
-      {
-        "heading": "语法——仅供参考，建议直接看实例",
-        "level": 3
-      },
-      {
-        "heading": "实例",
-        "level": 3
-      },
-      {
-        "heading": "流程图",
-        "level": 2
-      },
-      {
-        "heading": "实例",
-        "level": 3
-      },
-      {
-        "heading": "方向",
-        "level": 3
-      },
-      {
-        "heading": "结点",
-        "level": 3
-      },
-      {
-        "heading": "连线样式",
-        "level": 3
-      },
-      {
-        "heading": "实线箭头",
-        "level": 4
-      },
-      {
-        "heading": "粗实线箭头",
-        "level": 4
-      },
-      {
-        "heading": "虚线箭头",
-        "level": 4
-      },
-      {
-        "heading": "无箭头线",
-        "level": 4
-      },
-      {
-        "heading": "其他连线",
-        "level": 4
-      },
-      {
-        "heading": "延长连线",
-        "level": 4
-      },
-      {
-        "heading": "连线形式",
-        "level": 3
-      },
-      {
-        "heading": "直链",
-        "level": 4
-      },
-      {
-        "heading": "多重链",
-        "level": 4
-      },
-      {
-        "heading": "其他",
-        "level": 3
-      },
-      {
-        "heading": "子图",
-        "level": 4
-      },
-      {
-        "heading": "注释",
-        "level": 4
       }
     ]
   },
@@ -5217,16 +5736,35 @@
         "displayText": "LEARN NOTE"
       },
       {
-        "fileName": "00 JS Notes Hub",
-        "link": "+ Learninng Notes Hub",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
-        "displayText": "⛵️ Learning Notes Hub"
-      },
-      {
         "fileName": "00 D.S. Notes Hub",
         "link": "+ Learninng Notes Hub",
         "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
         "displayText": "⛵️ Learning Notes Hub"
+      },
+      {
+        "fileName": "00 JS Notes Hub",
+        "link": "+ Learninng Notes Hub",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for Sources",
+    "relativePath": "Sources/+ Index for Sources.md",
+    "tags": [
+      "x/index"
+    ],
+    "headings": [
+      {
+        "heading": "Index for Sources",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for index notes",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
       }
     ]
   },
@@ -5368,25 +5906,6 @@
     ]
   },
   {
-    "fileName": "+ Index for Sources",
-    "relativePath": "Sources/+ Index for Sources.md",
-    "tags": [
-      "x/index"
-    ],
-    "headings": [
-      {
-        "heading": "Index for Sources",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ]
-  },
-  {
     "fileName": "+ About Sources",
     "relativePath": "Sources/+ About Sources.md",
     "tags": [
@@ -5416,6 +5935,31 @@
     "relativePath": "Extras/Templates/Template, Weekily-Note.md"
   },
   {
+    "fileName": "Template, Mind-Note",
+    "relativePath": "Extras/Templates/Template, Mind-Note.md",
+    "tags": [
+      "<%tp.file.cursor(1)%>"
+    ],
+    "frontmatter": {
+      "created": "X-Mind",
+      "title": "<% tp.file.title %>",
+      "creation date": "<% tp.file.creation_date() %>",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 137
+        }
+      }
+    }
+  },
+  {
     "fileName": "Template, Meeting in Daily Note 👥 (Kit)",
     "relativePath": "Extras/Templates/Template, Meeting in Daily Note 👥 (Kit).md",
     "tags": [
@@ -5443,31 +5987,6 @@
         "level": 3
       }
     ]
-  },
-  {
-    "fileName": "Template, Mind-Note",
-    "relativePath": "Extras/Templates/Template, Mind-Note.md",
-    "tags": [
-      "<%tp.file.cursor(1)%>"
-    ],
-    "frontmatter": {
-      "created": "X-Mind",
-      "title": "<% tp.file.title %>",
-      "creation date": "<% tp.file.creation_date() %>",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 137
-        }
-      }
-    }
   },
   {
     "fileName": "Template, Learning-Note",
@@ -5753,6 +6272,22 @@
     }
   },
   {
+    "fileName": "+ About Cards",
+    "relativePath": "Cards/+ About Cards.md",
+    "tags": [
+      "x/readme"
+    ],
+    "links": [
+      {
+        "link": "My PKM MOC (Kit)",
+        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+      },
+      {
+        "link": "Information that crosses our attentional filter becomes knowledge"
+      }
+    ]
+  },
+  {
     "fileName": "Habits MOC - Gather",
     "relativePath": "Cards/Previous versions/Habits MOC - Gather.md",
     "tags": [
@@ -5824,793 +6359,6 @@
       {
         "link": "+ Index for index notes",
         "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ]
-  },
-  {
-    "fileName": "+ About Cards",
-    "relativePath": "Cards/+ About Cards.md",
-    "tags": [
-      "x/readme"
-    ],
-    "links": [
-      {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
-      },
-      {
-        "link": "Information that crosses our attentional filter becomes knowledge"
-      }
-    ]
-  },
-  {
-    "fileName": "2022-07-12",
-    "relativePath": "Calendar/2022/2022-07-12.md",
-    "headings": [
-      {
-        "heading": "2022-07-12",
-        "level": 1
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Photographing Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      }
-    ]
-  },
-  {
-    "fileName": "2022-07-04",
-    "relativePath": "Calendar/2022/2022-07-04.md",
-    "headings": [
-      {
-        "heading": "2022-07-04",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Happenings",
-        "level": 3
-      },
-      {
-        "heading": "Personal Projects Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      }
-    ]
-  },
-  {
-    "fileName": "2022-07-07",
-    "relativePath": "Calendar/2022/2022-07-07.md",
-    "headings": [
-      {
-        "heading": "2022-07-07",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Personal Projects Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      }
-    ]
-  },
-  {
-    "fileName": "2022-07-01",
-    "relativePath": "Calendar/2022/2022-07-01.md",
-    "headings": [
-      {
-        "heading": "2022-07-01",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Happenings",
-        "level": 3
-      },
-      {
-        "heading": "Reading Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      }
-    ]
-  },
-  {
-    "fileName": "2022-06-30",
-    "relativePath": "Calendar/2022/2022-06-30.md",
-    "headings": [
-      {
-        "heading": "2022-06-30",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Photographing Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      }
-    ]
-  },
-  {
-    "fileName": "2022-06-29",
-    "relativePath": "Calendar/2022/2022-06-29.md",
-    "headings": [
-      {
-        "heading": "2022-06-29",
-        "level": 1
-      },
-      {
-        "heading": "💡 New Discoveries",
-        "level": 2
-      },
-      {
-        "heading": "🛳️ Ship's Log",
-        "level": 2
-      },
-      {
-        "heading": "Happenings",
-        "level": 3
-      },
-      {
-        "heading": "Personal Projects Log",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Ship's Log",
-    "relativePath": "Calendar/+ Ship's Log.md",
-    "frontmatter": {
-      "title": "Ship's Log",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[Ship.jpeg]]",
-      "banner_y": 1,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 138
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "⛽️ Life Happenings",
-        "level": 1
-      },
-      {
-        "heading": "🧰 Personal Projects",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      },
-      {
-        "link": "+ New Discoveries Log",
-        "displayText": "New Discoveries",
-        "relativePath": "Calendar/+ New Discoveries Log.md"
-      },
-      {
-        "link": "+ Media Log",
-        "displayText": "Media Log",
-        "relativePath": "Calendar/+ Media Log.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ New Discoveries Log",
-        "link": "+ Ship's Log",
-        "relativePath": "Calendar/+ New Discoveries Log.md",
-        "displayText": "Ship's Log"
-      },
-      {
-        "fileName": "+ Media Log",
-        "link": "+ Ship's Log",
-        "relativePath": "Calendar/+ Media Log.md",
-        "displayText": "Ship's Log"
-      },
-      {
-        "fileName": "+ Index for Calendar",
-        "link": "+ Ship's Log",
-        "relativePath": "Calendar/+ Index for Calendar.md",
-        "displayText": "Ship's Log"
-      }
-    ]
-  },
-  {
-    "fileName": "+ New Discoveries Log",
-    "relativePath": "Calendar/+ New Discoveries Log.md",
-    "frontmatter": {
-      "title": "New Discoveries Log",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[discovery.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 139
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "List",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      },
-      {
-        "link": "+ Ship's Log",
-        "displayText": "Ship's Log",
-        "relativePath": "Calendar/+ Ship's Log.md"
-      },
-      {
-        "link": "+ Media Log",
-        "displayText": "Media Log",
-        "relativePath": "Calendar/+ Media Log.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Ship's Log",
-        "link": "+ New Discoveries Log",
-        "relativePath": "Calendar/+ Ship's Log.md",
-        "displayText": "New Discoveries"
-      },
-      {
-        "fileName": "+ Media Log",
-        "link": "+ New Discoveries Log",
-        "relativePath": "Calendar/+ Media Log.md",
-        "displayText": "New Discoveries"
-      },
-      {
-        "fileName": "+ Index for Calendar",
-        "link": "+ New Discoveries Log",
-        "relativePath": "Calendar/+ Index for Calendar.md",
-        "displayText": "New Discoveries"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Media Log",
-    "relativePath": "Calendar/+ Media Log.md",
-    "frontmatter": {
-      "title": "Media Log",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[shelf.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 125
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "🎧 Listening Log",
-        "level": 1
-      },
-      {
-        "heading": "📖 Reading Log",
-        "level": 1
-      },
-      {
-        "heading": "📸 Photographing Log",
-        "level": 1
-      },
-      {
-        "heading": "🎬 Video Log",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "Daily Notes Hub",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      },
-      {
-        "link": "+ New Discoveries Log",
-        "displayText": "New Discoveries",
-        "relativePath": "Calendar/+ New Discoveries Log.md"
-      },
-      {
-        "link": "+ Ship's Log",
-        "displayText": "Ship's Log",
-        "relativePath": "Calendar/+ Ship's Log.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Ship's Log",
-        "link": "+ Media Log",
-        "relativePath": "Calendar/+ Ship's Log.md",
-        "displayText": "Media Log"
-      },
-      {
-        "fileName": "+ New Discoveries Log",
-        "link": "+ Media Log",
-        "relativePath": "Calendar/+ New Discoveries Log.md",
-        "displayText": "Media Log"
-      },
-      {
-        "fileName": "+ Index for Calendar",
-        "link": "+ Media Log",
-        "relativePath": "Calendar/+ Index for Calendar.md",
-        "displayText": "Media Log"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Index for Calendar",
-    "relativePath": "Calendar/+ Index for Calendar.md",
-    "frontmatter": {
-      "title": "Daily Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[roadToHaven.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 137
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ New Discoveries Log",
-        "displayText": "New Discoveries",
-        "relativePath": "Calendar/+ New Discoveries Log.md"
-      },
-      {
-        "link": "+ Ship's Log",
-        "displayText": "Ship's Log",
-        "relativePath": "Calendar/+ Ship's Log.md"
-      },
-      {
-        "link": "+ Media Log",
-        "displayText": "Media Log",
-        "relativePath": "Calendar/+ Media Log.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "+ Index for Calendar",
-        "relativePath": "Home.md",
-        "displayText": "DAILY"
-      },
-      {
-        "fileName": "Template, Daily-Note",
-        "link": "+ Index for Calendar",
-        "relativePath": "Extras/Templates/Template, Daily-Note.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-07-12",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/2022/2022-07-12.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-07-04",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/2022/2022-07-04.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-07-07",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/2022/2022-07-07.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-07-01",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/2022/2022-07-01.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-06-30",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/2022/2022-06-30.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "2022-06-29",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/2022/2022-06-29.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "+ Ship's Log",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/+ Ship's Log.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "+ New Discoveries Log",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/+ New Discoveries Log.md",
-        "displayText": "Daily Notes Hub"
-      },
-      {
-        "fileName": "+ Media Log",
-        "link": "+ Index for Calendar",
-        "relativePath": "Calendar/+ Media Log.md",
-        "displayText": "Daily Notes Hub"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Index for Atlases",
-    "relativePath": "Atlas/+ Index for Atlases.md",
-    "tags": [
-      "x/index"
-    ],
-    "headings": [
-      {
-        "heading": "Index for Atlases (Kit)",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Prominent People 🌋 (Kit)",
-    "relativePath": "Atlas/Scopes/Prominent People 🌋 (Kit).md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Prominent People 🌋",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "People MOC"
-      }
-    ]
-  },
-  {
-    "fileName": "Notebox 🗃 (Kit)",
-    "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Notebox 🗃 (Kit)",
-        "level": 1
-      },
-      {
-        "heading": "Boats 🚤",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Notebox 🗃"
-      },
-      {
-        "link": "BOAT notes"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Notebox 🗃 (Kit)",
-        "relativePath": "Home.md"
-      },
-      {
-        "fileName": "Thinking",
-        "link": "Notebox 🗃 (Kit)",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Ideas ✨ (Kit)",
-    "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Ideas ✨ (Kit)",
-        "level": 1
-      },
-      {
-        "heading": "Decide on your idea sparks ✨",
-        "level": 2
-      },
-      {
-        "heading": "Advanced scope",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Mapping the flexible flow of ideas"
-      },
-      {
-        "link": "Ideas ✨"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Ideas ✨ (Kit)",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Cooling pad 🧊",
-    "relativePath": "Atlas/Scopes/Cooling pad 🧊.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Cooling pad 🧊",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Cooling pad 🧊",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Bookshelf 📚 (Kit)",
-    "relativePath": "Atlas/Scopes/Bookshelf 📚 (Kit).md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Bookshelf 📚 (Kit)",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Sources MOC"
-      },
-      {
-        "link": "Books I've Read MOC"
-      },
-      {
-        "link": "Books Purgatory List"
-      }
-    ]
-  },
-  {
-    "fileName": "Artifacts 💠",
-    "relativePath": "Atlas/Scopes/Artifacts 💠.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "headings": [
-      {
-        "heading": "Artifacts 💠",
-        "level": 1
-      },
-      {
-        "heading": "Newsletter outputs",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "Content Outbox 📤"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Artifacts 💠",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Index for index notes",
-    "relativePath": "Atlas/Scopes/+ Index for index notes.md",
-    "tags": [
-      "x/index"
-    ],
-    "headings": [
-      {
-        "heading": "+ Index for index notes",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Index for LYT Notes Newsletters",
-        "link": "+ Index for index notes",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      },
-      {
-        "fileName": "+ Index for Life Spaces",
-        "link": "+ Index for index notes",
-        "relativePath": "Spaces/Life/Support notes/+ Index for Life Spaces.md"
-      },
-      {
-        "fileName": "+ Index for Sources",
-        "link": "+ Index for index notes",
-        "relativePath": "Sources/+ Index for Sources.md"
-      },
-      {
-        "fileName": "+ Index for People",
-        "link": "+ Index for index notes",
-        "relativePath": "Cards/People/+ Index for People.md"
-      },
-      {
-        "fileName": "+ Index for Cards",
-        "link": "+ Index for index notes",
-        "relativePath": "Cards/+ Index for Cards.md"
-      },
-      {
-        "fileName": "+ Index for Atlases",
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/+ Index for Atlases.md"
       }
     ]
   },
@@ -6702,14 +6450,14 @@
     ],
     "backlinks": [
       {
-        "fileName": "Home",
-        "link": "Thinking",
-        "relativePath": "Home.md"
-      },
-      {
         "fileName": "Life Space™ (Kit)",
         "link": "Thinking",
         "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "fileName": "Home",
+        "link": "Thinking",
+        "relativePath": "Home.md"
       },
       {
         "fileName": "+ Library",
@@ -6775,9 +6523,9 @@
     ],
     "backlinks": [
       {
-        "fileName": "Home",
+        "fileName": "+ About Spaces",
         "link": "My PKM MOC (Kit)",
-        "relativePath": "Home.md"
+        "relativePath": "Spaces/+ About Spaces.md"
       },
       {
         "fileName": "+ About Encounters",
@@ -6785,9 +6533,9 @@
         "relativePath": "• Encounters/+ About Encounters.md"
       },
       {
-        "fileName": "+ About Spaces",
+        "fileName": "Home",
         "link": "My PKM MOC (Kit)",
-        "relativePath": "Spaces/+ About Spaces.md"
+        "relativePath": "Home.md"
       },
       {
         "fileName": "+ About Sources",
@@ -7144,6 +6892,48 @@
     ]
   },
   {
+    "fileName": "Language MOC",
+    "relativePath": "Atlas/MOCs/Library/Language MOC.md",
+    "tags": [
+      "atlas/moc🗺",
+      "on/language"
+    ],
+    "headings": [
+      {
+        "heading": "Language MOC",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Library",
+        "relativePath": "Atlas/+ Library.md"
+      },
+      {
+        "link": "Words MOC"
+      },
+      {
+        "link": "English Language MOC"
+      },
+      {
+        "link": "Chinese Language MOC"
+      },
+      {
+        "link": "French Language MOC"
+      },
+      {
+        "link": "Latin Language MOC"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ Library",
+        "link": "Language MOC",
+        "relativePath": "Atlas/+ Library.md"
+      }
+    ]
+  },
+  {
     "fileName": "Places MOC",
     "relativePath": "Atlas/MOCs/Library/Places MOC.md",
     "tags": [
@@ -7186,48 +6976,6 @@
       {
         "fileName": "+ Library",
         "link": "Places MOC",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Language MOC",
-    "relativePath": "Atlas/MOCs/Library/Language MOC.md",
-    "tags": [
-      "atlas/moc🗺",
-      "on/language"
-    ],
-    "headings": [
-      {
-        "heading": "Language MOC",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "Words MOC"
-      },
-      {
-        "link": "English Language MOC"
-      },
-      {
-        "link": "Chinese Language MOC"
-      },
-      {
-        "link": "French Language MOC"
-      },
-      {
-        "link": "Latin Language MOC"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Library",
-        "link": "Language MOC",
         "relativePath": "Atlas/+ Library.md"
       }
     ]
@@ -7402,6 +7150,239 @@
         "fileName": "+ Library",
         "link": "Concepts MOC",
         "relativePath": "Atlas/+ Library.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Prominent People 🌋 (Kit)",
+    "relativePath": "Atlas/Scopes/Prominent People 🌋 (Kit).md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "headings": [
+      {
+        "heading": "Prominent People 🌋",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "People MOC"
+      }
+    ]
+  },
+  {
+    "fileName": "Notebox 🗃 (Kit)",
+    "relativePath": "Atlas/Scopes/Notebox 🗃 (Kit).md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "headings": [
+      {
+        "heading": "Notebox 🗃 (Kit)",
+        "level": 1
+      },
+      {
+        "heading": "Boats 🚤",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      },
+      {
+        "link": "Notebox 🗃"
+      },
+      {
+        "link": "BOAT notes"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Notebox 🗃 (Kit)",
+        "relativePath": "Home.md"
+      },
+      {
+        "fileName": "Thinking",
+        "link": "Notebox 🗃 (Kit)",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Ideas ✨ (Kit)",
+    "relativePath": "Atlas/Scopes/Ideas ✨ (Kit).md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "headings": [
+      {
+        "heading": "Ideas ✨ (Kit)",
+        "level": 1
+      },
+      {
+        "heading": "Decide on your idea sparks ✨",
+        "level": 2
+      },
+      {
+        "heading": "Advanced scope",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      },
+      {
+        "link": "Mapping the flexible flow of ideas"
+      },
+      {
+        "link": "Ideas ✨"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Ideas ✨ (Kit)",
+        "relativePath": "Home.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Cooling pad 🧊",
+    "relativePath": "Atlas/Scopes/Cooling pad 🧊.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "headings": [
+      {
+        "heading": "Cooling pad 🧊",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Cooling pad 🧊",
+        "relativePath": "Home.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Bookshelf 📚 (Kit)",
+    "relativePath": "Atlas/Scopes/Bookshelf 📚 (Kit).md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "headings": [
+      {
+        "heading": "Bookshelf 📚 (Kit)",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Sources MOC"
+      },
+      {
+        "link": "Books I've Read MOC"
+      },
+      {
+        "link": "Books Purgatory List"
+      }
+    ]
+  },
+  {
+    "fileName": "Artifacts 💠",
+    "relativePath": "Atlas/Scopes/Artifacts 💠.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "headings": [
+      {
+        "heading": "Artifacts 💠",
+        "level": 1
+      },
+      {
+        "heading": "Newsletter outputs",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      },
+      {
+        "link": "Content Outbox 📤"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Artifacts 💠",
+        "relativePath": "Home.md"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for index notes",
+    "relativePath": "Atlas/Scopes/+ Index for index notes.md",
+    "tags": [
+      "x/index"
+    ],
+    "headings": [
+      {
+        "heading": "+ Index for index notes",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ Index for LYT Notes Newsletters",
+        "link": "+ Index for index notes",
+        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
+      },
+      {
+        "fileName": "+ Index for Life Spaces",
+        "link": "+ Index for index notes",
+        "relativePath": "Spaces/Life/Support notes/+ Index for Life Spaces.md"
+      },
+      {
+        "fileName": "+ Index for Sources",
+        "link": "+ Index for index notes",
+        "relativePath": "Sources/+ Index for Sources.md"
+      },
+      {
+        "fileName": "+ Index for People",
+        "link": "+ Index for index notes",
+        "relativePath": "Cards/People/+ Index for People.md"
+      },
+      {
+        "fileName": "+ Index for Cards",
+        "link": "+ Index for index notes",
+        "relativePath": "Cards/+ Index for Cards.md"
+      },
+      {
+        "fileName": "+ Index for Atlases",
+        "link": "+ Index for index notes",
+        "relativePath": "Atlas/+ Index for Atlases.md"
       }
     ]
   },
@@ -7677,19 +7658,38 @@
         "relativePath": "Atlas/MOCs/Library/Systems MOC (Kit).md"
       },
       {
-        "fileName": "Places MOC",
-        "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Library/Places MOC.md"
-      },
-      {
         "fileName": "Language MOC",
         "link": "+ Library",
         "relativePath": "Atlas/MOCs/Library/Language MOC.md"
       },
       {
+        "fileName": "Places MOC",
+        "link": "+ Library",
+        "relativePath": "Atlas/MOCs/Library/Places MOC.md"
+      },
+      {
         "fileName": "Collective Intelligence MOC",
         "link": "+ Library",
         "relativePath": "Atlas/MOCs/Library/Collective Intelligence MOC.md"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for Atlases",
+    "relativePath": "Atlas/+ Index for Atlases.md",
+    "tags": [
+      "x/index"
+    ],
+    "headings": [
+      {
+        "heading": "Index for Atlases (Kit)",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for index notes",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
       }
     ]
   }
