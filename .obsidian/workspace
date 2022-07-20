@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Atlas/MOCs/Concepts MOC.md",
-            "mode": "source",
+            "file": "Atlas/Scopes/Notebox 🗃.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/MOCs/Concepts MOC.md",
+                "file": "Atlas/Scopes/Notebox 🗃.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/MOCs/Concepts MOC.md",
+                "file": "Atlas/Scopes/Notebox 🗃.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/MOCs/Concepts MOC.md"
+                "file": "Atlas/Scopes/Notebox 🗃.md"
               }
             }
           },
@@ -139,6 +139,8 @@
   },
   "active": "96004482e2eb0836",
   "lastOpenFiles": [
+    "Home.md",
+    "Atlas/MOCs/Concepts MOC.md",
     "Atlas/MOCs/My PKM MOC.md",
     "Atlas/MOCs/Sources MOC.md",
     "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Principel.md",
@@ -146,8 +148,6 @@
     "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
     "Atlas/Scopes/NoteBox/JS Notes Hub.md",
     "Atlas/Scopes/Notebox 🗃.md",
-    "Atlas/Scopes/Ideas ✨.md",
-    "Atlas/Scopes/Cooling pad 🧊.md",
-    "Atlas/Scopes/Bookshelf 📚.md"
+    "Atlas/Scopes/Ideas ✨.md"
   ]
 }
