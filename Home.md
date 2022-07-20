@@ -36,26 +36,18 @@ obsidianUIMode: preview
 
 # Atlas 🗺
 
-## Ideas ✨
+- I want to play with Ideas ✨
+	- [[Cooling pad 🧊]]  `Process interesting stuff 
+	- [[Notebox 🗃]]  `Develop my notes
+	- [[Ideas ✨]] `Develop my ideas
+	- [[Essays 🖌]]  `Evolve my ideas
+	- [[Artifacts 💠]] `Share my ideas  `
 
-| I want to...              | ...play with ideas |
-|:------------------------- |:------------------:|
-| Process interesting stuff | [[Cooling pad 🧊]] |
-| Develop my notes          |   [[Notebox 🗃]]    |
-| Develop my ideas          |    [[Ideas ✨]]    |
-| Evolve my ideas           |    [[Essays 🖌]]    |
-| Share my ideas            |  [[Artifacts 💠]]  |
-
----
-## Knowledges 📖
-| I want to...                   | ...reference my knowledge |
-|:------------------------------ |:-------------------------:|
-| Explore my library of MOCs     |  [[+ Library\|Library]]   |
-| Manage my knowledge system     |      [[My PKM MOC]]       |
-| Build scaffolding for concepts |     [[Concepts MOC]]      |
-| Build scaffolding for sources  |      [[Sources MOC]]      |
-
----
+- I want to reference my Knowledge 📖
+	- [[+ Library\|Library]]  `Explore my library of MOCs `
+	- [[My PKM MOC]]  `Manage my knowledge system`
+	- [[Concepts MOC]]  `Build scaffolding for concepts`
+	- [[Sources MOC]]  `Build scaffolding for sources`
 
 
 # 📝 DAILY NOTE

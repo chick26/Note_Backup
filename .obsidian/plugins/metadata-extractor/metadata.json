@@ -526,6 +526,8 @@
       "space/lyt"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -533,9 +535,9 @@
           "offset": 0
         },
         "end": {
-          "line": 4,
+          "line": 6,
           "col": 3,
-          "offset": 40
+          "offset": 84
         }
       }
     },
@@ -578,6 +580,8 @@
       "x/readme"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -585,9 +589,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 24
+          "offset": 68
         }
       }
     },
@@ -611,6 +615,8 @@
       "atlas/moc🗺"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -618,9 +624,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 29
+          "offset": 73
         }
       }
     },
@@ -960,14 +966,6 @@
       {
         "heading": "Atlas 🗺",
         "level": 1
-      },
-      {
-        "heading": "Ideas ✨",
-        "level": 2
-      },
-      {
-        "heading": "Knowledges 📖",
-        "level": 2
       },
       {
         "heading": "📝 DAILY NOTE",
@@ -5327,6 +5325,8 @@
       "x/index"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -5334,9 +5334,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 23
+          "offset": 67
         }
       }
     },
@@ -5497,6 +5497,8 @@
       "x/index"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -5504,9 +5506,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 24
+          "offset": 68
         }
       }
     },
@@ -5881,6 +5883,8 @@
       "x/readme"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -5888,9 +5892,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 25
+          "offset": 69
         }
       }
     },
@@ -5917,6 +5921,8 @@
       "x/index"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -5924,9 +5930,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 23
+          "offset": 67
         }
       }
     },
@@ -5951,6 +5957,8 @@
       "x/index"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -5958,9 +5966,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 23
+          "offset": 67
         }
       }
     },
@@ -5985,6 +5993,8 @@
       "atlas/moc🗺"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -5992,9 +6002,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 27
+          "offset": 71
         }
       }
     },
@@ -6108,6 +6118,7 @@
       "atlas/moc🗺"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
       "position": {
         "start": {
           "line": 0,
@@ -6115,9 +6126,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 4,
           "col": 3,
-          "offset": 28
+          "offset": 48
         }
       }
     },
@@ -6221,6 +6232,8 @@
       "on/language"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6228,9 +6241,9 @@
           "offset": 0
         },
         "end": {
-          "line": 4,
+          "line": 6,
           "col": 3,
-          "offset": 42
+          "offset": 86
         }
       }
     },
@@ -6278,6 +6291,8 @@
       "on/travel"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6285,9 +6300,9 @@
           "offset": 0
         },
         "end": {
-          "line": 4,
+          "line": 6,
           "col": 3,
-          "offset": 40
+          "offset": 84
         }
       }
     },
@@ -6339,6 +6354,8 @@
       "atlas/moc🗺"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6346,9 +6363,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 28
+          "offset": 72
         }
       }
     },
@@ -6405,6 +6422,8 @@
       "atlas/moc🗺"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6412,9 +6431,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 27
+          "offset": 71
         }
       }
     },
@@ -6676,6 +6695,8 @@
       "atlas/scope🔬"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6683,9 +6704,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 30
+          "offset": 74
         }
       }
     },
@@ -6715,6 +6736,8 @@
       "atlas/scope🔬"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6722,9 +6745,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 29
+          "offset": 73
         }
       }
     },
@@ -6763,6 +6786,8 @@
       "atlas/scope🔬"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6770,9 +6795,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 30
+          "offset": 74
         }
       }
     },
@@ -6803,6 +6828,8 @@
       "x/index"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6810,9 +6837,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 24
+          "offset": 68
         }
       }
     },
@@ -6856,6 +6883,8 @@
       "atlas/scope🔬"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6863,9 +6892,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 31
+          "offset": 75
         }
       }
     },
@@ -6900,6 +6929,8 @@
       "atlas/moc🗺"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6907,9 +6938,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 27
+          "offset": 71
         }
       }
     },
@@ -7155,6 +7186,8 @@
       "x/index"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -7162,9 +7195,9 @@
           "offset": 0
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "col": 3,
-          "offset": 23
+          "offset": 67
         }
       }
     },

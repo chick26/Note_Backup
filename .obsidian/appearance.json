@@ -5,6 +5,7 @@
   "translucency": false,
   "enabledCssSnippets": [
     "home_page",
-    "home_page_readingline"
+    "home_page_readingline",
+    "scope_page"
   ]
 }

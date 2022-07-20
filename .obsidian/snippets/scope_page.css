@@ -1,15 +1,15 @@
-.homePage table {
+.scopePage table {
   table-layout: fixed;
   font-family: Poppins-Regular;
   margin-bottom: 0;
   margin: auto;
 }
 
-.homePage .table-view-th {
+.scopePage .table-view-th {
   color: #fff !important;
 }
 
-.homePage thead tr th {
+.scopePage thead tr th {
   background-color: #6c7ae0;
   line-height: 2;
   color: #fff;
@@ -18,24 +18,24 @@
   top: 0;
 }
 
-.homePage table tbody td{
+.scopePage table tbody td{
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-.homePage table td {
+.scopePage table td {
   border-bottom: 0.08rem solid #f2f2f2 !important;
 }
 
-.homePage table td:hover{
+.scopePage table td:hover{
 	width: 200px;
 	overflow: visible;
 	white-space: pre-line;
 	cursor:pointer;
 }
 
-.homePage tbody tr:hover {
+.scopePage tbody tr:hover {
   background-color: #ececff;
   color: #403E10;
   font-weight: bold;
@@ -46,11 +46,11 @@
   transition-timing-function: line;
 }
 
-.homePage .cm-preview-code-block {
+.scopePage .cm-preview-code-block {
   border: none !important;
 }
 
-.homePage .block-language-dataview {
+.scopePage .block-language-dataview {
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
   overflow: auto;
 }
@@ -61,18 +61,14 @@
 
 /* dashboard */
 
-.homePage {
+.scopePage {
   padding-left: 25px !important;
   padding-right: 25px !important;
   padding-top: 20px !important;
 }
 
-.homePage .markdown-preview-section {
-  max-width: 100%;
-}
-
 /* Title at top of the document */
-.homePage .markdown-preview-section .title {
+.scopePage .markdown-preview-section .title {
   top: 90px;
   position: absolute;
   font-size: 40pt !important;
@@ -80,21 +76,21 @@
   letter-spacing: 8px;
 }
 
-.homePage h1 {
+.scopePage h1 {
   border-bottom-style: dotted !important;
   border-width: 1px !important;
   padding-bottom: 3px !important;
 }
 
-.homePage div > ul {
+.scopePage div > ul {
   list-style: none;
-  display: flex;
+  /* display: flex; */
   column-gap: 50px;
   /* row-gap: 30px; */
   flex-flow: row wrap;
 }
 
-.homePage div > ul > li {
+.scopePage div > ul > li {
   min-width: 250px;
   width: 15%;
 }

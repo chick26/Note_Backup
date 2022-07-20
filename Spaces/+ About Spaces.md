@@ -1,4 +1,6 @@
 ---
+cssclass: scopePage
+obsidianUIMode: preview
 tags:
 - x/readme
 ---

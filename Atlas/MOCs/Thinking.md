@@ -1,4 +1,5 @@
 ---
+cssclass: scopePage
 tags:
 - atlas/MOC🗺 
 ---
