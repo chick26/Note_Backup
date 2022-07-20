@@ -5,8 +5,8 @@
     "relativePaths": [
       "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
       "Spaces/Life/• MOCs/Life Space™ (Kit).md",
+      "Atlas/MOCs/My PKM MOC.md",
       "Atlas/MOCs/Thinking.md",
-      "Atlas/MOCs/My PKM MOC (Kit).md",
       "Atlas/MOCs/Library/Language MOC.md",
       "Atlas/MOCs/Library/Places MOC.md",
       "Atlas/MOCs/Library/Collective Intelligence MOC.md",
@@ -22,30 +22,6 @@
     ]
   },
   {
-    "tag": "output/newsletter",
-    "tagCount": 5,
-    "relativePaths": [
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 5 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 4 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 3 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 2 (Example).md",
-      "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md"
-    ]
-  },
-  {
-    "tag": "x/index",
-    "tagCount": 7,
-    "relativePaths": [
-      "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md",
-      "Spaces/Life/Support notes/+ Index for Life Spaces.md",
-      "Sources/+ Index for Sources.md",
-      "Cards/People/+ Index for People.md",
-      "Cards/+ Index for Cards.md",
-      "Atlas/Scopes/+ Index for index notes.md",
-      "Atlas/+ Index for Atlases.md"
-    ]
-  },
-  {
     "tag": "x/readme",
     "tagCount": 4,
     "relativePaths": [
@@ -56,10 +32,15 @@
     ]
   },
   {
-    "tag": "space/life/finance",
-    "tagCount": 1,
+    "tag": "x/index",
+    "tagCount": 6,
     "relativePaths": [
-      "Spaces/Life/Areas/Financial/Auto Maintenance Log.md"
+      "Spaces/Life/Support notes/+ Index for Life Spaces.md",
+      "Sources/+ Index for Sources.md",
+      "Cards/People/+ Index for People.md",
+      "Cards/+ Index for Cards.md",
+      "Atlas/Scopes/+ Index for index notes.md",
+      "Atlas/+ Index for Atlases.md"
     ]
   },
   {
@@ -424,7 +405,7 @@
     "tag": "x/meta",
     "tagCount": 1,
     "relativePaths": [
-      "Atlas/MOCs/My PKM MOC (Kit).md"
+      "Atlas/MOCs/My PKM MOC.md"
     ]
   },
   {

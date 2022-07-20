@@ -59,7 +59,7 @@ These are maps to launch your efforts. Where would you like to go?
 | I want to...                   | ...reference my knowledge |
 | :------------------------------ | :---------------------------------------- |
 | Explore my library of MOCs         | [[+ Library]]                            |
-| Manage my knowledge system | [[My PKM MOC (Kit)]]                           |
+| Manage my knowledge system | [[My PKM MOC]]                           |
 | Build scaffolding for concepts | [[Concepts MOC]]                         |
 | Build scaffolding for people | [[People MOC]]                           |
 | Build scaffolding for sources  | [[Sources MOC]]                          |

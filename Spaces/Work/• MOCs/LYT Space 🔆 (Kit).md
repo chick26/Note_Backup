@@ -1,12 +1,10 @@
-up:: [[Home]]
-tags:: #atlas/MOC🗺 #space/LYT 
+---
+tags:
+- atlas/MOC🗺
+- space/LYT 
+---
 
-> [!NOTE]- Notes on this note
-> This is a sanitized version of my actual note. 
-> - Content and links have been removed.
-> - Nick, go here [[LYT Space 🔆]].
-
-# LYT Space 🔆 (Kit)
+# <-[[Home]] | LYT Space 🔆 (Kit)
 When you add links to folder-based PKM, you need MOCs. It's actually quite simple. For every space you have in your life, you just deploy the MAPS folder structure:
 
 - **M**OCs

@@ -3,7 +3,7 @@ tags:
 - x/index
 ---
 
-# <-[[+ Index for index notes]] | Index for Atlases
+# <-[[+ Index for index notes|Index for index notes]] | Index for Atlases
 
 ```dataview
 TABLE tags

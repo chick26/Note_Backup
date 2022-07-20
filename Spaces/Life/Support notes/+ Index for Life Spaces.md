@@ -1,7 +1,9 @@
-up:: [[+ Index for index notes]]
-tags:: #x/index
+---
+tags: 
+- x/index
+---
 
-# Index for Life Spaces
+# <-[[[[+ Index for index notes|Index for index notes]] I ndex for Life Spaces
 
 ``` dataview
 TABLE tags FROM "Spaces/Life" and -#x/index and -"Spaces/Life/2 Areas/Archive" and -"Spaces/Life/3 Projects/Archive" and -#x/readme and -#atlas/MOC🗺 

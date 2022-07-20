@@ -29,7 +29,7 @@ The **LYT Classification System** is lightly modified from the Cutter, Dewey, an
 ---
 
 ## 000 - Knowledge Management
-The [[My PKM MOC (Kit)]] shows the best practices of knowledge management. I use the [[LYT Kit]] to show the power of linked thinking and to empower others to develop their thinking. The [[Mapping MOCs]] is my personal note to wrap my head around the wondrous beauty that MOCs offer. Others include:
+The [[My PKM MOC]] shows the best practices of knowledge management. I use the [[LYT Kit]] to show the power of linked thinking and to empower others to develop their thinking. The [[Mapping MOCs]] is my personal note to wrap my head around the wondrous beauty that MOCs offer. Others include:
 
 - [[Knowledge and memory MOC]]
 

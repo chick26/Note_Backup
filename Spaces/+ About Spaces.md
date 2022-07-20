@@ -1,7 +1,8 @@
-up:: [[My PKM MOC (Kit)]]
-tags:: #x/readme
-
-# About Spaces
+---
+tags:
+- x/readme
+---
+# <-[[My PKM MOC|My PKM MOC]] | About Spaces
 Spaces are one of the most important parts of ACCESS:  Whenever you have something big in your life, deploy a space and set up MAPS (MOCs, Areas, Projects, Support notes).
 
 "Spaces" is more flexible than "projects" and more versatile than "areas".

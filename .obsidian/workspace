@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2dfd8f6cdd8655c0",
+        "id": "95350662804e2fbc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sources/+ Index for Sources.md",
+            "file": "Sources/+ About Sources.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/+ Index for Sources.md",
+                "file": "Sources/+ About Sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sources/+ Index for Sources.md",
+                "file": "Sources/+ About Sources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/+ Index for Sources.md"
+                "file": "Sources/+ About Sources.md"
               }
             }
           }
@@ -126,20 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "2dfd8f6cdd8655c0",
+  "active": "95350662804e2fbc",
   "lastOpenFiles": [
-    "Sources/+ About Sources.md",
-    "Sources/Knowledges/📉 Data Structrue｜数据结构/00 D.S. Notes Hub.md",
-    "Sources/Knowledges/📲 Front Dev｜前端开发/00 JS Notes Hub.md",
-    "Sources/Knowledges/+ Learninng Notes Hub.md",
-    "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
-    "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
-    "Calendar/+ Index for Calendar.md",
     "Home.md",
-    "Atlas/+ Library.md",
-    "Atlas/+ Index for Atlases.md"
+    "Sources/+ About Sources.md",
+    "Atlas/MOCs/My PKM MOC.md",
+    "Atlas/MOCs/Concepts MOC.md",
+    "Cards/+ About Cards.md",
+    "Cards/+ Index for Cards.md",
+    "Atlas/Scopes/Bookshelf 📚.md",
+    "Atlas/Scopes/+ Index for index notes.md",
+    "Sources MOC.md",
+    "Atlas/Scopes/Cooling pad 🧊.md"
   ]
 }

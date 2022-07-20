@@ -1,4 +1,4 @@
-up:: [[My PKM MOC (Kit)]]
+up:: [[My PKM MOC]]
 tags:: #x/readme 
 
 # About Encounters

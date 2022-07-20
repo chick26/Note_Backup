@@ -525,9 +525,23 @@
       "atlas/moc🗺",
       "space/lyt"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 40
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "LYT Space 🔆 (Kit)",
+        "heading": "<-[[Home]] | LYT Space 🔆 (Kit)",
         "level": 1
       },
       {
@@ -553,9 +567,6 @@
         "relativePath": "Home.md"
       },
       {
-        "link": "LYT Space 🔆"
-      },
-      {
         "link": "LYT Projects 🏗"
       }
     ],
@@ -568,275 +579,35 @@
     ]
   },
   {
-    "fileName": "preferences noted",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/preferences noted.md"
-  },
-  {
-    "fileName": "lorem ipsum optout workshopio",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/lorem ipsum optout workshopio.md"
-  },
-  {
-    "fileName": "kitium ipso outium",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/kitium ipso outium.md"
-  },
-  {
-    "fileName": "You have successfully opted in for email updates to live events",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/You have successfully opted in for email updates to live events.md"
-  },
-  {
-    "fileName": "You have successfully opted in for LYT House updates",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/You have successfully opted in for LYT House updates.md"
-  },
-  {
-    "fileName": "Wunderbar, you're still on the list",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Wunderbar, you're still on the list.md"
-  },
-  {
-    "fileName": "Unsubscribe",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Unsubscribe.md"
-  },
-  {
-    "fileName": "Segmentio!",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Segmentio!.md"
-  },
-  {
-    "fileName": "Scholarshipio Blastoffio",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Scholarshipio Blastoffio.md"
-  },
-  {
-    "fileName": "LYT Notes 5 (Example)",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 5 (Example).md",
-    "tags": [
-      "output/newsletter"
-    ],
-    "headings": [
-      {
-        "heading": "LYT Notes 5",
-        "level": 6
-      },
-      {
-        "heading": "On Damian Lillard getting the reps",
-        "level": 2
-      },
-      {
-        "heading": "On the Anti-Tag",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      }
-    ]
-  },
-  {
-    "fileName": "LYT Notes 4 (Example)",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 4 (Example).md",
-    "tags": [
-      "output/newsletter"
-    ],
-    "headings": [
-      {
-        "heading": "LYT Notes 4",
-        "level": 6
-      },
-      {
-        "heading": "On a \"hiding in plain sight\" advantage to using folders",
-        "level": 2
-      },
-      {
-        "heading": "On refactoring: the mini-epiphany of evergreen note-making",
-        "level": 2
-      },
-      {
-        "heading": "On Cohort 3 finishing the LYT Workshop",
-        "level": 2
-      },
-      {
-        "heading": "On the upcoming Guided Self-Study",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      }
-    ]
-  },
-  {
-    "fileName": "LYT Notes 3 (Example)",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 3 (Example).md",
-    "tags": [
-      "output/newsletter"
-    ],
-    "headings": [
-      {
-        "heading": "LYT Notes 3",
-        "level": 6
-      },
-      {
-        "heading": "Pace Layers, Idea Emergence, and the \"Long Now\"",
-        "level": 1
-      },
-      {
-        "heading": "Hojae L. on Pace Layers and LYT frameworks",
-        "level": 3
-      },
-      {
-        "heading": "Mike B. on Pace Layers and the \"Long Now\"",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Email Thanks",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/Email Thanks.md",
-    "headings": [
-      {
-        "heading": "Thanks!",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "BLE Incoming...",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/BLE Incoming....md"
-  },
-  {
-    "fileName": "LYT Notes 2 (Example)",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 2 (Example).md",
-    "tags": [
-      "output/newsletter"
-    ],
-    "headings": [
-      {
-        "heading": "LYT Notes 2",
-        "level": 6
-      },
-      {
-        "heading": "Obsidian Timelapse, The Almagest, and the strangeness of what we believe",
-        "level": 1
-      },
-      {
-        "heading": "On Obsidian “Timelapse”",
-        "level": 2
-      },
-      {
-        "heading": "On why everyone believed the book that said the moon doubled in size each year",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      },
-      {
-        "link": "150 📚 The Almagest"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Index for LYT Notes Newsletters",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md",
-    "tags": [
-      "x/index"
-    ],
-    "headings": [
-      {
-        "heading": "Index for LYT Notes Newsletters",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "LYT Notes 5 (Example)",
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 5 (Example).md"
-      },
-      {
-        "fileName": "LYT Notes 4 (Example)",
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 4 (Example).md"
-      },
-      {
-        "fileName": "LYT Notes 3 (Example)",
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 3 (Example).md"
-      },
-      {
-        "fileName": "LYT Notes 2 (Example)",
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 2 (Example).md"
-      },
-      {
-        "fileName": "LYT Notes 1 (Example)",
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md"
-      }
-    ]
-  },
-  {
-    "fileName": "LYT Notes 1 (Example)",
-    "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/LYT Notes 1 (Example).md",
-    "tags": [
-      "output/newsletter"
-    ],
-    "headings": [
-      {
-        "heading": "LYT Notes 1",
-        "level": 6
-      },
-      {
-        "heading": "LYT Kit, Pace layers, and the power of language",
-        "level": 1
-      },
-      {
-        "heading": "On Pace Layers",
-        "level": 2
-      },
-      {
-        "heading": "On the power of language",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for LYT Notes Newsletters",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      }
-    ]
-  },
-  {
     "fileName": "+ About Spaces",
     "relativePath": "Spaces/+ About Spaces.md",
     "tags": [
       "x/readme"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 24
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "About Spaces",
+        "heading": "<-[[My PKM MOC|My PKM MOC]] | About Spaces",
         "level": 1
       }
     ],
     "links": [
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       }
     ]
   },
@@ -846,9 +617,23 @@
     "tags": [
       "atlas/moc🗺"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 29
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Life Space™ (Kit)",
+        "heading": "<-[[Home]] | Life Space™",
         "level": 1
       },
       {
@@ -918,41 +703,30 @@
     "tags": [
       "x/index"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 24
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Index for Life Spaces",
+        "heading": "<-[[[[+ Index for index notes|Index for index notes]] I ndex for Life Spaces",
         "level": 1
       }
     ],
     "links": [
       {
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Auto Maintenance Log",
-    "relativePath": "Spaces/Life/Areas/Financial/Auto Maintenance Log.md",
-    "tags": [
-      "space/life/finance"
-    ],
-    "headings": [
-      {
-        "heading": "Auto Maintenance Log",
-        "level": 1
-      },
-      {
-        "heading": "Log",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Finance MOC"
-      },
-      {
-        "link": "Project • Get new tires"
+        "link": "[+ Index for index notes",
+        "displayText": "Index for index notes"
       }
     ]
   },
@@ -970,8 +744,8 @@
     ],
     "links": [
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       }
     ]
   },
@@ -1077,8 +851,8 @@
         "relativePath": "Atlas/+ Library.md"
       },
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       },
       {
         "link": "Concepts MOC",
@@ -1107,14 +881,14 @@
         "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
       },
       {
+        "fileName": "My PKM MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
+      },
+      {
         "fileName": "Thinking",
         "link": "Home",
         "relativePath": "Atlas/MOCs/Thinking.md"
-      },
-      {
-        "fileName": "My PKM MOC (Kit)",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
       },
       {
         "fileName": "Concepts MOC",
@@ -5749,16 +5523,30 @@
     "tags": [
       "x/index"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 23
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Index for Sources",
+        "heading": "<-[[[[+ Index for index notes|Index for index notes]] | Index for Sources",
         "level": 1
       }
     ],
     "links": [
       {
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+        "link": "[+ Index for index notes",
+        "displayText": "Index for index notes"
       }
     ]
   },
@@ -5905,7 +5693,25 @@
     "tags": [
       "x/readme"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 25
+        }
+      }
+    },
     "headings": [
+      {
+        "heading": "<- [[My PKM MOC | My PKM MOC]]",
+        "level": 1
+      },
       {
         "heading": "Choose",
         "level": 3
@@ -5913,8 +5719,8 @@
     ],
     "links": [
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       },
       {
         "link": "Be tempted by power and clip countless articles into your PKM note library."
@@ -6271,10 +6077,30 @@
     "tags": [
       "x/readme"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 25
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[My PKM MOC | My PKM MOC]]",
+        "level": 1
+      }
+    ],
     "links": [
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       },
       {
         "link": "Information that crosses our attentional filter becomes knowledge"
@@ -6287,15 +6113,30 @@
     "tags": [
       "x/index"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 23
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Index for People",
+        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for People",
         "level": 1
       }
     ],
     "links": [
       {
         "link": "+ Index for index notes",
+        "displayText": "Index for index notes",
         "relativePath": "Atlas/Scopes/+ Index for index notes.md"
       }
     ]
@@ -6306,16 +6147,101 @@
     "tags": [
       "x/index"
     ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 23
+        }
+      }
+    },
     "headings": [
       {
-        "heading": "Index for Cards",
+        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for Cards",
         "level": 1
       }
     ],
     "links": [
       {
         "link": "+ Index for index notes",
+        "displayText": "Index for index notes",
         "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+      }
+    ]
+  },
+  {
+    "fileName": "My PKM MOC",
+    "relativePath": "Atlas/MOCs/My PKM MOC.md",
+    "tags": [
+      "atlas/moc🗺",
+      "x/meta"
+    ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Home]] | PKM MOC",
+        "level": 1
+      },
+      {
+        "heading": "Unrequited Links",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ About Spaces",
+        "link": "My PKM MOC",
+        "relativePath": "Spaces/+ About Spaces.md"
+      },
+      {
+        "fileName": "+ About Encounters",
+        "link": "My PKM MOC",
+        "relativePath": "• Encounters/+ About Encounters.md"
+      },
+      {
+        "fileName": "Home",
+        "link": "My PKM MOC",
+        "relativePath": "Home.md"
+      },
+      {
+        "fileName": "+ About Sources",
+        "link": "My PKM MOC",
+        "relativePath": "Sources/+ About Sources.md"
+      },
+      {
+        "fileName": "+ About Cards",
+        "link": "My PKM MOC",
+        "relativePath": "Cards/+ About Cards.md"
+      },
+      {
+        "fileName": "+ Library",
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/+ Library.md"
       }
     ]
   },
@@ -6432,76 +6358,6 @@
       {
         "fileName": "+ Library",
         "link": "Thinking",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "My PKM MOC (Kit)",
-    "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md",
-    "tags": [
-      "atlas/moc🗺",
-      "x/meta"
-    ],
-    "frontmatter": {
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[Home]] | PKM MOC",
-        "level": 1
-      },
-      {
-        "heading": "Unrequited Links",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ About Spaces",
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Spaces/+ About Spaces.md"
-      },
-      {
-        "fileName": "+ About Encounters",
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "• Encounters/+ About Encounters.md"
-      },
-      {
-        "fileName": "Home",
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Home.md"
-      },
-      {
-        "fileName": "+ About Sources",
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Sources/+ About Sources.md"
-      },
-      {
-        "fileName": "+ About Cards",
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Cards/+ About Cards.md"
-      },
-      {
-        "fileName": "+ Library",
-        "link": "My PKM MOC (Kit)",
         "relativePath": "Atlas/+ Library.md"
       }
     ]
@@ -6961,34 +6817,22 @@
     ],
     "backlinks": [
       {
-        "fileName": "+ Index for LYT Notes Newsletters",
-        "link": "+ Index for index notes",
-        "relativePath": "Spaces/Work/Areas/LYT Notes Newsletters/+ Index for LYT Notes Newsletters.md"
-      },
-      {
-        "fileName": "+ Index for Life Spaces",
-        "link": "+ Index for index notes",
-        "relativePath": "Spaces/Life/Support notes/+ Index for Life Spaces.md"
-      },
-      {
-        "fileName": "+ Index for Sources",
-        "link": "+ Index for index notes",
-        "relativePath": "Sources/+ Index for Sources.md"
-      },
-      {
         "fileName": "+ Index for People",
         "link": "+ Index for index notes",
-        "relativePath": "Cards/People/+ Index for People.md"
+        "relativePath": "Cards/People/+ Index for People.md",
+        "displayText": "Index for index notes"
       },
       {
         "fileName": "+ Index for Cards",
         "link": "+ Index for index notes",
-        "relativePath": "Cards/+ Index for Cards.md"
+        "relativePath": "Cards/+ Index for Cards.md",
+        "displayText": "Index for index notes"
       },
       {
         "fileName": "+ Index for Atlases",
         "link": "+ Index for index notes",
-        "relativePath": "Atlas/+ Index for Atlases.md"
+        "relativePath": "Atlas/+ Index for Atlases.md",
+        "displayText": "Index for index notes"
       }
     ]
   },
@@ -7116,8 +6960,8 @@
         "relativePath": "Home.md"
       },
       {
-        "link": "My PKM MOC (Kit)",
-        "relativePath": "Atlas/MOCs/My PKM MOC (Kit).md"
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       },
       {
         "link": "LYT Kit"
@@ -7312,13 +7156,14 @@
     },
     "headings": [
       {
-        "heading": "<-[[+ Index for index notes]] | Index for Atlases",
+        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for Atlases",
         "level": 1
       }
     ],
     "links": [
       {
         "link": "+ Index for index notes",
+        "displayText": "Index for index notes",
         "relativePath": "Atlas/Scopes/+ Index for index notes.md"
       }
     ]
