@@ -103,7 +103,14 @@ div {
 
 现在 CSS 将生成以下数据结构，在本文中，我们将继续在此基础上进行构建。
 
-![](https://segmentfault.com/img/bVbqEuu)
+| Selector            | Property           | Value            | Specificity Score | Document Order |
+| ------------------- | ------------------ | ---------------- | ----------------- | -------------- |
+| `fancy-button`      | `background-color` | `rgb(0,255,0)`   | 0 0 0 1 0         | 0              |
+| `fancy-button`      | `border-width`     | `3px`            | 0 0 0 1 0         | 1              |
+| `fancy-button`      | `border-style`     | `solid`          | 0 0 0 1 0         | 2              |
+| `fancy-button`      | `border-color`     | `rgb(255,0,0)`   | 0 0 0 1 0         | 3              |
+| `fancy-button`      | `font-size`        | `16px`           | 0 0 0 1 0         | 4              |
+| `div .fancy-button` | `background-color` | `rgb(255,255,0)` | 0 0 0 1 1         | 5               |
 
 ## 来源
 
@@ -127,7 +134,9 @@ CSS 信息可以从各种来源提供，这些来源可以是 用户 (user) 和 
 
 让我们进一步扩展我们的数据集，看看当用户将浏览器的字体大小设置为最小 `2em` 时会发生什么:
 
-![](https://segmentfault.com/img/bVbqFpq)
+| Origin | Selector | Property    | Value  | Specificity Score | Document Order |
+| ------ | -------- | ----------- | ------ | ----------------- | -------------- |
+| User   | *        | `font-size` | `32px` | 0 0 0 0 1         | 0              | 
 
 ## 做级联
 

@@ -1,0 +1,16 @@
+.cm-embed-block table tbody tr td code {
+  color: aliceblue
+}
+
+table thead tr th {
+  background-color: #6c7ae0;
+  line-height: 2;
+  color: #fff;
+}
+
+table {
+  table-layout: fixed;
+  font-family: Poppins-Regular;
+  margin-bottom: 0;
+  margin: auto;
+}

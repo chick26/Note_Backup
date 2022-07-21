@@ -6,6 +6,7 @@
   "enabledCssSnippets": [
     "home_page",
     "home_page_readingline",
-    "scope_page"
+    "scope_page",
+    "table"
   ]
 }
