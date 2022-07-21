@@ -3,6 +3,7 @@ title: 浏览器解析 CSS 样式的过程
 creation date: 2022-05-24 10:28:16
 status: todo
 tag: 
+- source/css
 ---
 
 ## 解析
@@ -21,7 +22,13 @@ tag:
 
 以上 CSS 片段将生成如下数据结构，以便在后续的过程中方便使用：
 
-![](https://segmentfault.com/img/bVbqC3w)
+| 选择           | 属性               | 值             |
+| -------------- | ------------------ | -------------- |
+| `fancy-button` | `background-color` | `rbg(0,255,0)` |
+| `fancy-button` | `border-width`     | `3px`          |
+| `fancy-button` | `border-style`     | `solid`        |
+| `fancy-button` | `border-color`     | `rgb(255,0,0)` |
+| `fancy-button` | `font-size`        | `1em`          |
 
 值得注意的一件事是，浏览器将 `background` 和 `border` 的简写还原成普通写法，也就是一个一个属性的声明，因为简单写主要方便开发人员的编写，但从这里开始，浏览器只处理普通写法。完解析成之后，浏览器引擎继续构建 DOM 树。
 
@@ -29,7 +36,16 @@ tag:
 
 既然我们已经解析了现有内容中的所有样式，接着就是对它们进行样式计算了。我们尝试尽量对所有值减少到一个标准化的计算值。当离开计算阶段时，任何维度值都被缩减为三个可能的输出之一:`auto`、百分比或像素值。为了清晰起见，让我们看几个例子，看 web 开发人员写了什么，以及计算后的结果:
 
-![](https://segmentfault.com/img/bVbqC5d)
+| Web开发人员                   | 计算值                     |
+| ----------------------------- | -------------------------- |
+| `font-size: 1em`              | `font-size: 16px`          |
+| `width: 50%`                  | `width: 50%`               |
+| `height: auto`                | `height: auto`             |
+| `width: 506.456456px`         | `width: 506.46px`          |
+| `line-height: calc(10px+2em)` | `line-height: 42px`        |
+| `border-color: currentColor`  | `border-color: rgb(0,0,0)` |
+| `height: 50vh`                | `height: 540px`            |
+| `display: grid`               | `display: grid`            |
 
 现在我们已经计算了数据存储中的所有值，是时候处理级联了。
 
@@ -401,23 +417,3 @@ button:hover {
 6.  它将这些样式挂起 DOM 元素（正如我们在级联阶段所学到的），在这种情况下是按钮。
 7.  它跳过布局，直接绘制一个新的位图。
 8.  新的位图被传递给合成程序，然后传递给用户。
-
-## 总结
-
-希望这部分对你关于 css 解析过程多多少少有点帮助，共进步！
-
-**代码部署后可能存在的 BUG 没法实时知道，事后为了解决这些 BUG，花了大量的时间进行 log 调试，这边顺便给大家推荐一个好用的 BUG 监控工具 [Fundebug](https://link.segmentfault.com/?enc=ZAtt88uH2uOf4qis%2F5loFg%3D%3D.Hr%2B6amucl82Xhb3PWLn3PET1uNEYYn4ctYZ12KtIwqU%3D)。**
-
-**你的点赞是我持续分享好东西的动力，欢迎点赞！**
-
-## 交流
-
-干货系列文章汇总如下，觉得不错点个 Star，欢迎 加群 互相学习。
-
-[https://github.com/qq44924588...](https://link.segmentfault.com/?enc=gv9FNcY4xED3Ydk12LWX3Q%3D%3D.UKZF2hB6v5doALs38hCTlvZpiqI%2FyNhlJEH%2FZWJkY0igkuPOPLzePjVtek0ePRdg)
-
-我是小智，公众号「大迁世界」作者，**对前端技术保持学习爱好者。我会经常分享自己所学所看的干货**，在进阶的路上，共勉！
-
-关注公众号，后台回复**福利**，即可看到福利，你懂的。
-
-![](https://segmentfault.com/img/bVbs6em?w=800&h=400)
