@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0aee7a53198f2e8b",
+        "id": "d297452f7dede713",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md",
+            "file": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#source/appleScript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md",
+                "file": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md",
+                "file": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,18 +117,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md"
+                "file": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 249.5
   },
-  "active": "7c5a6ea7ad6a7bbb",
+  "active": "a7b97d54ecd0904a",
   "lastOpenFiles": [
     "Home.md",
     "Atlas/Logs/Essays 🖌.md",

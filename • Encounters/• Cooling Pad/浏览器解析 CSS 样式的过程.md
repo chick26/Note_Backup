@@ -79,7 +79,13 @@ tag:
 
 为了说明这一点，让我们说明一些选择器及其计算后的权重数值:
 
-![](https://segmentfault.com/img/bVbqC8B)
+| Selector                 | Specificity Score |
+| ------------------------- | ----------------- |
+| `li`                      | 0 0 0 0 1         |
+| `li.foo`                  | 0 0 0 1 1         |
+| `#comment li.foo.bar`     | 0 0 1 2 1         |
+| `<li style='color: red'>` | 0 1 0 0 0         |
+| `color: red !important`   | 1 0 0 0 0         | 
 
 而当优先级与多个 CSS 声明中任意一个声明的优先级相等的时候，CSS 中最后的那个声明将会被应用到元素上。
 

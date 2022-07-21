@@ -1,206 +1,5 @@
 [
   {
-    "fileName": "浏览器解析 CSS 样式的过程",
-    "relativePath": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md",
-    "tags": [
-      "source/css"
-    ],
-    "frontmatter": {
-      "title": "浏览器解析 CSS 样式的过程",
-      "creation date": "2022-05-24 10:28:16",
-      "status": "todo",
-      "tag": [
-        "source/css"
-      ],
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 97
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "解析",
-        "level": 2
-      },
-      {
-        "heading": "计算",
-        "level": 2
-      },
-      {
-        "heading": "级联",
-        "level": 2
-      },
-      {
-        "heading": "来源",
-        "level": 2
-      },
-      {
-        "heading": "**用户样式**",
-        "level": 4
-      },
-      {
-        "heading": "**作者样式**",
-        "level": 4
-      },
-      {
-        "heading": "**用户代理 / 浏览器样式**",
-        "level": 4
-      },
-      {
-        "heading": "做级联",
-        "level": 2
-      },
-      {
-        "heading": "CSS 对象模型",
-        "level": 2
-      },
-      {
-        "heading": "布局",
-        "level": 2
-      },
-      {
-        "heading": "解析 Auto",
-        "level": 2
-      },
-      {
-        "heading": "处理浮动 float",
-        "level": 2
-      },
-      {
-        "heading": "了解片段（UNDERSTANDING FRAGMENTATION",
-        "level": 2
-      },
-      {
-        "heading": "绘画（Painting）",
-        "level": 2
-      },
-      {
-        "heading": "关于 Z-INDEX",
-        "level": 2
-      },
-      {
-        "heading": "组成（COMPOSITION）",
-        "level": 2
-      },
-      {
-        "heading": "创造互动的视觉",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "微服务是什么？",
-    "relativePath": "• Encounters/• Cooling Pad/微服务是什么？.md",
-    "headings": [
-      {
-        "heading": "一、单体软件",
-        "level": 2
-      },
-      {
-        "heading": "二、面向服务架构",
-        "level": 2
-      },
-      {
-        "heading": "三、微服务",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "与上下文无关的语法",
-    "relativePath": "• Encounters/• Cooling Pad/与上下文无关的语法.md",
-    "tags": [
-      "source/csbasic"
-    ],
-    "frontmatter": {
-      "title": "与上下文无关的语法",
-      "creation date": "2022-02-28 19:05",
-      "status": "ondo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 93
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "Web Browsers",
-        "link": "与上下文无关的语法",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Sketch 设计组件库",
-    "relativePath": "• Encounters/• Cooling Pad/Sketch 设计组件库.md",
-    "frontmatter": {
-      "title": "Sketch 设计组件库",
-      "creation date": "2022-06-14 14:10:36",
-      "status": "todo",
-      "tag": null,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 81
-        }
-      }
-    }
-  },
-  {
-    "fileName": "+ About Encounters",
-    "relativePath": "• Encounters/+ About Encounters.md",
-    "tags": [
-      "x/readme"
-    ],
-    "frontmatter": {
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 25
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[My PKM MOC]] | About Encounters",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "My PKM MOC",
-        "relativePath": "Atlas/MOCs/My PKM MOC.md"
-      }
-    ]
-  },
-  {
     "fileName": "LYT Space 🔆 (Kit)",
     "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md",
     "tags": [
@@ -252,6 +51,41 @@
       },
       {
         "link": "LYT Projects 🏗"
+      }
+    ]
+  },
+  {
+    "fileName": "+ About Spaces",
+    "relativePath": "Spaces/+ About Spaces.md",
+    "tags": [
+      "x/readme"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 68
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[My PKM MOC|My PKM MOC]] | About Spaces",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
       }
     ]
   },
@@ -372,14 +206,326 @@
     ]
   },
   {
-    "fileName": "+ About Spaces",
-    "relativePath": "Spaces/+ About Spaces.md",
+    "fileName": "Home",
+    "relativePath": "Home.md",
+    "frontmatter": {
+      "title": "Learning Note OverView",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "tags": null,
+      "banner": "![[宁静.JPG]]",
+      "banner_x": 0.5,
+      "banner_y": 0.85,
+      "banner_lock": true,
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 10,
+          "col": 3,
+          "offset": 188
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "🗂 PERSONAL OBJECT",
+        "level": 1
+      },
+      {
+        "heading": "〽️ STATS",
+        "level": 1
+      },
+      {
+        "heading": "Atlas 🗺",
+        "level": 1
+      },
+      {
+        "heading": "📝 DAILY NOTE",
+        "level": 1
+      },
+      {
+        "heading": "📑 WAITING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📝 DOING LIST",
+        "level": 1
+      },
+      {
+        "heading": "📨 REVIEW LIST",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Notebox 🗃",
+        "displayText": "LEARN NOTE",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "link": "+ Index for Calendar",
+        "displayText": "DAILY",
+        "relativePath": "Calendar/+ Index for Calendar.md"
+      },
+      {
+        "link": "Cooling pad 🧊",
+        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+      },
+      {
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "link": "Ideas ✨",
+        "relativePath": "Atlas/Scopes/Ideas ✨.md"
+      },
+      {
+        "link": "Essays 🖌",
+        "relativePath": "Atlas/Logs/Essays 🖌.md"
+      },
+      {
+        "link": "Artifacts 💠"
+      },
+      {
+        "link": "+ Library",
+        "displayText": "Library",
+        "relativePath": "Atlas/+ Library.md"
+      },
+      {
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
+      },
+      {
+        "link": "Concepts MOC",
+        "relativePath": "Atlas/MOCs/Concepts MOC.md"
+      },
+      {
+        "link": "Sources MOC",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "LYT Space 🔆 (Kit)",
+        "link": "Home",
+        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
+      },
+      {
+        "fileName": "Life Space™ (Kit)",
+        "link": "Home",
+        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
+      },
+      {
+        "fileName": "Thinking",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      },
+      {
+        "fileName": "Sources MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
+      },
+      {
+        "fileName": "Concepts MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/Concepts MOC.md"
+      },
+      {
+        "fileName": "My PKM MOC",
+        "link": "Home",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
+      },
+      {
+        "fileName": "Notebox 🗃",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "fileName": "Ideas ✨",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Ideas ✨.md"
+      },
+      {
+        "fileName": "Cooling pad 🧊",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
+      },
+      {
+        "fileName": "+ Index for index notes",
+        "link": "Home",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+      },
+      {
+        "fileName": "Essays 🖌",
+        "link": "Home",
+        "relativePath": "Atlas/Logs/Essays 🖌.md"
+      },
+      {
+        "fileName": "+ Library",
+        "link": "Home",
+        "relativePath": "Atlas/+ Library.md"
+      }
+    ]
+  },
+  {
+    "fileName": "浏览器解析 CSS 样式的过程",
+    "relativePath": "• Encounters/• Cooling Pad/浏览器解析 CSS 样式的过程.md",
     "tags": [
-      "x/readme"
+      "source/css"
     ],
     "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
+      "title": "浏览器解析 CSS 样式的过程",
+      "creation date": "2022-05-24 10:28:16",
+      "status": "todo",
+      "tag": [
+        "source/css"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 97
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "解析",
+        "level": 2
+      },
+      {
+        "heading": "计算",
+        "level": 2
+      },
+      {
+        "heading": "级联",
+        "level": 2
+      },
+      {
+        "heading": "来源",
+        "level": 2
+      },
+      {
+        "heading": "**用户样式**",
+        "level": 4
+      },
+      {
+        "heading": "**作者样式**",
+        "level": 4
+      },
+      {
+        "heading": "**用户代理 / 浏览器样式**",
+        "level": 4
+      },
+      {
+        "heading": "做级联",
+        "level": 2
+      },
+      {
+        "heading": "CSS 对象模型",
+        "level": 2
+      },
+      {
+        "heading": "布局",
+        "level": 2
+      },
+      {
+        "heading": "解析 Auto",
+        "level": 2
+      },
+      {
+        "heading": "处理浮动 float",
+        "level": 2
+      },
+      {
+        "heading": "了解片段（UNDERSTANDING FRAGMENTATION",
+        "level": 2
+      },
+      {
+        "heading": "绘画（Painting）",
+        "level": 2
+      },
+      {
+        "heading": "关于 Z-INDEX",
+        "level": 2
+      },
+      {
+        "heading": "组成（COMPOSITION）",
+        "level": 2
+      },
+      {
+        "heading": "创造互动的视觉",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "与上下文无关的语法",
+    "relativePath": "• Encounters/• Cooling Pad/与上下文无关的语法.md",
+    "tags": [
+      "source/csbasic"
+    ],
+    "frontmatter": {
+      "title": "与上下文无关的语法",
+      "creation date": "2022-02-28 19:05",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 93
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "Web Browsers",
+        "link": "与上下文无关的语法",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Browsers.md"
+      }
+    ]
+  },
+  {
+    "fileName": "微服务是什么？",
+    "relativePath": "• Encounters/• Cooling Pad/微服务是什么？.md",
+    "headings": [
+      {
+        "heading": "一、单体软件",
+        "level": 2
+      },
+      {
+        "heading": "二、面向服务架构",
+        "level": 2
+      },
+      {
+        "heading": "三、微服务",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Sketch 设计组件库",
+    "relativePath": "• Encounters/• Cooling Pad/Sketch 设计组件库.md",
+    "frontmatter": {
+      "title": "Sketch 设计组件库",
+      "creation date": "2022-06-14 14:10:36",
+      "status": "todo",
+      "tag": null,
       "position": {
         "start": {
           "line": 0,
@@ -389,13 +535,34 @@
         "end": {
           "line": 5,
           "col": 3,
-          "offset": 68
+          "offset": 81
+        }
+      }
+    }
+  },
+  {
+    "fileName": "+ About Encounters",
+    "relativePath": "• Encounters/+ About Encounters.md",
+    "tags": [
+      "x/readme"
+    ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 25
         }
       }
     },
     "headings": [
       {
-        "heading": "<-[[My PKM MOC|My PKM MOC]] | About Spaces",
+        "heading": "<-[[My PKM MOC]] | About Encounters",
         "level": 1
       }
     ],
@@ -403,6 +570,863 @@
       {
         "link": "My PKM MOC",
         "relativePath": "Atlas/MOCs/My PKM MOC.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Git commit message",
+    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
+    "tags": [
+      "source/git",
+      "source/git/commit"
+    ],
+    "frontmatter": {
+      "title": "Git commit message",
+      "creation date": "2022-07-18 17:09:53",
+      "status": "todo",
+      "tag": [
+        "source/git",
+        "source/git/commit"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 120
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "\"type\" must be one of the following mentioned below!",
+        "level": 2
+      },
+      {
+        "heading": "\"scope\" is optional",
+        "level": 2
+      },
+      {
+        "heading": "\"subject\"",
+        "level": 2
+      },
+      {
+        "heading": "[](#references)References:",
+        "level": 4
+      }
+    ],
+    "links": [
+      {
+        "link": "#references",
+        "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
+        "cleanLink": "Git commit message",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "git hooks",
+    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
+    "tags": [
+      "source/git/hooks"
+    ],
+    "frontmatter": {
+      "title": "git hooks",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 95
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Mermaid",
+    "relativePath": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
+    "tags": [
+      "source/markdown/mermaid"
+    ],
+    "frontmatter": {
+      "title": "Mermaid",
+      "creation date": "2022-03-21 21:36",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 100
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Mermaid Markdown",
+        "level": 1
+      },
+      {
+        "heading": "概述",
+        "level": 2
+      },
+      {
+        "heading": "什么是 Mermaid？",
+        "level": 3
+      },
+      {
+        "heading": "怎么使用 Mermaid？",
+        "level": 3
+      },
+      {
+        "heading": "Mermaid 能绘制哪些图？",
+        "level": 3
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "饼状图",
+        "level": 2
+      },
+      {
+        "heading": "语法——仅供参考，建议直接看实例",
+        "level": 3
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "流程图",
+        "level": 2
+      },
+      {
+        "heading": "实例",
+        "level": 3
+      },
+      {
+        "heading": "方向",
+        "level": 3
+      },
+      {
+        "heading": "结点",
+        "level": 3
+      },
+      {
+        "heading": "连线样式",
+        "level": 3
+      },
+      {
+        "heading": "实线箭头",
+        "level": 4
+      },
+      {
+        "heading": "粗实线箭头",
+        "level": 4
+      },
+      {
+        "heading": "虚线箭头",
+        "level": 4
+      },
+      {
+        "heading": "无箭头线",
+        "level": 4
+      },
+      {
+        "heading": "其他连线",
+        "level": 4
+      },
+      {
+        "heading": "延长连线",
+        "level": 4
+      },
+      {
+        "heading": "连线形式",
+        "level": 3
+      },
+      {
+        "heading": "直链",
+        "level": 4
+      },
+      {
+        "heading": "多重链",
+        "level": 4
+      },
+      {
+        "heading": "其他",
+        "level": 3
+      },
+      {
+        "heading": "子图",
+        "level": 4
+      },
+      {
+        "heading": "注释",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "哈希表",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
+    "tags": [
+      "source/datastructrue/hashtable"
+    ],
+    "frontmatter": {
+      "title": "哈希表(散列表)",
+      "creation date": "2022-07-01 11:49",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 108
+        }
+      }
+    }
+  },
+  {
+    "fileName": "数组",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+    "tags": [
+      "source/datastructrue/array"
+    ],
+    "frontmatter": {
+      "title": "数组",
+      "creation date": "2022-03-01 09:26",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 98
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "线性表与非线性表",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "09-高可用架构",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "高可用架构",
+      "creation date": "2022-07-13 09:22",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 87
+        }
+      }
+    }
+  },
+  {
+    "fileName": "08-主从复制和主主复制",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "主从复制和主主复制",
+      "creation date": "2022-07-13 09:13",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 91
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "主从复制的目的",
+        "level": 2
+      },
+      {
+        "heading": "MySQL主从复制的架构模式",
+        "level": 2
+      },
+      {
+        "heading": "部署星型模型的主从复制",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "07-备份与恢复",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "备份与恢复",
+      "creation date": "2022-07-13 09:07",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 87
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "基本的术语",
+        "level": 2
+      },
+      {
+        "heading": "操作实例",
+        "level": 2
+      },
+      {
+        "heading": "备份指定数据库 demo1",
+        "level": 3
+      },
+      {
+        "heading": "备份指定数据库demo下指定的表",
+        "level": 3
+      },
+      {
+        "heading": "可传输的表空间",
+        "level": 2
+      },
+      {
+        "heading": "闪回技术（flashback）",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "05-应用程序开发",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
+    "tags": [
+      "source/mysql/programdev"
+    ],
+    "frontmatter": {
+      "title": "应用程序开发",
+      "creation date": "2022-07-12 14:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 99
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "存储过程 procedure",
+        "level": 2
+      },
+      {
+        "heading": "存储函数 function",
+        "level": 2
+      },
+      {
+        "heading": "触发器 trigger",
+        "level": 2
+      },
+      {
+        "heading": "实现安全性的检查",
+        "level": 3
+      },
+      {
+        "heading": "进行数据的确认",
+        "level": 3
+      },
+      {
+        "heading": "实现审计的功能",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "04-数据库对象",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
+    "tags": [
+      "source/mysql/dataobject"
+    ],
+    "frontmatter": {
+      "title": "数据库对象",
+      "creation date": "2022-07-12 12:40",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 98
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "表",
+        "level": 2
+      },
+      {
+        "heading": "数据类型",
+        "level": 3
+      },
+      {
+        "heading": "表的基本操作",
+        "level": 3
+      },
+      {
+        "heading": "约束",
+        "level": 3
+      },
+      {
+        "heading": "主键",
+        "level": 3
+      },
+      {
+        "heading": "外键",
+        "level": 3
+      },
+      {
+        "heading": "表的碎片",
+        "level": 3
+      },
+      {
+        "heading": "临时表",
+        "level": 3
+      },
+      {
+        "heading": "统计信息 statistics",
+        "level": 3
+      },
+      {
+        "heading": "视图",
+        "level": 2
+      },
+      {
+        "heading": "索引",
+        "level": 2
+      },
+      {
+        "heading": "事件Event",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "06-事务与锁",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "事务与锁",
+      "creation date": "2022-07-13 09:04",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 86
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "MySQL的事务",
+        "level": 2
+      },
+      {
+        "heading": "事务的特征",
+        "level": 3
+      },
+      {
+        "heading": "控制事务",
+        "level": 3
+      },
+      {
+        "heading": "事务的并发：隔离级别",
+        "level": 3
+      },
+      {
+        "heading": "锁机制",
+        "level": 2
+      },
+      {
+        "heading": "行锁",
+        "level": 3
+      },
+      {
+        "heading": "表锁",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "03-用户管理与访问控制",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
+    "tags": [
+      "source/mysql",
+      "source/mysql/permission"
+    ],
+    "frontmatter": {
+      "title": "用户管理与访问控制",
+      "creation date": "2022-07-12 11:09",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 117
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "用户的管理",
+        "level": 2
+      },
+      {
+        "heading": "创建和管理用户",
+        "level": 3
+      },
+      {
+        "heading": "管理用户的密码",
+        "level": 3
+      },
+      {
+        "heading": "权限的管理",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的权限的系统",
+        "level": 3
+      },
+      {
+        "heading": "grant和revoke",
+        "level": 3
+      },
+      {
+        "heading": "权限的生效机制",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "01-MySQL数据库基础",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+    "tags": [
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "MySQL数据库基础",
+      "creation date": "2022-07-10 15:37",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 92
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "虚拟机使用说明",
+        "level": 2
+      },
+      {
+        "heading": "MySQL数据库基础",
+        "level": 1
+      },
+      {
+        "heading": "MySQL简介和分支（NoSQL数据库）",
+        "level": 2
+      },
+      {
+        "heading": "关系型数据库",
+        "level": 3
+      },
+      {
+        "heading": "属性",
+        "level": 4
+      },
+      {
+        "heading": "特点",
+        "level": 4
+      },
+      {
+        "heading": "NoSQL数据库：not only SQL",
+        "level": 3
+      },
+      {
+        "heading": "MySQL分支",
+        "level": 3
+      },
+      {
+        "heading": "安装和配置MySQL数据库",
+        "level": 2
+      },
+      {
+        "heading": "MySQL的配置文件搜索过程: my.cnf",
+        "level": 3
+      },
+      {
+        "heading": "my.cnf 配置参数",
+        "level": 3
+      },
+      {
+        "heading": "客户端的连接方式",
+        "level": 2
+      },
+      {
+        "heading": "本地连接",
+        "level": 3
+      },
+      {
+        "heading": "远程连接",
+        "level": 3
+      },
+      {
+        "heading": "安全连接",
+        "level": 3
+      },
+      {
+        "heading": "MySQL数据库的体系架构（服务器端）",
+        "level": 2
+      },
+      {
+        "heading": "Server层",
+        "level": 3
+      },
+      {
+        "heading": "Connectors",
+        "level": 4
+      },
+      {
+        "heading": "存储引擎",
+        "level": 3
+      },
+      {
+        "heading": "InnoDB",
+        "level": 4
+      },
+      {
+        "heading": "MyISAM",
+        "level": 4
+      },
+      {
+        "heading": "Memory",
+        "level": 4
+      },
+      {
+        "heading": "多实例环境（数据库、数据库实例）",
+        "level": 2
+      },
+      {
+        "heading": "数据库和数据库实例",
+        "level": 3
+      },
+      {
+        "heading": "数据库",
+        "level": 4
+      },
+      {
+        "heading": "数据库实例",
+        "level": 4
+      },
+      {
+        "heading": "使用mysqld_multi工具",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "02-InnoDB存储引擎",
+    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
+    "tags": [
+      "source/mysql/innodb",
+      "source/mysql"
+    ],
+    "frontmatter": {
+      "title": "InnoDB存储引擎",
+      "creation date": "2022-07-10 20:30",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 114
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "InnoDB存储引擎",
+        "level": 1
+      },
+      {
+        "heading": "存储结构",
+        "level": 2
+      },
+      {
+        "heading": "物理存储结构：硬盘上的文件",
+        "level": 3
+      },
+      {
+        "heading": "数据文件",
+        "level": 4
+      },
+      {
+        "heading": "重做日志文件",
+        "level": 4
+      },
+      {
+        "heading": "撤销日志文件",
+        "level": 4
+      },
+      {
+        "heading": "参数文件",
+        "level": 4
+      },
+      {
+        "heading": "错误日志文件",
+        "level": 4
+      },
+      {
+        "heading": "binlog二进制日志文件",
+        "level": 4
+      },
+      {
+        "heading": "慢查询日志",
+        "level": 4
+      },
+      {
+        "heading": "全量日志general log",
+        "level": 4
+      },
+      {
+        "heading": "逻辑存储结构",
+        "level": 3
+      },
+      {
+        "heading": "内存结构",
+        "level": 2
+      },
+      {
+        "heading": "SGA",
+        "level": 3
+      },
+      {
+        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
+        "level": 3
+      },
+      {
+        "heading": "检查点的类型",
+        "level": 3
+      },
+      {
+        "heading": "完全检查点",
+        "level": 4
+      },
+      {
+        "heading": "模糊检查点",
+        "level": 4
+      },
+      {
+        "heading": "进程结构 (线程结构)",
+        "level": 2
+      },
+      {
+        "heading": "主线程",
+        "level": 3
+      },
+      {
+        "heading": "IO线程",
+        "level": 3
+      },
+      {
+        "heading": "其他线程",
+        "level": 3
       }
     ]
   },
@@ -1160,6 +2184,121 @@
     ]
   },
   {
+    "fileName": "Promise 常用方法",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
+    "tags": [
+      "source/javascript",
+      "source/javascript/promise"
+    ],
+    "frontmatter": {
+      "title": "Promise 常用方法",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 119
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Promise 中的三兄弟 .all(), .race(), .allSettled()",
+        "level": 1
+      },
+      {
+        "heading": "1. 概述",
+        "level": 2
+      },
+      {
+        "heading": "2. 回顾: Promise 状态",
+        "level": 2
+      },
+      {
+        "heading": "3. 什么是组合",
+        "level": 2
+      },
+      {
+        "heading": "4.  Promise.all()",
+        "level": 2
+      },
+      {
+        "heading": "异步 .map() 与 Promise.all()",
+        "level": 3
+      },
+      {
+        "heading": "更实际工作上关于 .map()示例",
+        "level": 3
+      },
+      {
+        "heading": "Promise.all()的一个简版实现",
+        "level": 3
+      },
+      {
+        "heading": "5. Promise.race()",
+        "level": 2
+      },
+      {
+        "heading": "Example 1",
+        "level": 3
+      },
+      {
+        "heading": "Example 2",
+        "level": 3
+      },
+      {
+        "heading": "Expample 3",
+        "level": 3
+      },
+      {
+        "heading": "Promise.race() 的一个简版实现",
+        "level": 3
+      },
+      {
+        "heading": "6.Promise.allSettled()",
+        "level": 2
+      },
+      {
+        "heading": "Promise.allSettled() 例子",
+        "level": 3
+      },
+      {
+        "heading": "Promise.allSettled() 较复杂点的例子",
+        "level": 3
+      },
+      {
+        "heading": "Promise.allSettled() 的简化实现",
+        "level": 3
+      },
+      {
+        "heading": "7.  短路特性",
+        "level": 2
+      },
+      {
+        "heading": "8. 并发性和 Promise.all()",
+        "level": 2
+      },
+      {
+        "heading": "顺序执行与并发执行",
+        "level": 3
+      },
+      {
+        "heading": "并发技巧：关注操作何时开始",
+        "level": 3
+      },
+      {
+        "heading": "Promise.all() 与 Fork-Join 分治编程",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "Charles | 抓包工具",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
     "tags": [
@@ -1314,272 +2453,6 @@
     ]
   },
   {
-    "fileName": "前端部署",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
-    "tags": [
-      "source/deploy/webpack",
-      "source/deploy",
-      "source/package/fronten"
-    ],
-    "frontmatter": {
-      "title": "前端部署",
-      "creation date": "2022-05-23 10:04",
-      "status": "ondo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 8,
-          "col": 3,
-          "offset": 136
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "一个简单的页面",
-        "level": 2
-      },
-      {
-        "heading": "利用缓存",
-        "level": 2
-      },
-      {
-        "heading": "协商缓存",
-        "level": 3
-      },
-      {
-        "heading": "强缓存",
-        "level": 3
-      },
-      {
-        "heading": "附录：协商缓存和强缓存详解",
-        "level": 3
-      },
-      {
-        "heading": "缓存更新问题",
-        "level": 2
-      },
-      {
-        "heading": "覆盖式发布引发的问题",
-        "level": 2
-      },
-      {
-        "heading": "与 CDN 结合",
-        "level": 2
-      },
-      {
-        "heading": "静态资源组织总结",
-        "level": 2
-      },
-      {
-        "heading": "静态资源的加工",
-        "level": 2
-      },
-      {
-        "heading": "Pre 环境、灰度上线的常见实现",
-        "level": 2
-      },
-      {
-        "heading": "方案一 Nginx 层动态转发",
-        "level": 3
-      },
-      {
-        "heading": "方案二 动态配置 + 服务端转发",
-        "level": 3
-      },
-      {
-        "heading": "前端发布服务实现与设计",
-        "level": 2
-      },
-      {
-        "heading": "静态资源组织部分",
-        "level": 2
-      },
-      {
-        "heading": "自动化部署部分",
-        "level": 2
-      },
-      {
-        "heading": "前端部署 & 静态资源加工",
-        "level": 2
-      },
-      {
-        "heading": "前端发布服务",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "rollup.js",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
-    "tags": [
-      "source/deploy/rollupjs",
-      "source/package/fronten"
-    ],
-    "frontmatter": {
-      "title": "rollup.js",
-      "creation date": "2022-05-24 09:20:20",
-      "status": "done",
-      "tag": [
-        "source/deploy/rollupjs",
-        "source/package/fronten"
-      ],
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 128
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "一、简介",
-        "level": 2
-      },
-      {
-        "heading": "二、安装",
-        "level": 2
-      },
-      {
-        "heading": "三、示例",
-        "level": 2
-      },
-      {
-        "heading": "四、使用注意点",
-        "level": 2
-      },
-      {
-        "heading": "五、转成 CommonJS 模块",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Promise 常用方法",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/JavaScript | Web编程语言/Promise 常用方法.md",
-    "tags": [
-      "source/javascript",
-      "source/javascript/promise"
-    ],
-    "frontmatter": {
-      "title": "Promise 常用方法",
-      "date": "2022-01-24 14:41",
-      "status": "done",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 119
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Promise 中的三兄弟 .all(), .race(), .allSettled()",
-        "level": 1
-      },
-      {
-        "heading": "1. 概述",
-        "level": 2
-      },
-      {
-        "heading": "2. 回顾: Promise 状态",
-        "level": 2
-      },
-      {
-        "heading": "3. 什么是组合",
-        "level": 2
-      },
-      {
-        "heading": "4.  Promise.all()",
-        "level": 2
-      },
-      {
-        "heading": "异步 .map() 与 Promise.all()",
-        "level": 3
-      },
-      {
-        "heading": "更实际工作上关于 .map()示例",
-        "level": 3
-      },
-      {
-        "heading": "Promise.all()的一个简版实现",
-        "level": 3
-      },
-      {
-        "heading": "5. Promise.race()",
-        "level": 2
-      },
-      {
-        "heading": "Example 1",
-        "level": 3
-      },
-      {
-        "heading": "Example 2",
-        "level": 3
-      },
-      {
-        "heading": "Expample 3",
-        "level": 3
-      },
-      {
-        "heading": "Promise.race() 的一个简版实现",
-        "level": 3
-      },
-      {
-        "heading": "6.Promise.allSettled()",
-        "level": 2
-      },
-      {
-        "heading": "Promise.allSettled() 例子",
-        "level": 3
-      },
-      {
-        "heading": "Promise.allSettled() 较复杂点的例子",
-        "level": 3
-      },
-      {
-        "heading": "Promise.allSettled() 的简化实现",
-        "level": 3
-      },
-      {
-        "heading": "7.  短路特性",
-        "level": 2
-      },
-      {
-        "heading": "8. 并发性和 Promise.all()",
-        "level": 2
-      },
-      {
-        "heading": "顺序执行与并发执行",
-        "level": 3
-      },
-      {
-        "heading": "并发技巧：关注操作何时开始",
-        "level": 3
-      },
-      {
-        "heading": "Promise.all() 与 Fork-Join 分治编程",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "Web Hosting",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/Web Hosting.md",
     "tags": [
@@ -1655,6 +2528,106 @@
         "link": "Web Hosting",
         "relativePath": "Extras/Excalidraw/Front-end.excalidraw.md",
         "displayText": "What is Hosing"
+      }
+    ]
+  },
+  {
+    "fileName": "WWW",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+    "tags": [
+      "source/internet",
+      "source/internet/www"
+    ],
+    "frontmatter": {
+      "title": "WWW",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 102
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "工作原理",
+        "level": 2
+      },
+      {
+        "heading": "核心标准",
+        "level": 2
+      },
+      {
+        "heading": "Web 缓存",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "INTERNET",
+        "displayText": "互联网",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "link": "WWW",
+        "displayText": "万维网",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
+      },
+      {
+        "link": "HTTP",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTTP",
+        "displayText": "HTTPS",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "URL",
+        "displayText": "统一资源标识符",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
+      },
+      {
+        "link": "HTTP",
+        "displayText": "超文本传送协议",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
+      },
+      {
+        "link": "HTML",
+        "displayText": "超文本标记语言",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Charles | 抓包工具",
+        "link": "WWW#^6f5c8c",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
+        "cleanLink": "WWW",
+        "displayText": "缓存"
+      },
+      {
+        "fileName": "INTERNET",
+        "link": "WWW",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "fileName": "INTERNET",
+        "link": "WWW",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
+      },
+      {
+        "fileName": "HTTP",
+        "link": "WWW",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
+        "displayText": "万维网"
       }
     ]
   },
@@ -1939,16 +2912,16 @@
     ]
   },
   {
-    "fileName": "WWW",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md",
+    "fileName": "IP",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
     "tags": [
       "source/internet",
-      "source/internet/www"
+      "source/internet/ip"
     ],
     "frontmatter": {
-      "title": "WWW",
+      "title": "IP",
       "date": "2022-01-24 14:41",
-      "status": "done",
+      "status": "todo",
       "position": {
         "start": {
           "line": 0,
@@ -1958,83 +2931,22 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 102
+          "offset": 100
         }
       }
     },
-    "headings": [
-      {
-        "heading": "工作原理",
-        "level": 2
-      },
-      {
-        "heading": "核心标准",
-        "level": 2
-      },
-      {
-        "heading": "Web 缓存",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "INTERNET",
-        "displayText": "互联网",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
-      },
-      {
-        "link": "WWW",
-        "displayText": "万维网",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/WWW.md"
-      },
-      {
-        "link": "HTTP",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
-      },
-      {
-        "link": "HTTP",
-        "displayText": "HTTPS",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
-      },
-      {
-        "link": "URL",
-        "displayText": "统一资源标识符",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/URL.md"
-      },
-      {
-        "link": "HTTP",
-        "displayText": "超文本传送协议",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md"
-      },
-      {
-        "link": "HTML",
-        "displayText": "超文本标记语言",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md"
-      }
-    ],
     "backlinks": [
       {
-        "fileName": "Charles | 抓包工具",
-        "link": "WWW#^6f5c8c",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Test Tool｜测试/Charles | 抓包工具.md",
-        "cleanLink": "WWW",
-        "displayText": "缓存"
+        "fileName": "DNS",
+        "link": "IP",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
+        "displayText": "互联网协议"
       },
       {
-        "fileName": "INTERNET",
-        "link": "WWW",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
-      },
-      {
-        "fileName": "INTERNET",
-        "link": "WWW",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/INTERNET.md"
-      },
-      {
-        "fileName": "HTTP",
-        "link": "WWW",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/HTTP.md",
-        "displayText": "万维网"
+        "fileName": "ARPANET",
+        "link": "IP",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
+        "displayText": "互联网协议"
       }
     ]
   },
@@ -2283,45 +3195,6 @@
         "link": "TCP",
         "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
         "displayText": "传送控制协议"
-      }
-    ]
-  },
-  {
-    "fileName": "IP",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/IP.md",
-    "tags": [
-      "source/internet",
-      "source/internet/ip"
-    ],
-    "frontmatter": {
-      "title": "IP",
-      "date": "2022-01-24 14:41",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 100
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "DNS",
-        "link": "IP",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/DNS.md",
-        "displayText": "互联网协议"
-      },
-      {
-        "fileName": "ARPANET",
-        "link": "IP",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Internet｜网络/ARPANET.md",
-        "displayText": "互联网协议"
       }
     ]
   },
@@ -2805,6 +3678,221 @@
     ]
   },
   {
+    "fileName": "CSS解决方案",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
+    "frontmatter": {
+      "title": "CSS解决方案",
+      "creation date": "2022-05-18 08:50",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 77
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "前端组件库设计",
+        "link": "CSS解决方案",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
+        "displayText": "SCSS 和 LESS 相比有什么优势"
+      }
+    ]
+  },
+  {
+    "fileName": "前端部署",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/前端部署.md",
+    "tags": [
+      "source/deploy/webpack",
+      "source/deploy",
+      "source/package/fronten"
+    ],
+    "frontmatter": {
+      "title": "前端部署",
+      "creation date": "2022-05-23 10:04",
+      "status": "ondo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 136
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "一个简单的页面",
+        "level": 2
+      },
+      {
+        "heading": "利用缓存",
+        "level": 2
+      },
+      {
+        "heading": "协商缓存",
+        "level": 3
+      },
+      {
+        "heading": "强缓存",
+        "level": 3
+      },
+      {
+        "heading": "附录：协商缓存和强缓存详解",
+        "level": 3
+      },
+      {
+        "heading": "缓存更新问题",
+        "level": 2
+      },
+      {
+        "heading": "覆盖式发布引发的问题",
+        "level": 2
+      },
+      {
+        "heading": "与 CDN 结合",
+        "level": 2
+      },
+      {
+        "heading": "静态资源组织总结",
+        "level": 2
+      },
+      {
+        "heading": "静态资源的加工",
+        "level": 2
+      },
+      {
+        "heading": "Pre 环境、灰度上线的常见实现",
+        "level": 2
+      },
+      {
+        "heading": "方案一 Nginx 层动态转发",
+        "level": 3
+      },
+      {
+        "heading": "方案二 动态配置 + 服务端转发",
+        "level": 3
+      },
+      {
+        "heading": "前端发布服务实现与设计",
+        "level": 2
+      },
+      {
+        "heading": "静态资源组织部分",
+        "level": 2
+      },
+      {
+        "heading": "自动化部署部分",
+        "level": 2
+      },
+      {
+        "heading": "前端部署 & 静态资源加工",
+        "level": 2
+      },
+      {
+        "heading": "前端发布服务",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "rollup.js",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/Package | 前端打包部署/rollup.js.md",
+    "tags": [
+      "source/deploy/rollupjs",
+      "source/package/fronten"
+    ],
+    "frontmatter": {
+      "title": "rollup.js",
+      "creation date": "2022-05-24 09:20:20",
+      "status": "done",
+      "tag": [
+        "source/deploy/rollupjs",
+        "source/package/fronten"
+      ],
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 128
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "一、简介",
+        "level": 2
+      },
+      {
+        "heading": "二、安装",
+        "level": 2
+      },
+      {
+        "heading": "三、示例",
+        "level": 2
+      },
+      {
+        "heading": "四、使用注意点",
+        "level": 2
+      },
+      {
+        "heading": "五、转成 CommonJS 模块",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "HTML-Semantic",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
+    "tags": [
+      "source/html",
+      "source/html/semantic"
+    ],
+    "frontmatter": {
+      "title": "HTML-Semantic",
+      "date": "2022-01-24 14:41",
+      "status": "done",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 109
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "什么是语义元素？",
+        "level": 1
+      },
+      {
+        "heading": "HTML 中的语义元素",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "HTML",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
     "tags": [
@@ -3086,14 +4174,14 @@
     ]
   },
   {
-    "fileName": "HTML-Semantic",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-Semantic.md",
+    "fileName": "HTML-HEAD",
+    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
     "tags": [
       "source/html",
-      "source/html/semantic"
+      "source/html/tag"
     ],
     "frontmatter": {
-      "title": "HTML-Semantic",
+      "title": "HTML-HEAD",
       "date": "2022-01-24 14:41",
       "status": "done",
       "position": {
@@ -3105,18 +4193,126 @@
         "end": {
           "line": 7,
           "col": 3,
-          "offset": 109
+          "offset": 100
         }
       }
     },
     "headings": [
       {
-        "heading": "什么是语义元素？",
+        "heading": "🤯 HEAD",
         "level": 1
       },
       {
-        "heading": "HTML 中的语义元素",
-        "level": 1
+        "heading": "最小推荐",
+        "level": 2
+      },
+      {
+        "heading": "网页元素",
+        "level": 2
+      },
+      {
+        "heading": "Meta 标签",
+        "level": 2
+      },
+      {
+        "heading": "链接",
+        "level": 2
+      },
+      {
+        "heading": "网站图标",
+        "level": 2
+      },
+      {
+        "heading": "社交",
+        "level": 2
+      },
+      {
+        "heading": "Facebook Open Graph",
+        "level": 3
+      },
+      {
+        "heading": "Twitter Card",
+        "level": 3
+      },
+      {
+        "heading": "Twitter Privacy",
+        "level": 3
+      },
+      {
+        "heading": "Schema.org",
+        "level": 3
+      },
+      {
+        "heading": "Pinterest",
+        "level": 3
+      },
+      {
+        "heading": "Facebook Instant Articles",
+        "level": 3
+      },
+      {
+        "heading": "OEmbed",
+        "level": 3
+      },
+      {
+        "heading": "QQ/微信",
+        "level": 3
+      },
+      {
+        "heading": "浏览器 / 平台",
+        "level": 2
+      },
+      {
+        "heading": "Apple iOS",
+        "level": 3
+      },
+      {
+        "heading": "Google Android",
+        "level": 3
+      },
+      {
+        "heading": "Google Chrome",
+        "level": 3
+      },
+      {
+        "heading": "Microsoft Internet Explorer",
+        "level": 3
+      },
+      {
+        "heading": "国内的浏览器",
+        "level": 2
+      },
+      {
+        "heading": "360 浏览器",
+        "level": 3
+      },
+      {
+        "heading": "QQ 移动浏览器",
+        "level": 3
+      },
+      {
+        "heading": "UC 移动浏览器",
+        "level": 3
+      },
+      {
+        "heading": "应用链接",
+        "level": 2
+      },
+      {
+        "heading": "其他资源",
+        "level": 2
+      },
+      {
+        "heading": "相关项目",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "HTML",
+        "link": "HTML-HEAD",
+        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
+        "displayText": "HEAD列表"
       }
     ]
   },
@@ -3567,178 +4763,6 @@
     ]
   },
   {
-    "fileName": "HTML-HEAD",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML-HEAD.md",
-    "tags": [
-      "source/html",
-      "source/html/tag"
-    ],
-    "frontmatter": {
-      "title": "HTML-HEAD",
-      "date": "2022-01-24 14:41",
-      "status": "done",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 100
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "🤯 HEAD",
-        "level": 1
-      },
-      {
-        "heading": "最小推荐",
-        "level": 2
-      },
-      {
-        "heading": "网页元素",
-        "level": 2
-      },
-      {
-        "heading": "Meta 标签",
-        "level": 2
-      },
-      {
-        "heading": "链接",
-        "level": 2
-      },
-      {
-        "heading": "网站图标",
-        "level": 2
-      },
-      {
-        "heading": "社交",
-        "level": 2
-      },
-      {
-        "heading": "Facebook Open Graph",
-        "level": 3
-      },
-      {
-        "heading": "Twitter Card",
-        "level": 3
-      },
-      {
-        "heading": "Twitter Privacy",
-        "level": 3
-      },
-      {
-        "heading": "Schema.org",
-        "level": 3
-      },
-      {
-        "heading": "Pinterest",
-        "level": 3
-      },
-      {
-        "heading": "Facebook Instant Articles",
-        "level": 3
-      },
-      {
-        "heading": "OEmbed",
-        "level": 3
-      },
-      {
-        "heading": "QQ/微信",
-        "level": 3
-      },
-      {
-        "heading": "浏览器 / 平台",
-        "level": 2
-      },
-      {
-        "heading": "Apple iOS",
-        "level": 3
-      },
-      {
-        "heading": "Google Android",
-        "level": 3
-      },
-      {
-        "heading": "Google Chrome",
-        "level": 3
-      },
-      {
-        "heading": "Microsoft Internet Explorer",
-        "level": 3
-      },
-      {
-        "heading": "国内的浏览器",
-        "level": 2
-      },
-      {
-        "heading": "360 浏览器",
-        "level": 3
-      },
-      {
-        "heading": "QQ 移动浏览器",
-        "level": 3
-      },
-      {
-        "heading": "UC 移动浏览器",
-        "level": 3
-      },
-      {
-        "heading": "应用链接",
-        "level": 2
-      },
-      {
-        "heading": "其他资源",
-        "level": 2
-      },
-      {
-        "heading": "相关项目",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "HTML",
-        "link": "HTML-HEAD",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/HTML | 超文本标记语言/HTML.md",
-        "displayText": "HEAD列表"
-      }
-    ]
-  },
-  {
-    "fileName": "CSS解决方案",
-    "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/CSS解决方案.md",
-    "frontmatter": {
-      "title": "CSS解决方案",
-      "creation date": "2022-05-18 08:50",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 77
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "前端组件库设计",
-        "link": "CSS解决方案",
-        "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/前端组件库设计.md",
-        "displayText": "SCSS 和 LESS 相比有什么优势"
-      }
-    ]
-  },
-  {
     "fileName": "AppleScript",
     "relativePath": "Sources/Knowledges/📲 Front Dev｜前端开发/AppleScript | Apple 脚本语言/AppleScript.md",
     "tags": [
@@ -3773,15 +4797,14 @@
     ]
   },
   {
-    "fileName": "数组",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/数组.md",
+    "fileName": "+ Index for Sources",
+    "relativePath": "Sources/+ Index for Sources.md",
     "tags": [
-      "source/datastructrue/array"
+      "x/index"
     ],
     "frontmatter": {
-      "title": "数组",
-      "creation date": "2022-03-01 09:26",
-      "status": "todo",
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -3789,843 +4812,22 @@
           "offset": 0
         },
         "end": {
-          "line": 6,
+          "line": 5,
           "col": 3,
-          "offset": 98
+          "offset": 67
         }
       }
     },
     "headings": [
       {
-        "heading": "线性表与非线性表",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "哈希表",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/算法之美课程/哈希表.md",
-    "tags": [
-      "source/datastructrue/hashtable"
-    ],
-    "frontmatter": {
-      "title": "哈希表(散列表)",
-      "creation date": "2022-07-01 11:49",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 108
-        }
-      }
-    }
-  },
-  {
-    "fileName": "09-高可用架构",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "高可用架构",
-      "creation date": "2022-07-13 09:22",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 87
-        }
-      }
-    }
-  },
-  {
-    "fileName": "08-主从复制和主主复制",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/08-主从复制和主主复制.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "主从复制和主主复制",
-      "creation date": "2022-07-13 09:13",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 91
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "主从复制的目的",
-        "level": 2
-      },
-      {
-        "heading": "MySQL主从复制的架构模式",
-        "level": 2
-      },
-      {
-        "heading": "部署星型模型的主从复制",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "07-备份与恢复",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/07-备份与恢复.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "备份与恢复",
-      "creation date": "2022-07-13 09:07",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 87
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "基本的术语",
-        "level": 2
-      },
-      {
-        "heading": "操作实例",
-        "level": 2
-      },
-      {
-        "heading": "备份指定数据库 demo1",
-        "level": 3
-      },
-      {
-        "heading": "备份指定数据库demo下指定的表",
-        "level": 3
-      },
-      {
-        "heading": "可传输的表空间",
-        "level": 2
-      },
-      {
-        "heading": "闪回技术（flashback）",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "06-事务与锁",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/06-事务与锁.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "事务与锁",
-      "creation date": "2022-07-13 09:04",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 86
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "MySQL的事务",
-        "level": 2
-      },
-      {
-        "heading": "事务的特征",
-        "level": 3
-      },
-      {
-        "heading": "控制事务",
-        "level": 3
-      },
-      {
-        "heading": "事务的并发：隔离级别",
-        "level": 3
-      },
-      {
-        "heading": "锁机制",
-        "level": 2
-      },
-      {
-        "heading": "行锁",
-        "level": 3
-      },
-      {
-        "heading": "表锁",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "05-应用程序开发",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/05-应用程序开发.md",
-    "tags": [
-      "source/mysql/programdev"
-    ],
-    "frontmatter": {
-      "title": "应用程序开发",
-      "creation date": "2022-07-12 14:09",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 99
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "存储过程 procedure",
-        "level": 2
-      },
-      {
-        "heading": "存储函数 function",
-        "level": 2
-      },
-      {
-        "heading": "触发器 trigger",
-        "level": 2
-      },
-      {
-        "heading": "实现安全性的检查",
-        "level": 3
-      },
-      {
-        "heading": "进行数据的确认",
-        "level": 3
-      },
-      {
-        "heading": "实现审计的功能",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "04-数据库对象",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/04-数据库对象.md",
-    "tags": [
-      "source/mysql/dataobject"
-    ],
-    "frontmatter": {
-      "title": "数据库对象",
-      "creation date": "2022-07-12 12:40",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 98
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "表",
-        "level": 2
-      },
-      {
-        "heading": "数据类型",
-        "level": 3
-      },
-      {
-        "heading": "表的基本操作",
-        "level": 3
-      },
-      {
-        "heading": "约束",
-        "level": 3
-      },
-      {
-        "heading": "主键",
-        "level": 3
-      },
-      {
-        "heading": "外键",
-        "level": 3
-      },
-      {
-        "heading": "表的碎片",
-        "level": 3
-      },
-      {
-        "heading": "临时表",
-        "level": 3
-      },
-      {
-        "heading": "统计信息 statistics",
-        "level": 3
-      },
-      {
-        "heading": "视图",
-        "level": 2
-      },
-      {
-        "heading": "索引",
-        "level": 2
-      },
-      {
-        "heading": "事件Event",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "03-用户管理与访问控制",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/03-用户管理与访问控制.md",
-    "tags": [
-      "source/mysql",
-      "source/mysql/permission"
-    ],
-    "frontmatter": {
-      "title": "用户管理与访问控制",
-      "creation date": "2022-07-12 11:09",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 117
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "用户的管理",
-        "level": 2
-      },
-      {
-        "heading": "创建和管理用户",
-        "level": 3
-      },
-      {
-        "heading": "管理用户的密码",
-        "level": 3
-      },
-      {
-        "heading": "权限的管理",
-        "level": 2
-      },
-      {
-        "heading": "MySQL的权限的系统",
-        "level": 3
-      },
-      {
-        "heading": "grant和revoke",
-        "level": 3
-      },
-      {
-        "heading": "权限的生效机制",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "02-InnoDB存储引擎",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/02-InnoDB存储引擎.md",
-    "tags": [
-      "source/mysql/innodb",
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "InnoDB存储引擎",
-      "creation date": "2022-07-10 20:30",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 114
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "InnoDB存储引擎",
+        "heading": "<-[[[[+ Index for index notes|Index for index notes]] | Index for Sources",
         "level": 1
-      },
-      {
-        "heading": "存储结构",
-        "level": 2
-      },
-      {
-        "heading": "物理存储结构：硬盘上的文件",
-        "level": 3
-      },
-      {
-        "heading": "数据文件",
-        "level": 4
-      },
-      {
-        "heading": "重做日志文件",
-        "level": 4
-      },
-      {
-        "heading": "撤销日志文件",
-        "level": 4
-      },
-      {
-        "heading": "参数文件",
-        "level": 4
-      },
-      {
-        "heading": "错误日志文件",
-        "level": 4
-      },
-      {
-        "heading": "binlog二进制日志文件",
-        "level": 4
-      },
-      {
-        "heading": "慢查询日志",
-        "level": 4
-      },
-      {
-        "heading": "全量日志general log",
-        "level": 4
-      },
-      {
-        "heading": "逻辑存储结构",
-        "level": 3
-      },
-      {
-        "heading": "内存结构",
-        "level": 2
-      },
-      {
-        "heading": "SGA",
-        "level": 3
-      },
-      {
-        "heading": "PGA：process global area 进程的全局区，对应的是客户端的连接",
-        "level": 3
-      },
-      {
-        "heading": "检查点的类型",
-        "level": 3
-      },
-      {
-        "heading": "完全检查点",
-        "level": 4
-      },
-      {
-        "heading": "模糊检查点",
-        "level": 4
-      },
-      {
-        "heading": "进程结构 (线程结构)",
-        "level": 2
-      },
-      {
-        "heading": "主线程",
-        "level": 3
-      },
-      {
-        "heading": "IO线程",
-        "level": 3
-      },
-      {
-        "heading": "其他线程",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "01-MySQL数据库基础",
-    "relativePath": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
-    "tags": [
-      "source/mysql"
-    ],
-    "frontmatter": {
-      "title": "MySQL数据库基础",
-      "creation date": "2022-07-10 15:37",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 92
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "虚拟机使用说明",
-        "level": 2
-      },
-      {
-        "heading": "MySQL数据库基础",
-        "level": 1
-      },
-      {
-        "heading": "MySQL简介和分支（NoSQL数据库）",
-        "level": 2
-      },
-      {
-        "heading": "关系型数据库",
-        "level": 3
-      },
-      {
-        "heading": "属性",
-        "level": 4
-      },
-      {
-        "heading": "特点",
-        "level": 4
-      },
-      {
-        "heading": "NoSQL数据库：not only SQL",
-        "level": 3
-      },
-      {
-        "heading": "MySQL分支",
-        "level": 3
-      },
-      {
-        "heading": "安装和配置MySQL数据库",
-        "level": 2
-      },
-      {
-        "heading": "MySQL的配置文件搜索过程: my.cnf",
-        "level": 3
-      },
-      {
-        "heading": "my.cnf 配置参数",
-        "level": 3
-      },
-      {
-        "heading": "客户端的连接方式",
-        "level": 2
-      },
-      {
-        "heading": "本地连接",
-        "level": 3
-      },
-      {
-        "heading": "远程连接",
-        "level": 3
-      },
-      {
-        "heading": "安全连接",
-        "level": 3
-      },
-      {
-        "heading": "MySQL数据库的体系架构（服务器端）",
-        "level": 2
-      },
-      {
-        "heading": "Server层",
-        "level": 3
-      },
-      {
-        "heading": "Connectors",
-        "level": 4
-      },
-      {
-        "heading": "存储引擎",
-        "level": 3
-      },
-      {
-        "heading": "InnoDB",
-        "level": 4
-      },
-      {
-        "heading": "MyISAM",
-        "level": 4
-      },
-      {
-        "heading": "Memory",
-        "level": 4
-      },
-      {
-        "heading": "多实例环境（数据库、数据库实例）",
-        "level": 2
-      },
-      {
-        "heading": "数据库和数据库实例",
-        "level": 3
-      },
-      {
-        "heading": "数据库",
-        "level": 4
-      },
-      {
-        "heading": "数据库实例",
-        "level": 4
-      },
-      {
-        "heading": "使用mysqld_multi工具",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "git hooks",
-    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/git hooks.md",
-    "tags": [
-      "source/git/hooks"
-    ],
-    "frontmatter": {
-      "title": "git hooks",
-      "creation date": "2022-03-01 09:26",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 95
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Git commit message",
-    "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
-    "tags": [
-      "source/git",
-      "source/git/commit"
-    ],
-    "frontmatter": {
-      "title": "Git commit message",
-      "creation date": "2022-07-18 17:09:53",
-      "status": "todo",
-      "tag": [
-        "source/git",
-        "source/git/commit"
-      ],
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 120
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "\"type\" must be one of the following mentioned below!",
-        "level": 2
-      },
-      {
-        "heading": "\"scope\" is optional",
-        "level": 2
-      },
-      {
-        "heading": "\"subject\"",
-        "level": 2
-      },
-      {
-        "heading": "[](#references)References:",
-        "level": 4
       }
     ],
     "links": [
       {
-        "link": "#references",
-        "relativePath": "Sources/Knowledges/🐻‍❄️  Git Dev | 分支管理/Git commit message.md",
-        "cleanLink": "Git commit message",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "Mermaid",
-    "relativePath": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
-    "tags": [
-      "source/markdown/mermaid"
-    ],
-    "frontmatter": {
-      "title": "Mermaid",
-      "creation date": "2022-03-21 21:36",
-      "status": "done",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 100
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Mermaid Markdown",
-        "level": 1
-      },
-      {
-        "heading": "概述",
-        "level": 2
-      },
-      {
-        "heading": "什么是 Mermaid？",
-        "level": 3
-      },
-      {
-        "heading": "怎么使用 Mermaid？",
-        "level": 3
-      },
-      {
-        "heading": "Mermaid 能绘制哪些图？",
-        "level": 3
-      },
-      {
-        "heading": "实例",
-        "level": 3
-      },
-      {
-        "heading": "饼状图",
-        "level": 2
-      },
-      {
-        "heading": "语法——仅供参考，建议直接看实例",
-        "level": 3
-      },
-      {
-        "heading": "实例",
-        "level": 3
-      },
-      {
-        "heading": "流程图",
-        "level": 2
-      },
-      {
-        "heading": "实例",
-        "level": 3
-      },
-      {
-        "heading": "方向",
-        "level": 3
-      },
-      {
-        "heading": "结点",
-        "level": 3
-      },
-      {
-        "heading": "连线样式",
-        "level": 3
-      },
-      {
-        "heading": "实线箭头",
-        "level": 4
-      },
-      {
-        "heading": "粗实线箭头",
-        "level": 4
-      },
-      {
-        "heading": "虚线箭头",
-        "level": 4
-      },
-      {
-        "heading": "无箭头线",
-        "level": 4
-      },
-      {
-        "heading": "其他连线",
-        "level": 4
-      },
-      {
-        "heading": "延长连线",
-        "level": 4
-      },
-      {
-        "heading": "连线形式",
-        "level": 3
-      },
-      {
-        "heading": "直链",
-        "level": 4
-      },
-      {
-        "heading": "多重链",
-        "level": 4
-      },
-      {
-        "heading": "其他",
-        "level": 3
-      },
-      {
-        "heading": "子图",
-        "level": 4
-      },
-      {
-        "heading": "注释",
-        "level": 4
+        "link": "[+ Index for index notes",
+        "displayText": "Index for index notes"
       }
     ]
   },
@@ -4767,41 +4969,6 @@
     ]
   },
   {
-    "fileName": "+ Index for Sources",
-    "relativePath": "Sources/+ Index for Sources.md",
-    "tags": [
-      "x/index"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 67
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[[[+ Index for index notes|Index for index notes]] | Index for Sources",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "[+ Index for index notes",
-        "displayText": "Index for index notes"
-      }
-    ]
-  },
-  {
     "fileName": "+ About Sources",
     "relativePath": "Sources/+ About Sources.md",
     "tags": [
@@ -4847,18 +5014,16 @@
     ]
   },
   {
-    "fileName": "Home",
-    "relativePath": "Home.md",
+    "fileName": "Template, Book-Note",
+    "relativePath": "Extras/Templates/Template, Book-Note.md",
+    "tags": [
+      "book/booktype",
+      "book/bookgenre",
+      "book/booktheme"
+    ],
     "frontmatter": {
-      "title": "Learning Note OverView",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "tags": null,
-      "banner": "![[宁静.JPG]]",
-      "banner_x": 0.5,
-      "banner_y": 0.85,
-      "banner_lock": true,
-      "obsidianUIMode": "preview",
+      "started on": "<% tp.file.creation_date() %>",
+      "completed on": null,
       "position": {
         "start": {
           "line": 0,
@@ -4868,179 +5033,14 @@
         "end": {
           "line": 10,
           "col": 3,
-          "offset": 188
+          "offset": 185
         }
       }
-    },
-    "headings": [
-      {
-        "heading": "🗂 PERSONAL OBJECT",
-        "level": 1
-      },
-      {
-        "heading": "〽️ STATS",
-        "level": 1
-      },
-      {
-        "heading": "Atlas 🗺",
-        "level": 1
-      },
-      {
-        "heading": "📝 DAILY NOTE",
-        "level": 1
-      },
-      {
-        "heading": "📑 WAITING LIST",
-        "level": 1
-      },
-      {
-        "heading": "📝 DOING LIST",
-        "level": 1
-      },
-      {
-        "heading": "📨 REVIEW LIST",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Notebox 🗃",
-        "displayText": "LEARN NOTE",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
-      },
-      {
-        "link": "+ Index for Calendar",
-        "displayText": "DAILY",
-        "relativePath": "Calendar/+ Index for Calendar.md"
-      },
-      {
-        "link": "Cooling pad 🧊",
-        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
-      },
-      {
-        "link": "Notebox 🗃",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
-      },
-      {
-        "link": "Ideas ✨",
-        "relativePath": "Atlas/Scopes/Ideas ✨.md"
-      },
-      {
-        "link": "Essays 🖌",
-        "relativePath": "Atlas/Logs/Essays 🖌.md"
-      },
-      {
-        "link": "Artifacts 💠"
-      },
-      {
-        "link": "+ Library",
-        "displayText": "Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "My PKM MOC",
-        "relativePath": "Atlas/MOCs/My PKM MOC.md"
-      },
-      {
-        "link": "Concepts MOC",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "link": "Sources MOC",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "LYT Space 🔆 (Kit)",
-        "link": "Home",
-        "relativePath": "Spaces/Work/• MOCs/LYT Space 🔆 (Kit).md"
-      },
-      {
-        "fileName": "Life Space™ (Kit)",
-        "link": "Home",
-        "relativePath": "Spaces/Life/• MOCs/Life Space™ (Kit).md"
-      },
-      {
-        "fileName": "Notebox 🗃",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
-      },
-      {
-        "fileName": "Ideas ✨",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Ideas ✨.md"
-      },
-      {
-        "fileName": "Cooling pad 🧊",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/Cooling pad 🧊.md"
-      },
-      {
-        "fileName": "+ Index for index notes",
-        "link": "Home",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      },
-      {
-        "fileName": "Thinking",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      },
-      {
-        "fileName": "Sources MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
-      },
-      {
-        "fileName": "My PKM MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/My PKM MOC.md"
-      },
-      {
-        "fileName": "Concepts MOC",
-        "link": "Home",
-        "relativePath": "Atlas/MOCs/Concepts MOC.md"
-      },
-      {
-        "fileName": "Essays 🖌",
-        "link": "Home",
-        "relativePath": "Atlas/Logs/Essays 🖌.md"
-      },
-      {
-        "fileName": "+ Library",
-        "link": "Home",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
+    }
   },
   {
     "fileName": "Template, Weekily-Note",
     "relativePath": "Extras/Templates/Template, Weekily-Note.md"
-  },
-  {
-    "fileName": "Template, Mind-Note",
-    "relativePath": "Extras/Templates/Template, Mind-Note.md",
-    "tags": [
-      "<%tp.file.cursor(1)%>"
-    ],
-    "frontmatter": {
-      "created": "X-Mind",
-      "title": "<% tp.file.title %>",
-      "creation date": "<% tp.file.creation_date() %>",
-      "status": "todo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 137
-        }
-      }
-    }
   },
   {
     "fileName": "Template, Meeting in Daily Note 👥 (Kit)",
@@ -5096,6 +5096,31 @@
     }
   },
   {
+    "fileName": "Template, Mind-Note",
+    "relativePath": "Extras/Templates/Template, Mind-Note.md",
+    "tags": [
+      "<%tp.file.cursor(1)%>"
+    ],
+    "frontmatter": {
+      "created": "X-Mind",
+      "title": "<% tp.file.title %>",
+      "creation date": "<% tp.file.creation_date() %>",
+      "status": "todo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 137
+        }
+      }
+    }
+  },
+  {
     "fileName": "Template, Daily-Note",
     "relativePath": "Extras/Templates/Template, Daily-Note.md",
     "headings": [
@@ -5139,31 +5164,6 @@
         "relativePath": "Calendar/+ Index for Calendar.md"
       }
     ]
-  },
-  {
-    "fileName": "Template, Book-Note",
-    "relativePath": "Extras/Templates/Template, Book-Note.md",
-    "tags": [
-      "book/booktype",
-      "book/bookgenre",
-      "book/booktheme"
-    ],
-    "frontmatter": {
-      "started on": "<% tp.file.creation_date() %>",
-      "completed on": null,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 10,
-          "col": 3,
-          "offset": 185
-        }
-      }
-    }
   },
   {
     "fileName": "Script.CreateReadingNote",
@@ -5353,116 +5353,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "+ Index for People",
-    "relativePath": "Cards/People/+ Index for People.md",
-    "tags": [
-      "x/index"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 67
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for People",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for index notes",
-        "displayText": "Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Index for Cards",
-    "relativePath": "Cards/+ Index for Cards.md",
-    "tags": [
-      "x/index"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 67
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for Cards",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Index for index notes",
-        "displayText": "Index for index notes",
-        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
-      }
-    ]
-  },
-  {
-    "fileName": "+ About Cards",
-    "relativePath": "Cards/+ About Cards.md",
-    "tags": [
-      "x/readme"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 69
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[My PKM MOC | My PKM MOC]]",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "My PKM MOC",
-        "relativePath": "Atlas/MOCs/My PKM MOC.md"
-      },
-      {
-        "link": "Information that crosses our attentional filter becomes knowledge"
-      }
-    ]
   },
   {
     "fileName": "2022-07-07",
@@ -5984,407 +5874,6 @@
     ]
   },
   {
-    "fileName": "JS Notes Hub",
-    "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
-    "frontmatter": {
-      "title": "JS Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[color.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 128
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Notebox 🗃",
-        "displayText": "⛵️ Learning Notes Hub",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
-      },
-      {
-        "link": "D.S. Notes Hub",
-        "displayText": "Data Structure Notes Hub",
-        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "D.S. Notes Hub",
-        "link": "JS Notes Hub",
-        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
-        "displayText": "JS Notes"
-      },
-      {
-        "fileName": "Notebox 🗃",
-        "link": "JS Notes Hub",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md",
-        "displayText": "JS Learning"
-      }
-    ]
-  },
-  {
-    "fileName": "D.S. Notes Hub",
-    "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
-    "frontmatter": {
-      "title": "DataStructure Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[color.jpg]]",
-      "banner_y": 0.5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 153
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Notebox 🗃",
-        "displayText": "⛵️ Learning Notes Hub",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
-      },
-      {
-        "link": "JS Notes Hub",
-        "displayText": "JS Notes",
-        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "JS Notes Hub",
-        "link": "D.S. Notes Hub",
-        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
-        "displayText": "Data Structure Notes Hub"
-      },
-      {
-        "fileName": "Notebox 🗃",
-        "link": "D.S. Notes Hub",
-        "relativePath": "Atlas/Scopes/Notebox 🗃.md",
-        "displayText": "Data Structure Notes Hub"
-      }
-    ]
-  },
-  {
-    "fileName": "Notebox 🗃",
-    "relativePath": "Atlas/Scopes/Notebox 🗃.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "frontmatter": {
-      "title": "Learninng Notes Hub",
-      "creation date": "2022-03-01 21:51",
-      "cssclass": "homePage",
-      "obsidianUIMode": "preview",
-      "banner": "![[cube.jpg]]",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 8,
-          "col": 3,
-          "offset": 157
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "📆 This Week Updates",
-        "level": 1
-      },
-      {
-        "heading": "🗞 Archive List",
-        "level": 1
-      },
-      {
-        "heading": "2022",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      },
-      {
-        "link": "JS Notes Hub",
-        "displayText": "JS Learning",
-        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md"
-      },
-      {
-        "link": "D.S. Notes Hub",
-        "displayText": "Data Structure Notes Hub",
-        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Notebox 🗃",
-        "relativePath": "Home.md",
-        "displayText": "LEARN NOTE"
-      },
-      {
-        "fileName": "Home",
-        "link": "Notebox 🗃",
-        "relativePath": "Home.md"
-      },
-      {
-        "fileName": "JS Notes Hub",
-        "link": "Notebox 🗃",
-        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
-        "displayText": "⛵️ Learning Notes Hub"
-      },
-      {
-        "fileName": "D.S. Notes Hub",
-        "link": "Notebox 🗃",
-        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
-        "displayText": "⛵️ Learning Notes Hub"
-      },
-      {
-        "fileName": "Thinking",
-        "link": "Notebox 🗃",
-        "relativePath": "Atlas/MOCs/Thinking.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Ideas ✨",
-    "relativePath": "Atlas/Scopes/Ideas ✨.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 73
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[Home]] | Ideas ✨",
-        "level": 1
-      },
-      {
-        "heading": "Decide on your idea sparks ✨",
-        "level": 2
-      },
-      {
-        "heading": "Advanced scope",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Ideas ✨",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Cooling pad 🧊",
-    "relativePath": "Atlas/Scopes/Cooling pad 🧊.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 74
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[Home]] | Cooling pad 🧊",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Home",
-        "link": "Cooling pad 🧊",
-        "relativePath": "Home.md"
-      }
-    ]
-  },
-  {
-    "fileName": "+ Index for index notes",
-    "relativePath": "Atlas/Scopes/+ Index for index notes.md",
-    "tags": [
-      "x/index"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 68
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[Home]] | + Index for index notes",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Home",
-        "relativePath": "Home.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Index for People",
-        "link": "+ Index for index notes",
-        "relativePath": "Cards/People/+ Index for People.md",
-        "displayText": "Index for index notes"
-      },
-      {
-        "fileName": "+ Index for Cards",
-        "link": "+ Index for index notes",
-        "relativePath": "Cards/+ Index for Cards.md",
-        "displayText": "Index for index notes"
-      },
-      {
-        "fileName": "+ Index for Atlases",
-        "link": "+ Index for index notes",
-        "relativePath": "Atlas/+ Index for Atlases.md",
-        "displayText": "Index for index notes"
-      }
-    ]
-  },
-  {
-    "fileName": "Bookshelf 📚",
-    "relativePath": "Atlas/Scopes/Bookshelf 📚.md",
-    "tags": [
-      "atlas/scope🔬"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 74
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[Sources MOC]] | Bookshelf 📚",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "Sources MOC",
-        "relativePath": "Atlas/MOCs/Sources MOC.md"
-      },
-      {
-        "link": "Books I've Read MOC"
-      },
-      {
-        "link": "Books Purgatory List"
-      }
-    ]
-  },
-  {
     "fileName": "Thinking",
     "relativePath": "Atlas/MOCs/Thinking.md",
     "tags": [
@@ -6553,13 +6042,15 @@
     ]
   },
   {
-    "fileName": "My PKM MOC",
-    "relativePath": "Atlas/MOCs/My PKM MOC.md",
+    "fileName": "Language MOC",
+    "relativePath": "Atlas/MOCs/Library/Language MOC.md",
     "tags": [
       "atlas/moc🗺",
-      "x/meta"
+      "on/language"
     ],
     "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
       "position": {
         "start": {
           "line": 0,
@@ -6567,57 +6058,44 @@
           "offset": 0
         },
         "end": {
-          "line": 4,
+          "line": 6,
           "col": 3,
-          "offset": 38
+          "offset": 86
         }
       }
     },
     "headings": [
       {
-        "heading": "<-[[Home]] | PKM MOC",
+        "heading": "<-[[+ Library|Library]] | Language MOC",
         "level": 1
-      },
-      {
-        "heading": "Unrequited Links",
-        "level": 2
       }
     ],
     "links": [
       {
-        "link": "Home",
-        "relativePath": "Home.md"
+        "link": "+ Library",
+        "displayText": "Library",
+        "relativePath": "Atlas/+ Library.md"
+      },
+      {
+        "link": "Words MOC"
+      },
+      {
+        "link": "English Language MOC"
+      },
+      {
+        "link": "Chinese Language MOC"
+      },
+      {
+        "link": "French Language MOC"
+      },
+      {
+        "link": "Latin Language MOC"
       }
     ],
     "backlinks": [
       {
-        "fileName": "+ About Encounters",
-        "link": "My PKM MOC",
-        "relativePath": "• Encounters/+ About Encounters.md"
-      },
-      {
-        "fileName": "+ About Spaces",
-        "link": "My PKM MOC",
-        "relativePath": "Spaces/+ About Spaces.md"
-      },
-      {
-        "fileName": "+ About Sources",
-        "link": "My PKM MOC",
-        "relativePath": "Sources/+ About Sources.md"
-      },
-      {
-        "fileName": "Home",
-        "link": "My PKM MOC",
-        "relativePath": "Home.md"
-      },
-      {
-        "fileName": "+ About Cards",
-        "link": "My PKM MOC",
-        "relativePath": "Cards/+ About Cards.md"
-      },
-      {
         "fileName": "+ Library",
-        "link": "My PKM MOC",
+        "link": "Language MOC",
         "relativePath": "Atlas/+ Library.md"
       }
     ]
@@ -6682,65 +6160,6 @@
       {
         "fileName": "+ Library",
         "link": "Places MOC",
-        "relativePath": "Atlas/+ Library.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Language MOC",
-    "relativePath": "Atlas/MOCs/Library/Language MOC.md",
-    "tags": [
-      "atlas/moc🗺",
-      "on/language"
-    ],
-    "frontmatter": {
-      "cssclass": "scopePage",
-      "obsidianUIMode": "preview",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 6,
-          "col": 3,
-          "offset": 86
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "<-[[+ Library|Library]] | Language MOC",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "+ Library",
-        "displayText": "Library",
-        "relativePath": "Atlas/+ Library.md"
-      },
-      {
-        "link": "Words MOC"
-      },
-      {
-        "link": "English Language MOC"
-      },
-      {
-        "link": "Chinese Language MOC"
-      },
-      {
-        "link": "French Language MOC"
-      },
-      {
-        "link": "Latin Language MOC"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "+ Library",
-        "link": "Language MOC",
         "relativePath": "Atlas/+ Library.md"
       }
     ]
@@ -6870,6 +6289,477 @@
         "fileName": "+ Library",
         "link": "Concepts MOC",
         "relativePath": "Atlas/+ Library.md"
+      }
+    ]
+  },
+  {
+    "fileName": "My PKM MOC",
+    "relativePath": "Atlas/MOCs/My PKM MOC.md",
+    "tags": [
+      "atlas/moc🗺",
+      "x/meta"
+    ],
+    "frontmatter": {
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Home]] | PKM MOC",
+        "level": 1
+      },
+      {
+        "heading": "Unrequited Links",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ About Spaces",
+        "link": "My PKM MOC",
+        "relativePath": "Spaces/+ About Spaces.md"
+      },
+      {
+        "fileName": "Home",
+        "link": "My PKM MOC",
+        "relativePath": "Home.md"
+      },
+      {
+        "fileName": "+ About Encounters",
+        "link": "My PKM MOC",
+        "relativePath": "• Encounters/+ About Encounters.md"
+      },
+      {
+        "fileName": "+ About Sources",
+        "link": "My PKM MOC",
+        "relativePath": "Sources/+ About Sources.md"
+      },
+      {
+        "fileName": "+ Library",
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/+ Library.md"
+      },
+      {
+        "fileName": "+ About Cards",
+        "link": "My PKM MOC",
+        "relativePath": "Cards/+ About Cards.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Notebox 🗃",
+    "relativePath": "Atlas/Scopes/Notebox 🗃.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "frontmatter": {
+      "title": "Learninng Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[cube.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 8,
+          "col": 3,
+          "offset": 157
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      },
+      {
+        "link": "JS Notes Hub",
+        "displayText": "JS Learning",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md"
+      },
+      {
+        "link": "D.S. Notes Hub",
+        "displayText": "Data Structure Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Notebox 🗃",
+        "relativePath": "Home.md",
+        "displayText": "LEARN NOTE"
+      },
+      {
+        "fileName": "Home",
+        "link": "Notebox 🗃",
+        "relativePath": "Home.md"
+      },
+      {
+        "fileName": "Thinking",
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/MOCs/Thinking.md"
+      },
+      {
+        "fileName": "JS Notes Hub",
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      },
+      {
+        "fileName": "D.S. Notes Hub",
+        "link": "Notebox 🗃",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
+        "displayText": "⛵️ Learning Notes Hub"
+      }
+    ]
+  },
+  {
+    "fileName": "JS Notes Hub",
+    "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
+    "frontmatter": {
+      "title": "JS Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "col": 3,
+          "offset": 128
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Notebox 🗃",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "link": "D.S. Notes Hub",
+        "displayText": "Data Structure Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Notebox 🗃",
+        "link": "JS Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md",
+        "displayText": "JS Learning"
+      },
+      {
+        "fileName": "D.S. Notes Hub",
+        "link": "JS Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
+        "displayText": "JS Notes"
+      }
+    ]
+  },
+  {
+    "fileName": "D.S. Notes Hub",
+    "relativePath": "Atlas/Scopes/NoteBox/D.S. Notes Hub.md",
+    "frontmatter": {
+      "title": "DataStructure Notes Hub",
+      "creation date": "2022-03-01 21:51",
+      "cssclass": "homePage",
+      "obsidianUIMode": "preview",
+      "banner": "![[color.jpg]]",
+      "banner_y": 0.5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 153
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "📆 This Week Updates",
+        "level": 1
+      },
+      {
+        "heading": "🗞 Archive List",
+        "level": 1
+      },
+      {
+        "heading": "2022",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Notebox 🗃",
+        "displayText": "⛵️ Learning Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md"
+      },
+      {
+        "link": "JS Notes Hub",
+        "displayText": "JS Notes",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Notebox 🗃",
+        "link": "D.S. Notes Hub",
+        "relativePath": "Atlas/Scopes/Notebox 🗃.md",
+        "displayText": "Data Structure Notes Hub"
+      },
+      {
+        "fileName": "JS Notes Hub",
+        "link": "D.S. Notes Hub",
+        "relativePath": "Atlas/Scopes/NoteBox/JS Notes Hub.md",
+        "displayText": "Data Structure Notes Hub"
+      }
+    ]
+  },
+  {
+    "fileName": "Ideas ✨",
+    "relativePath": "Atlas/Scopes/Ideas ✨.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 73
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Home]] | Ideas ✨",
+        "level": 1
+      },
+      {
+        "heading": "Decide on your idea sparks ✨",
+        "level": 2
+      },
+      {
+        "heading": "Advanced scope",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Ideas ✨",
+        "relativePath": "Home.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Cooling pad 🧊",
+    "relativePath": "Atlas/Scopes/Cooling pad 🧊.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 74
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Home]] | Cooling pad 🧊",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Home",
+        "link": "Cooling pad 🧊",
+        "relativePath": "Home.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Bookshelf 📚",
+    "relativePath": "Atlas/Scopes/Bookshelf 📚.md",
+    "tags": [
+      "atlas/scope🔬"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 74
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Sources MOC]] | Bookshelf 📚",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Sources MOC",
+        "relativePath": "Atlas/MOCs/Sources MOC.md"
+      },
+      {
+        "link": "Books I've Read MOC"
+      },
+      {
+        "link": "Books Purgatory List"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for index notes",
+    "relativePath": "Atlas/Scopes/+ Index for index notes.md",
+    "tags": [
+      "x/index"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 68
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[Home]] | + Index for index notes",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "Home",
+        "relativePath": "Home.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "+ Index for Atlases",
+        "link": "+ Index for index notes",
+        "relativePath": "Atlas/+ Index for Atlases.md",
+        "displayText": "Index for index notes"
+      },
+      {
+        "fileName": "+ Index for People",
+        "link": "+ Index for index notes",
+        "relativePath": "Cards/People/+ Index for People.md",
+        "displayText": "Index for index notes"
+      },
+      {
+        "fileName": "+ Index for Cards",
+        "link": "+ Index for index notes",
+        "relativePath": "Cards/+ Index for Cards.md",
+        "displayText": "Index for index notes"
       }
     ]
   },
@@ -7157,15 +7047,15 @@
         "displayText": "Library"
       },
       {
-        "fileName": "Places MOC",
-        "link": "+ Library",
-        "relativePath": "Atlas/MOCs/Library/Places MOC.md",
-        "displayText": "Library"
-      },
-      {
         "fileName": "Language MOC",
         "link": "+ Library",
         "relativePath": "Atlas/MOCs/Library/Language MOC.md",
+        "displayText": "Library"
+      },
+      {
+        "fileName": "Places MOC",
+        "link": "+ Library",
+        "relativePath": "Atlas/MOCs/Library/Places MOC.md",
         "displayText": "Library"
       },
       {
@@ -7201,6 +7091,116 @@
     "headings": [
       {
         "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for Atlases",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for index notes",
+        "displayText": "Index for index notes",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+      }
+    ]
+  },
+  {
+    "fileName": "+ About Cards",
+    "relativePath": "Cards/+ About Cards.md",
+    "tags": [
+      "x/readme"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 69
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[My PKM MOC | My PKM MOC]]",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "My PKM MOC",
+        "relativePath": "Atlas/MOCs/My PKM MOC.md"
+      },
+      {
+        "link": "Information that crosses our attentional filter becomes knowledge"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for People",
+    "relativePath": "Cards/People/+ Index for People.md",
+    "tags": [
+      "x/index"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 67
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for People",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "+ Index for index notes",
+        "displayText": "Index for index notes",
+        "relativePath": "Atlas/Scopes/+ Index for index notes.md"
+      }
+    ]
+  },
+  {
+    "fileName": "+ Index for Cards",
+    "relativePath": "Cards/+ Index for Cards.md",
+    "tags": [
+      "x/index"
+    ],
+    "frontmatter": {
+      "cssclass": "scopePage",
+      "obsidianUIMode": "preview",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 67
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "<-[[+ Index for index notes|Index for index notes]] | Index for Cards",
         "level": 1
       }
     ],
