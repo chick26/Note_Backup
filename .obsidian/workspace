@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "96004482e2eb0836",
+        "id": "3e4feae7a8a58cd5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home.md",
-            "mode": "preview",
+            "file": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -19,135 +19,111 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "24dfedb93653402b",
-    "type": "split",
+    "id": "99ca2c89d3d239c2",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "bb539b437c6423e7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0d867764dec03756",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "ed4798df88a3a2ac",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "9e75ff93322720c4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "92133086f63846ec",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "49bc63597b204872",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 270.5
+    "currentTab": 0
   },
   "right": {
-    "id": "b72ec76198555866",
-    "type": "split",
+    "id": "b668152a277e4311",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "30e977c25cb0fa83",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9bf7e1893caba27b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "7da6e312c498acb3",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Home.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "805332bc2cea5f2a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Home.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "42f8752d511a4f55",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "43d455af95296ca9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
-            }
-          },
-          {
-            "id": "6f491a370c60c34c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
+        "id": "297ae23416c03628",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "f0cbc484e3f93fad",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 5
+        }
+      },
+      {
+        "id": "a03a95666df64235",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f1505fb9172f835b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Sources/Knowledges/📲 Front Dev｜前端开发/UILibrary | 组件库/dumi 组件库搭建.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "96004482e2eb0836",
+  "active": "3e4feae7a8a58cd5",
   "lastOpenFiles": [
+    "Home.md",
+    "Atlas/Logs/Essays 🖌.md",
+    "Atlas/Scopes/+ Index for index notes.md",
     "Spaces/+ About Spaces.md",
     "Sources/Knowledges/📲 Front Dev｜前端开发/Tool | 开发辅助/Document Handler.md",
     "Cards/+ Index for Cards.md",
     "Calendar/+ Index for Calendar.md",
     "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
-    "Home.md",
     "Atlas/MOCs/Concepts MOC.md",
-    "Atlas/Scopes/Notebox 🗃.md",
-    "Atlas/MOCs/My PKM MOC.md",
-    "Atlas/MOCs/Sources MOC.md"
+    "Atlas/Scopes/Notebox 🗃.md"
   ]
 }

@@ -750,7 +750,7 @@
     "fileName": "与上下文无关的语法",
     "relativePath": "• Encounters/• Cooling Pad/与上下文无关的语法.md",
     "tags": [
-      "note/csbasic"
+      "source/csbasic"
     ],
     "frontmatter": {
       "title": "与上下文无关的语法",
@@ -765,7 +765,7 @@
         "end": {
           "line": 6,
           "col": 3,
-          "offset": 91
+          "offset": 93
         }
       }
     },
