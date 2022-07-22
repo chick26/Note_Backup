@@ -173,11 +173,12 @@ div {
 
 ```html
 <body>
-<p>Hello world</p>
-<style> 
-	body {
-		width: 50px;
-    } </style>
+	<p>Hello world</p>
+	<style> 
+		body {
+			width: 50px;
+	    } 
+    </style>
 </body>
 ```
 
@@ -308,7 +309,7 @@ div {
 
 完成后，它将转换为位图，最终每个布局元素（甚至文本）都成为引擎中的图像。
 
-## 　关于 Z-INDEX
+## 关于 Z-INDEX
 
 现在，我们大多数的网站都不是由单一的元素组成的。此外，我们经常希望某些元素出现在其他元素之上。为了实现这一点，我们可以利用 `z-index` 的特性将一个元素叠加到另一个元素上。
 
