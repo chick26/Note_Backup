@@ -213,7 +213,8 @@ div {
     <button>SHARE IT</button>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesq</p>
 </article>
-<style> article {
+<style> 
+	article {
         min-width: 400px;
         max-width: 800px;
         background: rgb(191, 191, 191);
@@ -230,7 +231,8 @@ div {
 
     p {
         margin: 0;
-    } </style>
+    } 
+</style>
 ```
 
 ![](Extras/Media/Images/bVbqG2D.png)
