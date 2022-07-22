@@ -167,15 +167,16 @@ div {
 
 ## 解析 Auto
 
-请记住，在计算阶段，维度值可以是三个值之一: auto、百分数或像素。布局的目的是在 **Box Tree** 中调整所有盒子的大小和位置，使它们为绘制做好准备。
+在计算阶段，维度值可以是三个值之一: auto、百分数或像素。布局的目的是在 **Box Tree** 中调整所有盒子的大小和位置，使它们为绘制做好准备。
 
 下面示例可以更容易地理解 **Box Tree** 是如何构建的。为了便于理解，这里不显示单独的 CSS 框，只显示主盒 (principal box)。让我们看看一个基本的 “Hello world” 布局使用以下代码:
 
 ```html
 <body>
 <p>Hello world</p>
-<style> body {
-        width: 50px;
+<style> 
+	body {
+		width: 50px;
     } </style>
 </body>
 ```
