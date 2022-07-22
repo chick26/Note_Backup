@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d27fa5a9c666cb0c",
+        "id": "96933855da57555b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/浏览器解析 CSS 样式的过程.md",
+            "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/浏览器解析 CSS 样式的过程.md",
+                "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/浏览器解析 CSS 样式的过程.md",
+                "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/浏览器解析 CSS 样式的过程.md"
+                "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
               }
             }
           }
@@ -126,19 +126,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
-  "active": "d27fa5a9c666cb0c",
+  "active": "96933855da57555b",
   "lastOpenFiles": [
+    "Home.md",
+    "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+    "Sources/+ About Sources.md",
+    "• Encounters/• Cooling Pad/Sketch 设计组件库.md",
+    "• Encounters/• Cooling Pad/与上下文无关的语法.md",
+    "• Encounters/• Cooling Pad/微服务是什么？.md",
+    "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/浏览器解析 CSS 样式的过程.md",
     "Extras/Media/Images/bVbqHfl.png",
     "Extras/Media/Images/bVbqHfv.png",
-    "Extras/Media/Images/bVbqHfp.png",
-    "Extras/Media/Images/bVbqHdu.png",
-    "Extras/Media/Images/bVbqGMV.png",
-    "Extras/Media/Images/bVbqGLI.png",
-    "Extras/Media/Images/bVbqG4H.png",
-    "Extras/Media/Images/bVbqG3q.png",
-    "Extras/Media/Images/bVbqG3B.png",
-    "Extras/Media/Images/bVbqFWk.png"
+    "Extras/Media/Images/bVbqHfp.png"
   ]
 }

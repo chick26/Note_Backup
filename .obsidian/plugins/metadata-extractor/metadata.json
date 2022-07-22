@@ -427,7 +427,7 @@
     "frontmatter": {
       "title": "Sketch 设计组件库",
       "creation date": "2022-06-14 14:10:36",
-      "status": "todo",
+      "status": "done",
       "tag": null,
       "position": {
         "start": {
@@ -3676,7 +3676,7 @@
         "level": 2
       },
       {
-        "heading": "组成（COMPOSITION）",
+        "heading": "组成 (COMPOSITION)",
         "level": 2
       },
       {
