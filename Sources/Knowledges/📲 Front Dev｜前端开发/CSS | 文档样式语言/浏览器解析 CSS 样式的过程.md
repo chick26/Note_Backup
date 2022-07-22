@@ -1,7 +1,7 @@
 ---
 title: 浏览器解析 CSS 样式的过程
 creation date: 2022-05-24 10:28:16
-status: todo
+status: review
 tag: 
 - source/css
 ---
@@ -204,7 +204,7 @@ div {
 
 ## 处理浮动 float
 
-现在让布局变得更复杂一点。我们将使用一个普通布局，其中有一个按钮，内容为 **“Share It”**，并将其浮动到一段文本的左侧。浮动本身被认为是 **“shrink-to-fit”** 上下文。之所以将其称为 “shrink-to-fit”，是因为如果尺寸是自动的，则该框将围绕其内容进行收缩。
+下面的例子，使用一个普通布局，其中有一个按钮，内容为 **“Share It”**，并将其浮动到一段文本的左侧。浮动本身被认为是 **“shrink-to-fit”** 上下文。之所以将其称为 “shrink-to-fit”，是因为如果尺寸是自动的，则该框将围绕其内容进行收缩。
 
 浮动盒子是与这种布局类型匹配的盒子的一种类型，但是还有许多其他的盒子，例如绝对定位盒子 (包括 `position: fixed`) 和基于自动调整大小的表格单元格，如下代码：
 
@@ -237,7 +237,7 @@ div {
 
 ![](Extras/Media/Images/bVbqG2D.png)
 
-该过程开始时遵循与 “Hello world” 示例相同的模式，因此我将跳到我们开始处理浮动按钮的位置。
+该过程开始时遵循与 “Hello world” 示例相同的模式，直接开始处理浮动按钮的位置。
 
 ![](Extras/Media/Images/bVbqG2I.png)
 
@@ -263,7 +263,7 @@ div {
 
 当浏览器继续沿着树向下移动并克隆节点时，它将越过约束空间的块位置。这允许最后一行文本 (以及它之前的一行) 以内联方向开始于 content box 的开头。然后浏览器返回到树中，根据需要解析 **auto** 和百分数。
 
-## 了解片段（UNDERSTANDING FRAGMENTATION
+## 了解片段 (UNDERSTANDING FRAGMENTATION)
 
 关于布局如何工作的最后一个方面是碎片化。 如果你曾经打印过网页或使用过 CSS 多列，那么你已经利用了碎片。 碎片化是将内容分开以使其适合不同几何形状的逻辑。 让我们来看看同一个例子，利用 CSS 多列情况:
 
@@ -273,17 +273,19 @@ div {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh orci, tincidunt eget enim et, pellentesque condimentum risus. Aenean sollicitudin risus velit, quis tempor leo malesuada vel. Donec consequat aliquet mauris. Vestibulum ante ipsum primis in faucibus
         </p>
     </div>
-<style> body {
+<style> 
+	body {
         columns: 2;
         column-fill: auto;
         height: 300px;
-    } </style>
+    } 
+</style>
 </body>
 ```
 
 ![](Extras/Media/Images/bVbqG4H.png)
 
-一旦浏览器到达 multicol 格式化上下文盒子，它就会看到它有一组设定的列。
+一旦浏览器到达 `multicol` 格式化上下文盒子，它就会看到它有一组设定的列。
 
 ![](Extras/Media/Images/bVbqG4L.png)
 
@@ -293,72 +295,21 @@ div {
 
 然后浏览器按照与之前相同的模式尽可能多地布局行，然后浏览器创建另一个碎片管理器，并继续完成布局。
 
-## 绘画（Painting）
+## 绘画 (Painting)
 
-来回顾一下我们现在的情况，我们取出所有的 CSS 内容，对其进行解析，将其级联到 DOM 树中，并完成布局。但是我们还没有对布图应用颜色、边框、阴影和类似的设计处理——处理这些过程被称为**绘画**。
+对布图应用颜色、边框、阴影和类似的设计处理——处理这些过程被称为**绘画**。绘画基本上是由 CSS 标准化的，可以按照以下顺序绘画:
 
-绘画基本上是由 CSS 标准化的，简单地说，你可以按照以下顺序绘画:
-
-*   background;
-*   border;
-*   and content.
+* background;
+* border;
+* and content.
 
 更多绘画的顺序可查看 [CSS 2.2 Appendix E](https://link.segmentfault.com/?enc=1bsymY25xxfOh%2FCWTGj2SA%3D%3D.aPkFPhuNFc7BhUDqZKrOKQtE6gTmo2Ge3njXRtMGzKRybZ%2Fe1Pbf88ZFtCmRM%2B1Bw4zEDrOJf8OhyfkPCcEGaw%3D%3D)。
 
-因此，如果我们从前面的 “SHARE IT” 按钮开始，并遵循这个过程，它绘制过程大致如下:
+- `SHARE IT` 按钮:
 
 ![](Extras/Media/Images/bVbqHdu.png)
 
 完成后，它将转换为位图，最终每个布局元素（甚至文本）都成为引擎中的图像。
-
-## 关于 Z-INDEX
-
-现在，我们大多数的网站都不是由单一的元素组成的。此外，我们经常希望某些元素出现在其他元素之上。为了实现这一点，我们可以利用 `z-index` 的特性将一个元素叠加到另一个元素上。
-
-这可能感觉就像我们在设计软件中使用图层一样，但是唯一存在的图层是在浏览器的合成器中。看起来好像我们在使用 `z-index` 创建新层，但实际上并不是这样，那么到底是怎么样呢?
-
-我们要做的是创建一个新的堆栈上下文。创建一个新的堆叠上下文可以有效地改变你绘制元素的顺序。让我们来看一个例子:
-
-```html
-<body>
-    <div id="one">
-        Item 1
-    </div>
-    <div id="two">
-        Item 2
-    </div>
-    <style> body {
-        background: lightgray;
-    }
-    div {
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        background: white;
-        z-index: 2;
-    }
-    #two {
-        background: green;
-        z-index: 1;
-    } </style>
-</body>
-```
-
-如果没有使用 `z-index`，上面的文档将按照文档顺序绘制，这将把 **“Item 2”** 置于 **“Item 1”** 之上。但由于 `z-index` 的影响，绘画顺序发生了变化。让我们逐步完成每个阶段，类似于我们之前完成布局的方式。
-
-![](Extras/Media/Images/bVbqHfl.png)
-
-浏览器以根框开头，我们在后台画画。
-
-![](Extras/Media/Images/bVbqHfp.png)
-
-然后浏览器按照文档顺序遍历较低层次的堆栈上下文 (在本例中是 “Item 2”)，并开始按照上面的规则绘制该元素。
-
-![](Extras/Media/Images/bVbqHfv.png)
-
-然后它遍历到下一个最高的堆栈上下文 (在本例中是 “Item 1”)，并按照 CSS 2.2 中定义的顺序绘制它。
-
-`z-index` 不影响颜色，只影响哪些元素对用户可见，因此也不影响哪些文本和颜色可见。
 
 ## 组成（COMPOSITION）
 
