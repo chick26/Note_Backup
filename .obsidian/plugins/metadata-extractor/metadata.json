@@ -412,20 +412,32 @@
         "level": 2
       },
       {
+        "heading": "Specificity 计算公式",
+        "level": 3
+      },
+      {
+        "heading": "Specificity 计算范例",
+        "level": 3
+      },
+      {
+        "heading": "初始范例 Specificity 数值表",
+        "level": 3
+      },
+      {
         "heading": "来源",
         "level": 2
       },
       {
-        "heading": "**用户样式**",
-        "level": 4
+        "heading": "User 用户样式",
+        "level": 3
       },
       {
-        "heading": "**作者样式**",
-        "level": 4
+        "heading": "Author 作者样式",
+        "level": 3
       },
       {
-        "heading": "**用户代理 / 浏览器样式**",
-        "level": 4
+        "heading": "User Agent 用户代理 / 浏览器样式",
+        "level": 3
       },
       {
         "heading": "做级联",

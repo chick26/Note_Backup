@@ -30,7 +30,7 @@ tag:
 | `fancy-button` | `border-color`     | `rgb(255,0,0)` |
 | `fancy-button` | `font-size`        | `1em`          |
 
-值得注意的一件事是，浏览器将 `background` 和 `border` 的简写还原成普通写法，也就是一个一个属性的声明，因为简单写主要方便开发人员的编写，但从这里开始，浏览器只处理普通写法。完解析成之后，浏览器引擎继续构建 DOM 树。
+完解析成之后，浏览器引擎继续构建 DOM 树。
 
 ## 计算
 
@@ -51,15 +51,14 @@ tag:
 
 ## 级联
 
-由于 CSS 来源有多种，所以浏览器需要一种方法来确定哪些样式应该应用于给定的元素。为此，浏览器使用一个名为 **特殊性 (specificity)** 的公式，它计算选择器中使用的标记、类、id 和属性选择器的数值，以及 `!important`声明的数值。
+由于 CSS 来源有多种，所以浏览器需要一种方法来确定哪些样式应该应用于给定的元素。为此，浏览器使用一个名为 **特殊性 (specificity)** 的公式，它计算选择器中使用的标记、类、id 和属性选择器的数值，以及 `!important` 声明的数值。
 
 通过内联 `style` 属性在元素上定义的样式被赋予一个等级，该等级优先于 `<style>` 块或外部样式表中的任何样式。如果 Web 开发人员使用 `!important` 某个值，则该值将胜过任何 CSS，无论其位置如何，除非还有 `!important` 内联。
 
 同一级别的个数，数量多的优先级高，假设同样即比较下一级别的个数。至于各级别的优先级例如以下：
 
-**!important > 内联 > ID > 类 > 标签 | 伪类 | 属性选择 > 伪对象 > 通配符 > 继承**
-
-![](https://segmentfault.com/img/bVbqC8n)
+> [!NOTE] 优先级
+> !important > 内联 > id > class > 标签 | 伪类 | 属性选择 > 伪对象 > 通配符 > 继承
 
 选择器的特殊性由选择器本身的组件确定，特殊性值表述为 5 个部分，如：
 
@@ -67,17 +66,15 @@ tag:
 0，0，1，0，1
 ```
 
-(1)、对于选择器中给定的各个 `!important` 属性值，加 1，0，0，0，0 。
+### Specificity 计算公式
 
-(2)、对于选择器中给定的各个 ID 属性值，加 0，0，1，0，0 。
+- 对于选择器中给定的各个 `!important` 属性值，加 1，0，0，0，0 。
+- 对于选择器中给定的各个 ID 属性值，加 0，0，1，0，0 。
+- 对于选择器中给定的各个类属性值、属性选择器或伪类，加 0，0，0，1，0 。
+- 对于选择器中给定的各个元素和伪元素，加 0，0，0，0，1 。
+- 结合符 (+ > [] ^= $= 等等特殊符号) 和通配符 (*) 对特殊性没有任何贡献，此外通配符的特殊性为 0，0，0，0，0。全是 0 有什么意义呢？当然有意义！子元素继承祖先元素的样式根本没有特殊性，因此当出现这种情况后，通配符选择器定义的样式声明也要优先于子元素继承来的样式声明。因为就算特殊性是 0，也比没有特殊性可言要强。
 
-(3)、对于选择器中给定的各个类属性值、属性选择器或伪类，加 0，0，0，1，0 。
-
-(4)、对于选择器中给定的各个元素和伪元素，加 0，0，0，0，1 。伪元素是否具有特殊性？在这方面 CSS2 有些自相矛盾，不过 CSS2.1 很清楚的指出，伪元素具有特殊性，而且特殊性为 0，0，0，0，1，同元素特殊性相同。
-
-(4)、结合符 (+ > [] ^= $= 等等特殊符号) 和通配符 (*) 对特殊性没有任何贡献，此外通配符的特殊性为 0，0，0，0，0。全是 0 有什么意义呢？当然有意义！子元素继承祖先元素的样式根本没有特殊性，因此当出现这种情况后，通配符选择器定义的样式声明也要优先于子元素继承来的样式声明。因为就算特殊性是 0，也比没有特殊性可言要强。
-
-为了说明这一点，让我们说明一些选择器及其计算后的权重数值:
+### Specificity 计算范例
 
 | Selector                 | Specificity Score |
 | ------------------------- | ----------------- |
@@ -101,7 +98,7 @@ div {
 }
 ```
 
-现在 CSS 将生成以下数据结构，在本文中，我们将继续在此基础上进行构建。
+### 初始范例 Specificity 数值表
 
 | Selector            | Property           | Value            | Specificity Score | Document Order |
 | ------------------- | ------------------ | ---------------- | ----------------- | -------------- |
@@ -114,58 +111,59 @@ div {
 
 ## 来源
 
-CSS 也有来源，但它们的用途不同:
+### User 用户样式
 
-CSS 信息可以从各种来源提供，这些来源可以是 用户 (user) 和 作者 (author) 及 用户代理 / 浏览器 (user agent)，优先级如下：
+浏览器还允许用户设置网页的样式，如用 IE 浏览网站的时候，可以通过浏览器查看菜单下的样式或者文字大小子菜单来设置网页实际的显示效果。
 
-#### **用户样式**
+###  Author 作者样式
 
-浏览器还允许用户设置网页的样式，例如，我们用 IE 浏览网站的时候，都可以通过浏览器查看菜单下的样式或者文字大小子菜单来设置网页实际的显示效果。
+网页创建者建立的样式表，一般会 css 文件出现或者是在页面头部里定义的 style，也就是网站源代码的一部分。
 
-#### **作者样式**
+### User Agent 用户代理 / 浏览器样式
 
-网页创建者建立的样式表，一般会 css 文件出现或者是在页面头部里定义的 style，也就是网站源代码的一部分。例如，大家看百度和谷歌的页面就不一样，这就是作者样式不一样的结果。
-
-#### **用户代理 / 浏览器样式**
-
-也就是浏览器自身设置用来显示网站的样式，不同的浏览器可能有不同的样式表，例如 IE 和 Firefox 的就不一样，所以大家分别使用这两种浏览器访问同一个网站的时候，看到实际效果可能就不同。
-
-通常情况下，作者样式具有最高的重要性，其次是用户样式，最后才是浏览器样式，但是如果出现了 `!important` 标记的话，那么规则会被改变，通过 `!important` 可以提高某种样式的重要性，让它的优先级高于其他没有加该声明的所有样式。
-
-让我们进一步扩展我们的数据集，看看当用户将浏览器的字体大小设置为最小 `2em` 时会发生什么:
-
-| Origin | Selector | Property    | Value  | Specificity Score | Document Order |
-| ------ | -------- | ----------- | ------ | ----------------- | -------------- |
-| User   | *        | `font-size` | `32px` | 0 0 0 0 1         | 0              | 
+浏览器自身设置用来显示网站的样式，不同的浏览器可能有不同的样式表，通常情况下，作者样式具有最高的重要性，其次是用户样式，最后才是浏览器样式，但是如果出现了 `!important` 标记的话，那么规则会被改变，通过 `!important` 可以提高某种样式的重要性，让它的优先级高于其他没有加该声明的所有样式。
 
 ## 做级联
 
 当浏览器拥有一个完整的数据结构，包含来自所有源的所有声明时，它将按照规范对它们进行排序。首先，它将按来源排序，然后按特性 (specificity) 排序，最后按文档顺序排序。
 
-![](https://segmentfault.com/img/bVbqFpL)
+| Origin | Selector            | Property           | Value            | Specificity Score | Document Order |
+| ------ | ------------------- | ------------------ | ---------------- | ----------------- | -------------- |
+| User   | *                   | `font-size`        | `32px`           | 0 0 0 0 1         | 0              |
+| Author | `div .fancy-button` | `background-color` | `rgb(255,255,0)` | 0 0 0 1 1         | 5              |
+| Author | `.fancy-button`     | `background-color` | `rgb(0,255,0)`   | 0 0 0 1 0         | 0              |
+| Author | `.fancy-button`     | `border-width`     | `3px`            | 0 0 0 1 0         | 1              |
+| Author | `.fancy-button`     | `border-style`     | `solid`          | 0 0 0 1 0         | 2              |
+| Author | `.fancy-button`     | `border-color`     | `rgb(255,0,0)`   | 0 0 0 1 0         | 3              |
+| Author | `.fancy-button`     | `font-size`        | `16px`           | 0 0 0 1 0         | 4               |
 
 从上图可知，类名为 `.fancy-button`优先级最高（表中越上面优先级越高）。例如，从上表中，人会注意到用户的浏览器首选项设置优先 于 Web 开发人员的设置样式。现在，浏览器找到与选择器匹配的所有 DOM 元素，并将得到的计算样式挂载到匹配的元素，在本例中 `div` 为类名为 `.fancy-button`：
 
-![](https://segmentfault.com/img/bVbqFqg)
+| Property           | Value            |
+| ------------------ | ---------------- |
+| `font-size`        | `32px`           |
+| `background-color` | `rgb(255,255,0)` |
+| `border-width`     | `3px`            |
+| `border-color`     | `rgb(255,0,0)`   |
+| `border-style`     | `solid`          | 
 
-如果您希望了解更多关于级联的工作原理，请查看[官方规范](https://link.segmentfault.com/?enc=eHT3W23Xu0ePFqtMdYlInQ%3D%3D.L1m1ciQDRwlJQY90G2neYhGHc2l%2BSvFCEjX25hQRHkmhZ4zRkiC%2BhTMpC6wL2Twy)。
+
+> [!NOTE] 官方文档
+> [官方规范](https://link.segmentfault.com/?enc=eHT3W23Xu0ePFqtMdYlInQ%3D%3D.L1m1ciQDRwlJQY90G2neYhGHc2l%2BSvFCEjX25hQRHkmhZ4zRkiC%2BhTMpC6wL2Twy)。
+
 
 ## CSS 对象模型
 
-虽然到目前为止我们已经做了很多，但还没有完成。现在我们需要更新 [CSS 对象模型 (CSSOM)](https://link.segmentfault.com/?enc=girEZMenn2I80L5PSLjqYw%3D%3D.UZjjQrPMwTAkge%2FQQFe3ELdCerA%2FMFgBcT9QBhekENTkcXK7EOQFgO7jBvotLNA5bjaBgrhwhSmRZ2C9tvQKRz8jY0BSRmiiCsD%2FAmjNORk%3D)。 CSSOM 位于 [`document.stylesheets`](https://link.segmentfault.com/?enc=7KcpXhibDIaxK20H%2BHwhZQ%3D%3D.7HoqCEWbvsEvxp1iUicYAbLwNJKaVcUwlGYShXf%2FKnnUrKnKCHoUiFUz6A6X3hxxWmPfzXrZNrNtxrtNzZXZzNREICPgGwgiqrusIFG%2FEJE%3D) 中，我们需要对其进行更新，以便让它知道我们目前为止已经解析和计算的所有内容。
-
-Web 开发人员可能在没有意识到的情况下使用这些信息。例如，当调用 [getComputedStyle()](https://link.segmentfault.com/?enc=y8RWyBF%2BGcpkxL2EMzaXGw%3D%3D.hcb7IaLUPHAOXmaNUJhZpyWITJjiV8g416y9v19DdAn5TvDzoVCHxv0vNIv%2FKGbWZE%2Bj1oc8eVSXWIMK8edmoM0mDHmytC5QN79kY0xTESU%3D) 时，如果需要，运行上面指出的相同过程
+更新 [CSS 对象模型 (CSSOM)](https://link.segmentfault.com/?enc=girEZMenn2I80L5PSLjqYw%3D%3D.UZjjQrPMwTAkge%2FQQFe3ELdCerA%2FMFgBcT9QBhekENTkcXK7EOQFgO7jBvotLNA5bjaBgrhwhSmRZ2C9tvQKRz8jY0BSRmiiCsD%2FAmjNORk%3D)。 CSSOM 位于 [`document.stylesheets`](https://link.segmentfault.com/?enc=7KcpXhibDIaxK20H%2BHwhZQ%3D%3D.7HoqCEWbvsEvxp1iUicYAbLwNJKaVcUwlGYShXf%2FKnnUrKnKCHoUiFUz6A6X3hxxWmPfzXrZNrNtxrtNzZXZzNREICPgGwgiqrusIFG%2FEJE%3D) 中，需要对其进行更新，以便它知道目前为止已经解析和计算的所有内容。Web 开发人员可能在没有意识到的情况下使用这些信息。例如，当调用 [getComputedStyle()](https://link.segmentfault.com/?enc=y8RWyBF%2BGcpkxL2EMzaXGw%3D%3D.hcb7IaLUPHAOXmaNUJhZpyWITJjiV8g416y9v19DdAn5TvDzoVCHxv0vNIv%2FKGbWZE%2Bj1oc8eVSXWIMK8edmoM0mDHmytC5QN79kY0xTESU%3D) 时，如果需要，运行上面指出的相同过程
 
 ## 布局
 
-现在我们已经应用了一个具有样式的 DOM 树，然后开始构建一个用于可视化目的的树了。这棵树出现在所有现代引擎中，被称为盒子树 (box tree)。为了构造这棵树，我们遍历 DOM 树并创建零个或多个 CSS 盒子，每个盒子都有一个 `margin`、`border`、`padding` 和 `content` 。
+现在已经应用了一个具有样式的 DOM 树，然后开始构建一个用于可视化目的的树了。这棵树出现在所有现代引擎中，被称为盒子树 (box tree)。为构造这棵树，需要遍历 DOM 树并创建零个或多个 CSS 盒子，每个盒子都有一个 `margin`、`border`、`padding` 和 `content` 。
 
-在本节中，我们将讨论以下 CSS 布局概念:
-
-*   格式化上下文（FC）：有许多类型的格式化上下文，其中大多数 Web 开发人员通过更改 `display` 元素的值来调用。一些最常见的格式化上下文是块（块格式化上下文或 **BFC**），flex，grid，table-cells 和 inline。其他一些 CSS 也可以强制使用新的格式化上下文，例如 `position: absolute`，`float` 或使用 `multi-colum`。
-*   包含块: 这是用于解析样式的祖先块。
-*   内联方向：这是文本布局的方向，由元素的书写模式决定。 在拉丁语言中，这是水平轴，在 CJK 语言中，这是垂直轴。
-*   块方向：此行为与内联方向完全相同，但与内联轴垂直。因此，对于基于拉丁语的语言，这是垂直轴，而在 CJK 语言中，这是水平轴。
+* 格式化上下文（FC）：有许多类型的格式化上下文，其中大多数 Web 开发人员通过更改 `display` 元素的值来调用。一些最常见的格式化上下文是块（块格式化上下文或 **BFC**），flex，grid，table-cells 和 inline。其他一些 CSS 也可以强制使用新的格式化上下文，例如 `position: absolute`，`float` 或使用 `multi-colum`。
+* 包含块: 这是用于解析样式的祖先块。
+* 内联方向：这是文本布局的方向，由元素的书写模式决定。 在拉丁语言中，这是水平轴，在 CJK 语言中，这是垂直轴。
+* 块方向：此行为与内联方向完全相同，但与内联轴垂直。因此，对于基于拉丁语的语言，这是垂直轴，而在 CJK 语言中，这是水平轴。
 
 ## 解析 Auto
 
@@ -173,7 +171,7 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 下面示例可以更容易地理解 **Box Tree** 是如何构建的。为了便于理解，这里不显示单独的 CSS 框，只显示主盒 (principal box)。让我们看看一个基本的 “Hello world” 布局使用以下代码:
 
-```
+```html
 <body>
 <p>Hello world</p>
 <style> body {
@@ -182,23 +180,21 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 </body>
 ```
 
-![](https://segmentfault.com/img/bVbqFWk)
-
 浏览器从 body 元素开始，生成它的主盒 (principal box)，它的宽度为`50px`，默认高度为`auto`。
 
-![](https://segmentfault.com/img/bVbqFWk)
+![](Extras/Media/Images/bVbqFWk.png)
 
 现在移动到 `p` 标签并生成其主盒 (principal box)，并且由于 `p` 标签默认有边距（margin），这将影响正文的高度，如下所示：
 
-![](https://segmentfault.com/img/bVbqGLj)
+![](Extras/Media/Images/bVbqGLj.png)
 
 现在浏览器移动到 **“Hello world”** 文本，这是 DOM 中的文本节点。因此，我们在布局中生成一个 **行内盒 (line box)** 。请注意，文本溢出了正文，我们将在下一步处理这个问题。
 
-![](https://segmentfault.com/img/bVbqGLI)
+![](Extras/Media/Images/bVbqGLI.png)
 
 因为加上 “world” 长度后实际长度比较设置大并且我们没有设置 `overflow` 属性，所以引擎会向其父级报告它在布局文本时停止的位置。
 
-![](https://segmentfault.com/img/bVbqGMV)
+![](Extras/Media/Images/bVbqGMV.png)
 
 由于父级已收到其子级无法完成所有内容布局的指令，因此它会克隆包含所有样式的 **行内盒 (line box)**，并传递该框的信息以完成布局。
 
@@ -210,7 +206,7 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 浮动盒子是与这种布局类型匹配的盒子的一种类型，但是还有许多其他的盒子，例如绝对定位盒子 (包括 `position: fixed`) 和基于自动调整大小的表格单元格，如下代码：
 
-```
+```html
 <article>
     <button>SHARE IT</button>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesq</p>
@@ -235,11 +231,11 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
     } </style>
 ```
 
-![](https://segmentfault.com/img/bVbqG2D)
+![](Extras/Media/Images/bVbqG2D.png)
 
 该过程开始时遵循与 “Hello world” 示例相同的模式，因此我将跳到我们开始处理浮动按钮的位置。
 
-![](https://segmentfault.com/img/bVbqG2I)
+![](Extras/Media/Images/bVbqG2I.png)
 
 由于浮动创建了一个新的块格式化上下文 (BFC)，并且是一个 `shrink-to-fit` 上下文，因此浏览器执行一种称为内容度量的特定布局类型。
 
@@ -247,19 +243,19 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 在本例中，它使用文本布局一个按钮，因此其最窄的大小 (包括所有其他 CSS 框) 将是最长单词的大小。在最宽的地方，它将是一行的所有文本，加上 CSS Box。注意: 这里按钮的颜色不是文字的颜色。这只是为了说明问题。
 
-![](https://segmentfault.com/img/bVbqG3q)
+![](Extras/Media/Images/bVbqG3q.png)
 
 现在我们知道最小宽度是 86px，最大宽度是 115px，我们将此信息传递回父类的 box，让它决定宽度并适当地放置按钮。在这个场景中，有足够的空间来适应浮动的最大大小，这就是按钮的布局方式。
 
-![](https://segmentfault.com/img/bVbqG3u)
+![](Extras/Media/Images/bVbqG3u.png)
 
 为了确保浏览器遵循标准，并且内容围绕浮动，浏览器更改了 **article** 的 BFC 的几何形状。这个几何图形被传递给段落，以便在段落布局期间使用。
 
-![](https://segmentfault.com/img/bVbqG3B)
+![](Extras/Media/Images/bVbqG3B.png)
 
 从这里开始，浏览器遵循与第一个示例相同的布局过程——但是它确保任何内联内容的内联和块的起始位置都位于浮动所占用的约束空间之外。
 
-![](https://segmentfault.com/img/bVbqG3I)
+![](Extras/Media/Images/bVbqG3I.png)
 
 当浏览器继续沿着树向下移动并克隆节点时，它将越过约束空间的块位置。这允许最后一行文本 (以及它之前的一行) 以内联方向开始于 content box 的开头。然后浏览器返回到树中，根据需要解析 **auto** 和百分数。
 
@@ -267,7 +263,7 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 关于布局如何工作的最后一个方面是碎片化。 如果你曾经打印过网页或使用过 CSS 多列，那么你已经利用了碎片。 碎片化是将内容分开以使其适合不同几何形状的逻辑。 让我们来看看同一个例子，利用 CSS 多列情况:
 
-```
+```html
 <body>
     <div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh orci, tincidunt eget enim et, pellentesque condimentum risus. Aenean sollicitudin risus velit, quis tempor leo malesuada vel. Donec consequat aliquet mauris. Vestibulum ante ipsum primis in faucibus
@@ -281,15 +277,15 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 </body>
 ```
 
-![](https://segmentfault.com/img/bVbqG4H)
+![](Extras/Media/Images/bVbqG4H.png)
 
 一旦浏览器到达 multicol 格式化上下文盒子，它就会看到它有一组设定的列。
 
-![](https://segmentfault.com/img/bVbqG4L)
+![](Extras/Media/Images/bVbqG4L.png)
 
 它遵循以前类似的克隆模型，并创建了一个具有正确维度的碎片处理程序，以满足作者对其列的要求。
 
-![](https://segmentfault.com/img/bVbqG4N)
+![](Extras/Media/Images/bVbqG4N.png)
 
 然后浏览器按照与之前相同的模式尽可能多地布局行，然后浏览器创建另一个碎片管理器，并继续完成布局。
 
@@ -307,7 +303,7 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 因此，如果我们从前面的 “SHARE IT” 按钮开始，并遵循这个过程，它绘制过程大致如下:
 
-![](https://segmentfault.com/img/bVbqHdu)
+![](Extras/Media/Images/bVbqHdu.png)
 
 完成后，它将转换为位图，最终每个布局元素（甚至文本）都成为引擎中的图像。
 
@@ -319,7 +315,7 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 我们要做的是创建一个新的堆栈上下文。创建一个新的堆叠上下文可以有效地改变你绘制元素的顺序。让我们来看一个例子:
 
-```
+```html
 <body>
     <div id="one">
         Item 1
@@ -346,15 +342,15 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 如果没有使用 `z-index`，上面的文档将按照文档顺序绘制，这将把 **“Item 2”** 置于 **“Item 1”** 之上。但由于 `z-index` 的影响，绘画顺序发生了变化。让我们逐步完成每个阶段，类似于我们之前完成布局的方式。
 
-![](https://segmentfault.com/img/bVbqHfl)
+![](Extras/Media/Images/bVbqHfl.png)
 
 浏览器以根框开头，我们在后台画画。
 
-![](https://segmentfault.com/img/bVbqHfp)
+![](Extras/Media/Images/bVbqHfp.png)
 
 然后浏览器按照文档顺序遍历较低层次的堆栈上下文 (在本例中是 “Item 2”)，并开始按照上面的规则绘制该元素。
 
-![](https://segmentfault.com/img/bVbqHfv)
+![](Extras/Media/Images/bVbqHfv.png)
 
 然后它遍历到下一个最高的堆栈上下文 (在本例中是 “Item 1”)，并按照 CSS 2.2 中定义的顺序绘制它。
 
@@ -368,7 +364,7 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 动画 Clippy 的代码可以是这样的:
 
-```
+```html
 <div class="clippy"></div>
 <style> .clippy {
     width: 100px;
@@ -394,17 +390,17 @@ Web 开发人员可能在没有意识到的情况下使用这些信息。例如�
 
 在大多数情况下，浏览器将选择选项 2 并生成以下内容（我有意简化了 Word Online 为此示例生成的图层数量）：
 
-![](https://segmentfault.com/img/bVbqHif)
+![](Extras/Media/Images/bVbqHif.png)
 
 然后，它将重新组合剪辑位图在正确的位置，并处理脉动动画。这对于性能来说是一个很好的优势，因为在许多引擎中，合成程序是在它自己的线程上的，这样就可以解除主线程的阻塞。如果浏览器选择上面的选项 1，它将不得不阻塞每一帧以完成相同的结果，这将对最终用户的性能和响应能力产生负面影响。
 
-![](https://segmentfault.com/img/bVbqHiN)
+![](Extras/Media/Images/bVbqHiN.png)
 
 ## 创造互动的视觉
 
 正如我们刚刚了解到的，我们使用了所有的样式和 DOM，并生成了一个呈现给最终用户的图像。那么浏览器如何创建交互性的假象呢? 嗯，我相信你现在已经学过了，所以让我们看一个例子，用我们的 “SHARE IT” 按钮作为类比:
 
-```
+```html
 button {
     float: left;
     background: rgb(210, 32, 79);
@@ -422,7 +418,7 @@ button:hover {
 
 浏览器不断跟踪各种输入，当这些输入正在移动时，它会经历称为**命中测试**的过程。 对于此示例，该过程如下所示：
 
-![](https://segmentfault.com/img/bVbqHke)
+![](Extras/Media/Images/bVbqHke.png)
 
 1.  用户将鼠标移到按钮上。
 2.  浏览器触发鼠标已移动的事件，并进入命中测试算法，该算法本质上是问 “鼠标正在触摸哪个 box”
