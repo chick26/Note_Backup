@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "96933855da57555b",
+        "id": "df244bcbd20551dd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
+            "file": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
             "mode": "source",
             "source": false
           }
@@ -19,118 +19,103 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "53797f2a097c47f4",
-    "type": "split",
+    "id": "65481c6e57a616c7",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "495eb4cdb057f712",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a7b97d54ecd0904a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "4fc633e8b4513e5a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#source/appleScript",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "a052a663c53b9d96",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "5ed20f19dbc62fd5",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
+      },
+      {
+        "id": "67989bf29f4ca850",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "a04345b29a5fcb4d",
-    "type": "split",
+    "id": "f992cb2d8e97a780",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "767ad9c6051bd44b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c6260a9ac3065a4f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "3c76e7bdda4eacaa",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6c5b13675a75f120",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "7c5a6ea7ad6a7bbb",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "d1cdedc919a784e0",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md"
-              }
-            }
+        "id": "9f0f5c45fedb5678",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "3b4446df9c6289f4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 4
+        }
+      },
+      {
+        "id": "95fbfad648084c7a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Sources/Knowledges/🎰 Markdown/Mermaid.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bcbf7f62d0e728b9",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Sources/Knowledges/🎰 Markdown/Mermaid.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "currentTab": 0
   },
-  "active": "96933855da57555b",
+  "active": "df244bcbd20551dd",
   "lastOpenFiles": [
+    "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/09-高可用架构.md",
     "Home.md",
     "Sources/Knowledges/📉 Data Structrue｜数据结构/数据库/01-MySQL数据库基础.md",
     "Sources/+ About Sources.md",
@@ -139,7 +124,6 @@
     "• Encounters/• Cooling Pad/微服务是什么？.md",
     "Sources/Knowledges/📲 Front Dev｜前端开发/CSS | 文档样式语言/浏览器解析 CSS 样式的过程.md",
     "Extras/Media/Images/bVbqHfl.png",
-    "Extras/Media/Images/bVbqHfv.png",
-    "Extras/Media/Images/bVbqHfp.png"
+    "Extras/Media/Images/bVbqHfv.png"
   ]
 }
